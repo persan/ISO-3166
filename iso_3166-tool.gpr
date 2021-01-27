@@ -1,0 +1,16 @@
+with "xmlada.gpr";
+with "iso_3166.gpr";
+project ISO_3166.Tool is
+
+   for Create_Missing_Dirs use "True";
+   for Source_Dirs use ("tool.src");
+   for Object_Dir use ".obj/" & project'name;
+   for exec_dir use "bin";
+   for Main use ("iso_3166-generator.adb");
+
+   package Binder is
+      for Switches ("ada") use ("-E");
+   end Binder;
+
+end ISO_3166.Tool;
+

@@ -1,5 +1,6 @@
 with "xmlada.gpr";
 with "iso_3166.gpr";
+-- with "iso_3166_c.gpr";
 
 project ISO_3166.Tool is
 

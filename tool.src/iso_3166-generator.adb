@@ -132,14 +132,14 @@ begin
    for I in 1 .. Ada.Command_Line.Argument_Count loop
       XMLReaders.Load (Nationality_Db_Type (Db.all), Ada.Command_Line.Argument (I));
    end loop;
-   --   XMLReaders.Load (Nationality_Db_Type (Db.all), "../ISO-3166-Countries-with-Regional-Codes/all/all.xml");
+   --  XMLReaders.Load (Nationality_Db_Type (Db.all), "../ISO-3166-Countries-with-Regional-Codes/all/all.xml");
 
    if Db.Name_Map.Length > 0 then
       -- Generate the mappings
       Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database");
 
       Create (F, Out_File, "src/iso_3166-mappings.ads");
-      Put_Line (F, "package ISO_3166.mappings is");
+      Put_Line (F, "package ISO_3166.Mappings is");
       Put_Line (F, "   type Country_Enum is");
 
       for I of Db.Name_Map loop
@@ -148,23 +148,23 @@ begin
          First := False;
       end loop;
       Put_Line (F, ");");
-      Put_Line (F, "   Country_Enum_2_Country_Code : constant array(Country_Enum)  of integer := ");
+      Put_Line (F, "   Country_Enum_2_Country_Code : constant array (Country_Enum)  of Integer :=");
       Put (F, "      (");
       First := True;
       for I of Db.Name_Map loop
-         Put (F, (if First then "" else "," & ASCII.LF & "       "));
-         Put (F, Normalize (I.Name.all) & "=>" & I.Country_Code'Img);
+         Put (F, (if First then "" else "," & ASCII.LF & "                                   "));
+         Put (F, Normalize (I.Name.all) & " => " & I.Country_Code'Img);
          First := False;
       end loop;
       Put_Line (F, ");");
-      Put_Line (F, "end ISO_3166.mappings;");
+      Put_Line (F, "end ISO_3166.Mappings;");
       Close (F);
 
 
       -- Generate the database
       Create (F, Out_File, "src/iso_3166-database.ads");
-      Put_Line (F, "with ISO_3166.mappings;");
-      Put_Line (F, "private package ISO_3166.database is");
+      Put_Line (F, "with ISO_3166.Mappings;");
+      Put_Line (F, "private package ISO_3166.Database is");
       Put_Line (F, "   pragma Elaborate_Body;");
       for I of Db.Name_Map loop
          Put_Line (F, "   " & Normalize (I.Name.all) & "_Name : aliased constant String := """ & I.Name.all & """;");
@@ -174,31 +174,31 @@ begin
          Put_Line (F, "   " & Normalize (I.Name.all) & "_Region : aliased constant String := """ & I.Region.all & """;");
          Put_Line (F, "   " & Normalize (I.Name.all) & "_Sub_Region : aliased constant String := """ & I.Sub_Region.all & """;");
          Put_Line (F, "   " & Normalize (I.Name.all) & "_Intermediate_Region : aliased constant String := """ & I.Intermediate_Region.all & """;");
-         Put_Line (F, "   " & Normalize (I.Name.all) & "_Entry : aliased constant Country := ");
-         Put_Line (F, "      (Name => " & Normalize (I.Name.all) & "_Name'access,");
+         Put_Line (F, "   " & Normalize (I.Name.all) & "_Entry : aliased constant Country :=");
+         Put_Line (F, "      (Name => " & Normalize (I.Name.all) & "_Name'Access,");
          Put_Line (F, "       Alpha_2 => " & Normalize (I.Name.all) & "_" & "Alpha_2'Access,");
          Put_Line (F, "       Alpha_3 => " & Normalize (I.Name.all) & "_" & "Alpha_3'Access,");
          Put_Line (F, "       Iso_3166_2 => " & Normalize (I.Name.all) & "_" & "Iso_3166_2'Access,");
          Put_Line (F, "       Country_Code => " & I.Country_Code'Img & ",");
-         Put_Line (F, "       Region => " & Normalize (I.Name.all) & "_" & "Region'Access, ");
-         Put_Line (F, "       Sub_Region => " & Normalize (I.Name.all) & "_" & "Sub_Region'Access, ");
-         Put_Line (F, "       Intermediate_Region => " & Normalize (I.Name.all) & "_" & "Intermediate_Region'Access, ");
+         Put_Line (F, "       Region => " & Normalize (I.Name.all) & "_" & "Region'Access,");
+         Put_Line (F, "       Sub_Region => " & Normalize (I.Name.all) & "_" & "Sub_Region'Access,");
+         Put_Line (F, "       Intermediate_Region => " & Normalize (I.Name.all) & "_" & "Intermediate_Region'Access,");
          Put_Line (F, "       Region_Code => " & I.Region_Code'Img & ",");
          Put_Line (F, "       Sub_Region_Code => " & I.Sub_Region_Code'Img & ",");
          Put_Line (F, "       Intermediate_Region_Code => " & I.Intermediate_Region_Code'Img & ");");
 
       end loop;
 
-      Put_Line (F, "   Data : constant array(mappings.Country_Enum) of Country_Access :=");
+      Put_Line (F, "   Data : constant array (Mappings.Country_Enum) of Country_Access :=");
       First := True;
       for I of Db.Name_Map loop
          Put (F, (if First then "                        (" else "," & ASCII.LF & "                         "));
-         Put (F, "mappings." & Normalize (I.Name.all) & " => " & Normalize (I.Name.all) & "_Entry'Access");
+         Put (F, "Mappings." & Normalize (I.Name.all) & " => " & Normalize (I.Name.all) & "_Entry'Access");
          First := False;
       end loop;
       Put_Line (F, ");");
 
-      Put_Line (F, "end ISO_3166.database;");
+      Put_Line (F, "end ISO_3166.Database;");
       Close (F);
    else
       Put_Line ("No code generated");

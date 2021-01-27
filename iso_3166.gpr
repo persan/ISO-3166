@@ -5,5 +5,10 @@ library project ISO_3166 is
    for Object_Dir use ".obj/" & project'Name;
    for Library_Name use project'Name;
    for Library_Dir use "lib";
+
+   package Compiler is
+      for Switches ("ada") use ("-gnatf", "-gnatwa", "-gnatyaAbBcdfhiklnOprtux");
+   end Compiler;
+
 end ISO_3166;
 

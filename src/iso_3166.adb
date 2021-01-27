@@ -66,5 +66,4 @@ package body ISO_3166 is
       return Temp (Temp'First .. Cursor - 1);
    end Get_From_Intermediate_Region_Code;
 
-
 end ISO_3166;

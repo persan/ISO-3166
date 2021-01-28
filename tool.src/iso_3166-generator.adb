@@ -167,11 +167,11 @@ begin
    GNAT.Exception_Traces.Trace_On (GNAT.Exception_Traces.Every_Raise);
    GNAT.Exception_Traces.Set_Trace_Decorator (GNAT.Traceback.Symbolic.Symbolic_Traceback_No_Hex'Access);
    Name_Map.Insert ("UNKOWN", new Country'(UNKOWN_COUNTRY));
-   --  for I in 1 .. Ada.Command_Line.Argument_Count loop
-   --     XMLReaders.Load (Name_Map'Access, Ada.Command_Line.Argument (I));
-   --  end loop;
+   for I in 1 .. Ada.Command_Line.Argument_Count loop
+      XMLReaders.Load (Name_Map'Access, Ada.Command_Line.Argument (I));
+   end loop;
 
-   XMLReaders.Load (Name_Map'Access, "../ISO-3166-Countries-with-Regional-Codes/all/all.xml");
+   --  XMLReaders.Load (Name_Map'Access, "../../ISO-3166-Countries-with-Regional-Codes/all/all.xml");
    if Name_Map.Length > 1 then
       Ada_Writer (Name_Map);
       C_Writer (Name_Map);

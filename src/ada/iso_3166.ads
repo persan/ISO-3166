@@ -11,7 +11,7 @@ package ISO_3166 is
 
    type Intermediate_Region_Code_Type is new Integer;
 
-   type Country is record
+   type Country is tagged record
       Name                     : access constant String;
       Alpha_2                  : access constant String;
       Alpha_3                  : access constant String;
@@ -24,6 +24,9 @@ package ISO_3166 is
       Sub_Region_Code          : Sub_Region_Code_Type := 0;
       Intermediate_Region_Code : Intermediate_Region_Code_Type := 0;
    end record;
+
+   function Is_Unkonwn (C : access Country) return Boolean is
+     (C = null or else C.all.Country_Code = 0);
 
    Empty_String : aliased constant String := "";
    No_Country  : aliased constant Country :=

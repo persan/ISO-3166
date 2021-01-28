@@ -147,6 +147,8 @@ procedure ISO_3166.Generator is
 
    procedure Ada_Writer (Name_Map : STring_Maps.Map) is separate;
    procedure C_Writer (Name_Map : STring_Maps.Map) is separate;
+   procedure Java_Writer (Name_Map : STring_Maps.Map) is separate;
+   procedure Python_Writer (Name_Map : STring_Maps.Map) is separate;
 
 
    Name_Map : aliased String_Maps.Map;
@@ -175,6 +177,8 @@ begin
    if Name_Map.Length > 1 then
       Ada_Writer (Name_Map);
       C_Writer (Name_Map);
+      Python_Writer (Name_Map);
+      Java_Writer (Name_Map);
    else
       Put_Line ("No code generated");
    end if;

@@ -7,6 +7,7 @@
 
 #include <ISO_3166_database.h>
 #include <stdlib.h>
+#include <string.h>
    static struct ISO_3166_Country Afghanistan_data =  {"Afghanistan","AF","AFG","ISO_31662AF", 4,"Asia","Southern_Asia","", 142, 34, 0};
    static struct ISO_3166_Country Albania_data =  {"Albania","AL","ALB","ISO_31662AL", 8,"Europe","Southern_Europe","", 150, 39, 0};
    static struct ISO_3166_Country Algeria_data =  {"Algeria","DZ","DZA","ISO_31662DZ", 12,"Africa","Northern_Africa","", 2, 15, 0};
@@ -512,5 +513,23 @@ static struct ISO_3166_Country* Data[] =
 
 
 struct ISO_3166_Country *ISO_3166_get_from_string(char *name) {
-   return NULL;
+  struct ISO_3166_Country*  cursor = Data[0];
+  while (cursor) {
+    if (strcmp(cursor->Iso_3166_2, name) == 0 | strcmp(cursor->Name, name) == 0 |
+        strcmp(cursor->Alpha_2, name) == 0 | strcmp(cursor->Alpha_3, name) == 0) {
+      return cursor;
+    };
+    cursor ++;
+  };
+  return &UNKONWN_data;
+};
+struct ISO_3166_Country *ISO_3166_get_from_code(int code) {
+  struct ISO_3166_Country*  cursor = Data[0];
+  while (cursor) {
+    if (cursor->Country_Code == code){
+      return cursor;
+    };
+    cursor ++;
+  };
+  return &UNKONWN_data;
 };

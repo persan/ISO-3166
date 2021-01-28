@@ -1,5 +1,5 @@
+with Gnat.Regpat;
 separate (ISO_3166.Generator)
-
 procedure C_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
@@ -15,7 +15,11 @@ procedure C_Writer (Name_Map : STring_Maps.Map) is
    First  : Boolean := True;
 
    Max_Country_Code : Country_Code_Type := 0;
+   function As_C_String (Item : String) return String is
 
+   begin
+      return Gnat.Regpat.Quote (Item);
+   end;
 
 begin
    -- Generate the mappings
@@ -32,37 +36,6 @@ begin
    end loop;
    Put_Line (F, "};");
 
-   --  --  ----------------------------------------------------------------------
-   --  --  Enum_2_Code
-   --  --  ----------------------------------------------------------------------
-   --  Put_Line (F, "   Enum_2_Code : constant array (Country_Enum)  of Country_Code_Type :=");
-   --  First := True;
-   --  for I of Name_Map loop
-   --     Put (F, (if First then "                                   (" else "," & ASCII.LF & "                                    "));
-   --     Put (F, Normalize (I.Name.all) & " => " & I.Country_Code'Img);
-   --     Max_Country_Code := Country_Code_Type'Max (Max_Country_Code, I.Country_Code);
-   --     First := False;
-   --  end loop;
-   --  Put_Line (F, ");");
-   --
-   --  --  ----------------------------------------------------------------------
-   --  --  Code_2_Enum
-   --  --  ----------------------------------------------------------------------
-   --  Put_Line (F, "   Code_2_Enum : constant array (0 .." & Max_Country_Code'Img & ")  of Country_Enum :=");
-   --  First := True;
-   --  for I of Name_Map loop
-   --     Put (F, (if First then "                   (" else "," & ASCII.LF & "                    "));
-   --     Put (F,  Image (I.Country_Code) & " => " & Normalize (I.Name.all));
-   --     First := False;
-   --  end loop;
-   --  Put_Line (F, ",");
-   --  Put_Line (F, "        others => UNKONWN);");
-   --
-   --
-   --  Put_Line (F, "end ISO_3166.Mappings;");
-   --  Close (F);
-   --
-   --
    --  -- Generate the database
    Close (F);
    Create (F, Ada.Text_IO.Out_File, "src/c/ISO_3166_database.c");
@@ -70,6 +43,7 @@ begin
 
    Put_Line (F, "#include <ISO_3166_database.h>");
    Put_Line (F, "#include <stdlib.h>");
+   Put_Line (F, "#include <string.h>");
 
    for I of Name_Map loop
       Put (F, "   static struct ISO_3166_Country " & Normalize (I.Name.all) & "_data =  {""" & I.Name.all & """,");
@@ -97,7 +71,26 @@ begin
    Put_Line (F, "");
    Put_Line (F, "");
    Put_Line (F, "struct ISO_3166_Country *ISO_3166_get_from_string(char *name) {");
-   Put_Line (F, "   return NULL;");
+   Put_Line (F, "  struct ISO_3166_Country*  cursor = Data[0];");
+   Put_Line (F, "  while (cursor) {");
+   Put_Line (F, "    if (strcmp(cursor->Iso_3166_2, name) == 0 | strcmp(cursor->Name, name) == 0 |");
+   Put_Line (F, "        strcmp(cursor->Alpha_2, name) == 0 | strcmp(cursor->Alpha_3, name) == 0) {");
+   Put_Line (F, "      return cursor;");
+   Put_Line (F, "    };");
+   Put_Line (F, "    cursor ++;");
+   Put_Line (F, "  };");
+   Put_Line (F, "  return &UNKONWN_data;");
    Put_Line (F, "};");
+   Put_Line (F, "struct ISO_3166_Country *ISO_3166_get_from_code(int code) {");
+   Put_Line (F, "  struct ISO_3166_Country*  cursor = Data[0];");
+   Put_Line (F, "  while (cursor) {");
+   Put_Line (F, "    if (cursor->Country_Code == code){");
+   Put_Line (F, "      return cursor;");
+   Put_Line (F, "    };");
+   Put_Line (F, "    cursor ++;");
+   Put_Line (F, "  };");
+   Put_Line (F, "  return &UNKONWN_data;");
+   Put_Line (F, "};");
+
    Close (F);
 end C_Writer;

@@ -1,0 +1,11 @@
+project ISO_3166_Python is
+   for Languages use ("Java");
+   for Create_Missing_Dirs use "True";
+   for Source_Dirs use ("src/Python/**");
+   package Compiler is
+      for Driver ("Python") use "";
+   end Compiler;
+   package Naming is
+      for Implementation_Suffix ("Python") use ".py";
+   end Naming;
+end ISO_3166_Python;

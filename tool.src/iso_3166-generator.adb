@@ -165,6 +165,7 @@ procedure ISO_3166.Generator is
                                Region_Code              =>  0,
                                Sub_Region_Code          =>  0,
                                Intermediate_Region_Code =>  0);
+   Default_Config_File_Name : constant String :=  "iso-3166-generator.data";
 begin
    GNAT.Exception_Traces.Trace_On (GNAT.Exception_Traces.Every_Raise);
    GNAT.Exception_Traces.Set_Trace_Decorator (GNAT.Traceback.Symbolic.Symbolic_Traceback_No_Hex'Access);
@@ -173,7 +174,31 @@ begin
       XMLReaders.Load (Name_Map'Access, Ada.Command_Line.Argument (I));
    end loop;
 
-   --  XMLReaders.Load (Name_Map'Access, "../../ISO-3166-Countries-with-Regional-Codes/all/all.xml");
+   if Ada.Directories.Exists (Default_Config_File_Name) then
+      declare
+         F : Ada.Text_IO.File_Type;
+      begin
+         Ada.Text_Io.Open (F, Ada.Text_Io.In_File, Default_Config_File_Name);
+         while not Ada.Text_Io.End_Of_File (F) loop
+            declare
+               Line  : constant String := Ada.Strings.Fixed.Trim (Ada.Text_IO.Get_Line (F), Ada.Strings.Both);
+            begin
+               if Line'LENGTH > 0 and then
+                 Line (Line'First) /= '#' and then
+                 Line (Line'First) /= ';' and then
+                 Line (Line'First) /= '-' then
+                  if Ada.Directories.Exists (Line) then
+                     XMLReaders.Load (Name_Map'Access, Line);
+                  else
+                     Ada.Text_IO.Put_Line (Ada.Text_IO.Standard_Error, "File Does not exist: " & Line);
+                  end if;
+               end if;
+            end;
+         end loop;
+         Close (F);
+      end;
+   end if;
+
    if Name_Map.Length > 1 then
       Ada_Writer (Name_Map);
       C_Writer (Name_Map);

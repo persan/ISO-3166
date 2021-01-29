@@ -1,5769 +1,777 @@
-###  ===================================================================
-###  This file is generated from an iso-3166 descrition
-###  Do not edit by hand !
-###  If more entries are needed write a new  xmlfile and run the tool
-###  with both the basefile and the extras as arguments
-###  ===================================================================
+#  ===================================================================
+#  This file is generated from an iso-3166 descrition
+#  Do not edit by hand !
+#  If more entries are needed write a new  xmlfile and run the tool
+#  with both the basefile and the extras as arguments
+#  ===================================================================
 
-     (Afghanistan,
-      Albania,
-      Algeria,
-      American_Samoa,
-      Andorra,
-      Angola,
-      Anguilla,
-      Antarctica,
-      Antigua_and_Barbuda,
-      Argentina,
-      Armenia,
-      Aruba,
-      Australia,
-      Austria,
-      Azerbaijan,
-      Bahamas,
-      Bahrain,
-      Bangladesh,
-      Barbados,
-      Belarus,
-      Belgium,
-      Belize,
-      Benin,
-      Bermuda,
-      Bhutan,
-      Bolivia_Plurinational_State_of,
-      Bonaire_Sint_Eustatius_and_Saba,
-      Bosnia_and_Herzegovina,
-      Botswana,
-      Bouvet_Island,
-      Brazil,
-      British_Indian_Ocean_Territory,
-      Brunei_Darussalam,
-      Bulgaria,
-      Burkina_Faso,
-      Burundi,
-      Cabo_Verde,
-      Cambodia,
-      Cameroon,
-      Canada,
-      Cayman_Islands,
-      Central_African_Republic,
-      Chad,
-      Chile,
-      China,
-      Christmas_Island,
-      Cocos_Keeling_Islands,
-      Colombia,
-      Comoros,
-      Congo,
-      Congo_Democratic_Republic_of_the,
-      Cook_Islands,
-      Costa_Rica,
-      Croatia,
-      Cuba,
-      Curaao,
-      Cyprus,
-      Czechia,
-      Cte_dIvoire,
-      Denmark,
-      Djibouti,
-      Dominica,
-      Dominican_Republic,
-      Ecuador,
-      Egypt,
-      El_Salvador,
-      Equatorial_Guinea,
-      Eritrea,
-      Estonia,
-      Eswatini,
-      Ethiopia,
-      Falkland_Islands_Malvinas,
-      Faroe_Islands,
-      Fiji,
-      Finland,
-      France,
-      French_Guiana,
-      French_Polynesia,
-      French_Southern_Territories,
-      Gabon,
-      Gambia,
-      Georgia,
-      Germany,
-      Ghana,
-      Gibraltar,
-      Greece,
-      Greenland,
-      Grenada,
-      Guadeloupe,
-      Guam,
-      Guatemala,
-      Guernsey,
-      Guinea,
-      GuineaBissau,
-      Guyana,
-      Haiti,
-      Heard_Island_and_McDonald_Islands,
-      Holy_See,
-      Honduras,
-      Hong_Kong,
-      Hungary,
-      Iceland,
-      India,
-      Indonesia,
-      Iran_Islamic_Republic_of,
-      Iraq,
-      Ireland,
-      Isle_of_Man,
-      Israel,
-      Italy,
-      Jamaica,
-      Japan,
-      Jersey,
-      Jordan,
-      Kazakhstan,
-      Kenya,
-      Kiribati,
-      Korea_Democratic_Peoples_Republic_of,
-      Korea_Republic_of,
-      Kuwait,
-      Kyrgyzstan,
-      Lao_Peoples_Democratic_Republic,
-      Latvia,
-      Lebanon,
-      Lesotho,
-      Liberia,
-      Libya,
-      Liechtenstein,
-      Lithuania,
-      Luxembourg,
-      Macao,
-      Madagascar,
-      Malawi,
-      Malaysia,
-      Maldives,
-      Mali,
-      Malta,
-      Marshall_Islands,
-      Martinique,
-      Mauritania,
-      Mauritius,
-      Mayotte,
-      Mexico,
-      Micronesia_Federated_States_of,
-      Moldova_Republic_of,
-      Monaco,
-      Mongolia,
-      Montenegro,
-      Montserrat,
-      Morocco,
-      Mozambique,
-      Myanmar,
-      Namibia,
-      Nauru,
-      Nepal,
-      Netherlands,
-      New_Caledonia,
-      New_Zealand,
-      Nicaragua,
-      Niger,
-      Nigeria,
-      Niue,
-      Norfolk_Island,
-      North_Macedonia,
-      Northern_Mariana_Islands,
-      Norway,
-      Oman,
-      Pakistan,
-      Palau,
-      Palestine_State_of,
-      Panama,
-      Papua_New_Guinea,
-      Paraguay,
-      Peru,
-      Philippines,
-      Pitcairn,
-      Poland,
-      Portugal,
-      Puerto_Rico,
-      Qatar,
-      Romania,
-      Russian_Federation,
-      Rwanda,
-      Runion,
-      Saint_Barthlemy,
-      Saint_Helena_Ascension_and_Tristan_da_Cunha,
-      Saint_Kitts_and_Nevis,
-      Saint_Lucia,
-      Saint_Martin_French_part,
-      Saint_Pierre_and_Miquelon,
-      Saint_Vincent_and_the_Grenadines,
-      Samoa,
-      San_Marino,
-      Sao_Tome_and_Principe,
-      Saudi_Arabia,
-      Senegal,
-      Serbia,
-      Seychelles,
-      Sierra_Leone,
-      Singapore,
-      Sint_Maarten_Dutch_part,
-      Slovakia,
-      Slovenia,
-      Solomon_Islands,
-      Somalia,
-      South_Africa,
-      South_Georgia_and_the_South_Sandwich_Islands,
-      South_Sudan,
-      Spain,
-      Sri_Lanka,
-      Sudan,
-      Suriname,
-      Svalbard_and_Jan_Mayen,
-      Sweden,
-      Switzerland,
-      Syrian_Arab_Republic,
-      Taiwan_Province_of_China,
-      Tajikistan,
-      Tanzania_United_Republic_of,
-      Thailand,
-      TimorLeste,
-      Togo,
-      Tokelau,
-      Tonga,
-      Trinidad_and_Tobago,
-      Tunisia,
-      Turkey,
-      Turkmenistan,
-      Turks_and_Caicos_Islands,
-      Tuvalu,
-      UNKONWN,
-      Uganda,
-      Ukraine,
-      United_Arab_Emirates,
-      United_Kingdom_of_Great_Britain_and_Northern_Ireland,
-      United_States_Minor_Outlying_Islands,
-      United_States_of_America,
-      Uruguay,
-      Uzbekistan,
-      Vanuatu,
-      Venezuela_Bolivarian_Republic_of,
-      Viet_Nam,
-      Virgin_Islands_British,
-      Virgin_Islands_US,
-      Wallis_and_Futuna,
-      Western_Sahara,
-      Yemen,
-      Zambia,
-      Zimbabwe,
-      land_Islands);
-   Enum_2_Code : constant array (Country_Enum)  of Country_Code_Type :=
-                                   (Afghanistan =>  4,
-                                    Albania =>  8,
-                                    Algeria =>  12,
-                                    American_Samoa =>  16,
-                                    Andorra =>  20,
-                                    Angola =>  24,
-                                    Anguilla =>  660,
-                                    Antarctica =>  10,
-                                    Antigua_and_Barbuda =>  28,
-                                    Argentina =>  32,
-                                    Armenia =>  51,
-                                    Aruba =>  533,
-                                    Australia =>  36,
-                                    Austria =>  40,
-                                    Azerbaijan =>  31,
-                                    Bahamas =>  44,
-                                    Bahrain =>  48,
-                                    Bangladesh =>  50,
-                                    Barbados =>  52,
-                                    Belarus =>  112,
-                                    Belgium =>  56,
-                                    Belize =>  84,
-                                    Benin =>  204,
-                                    Bermuda =>  60,
-                                    Bhutan =>  64,
-                                    Bolivia_Plurinational_State_of =>  68,
-                                    Bonaire_Sint_Eustatius_and_Saba =>  535,
-                                    Bosnia_and_Herzegovina =>  70,
-                                    Botswana =>  72,
-                                    Bouvet_Island =>  74,
-                                    Brazil =>  76,
-                                    British_Indian_Ocean_Territory =>  86,
-                                    Brunei_Darussalam =>  96,
-                                    Bulgaria =>  100,
-                                    Burkina_Faso =>  854,
-                                    Burundi =>  108,
-                                    Cabo_Verde =>  132,
-                                    Cambodia =>  116,
-                                    Cameroon =>  120,
-                                    Canada =>  124,
-                                    Cayman_Islands =>  136,
-                                    Central_African_Republic =>  140,
-                                    Chad =>  148,
-                                    Chile =>  152,
-                                    China =>  156,
-                                    Christmas_Island =>  162,
-                                    Cocos_Keeling_Islands =>  166,
-                                    Colombia =>  170,
-                                    Comoros =>  174,
-                                    Congo =>  178,
-                                    Congo_Democratic_Republic_of_the =>  180,
-                                    Cook_Islands =>  184,
-                                    Costa_Rica =>  188,
-                                    Croatia =>  191,
-                                    Cuba =>  192,
-                                    Curaao =>  531,
-                                    Cyprus =>  196,
-                                    Czechia =>  203,
-                                    Cte_dIvoire =>  384,
-                                    Denmark =>  208,
-                                    Djibouti =>  262,
-                                    Dominica =>  212,
-                                    Dominican_Republic =>  214,
-                                    Ecuador =>  218,
-                                    Egypt =>  818,
-                                    El_Salvador =>  222,
-                                    Equatorial_Guinea =>  226,
-                                    Eritrea =>  232,
-                                    Estonia =>  233,
-                                    Eswatini =>  748,
-                                    Ethiopia =>  231,
-                                    Falkland_Islands_Malvinas =>  238,
-                                    Faroe_Islands =>  234,
-                                    Fiji =>  242,
-                                    Finland =>  246,
-                                    France =>  250,
-                                    French_Guiana =>  254,
-                                    French_Polynesia =>  258,
-                                    French_Southern_Territories =>  260,
-                                    Gabon =>  266,
-                                    Gambia =>  270,
-                                    Georgia =>  268,
-                                    Germany =>  276,
-                                    Ghana =>  288,
-                                    Gibraltar =>  292,
-                                    Greece =>  300,
-                                    Greenland =>  304,
-                                    Grenada =>  308,
-                                    Guadeloupe =>  312,
-                                    Guam =>  316,
-                                    Guatemala =>  320,
-                                    Guernsey =>  831,
-                                    Guinea =>  324,
-                                    GuineaBissau =>  624,
-                                    Guyana =>  328,
-                                    Haiti =>  332,
-                                    Heard_Island_and_McDonald_Islands =>  334,
-                                    Holy_See =>  336,
-                                    Honduras =>  340,
-                                    Hong_Kong =>  344,
-                                    Hungary =>  348,
-                                    Iceland =>  352,
-                                    India =>  356,
-                                    Indonesia =>  360,
-                                    Iran_Islamic_Republic_of =>  364,
-                                    Iraq =>  368,
-                                    Ireland =>  372,
-                                    Isle_of_Man =>  833,
-                                    Israel =>  376,
-                                    Italy =>  380,
-                                    Jamaica =>  388,
-                                    Japan =>  392,
-                                    Jersey =>  832,
-                                    Jordan =>  400,
-                                    Kazakhstan =>  398,
-                                    Kenya =>  404,
-                                    Kiribati =>  296,
-                                    Korea_Democratic_Peoples_Republic_of =>  408,
-                                    Korea_Republic_of =>  410,
-                                    Kuwait =>  414,
-                                    Kyrgyzstan =>  417,
-                                    Lao_Peoples_Democratic_Republic =>  418,
-                                    Latvia =>  428,
-                                    Lebanon =>  422,
-                                    Lesotho =>  426,
-                                    Liberia =>  430,
-                                    Libya =>  434,
-                                    Liechtenstein =>  438,
-                                    Lithuania =>  440,
-                                    Luxembourg =>  442,
-                                    Macao =>  446,
-                                    Madagascar =>  450,
-                                    Malawi =>  454,
-                                    Malaysia =>  458,
-                                    Maldives =>  462,
-                                    Mali =>  466,
-                                    Malta =>  470,
-                                    Marshall_Islands =>  584,
-                                    Martinique =>  474,
-                                    Mauritania =>  478,
-                                    Mauritius =>  480,
-                                    Mayotte =>  175,
-                                    Mexico =>  484,
-                                    Micronesia_Federated_States_of =>  583,
-                                    Moldova_Republic_of =>  498,
-                                    Monaco =>  492,
-                                    Mongolia =>  496,
-                                    Montenegro =>  499,
-                                    Montserrat =>  500,
-                                    Morocco =>  504,
-                                    Mozambique =>  508,
-                                    Myanmar =>  104,
-                                    Namibia =>  516,
-                                    Nauru =>  520,
-                                    Nepal =>  524,
-                                    Netherlands =>  528,
-                                    New_Caledonia =>  540,
-                                    New_Zealand =>  554,
-                                    Nicaragua =>  558,
-                                    Niger =>  562,
-                                    Nigeria =>  566,
-                                    Niue =>  570,
-                                    Norfolk_Island =>  574,
-                                    North_Macedonia =>  807,
-                                    Northern_Mariana_Islands =>  580,
-                                    Norway =>  578,
-                                    Oman =>  512,
-                                    Pakistan =>  586,
-                                    Palau =>  585,
-                                    Palestine_State_of =>  275,
-                                    Panama =>  591,
-                                    Papua_New_Guinea =>  598,
-                                    Paraguay =>  600,
-                                    Peru =>  604,
-                                    Philippines =>  608,
-                                    Pitcairn =>  612,
-                                    Poland =>  616,
-                                    Portugal =>  620,
-                                    Puerto_Rico =>  630,
-                                    Qatar =>  634,
-                                    Romania =>  642,
-                                    Russian_Federation =>  643,
-                                    Rwanda =>  646,
-                                    Runion =>  638,
-                                    Saint_Barthlemy =>  652,
-                                    Saint_Helena_Ascension_and_Tristan_da_Cunha =>  654,
-                                    Saint_Kitts_and_Nevis =>  659,
-                                    Saint_Lucia =>  662,
-                                    Saint_Martin_French_part =>  663,
-                                    Saint_Pierre_and_Miquelon =>  666,
-                                    Saint_Vincent_and_the_Grenadines =>  670,
-                                    Samoa =>  882,
-                                    San_Marino =>  674,
-                                    Sao_Tome_and_Principe =>  678,
-                                    Saudi_Arabia =>  682,
-                                    Senegal =>  686,
-                                    Serbia =>  688,
-                                    Seychelles =>  690,
-                                    Sierra_Leone =>  694,
-                                    Singapore =>  702,
-                                    Sint_Maarten_Dutch_part =>  534,
-                                    Slovakia =>  703,
-                                    Slovenia =>  705,
-                                    Solomon_Islands =>  90,
-                                    Somalia =>  706,
-                                    South_Africa =>  710,
-                                    South_Georgia_and_the_South_Sandwich_Islands =>  239,
-                                    South_Sudan =>  728,
-                                    Spain =>  724,
-                                    Sri_Lanka =>  144,
-                                    Sudan =>  729,
-                                    Suriname =>  740,
-                                    Svalbard_and_Jan_Mayen =>  744,
-                                    Sweden =>  752,
-                                    Switzerland =>  756,
-                                    Syrian_Arab_Republic =>  760,
-                                    Taiwan_Province_of_China =>  158,
-                                    Tajikistan =>  762,
-                                    Tanzania_United_Republic_of =>  834,
-                                    Thailand =>  764,
-                                    TimorLeste =>  626,
-                                    Togo =>  768,
-                                    Tokelau =>  772,
-                                    Tonga =>  776,
-                                    Trinidad_and_Tobago =>  780,
-                                    Tunisia =>  788,
-                                    Turkey =>  792,
-                                    Turkmenistan =>  795,
-                                    Turks_and_Caicos_Islands =>  796,
-                                    Tuvalu =>  798,
-                                    UNKONWN =>  0,
-                                    Uganda =>  800,
-                                    Ukraine =>  804,
-                                    United_Arab_Emirates =>  784,
-                                    United_Kingdom_of_Great_Britain_and_Northern_Ireland =>  826,
-                                    United_States_Minor_Outlying_Islands =>  581,
-                                    United_States_of_America =>  840,
-                                    Uruguay =>  858,
-                                    Uzbekistan =>  860,
-                                    Vanuatu =>  548,
-                                    Venezuela_Bolivarian_Republic_of =>  862,
-                                    Viet_Nam =>  704,
-                                    Virgin_Islands_British =>  92,
-                                    Virgin_Islands_US =>  850,
-                                    Wallis_and_Futuna =>  876,
-                                    Western_Sahara =>  732,
-                                    Yemen =>  887,
-                                    Zambia =>  894,
-                                    Zimbabwe =>  716,
-                                    land_Islands =>  248);
-   Code_2_Enum : constant array (0 .. 894)  of Country_Enum :=
-                   (4 => Afghanistan,
-                    8 => Albania,
-                    12 => Algeria,
-                    16 => American_Samoa,
-                    20 => Andorra,
-                    24 => Angola,
-                    660 => Anguilla,
-                    10 => Antarctica,
-                    28 => Antigua_and_Barbuda,
-                    32 => Argentina,
-                    51 => Armenia,
-                    533 => Aruba,
-                    36 => Australia,
-                    40 => Austria,
-                    31 => Azerbaijan,
-                    44 => Bahamas,
-                    48 => Bahrain,
-                    50 => Bangladesh,
-                    52 => Barbados,
-                    112 => Belarus,
-                    56 => Belgium,
-                    84 => Belize,
-                    204 => Benin,
-                    60 => Bermuda,
-                    64 => Bhutan,
-                    68 => Bolivia_Plurinational_State_of,
-                    535 => Bonaire_Sint_Eustatius_and_Saba,
-                    70 => Bosnia_and_Herzegovina,
-                    72 => Botswana,
-                    74 => Bouvet_Island,
-                    76 => Brazil,
-                    86 => British_Indian_Ocean_Territory,
-                    96 => Brunei_Darussalam,
-                    100 => Bulgaria,
-                    854 => Burkina_Faso,
-                    108 => Burundi,
-                    132 => Cabo_Verde,
-                    116 => Cambodia,
-                    120 => Cameroon,
-                    124 => Canada,
-                    136 => Cayman_Islands,
-                    140 => Central_African_Republic,
-                    148 => Chad,
-                    152 => Chile,
-                    156 => China,
-                    162 => Christmas_Island,
-                    166 => Cocos_Keeling_Islands,
-                    170 => Colombia,
-                    174 => Comoros,
-                    178 => Congo,
-                    180 => Congo_Democratic_Republic_of_the,
-                    184 => Cook_Islands,
-                    188 => Costa_Rica,
-                    191 => Croatia,
-                    192 => Cuba,
-                    531 => Curaao,
-                    196 => Cyprus,
-                    203 => Czechia,
-                    384 => Cte_dIvoire,
-                    208 => Denmark,
-                    262 => Djibouti,
-                    212 => Dominica,
-                    214 => Dominican_Republic,
-                    218 => Ecuador,
-                    818 => Egypt,
-                    222 => El_Salvador,
-                    226 => Equatorial_Guinea,
-                    232 => Eritrea,
-                    233 => Estonia,
-                    748 => Eswatini,
-                    231 => Ethiopia,
-                    238 => Falkland_Islands_Malvinas,
-                    234 => Faroe_Islands,
-                    242 => Fiji,
-                    246 => Finland,
-                    250 => France,
-                    254 => French_Guiana,
-                    258 => French_Polynesia,
-                    260 => French_Southern_Territories,
-                    266 => Gabon,
-                    270 => Gambia,
-                    268 => Georgia,
-                    276 => Germany,
-                    288 => Ghana,
-                    292 => Gibraltar,
-                    300 => Greece,
-                    304 => Greenland,
-                    308 => Grenada,
-                    312 => Guadeloupe,
-                    316 => Guam,
-                    320 => Guatemala,
-                    831 => Guernsey,
-                    324 => Guinea,
-                    624 => GuineaBissau,
-                    328 => Guyana,
-                    332 => Haiti,
-                    334 => Heard_Island_and_McDonald_Islands,
-                    336 => Holy_See,
-                    340 => Honduras,
-                    344 => Hong_Kong,
-                    348 => Hungary,
-                    352 => Iceland,
-                    356 => India,
-                    360 => Indonesia,
-                    364 => Iran_Islamic_Republic_of,
-                    368 => Iraq,
-                    372 => Ireland,
-                    833 => Isle_of_Man,
-                    376 => Israel,
-                    380 => Italy,
-                    388 => Jamaica,
-                    392 => Japan,
-                    832 => Jersey,
-                    400 => Jordan,
-                    398 => Kazakhstan,
-                    404 => Kenya,
-                    296 => Kiribati,
-                    408 => Korea_Democratic_Peoples_Republic_of,
-                    410 => Korea_Republic_of,
-                    414 => Kuwait,
-                    417 => Kyrgyzstan,
-                    418 => Lao_Peoples_Democratic_Republic,
-                    428 => Latvia,
-                    422 => Lebanon,
-                    426 => Lesotho,
-                    430 => Liberia,
-                    434 => Libya,
-                    438 => Liechtenstein,
-                    440 => Lithuania,
-                    442 => Luxembourg,
-                    446 => Macao,
-                    450 => Madagascar,
-                    454 => Malawi,
-                    458 => Malaysia,
-                    462 => Maldives,
-                    466 => Mali,
-                    470 => Malta,
-                    584 => Marshall_Islands,
-                    474 => Martinique,
-                    478 => Mauritania,
-                    480 => Mauritius,
-                    175 => Mayotte,
-                    484 => Mexico,
-                    583 => Micronesia_Federated_States_of,
-                    498 => Moldova_Republic_of,
-                    492 => Monaco,
-                    496 => Mongolia,
-                    499 => Montenegro,
-                    500 => Montserrat,
-                    504 => Morocco,
-                    508 => Mozambique,
-                    104 => Myanmar,
-                    516 => Namibia,
-                    520 => Nauru,
-                    524 => Nepal,
-                    528 => Netherlands,
-                    540 => New_Caledonia,
-                    554 => New_Zealand,
-                    558 => Nicaragua,
-                    562 => Niger,
-                    566 => Nigeria,
-                    570 => Niue,
-                    574 => Norfolk_Island,
-                    807 => North_Macedonia,
-                    580 => Northern_Mariana_Islands,
-                    578 => Norway,
-                    512 => Oman,
-                    586 => Pakistan,
-                    585 => Palau,
-                    275 => Palestine_State_of,
-                    591 => Panama,
-                    598 => Papua_New_Guinea,
-                    600 => Paraguay,
-                    604 => Peru,
-                    608 => Philippines,
-                    612 => Pitcairn,
-                    616 => Poland,
-                    620 => Portugal,
-                    630 => Puerto_Rico,
-                    634 => Qatar,
-                    642 => Romania,
-                    643 => Russian_Federation,
-                    646 => Rwanda,
-                    638 => Runion,
-                    652 => Saint_Barthlemy,
-                    654 => Saint_Helena_Ascension_and_Tristan_da_Cunha,
-                    659 => Saint_Kitts_and_Nevis,
-                    662 => Saint_Lucia,
-                    663 => Saint_Martin_French_part,
-                    666 => Saint_Pierre_and_Miquelon,
-                    670 => Saint_Vincent_and_the_Grenadines,
-                    882 => Samoa,
-                    674 => San_Marino,
-                    678 => Sao_Tome_and_Principe,
-                    682 => Saudi_Arabia,
-                    686 => Senegal,
-                    688 => Serbia,
-                    690 => Seychelles,
-                    694 => Sierra_Leone,
-                    702 => Singapore,
-                    534 => Sint_Maarten_Dutch_part,
-                    703 => Slovakia,
-                    705 => Slovenia,
-                    90 => Solomon_Islands,
-                    706 => Somalia,
-                    710 => South_Africa,
-                    239 => South_Georgia_and_the_South_Sandwich_Islands,
-                    728 => South_Sudan,
-                    724 => Spain,
-                    144 => Sri_Lanka,
-                    729 => Sudan,
-                    740 => Suriname,
-                    744 => Svalbard_and_Jan_Mayen,
-                    752 => Sweden,
-                    756 => Switzerland,
-                    760 => Syrian_Arab_Republic,
-                    158 => Taiwan_Province_of_China,
-                    762 => Tajikistan,
-                    834 => Tanzania_United_Republic_of,
-                    764 => Thailand,
-                    626 => TimorLeste,
-                    768 => Togo,
-                    772 => Tokelau,
-                    776 => Tonga,
-                    780 => Trinidad_and_Tobago,
-                    788 => Tunisia,
-                    792 => Turkey,
-                    795 => Turkmenistan,
-                    796 => Turks_and_Caicos_Islands,
-                    798 => Tuvalu,
-                    0 => UNKONWN,
-                    800 => Uganda,
-                    804 => Ukraine,
-                    784 => United_Arab_Emirates,
-                    826 => United_Kingdom_of_Great_Britain_and_Northern_Ireland,
-                    581 => United_States_Minor_Outlying_Islands,
-                    840 => United_States_of_America,
-                    858 => Uruguay,
-                    860 => Uzbekistan,
-                    548 => Vanuatu,
-                    862 => Venezuela_Bolivarian_Republic_of,
-                    704 => Viet_Nam,
-                    92 => Virgin_Islands_British,
-                    850 => Virgin_Islands_US,
-                    876 => Wallis_and_Futuna,
-                    732 => Western_Sahara,
-                    887 => Yemen,
-                    894 => Zambia,
-                    716 => Zimbabwe,
-                    248 => land_Islands,
-        others => UNKONWN);
-###  ===================================================================
-###  This file is generated from an iso-3166 descrition
-###  Do not edit by hand !
-###  If more entries are needed write a new  xmlfile and run the tool
-###  with both the basefile and the extras as arguments
-###  ===================================================================
 
-   Afghanistan_Name : aliased constant String := "Afghanistan";
-   Afghanistan_Alpha_2 : aliased constant String := "AF";
-   Afghanistan_Alpha_3 : aliased constant String := "AFG";
-   Afghanistan_Iso_3166_2 : aliased constant String := "ISO 3166-2:AF";
-   Afghanistan_Region : aliased constant String := "Asia";
-   Afghanistan_Sub_Region : aliased constant String := "Southern Asia";
-   Afghanistan_Intermediate_Region : aliased constant String := "";
-   Afghanistan_Entry : aliased constant Country :=
-      (Name => Afghanistan_Name'Access,
-       Alpha_2 => Afghanistan_Alpha_2'Access,
-       Alpha_3 => Afghanistan_Alpha_3'Access,
-       Iso_3166_2 => Afghanistan_Iso_3166_2'Access,
-       Country_Code =>  4,
-       Region => Afghanistan_Region'Access,
-       Sub_Region => Afghanistan_Sub_Region'Access,
-       Intermediate_Region => Afghanistan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Albania_Name : aliased constant String := "Albania";
-   Albania_Alpha_2 : aliased constant String := "AL";
-   Albania_Alpha_3 : aliased constant String := "ALB";
-   Albania_Iso_3166_2 : aliased constant String := "ISO 3166-2:AL";
-   Albania_Region : aliased constant String := "Europe";
-   Albania_Sub_Region : aliased constant String := "Southern Europe";
-   Albania_Intermediate_Region : aliased constant String := "";
-   Albania_Entry : aliased constant Country :=
-      (Name => Albania_Name'Access,
-       Alpha_2 => Albania_Alpha_2'Access,
-       Alpha_3 => Albania_Alpha_3'Access,
-       Iso_3166_2 => Albania_Iso_3166_2'Access,
-       Country_Code =>  8,
-       Region => Albania_Region'Access,
-       Sub_Region => Albania_Sub_Region'Access,
-       Intermediate_Region => Albania_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Algeria_Name : aliased constant String := "Algeria";
-   Algeria_Alpha_2 : aliased constant String := "DZ";
-   Algeria_Alpha_3 : aliased constant String := "DZA";
-   Algeria_Iso_3166_2 : aliased constant String := "ISO 3166-2:DZ";
-   Algeria_Region : aliased constant String := "Africa";
-   Algeria_Sub_Region : aliased constant String := "Northern Africa";
-   Algeria_Intermediate_Region : aliased constant String := "";
-   Algeria_Entry : aliased constant Country :=
-      (Name => Algeria_Name'Access,
-       Alpha_2 => Algeria_Alpha_2'Access,
-       Alpha_3 => Algeria_Alpha_3'Access,
-       Iso_3166_2 => Algeria_Iso_3166_2'Access,
-       Country_Code =>  12,
-       Region => Algeria_Region'Access,
-       Sub_Region => Algeria_Sub_Region'Access,
-       Intermediate_Region => Algeria_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   American_Samoa_Name : aliased constant String := "American Samoa";
-   American_Samoa_Alpha_2 : aliased constant String := "AS";
-   American_Samoa_Alpha_3 : aliased constant String := "ASM";
-   American_Samoa_Iso_3166_2 : aliased constant String := "ISO 3166-2:AS";
-   American_Samoa_Region : aliased constant String := "Oceania";
-   American_Samoa_Sub_Region : aliased constant String := "Polynesia";
-   American_Samoa_Intermediate_Region : aliased constant String := "";
-   American_Samoa_Entry : aliased constant Country :=
-      (Name => American_Samoa_Name'Access,
-       Alpha_2 => American_Samoa_Alpha_2'Access,
-       Alpha_3 => American_Samoa_Alpha_3'Access,
-       Iso_3166_2 => American_Samoa_Iso_3166_2'Access,
-       Country_Code =>  16,
-       Region => American_Samoa_Region'Access,
-       Sub_Region => American_Samoa_Sub_Region'Access,
-       Intermediate_Region => American_Samoa_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Andorra_Name : aliased constant String := "Andorra";
-   Andorra_Alpha_2 : aliased constant String := "AD";
-   Andorra_Alpha_3 : aliased constant String := "AND";
-   Andorra_Iso_3166_2 : aliased constant String := "ISO 3166-2:AD";
-   Andorra_Region : aliased constant String := "Europe";
-   Andorra_Sub_Region : aliased constant String := "Southern Europe";
-   Andorra_Intermediate_Region : aliased constant String := "";
-   Andorra_Entry : aliased constant Country :=
-      (Name => Andorra_Name'Access,
-       Alpha_2 => Andorra_Alpha_2'Access,
-       Alpha_3 => Andorra_Alpha_3'Access,
-       Iso_3166_2 => Andorra_Iso_3166_2'Access,
-       Country_Code =>  20,
-       Region => Andorra_Region'Access,
-       Sub_Region => Andorra_Sub_Region'Access,
-       Intermediate_Region => Andorra_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Angola_Name : aliased constant String := "Angola";
-   Angola_Alpha_2 : aliased constant String := "AO";
-   Angola_Alpha_3 : aliased constant String := "AGO";
-   Angola_Iso_3166_2 : aliased constant String := "ISO 3166-2:AO";
-   Angola_Region : aliased constant String := "Africa";
-   Angola_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Angola_Intermediate_Region : aliased constant String := "Middle Africa";
-   Angola_Entry : aliased constant Country :=
-      (Name => Angola_Name'Access,
-       Alpha_2 => Angola_Alpha_2'Access,
-       Alpha_3 => Angola_Alpha_3'Access,
-       Iso_3166_2 => Angola_Iso_3166_2'Access,
-       Country_Code =>  24,
-       Region => Angola_Region'Access,
-       Sub_Region => Angola_Sub_Region'Access,
-       Intermediate_Region => Angola_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Anguilla_Name : aliased constant String := "Anguilla";
-   Anguilla_Alpha_2 : aliased constant String := "AI";
-   Anguilla_Alpha_3 : aliased constant String := "AIA";
-   Anguilla_Iso_3166_2 : aliased constant String := "ISO 3166-2:AI";
-   Anguilla_Region : aliased constant String := "Americas";
-   Anguilla_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Anguilla_Intermediate_Region : aliased constant String := "Caribbean";
-   Anguilla_Entry : aliased constant Country :=
-      (Name => Anguilla_Name'Access,
-       Alpha_2 => Anguilla_Alpha_2'Access,
-       Alpha_3 => Anguilla_Alpha_3'Access,
-       Iso_3166_2 => Anguilla_Iso_3166_2'Access,
-       Country_Code =>  660,
-       Region => Anguilla_Region'Access,
-       Sub_Region => Anguilla_Sub_Region'Access,
-       Intermediate_Region => Anguilla_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Antarctica_Name : aliased constant String := "Antarctica";
-   Antarctica_Alpha_2 : aliased constant String := "AQ";
-   Antarctica_Alpha_3 : aliased constant String := "ATA";
-   Antarctica_Iso_3166_2 : aliased constant String := "ISO 3166-2:AQ";
-   Antarctica_Region : aliased constant String := "";
-   Antarctica_Sub_Region : aliased constant String := "";
-   Antarctica_Intermediate_Region : aliased constant String := "";
-   Antarctica_Entry : aliased constant Country :=
-      (Name => Antarctica_Name'Access,
-       Alpha_2 => Antarctica_Alpha_2'Access,
-       Alpha_3 => Antarctica_Alpha_3'Access,
-       Iso_3166_2 => Antarctica_Iso_3166_2'Access,
-       Country_Code =>  10,
-       Region => Antarctica_Region'Access,
-       Sub_Region => Antarctica_Sub_Region'Access,
-       Intermediate_Region => Antarctica_Intermediate_Region'Access,
-       Region_Code =>  0,
-       Sub_Region_Code =>  0,
-       Intermediate_Region_Code =>  0);
-   Antigua_and_Barbuda_Name : aliased constant String := "Antigua and Barbuda";
-   Antigua_and_Barbuda_Alpha_2 : aliased constant String := "AG";
-   Antigua_and_Barbuda_Alpha_3 : aliased constant String := "ATG";
-   Antigua_and_Barbuda_Iso_3166_2 : aliased constant String := "ISO 3166-2:AG";
-   Antigua_and_Barbuda_Region : aliased constant String := "Americas";
-   Antigua_and_Barbuda_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Antigua_and_Barbuda_Intermediate_Region : aliased constant String := "Caribbean";
-   Antigua_and_Barbuda_Entry : aliased constant Country :=
-      (Name => Antigua_and_Barbuda_Name'Access,
-       Alpha_2 => Antigua_and_Barbuda_Alpha_2'Access,
-       Alpha_3 => Antigua_and_Barbuda_Alpha_3'Access,
-       Iso_3166_2 => Antigua_and_Barbuda_Iso_3166_2'Access,
-       Country_Code =>  28,
-       Region => Antigua_and_Barbuda_Region'Access,
-       Sub_Region => Antigua_and_Barbuda_Sub_Region'Access,
-       Intermediate_Region => Antigua_and_Barbuda_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Argentina_Name : aliased constant String := "Argentina";
-   Argentina_Alpha_2 : aliased constant String := "AR";
-   Argentina_Alpha_3 : aliased constant String := "ARG";
-   Argentina_Iso_3166_2 : aliased constant String := "ISO 3166-2:AR";
-   Argentina_Region : aliased constant String := "Americas";
-   Argentina_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Argentina_Intermediate_Region : aliased constant String := "South America";
-   Argentina_Entry : aliased constant Country :=
-      (Name => Argentina_Name'Access,
-       Alpha_2 => Argentina_Alpha_2'Access,
-       Alpha_3 => Argentina_Alpha_3'Access,
-       Iso_3166_2 => Argentina_Iso_3166_2'Access,
-       Country_Code =>  32,
-       Region => Argentina_Region'Access,
-       Sub_Region => Argentina_Sub_Region'Access,
-       Intermediate_Region => Argentina_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Armenia_Name : aliased constant String := "Armenia";
-   Armenia_Alpha_2 : aliased constant String := "AM";
-   Armenia_Alpha_3 : aliased constant String := "ARM";
-   Armenia_Iso_3166_2 : aliased constant String := "ISO 3166-2:AM";
-   Armenia_Region : aliased constant String := "Asia";
-   Armenia_Sub_Region : aliased constant String := "Western Asia";
-   Armenia_Intermediate_Region : aliased constant String := "";
-   Armenia_Entry : aliased constant Country :=
-      (Name => Armenia_Name'Access,
-       Alpha_2 => Armenia_Alpha_2'Access,
-       Alpha_3 => Armenia_Alpha_3'Access,
-       Iso_3166_2 => Armenia_Iso_3166_2'Access,
-       Country_Code =>  51,
-       Region => Armenia_Region'Access,
-       Sub_Region => Armenia_Sub_Region'Access,
-       Intermediate_Region => Armenia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Aruba_Name : aliased constant String := "Aruba";
-   Aruba_Alpha_2 : aliased constant String := "AW";
-   Aruba_Alpha_3 : aliased constant String := "ABW";
-   Aruba_Iso_3166_2 : aliased constant String := "ISO 3166-2:AW";
-   Aruba_Region : aliased constant String := "Americas";
-   Aruba_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Aruba_Intermediate_Region : aliased constant String := "Caribbean";
-   Aruba_Entry : aliased constant Country :=
-      (Name => Aruba_Name'Access,
-       Alpha_2 => Aruba_Alpha_2'Access,
-       Alpha_3 => Aruba_Alpha_3'Access,
-       Iso_3166_2 => Aruba_Iso_3166_2'Access,
-       Country_Code =>  533,
-       Region => Aruba_Region'Access,
-       Sub_Region => Aruba_Sub_Region'Access,
-       Intermediate_Region => Aruba_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Australia_Name : aliased constant String := "Australia";
-   Australia_Alpha_2 : aliased constant String := "AU";
-   Australia_Alpha_3 : aliased constant String := "AUS";
-   Australia_Iso_3166_2 : aliased constant String := "ISO 3166-2:AU";
-   Australia_Region : aliased constant String := "Oceania";
-   Australia_Sub_Region : aliased constant String := "Australia and New Zealand";
-   Australia_Intermediate_Region : aliased constant String := "";
-   Australia_Entry : aliased constant Country :=
-      (Name => Australia_Name'Access,
-       Alpha_2 => Australia_Alpha_2'Access,
-       Alpha_3 => Australia_Alpha_3'Access,
-       Iso_3166_2 => Australia_Iso_3166_2'Access,
-       Country_Code =>  36,
-       Region => Australia_Region'Access,
-       Sub_Region => Australia_Sub_Region'Access,
-       Intermediate_Region => Australia_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   Austria_Name : aliased constant String := "Austria";
-   Austria_Alpha_2 : aliased constant String := "AT";
-   Austria_Alpha_3 : aliased constant String := "AUT";
-   Austria_Iso_3166_2 : aliased constant String := "ISO 3166-2:AT";
-   Austria_Region : aliased constant String := "Europe";
-   Austria_Sub_Region : aliased constant String := "Western Europe";
-   Austria_Intermediate_Region : aliased constant String := "";
-   Austria_Entry : aliased constant Country :=
-      (Name => Austria_Name'Access,
-       Alpha_2 => Austria_Alpha_2'Access,
-       Alpha_3 => Austria_Alpha_3'Access,
-       Iso_3166_2 => Austria_Iso_3166_2'Access,
-       Country_Code =>  40,
-       Region => Austria_Region'Access,
-       Sub_Region => Austria_Sub_Region'Access,
-       Intermediate_Region => Austria_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Azerbaijan_Name : aliased constant String := "Azerbaijan";
-   Azerbaijan_Alpha_2 : aliased constant String := "AZ";
-   Azerbaijan_Alpha_3 : aliased constant String := "AZE";
-   Azerbaijan_Iso_3166_2 : aliased constant String := "ISO 3166-2:AZ";
-   Azerbaijan_Region : aliased constant String := "Asia";
-   Azerbaijan_Sub_Region : aliased constant String := "Western Asia";
-   Azerbaijan_Intermediate_Region : aliased constant String := "";
-   Azerbaijan_Entry : aliased constant Country :=
-      (Name => Azerbaijan_Name'Access,
-       Alpha_2 => Azerbaijan_Alpha_2'Access,
-       Alpha_3 => Azerbaijan_Alpha_3'Access,
-       Iso_3166_2 => Azerbaijan_Iso_3166_2'Access,
-       Country_Code =>  31,
-       Region => Azerbaijan_Region'Access,
-       Sub_Region => Azerbaijan_Sub_Region'Access,
-       Intermediate_Region => Azerbaijan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Bahamas_Name : aliased constant String := "Bahamas";
-   Bahamas_Alpha_2 : aliased constant String := "BS";
-   Bahamas_Alpha_3 : aliased constant String := "BHS";
-   Bahamas_Iso_3166_2 : aliased constant String := "ISO 3166-2:BS";
-   Bahamas_Region : aliased constant String := "Americas";
-   Bahamas_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Bahamas_Intermediate_Region : aliased constant String := "Caribbean";
-   Bahamas_Entry : aliased constant Country :=
-      (Name => Bahamas_Name'Access,
-       Alpha_2 => Bahamas_Alpha_2'Access,
-       Alpha_3 => Bahamas_Alpha_3'Access,
-       Iso_3166_2 => Bahamas_Iso_3166_2'Access,
-       Country_Code =>  44,
-       Region => Bahamas_Region'Access,
-       Sub_Region => Bahamas_Sub_Region'Access,
-       Intermediate_Region => Bahamas_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Bahrain_Name : aliased constant String := "Bahrain";
-   Bahrain_Alpha_2 : aliased constant String := "BH";
-   Bahrain_Alpha_3 : aliased constant String := "BHR";
-   Bahrain_Iso_3166_2 : aliased constant String := "ISO 3166-2:BH";
-   Bahrain_Region : aliased constant String := "Asia";
-   Bahrain_Sub_Region : aliased constant String := "Western Asia";
-   Bahrain_Intermediate_Region : aliased constant String := "";
-   Bahrain_Entry : aliased constant Country :=
-      (Name => Bahrain_Name'Access,
-       Alpha_2 => Bahrain_Alpha_2'Access,
-       Alpha_3 => Bahrain_Alpha_3'Access,
-       Iso_3166_2 => Bahrain_Iso_3166_2'Access,
-       Country_Code =>  48,
-       Region => Bahrain_Region'Access,
-       Sub_Region => Bahrain_Sub_Region'Access,
-       Intermediate_Region => Bahrain_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Bangladesh_Name : aliased constant String := "Bangladesh";
-   Bangladesh_Alpha_2 : aliased constant String := "BD";
-   Bangladesh_Alpha_3 : aliased constant String := "BGD";
-   Bangladesh_Iso_3166_2 : aliased constant String := "ISO 3166-2:BD";
-   Bangladesh_Region : aliased constant String := "Asia";
-   Bangladesh_Sub_Region : aliased constant String := "Southern Asia";
-   Bangladesh_Intermediate_Region : aliased constant String := "";
-   Bangladesh_Entry : aliased constant Country :=
-      (Name => Bangladesh_Name'Access,
-       Alpha_2 => Bangladesh_Alpha_2'Access,
-       Alpha_3 => Bangladesh_Alpha_3'Access,
-       Iso_3166_2 => Bangladesh_Iso_3166_2'Access,
-       Country_Code =>  50,
-       Region => Bangladesh_Region'Access,
-       Sub_Region => Bangladesh_Sub_Region'Access,
-       Intermediate_Region => Bangladesh_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Barbados_Name : aliased constant String := "Barbados";
-   Barbados_Alpha_2 : aliased constant String := "BB";
-   Barbados_Alpha_3 : aliased constant String := "BRB";
-   Barbados_Iso_3166_2 : aliased constant String := "ISO 3166-2:BB";
-   Barbados_Region : aliased constant String := "Americas";
-   Barbados_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Barbados_Intermediate_Region : aliased constant String := "Caribbean";
-   Barbados_Entry : aliased constant Country :=
-      (Name => Barbados_Name'Access,
-       Alpha_2 => Barbados_Alpha_2'Access,
-       Alpha_3 => Barbados_Alpha_3'Access,
-       Iso_3166_2 => Barbados_Iso_3166_2'Access,
-       Country_Code =>  52,
-       Region => Barbados_Region'Access,
-       Sub_Region => Barbados_Sub_Region'Access,
-       Intermediate_Region => Barbados_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Belarus_Name : aliased constant String := "Belarus";
-   Belarus_Alpha_2 : aliased constant String := "BY";
-   Belarus_Alpha_3 : aliased constant String := "BLR";
-   Belarus_Iso_3166_2 : aliased constant String := "ISO 3166-2:BY";
-   Belarus_Region : aliased constant String := "Europe";
-   Belarus_Sub_Region : aliased constant String := "Eastern Europe";
-   Belarus_Intermediate_Region : aliased constant String := "";
-   Belarus_Entry : aliased constant Country :=
-      (Name => Belarus_Name'Access,
-       Alpha_2 => Belarus_Alpha_2'Access,
-       Alpha_3 => Belarus_Alpha_3'Access,
-       Iso_3166_2 => Belarus_Iso_3166_2'Access,
-       Country_Code =>  112,
-       Region => Belarus_Region'Access,
-       Sub_Region => Belarus_Sub_Region'Access,
-       Intermediate_Region => Belarus_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Belgium_Name : aliased constant String := "Belgium";
-   Belgium_Alpha_2 : aliased constant String := "BE";
-   Belgium_Alpha_3 : aliased constant String := "BEL";
-   Belgium_Iso_3166_2 : aliased constant String := "ISO 3166-2:BE";
-   Belgium_Region : aliased constant String := "Europe";
-   Belgium_Sub_Region : aliased constant String := "Western Europe";
-   Belgium_Intermediate_Region : aliased constant String := "";
-   Belgium_Entry : aliased constant Country :=
-      (Name => Belgium_Name'Access,
-       Alpha_2 => Belgium_Alpha_2'Access,
-       Alpha_3 => Belgium_Alpha_3'Access,
-       Iso_3166_2 => Belgium_Iso_3166_2'Access,
-       Country_Code =>  56,
-       Region => Belgium_Region'Access,
-       Sub_Region => Belgium_Sub_Region'Access,
-       Intermediate_Region => Belgium_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Belize_Name : aliased constant String := "Belize";
-   Belize_Alpha_2 : aliased constant String := "BZ";
-   Belize_Alpha_3 : aliased constant String := "BLZ";
-   Belize_Iso_3166_2 : aliased constant String := "ISO 3166-2:BZ";
-   Belize_Region : aliased constant String := "Americas";
-   Belize_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Belize_Intermediate_Region : aliased constant String := "Central America";
-   Belize_Entry : aliased constant Country :=
-      (Name => Belize_Name'Access,
-       Alpha_2 => Belize_Alpha_2'Access,
-       Alpha_3 => Belize_Alpha_3'Access,
-       Iso_3166_2 => Belize_Iso_3166_2'Access,
-       Country_Code =>  84,
-       Region => Belize_Region'Access,
-       Sub_Region => Belize_Sub_Region'Access,
-       Intermediate_Region => Belize_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Benin_Name : aliased constant String := "Benin";
-   Benin_Alpha_2 : aliased constant String := "BJ";
-   Benin_Alpha_3 : aliased constant String := "BEN";
-   Benin_Iso_3166_2 : aliased constant String := "ISO 3166-2:BJ";
-   Benin_Region : aliased constant String := "Africa";
-   Benin_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Benin_Intermediate_Region : aliased constant String := "Western Africa";
-   Benin_Entry : aliased constant Country :=
-      (Name => Benin_Name'Access,
-       Alpha_2 => Benin_Alpha_2'Access,
-       Alpha_3 => Benin_Alpha_3'Access,
-       Iso_3166_2 => Benin_Iso_3166_2'Access,
-       Country_Code =>  204,
-       Region => Benin_Region'Access,
-       Sub_Region => Benin_Sub_Region'Access,
-       Intermediate_Region => Benin_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Bermuda_Name : aliased constant String := "Bermuda";
-   Bermuda_Alpha_2 : aliased constant String := "BM";
-   Bermuda_Alpha_3 : aliased constant String := "BMU";
-   Bermuda_Iso_3166_2 : aliased constant String := "ISO 3166-2:BM";
-   Bermuda_Region : aliased constant String := "Americas";
-   Bermuda_Sub_Region : aliased constant String := "Northern America";
-   Bermuda_Intermediate_Region : aliased constant String := "";
-   Bermuda_Entry : aliased constant Country :=
-      (Name => Bermuda_Name'Access,
-       Alpha_2 => Bermuda_Alpha_2'Access,
-       Alpha_3 => Bermuda_Alpha_3'Access,
-       Iso_3166_2 => Bermuda_Iso_3166_2'Access,
-       Country_Code =>  60,
-       Region => Bermuda_Region'Access,
-       Sub_Region => Bermuda_Sub_Region'Access,
-       Intermediate_Region => Bermuda_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  21,
-       Intermediate_Region_Code =>  0);
-   Bhutan_Name : aliased constant String := "Bhutan";
-   Bhutan_Alpha_2 : aliased constant String := "BT";
-   Bhutan_Alpha_3 : aliased constant String := "BTN";
-   Bhutan_Iso_3166_2 : aliased constant String := "ISO 3166-2:BT";
-   Bhutan_Region : aliased constant String := "Asia";
-   Bhutan_Sub_Region : aliased constant String := "Southern Asia";
-   Bhutan_Intermediate_Region : aliased constant String := "";
-   Bhutan_Entry : aliased constant Country :=
-      (Name => Bhutan_Name'Access,
-       Alpha_2 => Bhutan_Alpha_2'Access,
-       Alpha_3 => Bhutan_Alpha_3'Access,
-       Iso_3166_2 => Bhutan_Iso_3166_2'Access,
-       Country_Code =>  64,
-       Region => Bhutan_Region'Access,
-       Sub_Region => Bhutan_Sub_Region'Access,
-       Intermediate_Region => Bhutan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Bolivia_Plurinational_State_of_Name : aliased constant String := "Bolivia (Plurinational State of)";
-   Bolivia_Plurinational_State_of_Alpha_2 : aliased constant String := "BO";
-   Bolivia_Plurinational_State_of_Alpha_3 : aliased constant String := "BOL";
-   Bolivia_Plurinational_State_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:BO";
-   Bolivia_Plurinational_State_of_Region : aliased constant String := "Americas";
-   Bolivia_Plurinational_State_of_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Bolivia_Plurinational_State_of_Intermediate_Region : aliased constant String := "South America";
-   Bolivia_Plurinational_State_of_Entry : aliased constant Country :=
-      (Name => Bolivia_Plurinational_State_of_Name'Access,
-       Alpha_2 => Bolivia_Plurinational_State_of_Alpha_2'Access,
-       Alpha_3 => Bolivia_Plurinational_State_of_Alpha_3'Access,
-       Iso_3166_2 => Bolivia_Plurinational_State_of_Iso_3166_2'Access,
-       Country_Code =>  68,
-       Region => Bolivia_Plurinational_State_of_Region'Access,
-       Sub_Region => Bolivia_Plurinational_State_of_Sub_Region'Access,
-       Intermediate_Region => Bolivia_Plurinational_State_of_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Bonaire_Sint_Eustatius_and_Saba_Name : aliased constant String := "Bonaire, Sint Eustatius and Saba";
-   Bonaire_Sint_Eustatius_and_Saba_Alpha_2 : aliased constant String := "BQ";
-   Bonaire_Sint_Eustatius_and_Saba_Alpha_3 : aliased constant String := "BES";
-   Bonaire_Sint_Eustatius_and_Saba_Iso_3166_2 : aliased constant String := "ISO 3166-2:BQ";
-   Bonaire_Sint_Eustatius_and_Saba_Region : aliased constant String := "Americas";
-   Bonaire_Sint_Eustatius_and_Saba_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Bonaire_Sint_Eustatius_and_Saba_Intermediate_Region : aliased constant String := "Caribbean";
-   Bonaire_Sint_Eustatius_and_Saba_Entry : aliased constant Country :=
-      (Name => Bonaire_Sint_Eustatius_and_Saba_Name'Access,
-       Alpha_2 => Bonaire_Sint_Eustatius_and_Saba_Alpha_2'Access,
-       Alpha_3 => Bonaire_Sint_Eustatius_and_Saba_Alpha_3'Access,
-       Iso_3166_2 => Bonaire_Sint_Eustatius_and_Saba_Iso_3166_2'Access,
-       Country_Code =>  535,
-       Region => Bonaire_Sint_Eustatius_and_Saba_Region'Access,
-       Sub_Region => Bonaire_Sint_Eustatius_and_Saba_Sub_Region'Access,
-       Intermediate_Region => Bonaire_Sint_Eustatius_and_Saba_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Bosnia_and_Herzegovina_Name : aliased constant String := "Bosnia and Herzegovina";
-   Bosnia_and_Herzegovina_Alpha_2 : aliased constant String := "BA";
-   Bosnia_and_Herzegovina_Alpha_3 : aliased constant String := "BIH";
-   Bosnia_and_Herzegovina_Iso_3166_2 : aliased constant String := "ISO 3166-2:BA";
-   Bosnia_and_Herzegovina_Region : aliased constant String := "Europe";
-   Bosnia_and_Herzegovina_Sub_Region : aliased constant String := "Southern Europe";
-   Bosnia_and_Herzegovina_Intermediate_Region : aliased constant String := "";
-   Bosnia_and_Herzegovina_Entry : aliased constant Country :=
-      (Name => Bosnia_and_Herzegovina_Name'Access,
-       Alpha_2 => Bosnia_and_Herzegovina_Alpha_2'Access,
-       Alpha_3 => Bosnia_and_Herzegovina_Alpha_3'Access,
-       Iso_3166_2 => Bosnia_and_Herzegovina_Iso_3166_2'Access,
-       Country_Code =>  70,
-       Region => Bosnia_and_Herzegovina_Region'Access,
-       Sub_Region => Bosnia_and_Herzegovina_Sub_Region'Access,
-       Intermediate_Region => Bosnia_and_Herzegovina_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Botswana_Name : aliased constant String := "Botswana";
-   Botswana_Alpha_2 : aliased constant String := "BW";
-   Botswana_Alpha_3 : aliased constant String := "BWA";
-   Botswana_Iso_3166_2 : aliased constant String := "ISO 3166-2:BW";
-   Botswana_Region : aliased constant String := "Africa";
-   Botswana_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Botswana_Intermediate_Region : aliased constant String := "Southern Africa";
-   Botswana_Entry : aliased constant Country :=
-      (Name => Botswana_Name'Access,
-       Alpha_2 => Botswana_Alpha_2'Access,
-       Alpha_3 => Botswana_Alpha_3'Access,
-       Iso_3166_2 => Botswana_Iso_3166_2'Access,
-       Country_Code =>  72,
-       Region => Botswana_Region'Access,
-       Sub_Region => Botswana_Sub_Region'Access,
-       Intermediate_Region => Botswana_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  18);
-   Bouvet_Island_Name : aliased constant String := "Bouvet Island";
-   Bouvet_Island_Alpha_2 : aliased constant String := "BV";
-   Bouvet_Island_Alpha_3 : aliased constant String := "BVT";
-   Bouvet_Island_Iso_3166_2 : aliased constant String := "ISO 3166-2:BV";
-   Bouvet_Island_Region : aliased constant String := "Americas";
-   Bouvet_Island_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Bouvet_Island_Intermediate_Region : aliased constant String := "South America";
-   Bouvet_Island_Entry : aliased constant Country :=
-      (Name => Bouvet_Island_Name'Access,
-       Alpha_2 => Bouvet_Island_Alpha_2'Access,
-       Alpha_3 => Bouvet_Island_Alpha_3'Access,
-       Iso_3166_2 => Bouvet_Island_Iso_3166_2'Access,
-       Country_Code =>  74,
-       Region => Bouvet_Island_Region'Access,
-       Sub_Region => Bouvet_Island_Sub_Region'Access,
-       Intermediate_Region => Bouvet_Island_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Brazil_Name : aliased constant String := "Brazil";
-   Brazil_Alpha_2 : aliased constant String := "BR";
-   Brazil_Alpha_3 : aliased constant String := "BRA";
-   Brazil_Iso_3166_2 : aliased constant String := "ISO 3166-2:BR";
-   Brazil_Region : aliased constant String := "Americas";
-   Brazil_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Brazil_Intermediate_Region : aliased constant String := "South America";
-   Brazil_Entry : aliased constant Country :=
-      (Name => Brazil_Name'Access,
-       Alpha_2 => Brazil_Alpha_2'Access,
-       Alpha_3 => Brazil_Alpha_3'Access,
-       Iso_3166_2 => Brazil_Iso_3166_2'Access,
-       Country_Code =>  76,
-       Region => Brazil_Region'Access,
-       Sub_Region => Brazil_Sub_Region'Access,
-       Intermediate_Region => Brazil_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   British_Indian_Ocean_Territory_Name : aliased constant String := "British Indian Ocean Territory";
-   British_Indian_Ocean_Territory_Alpha_2 : aliased constant String := "IO";
-   British_Indian_Ocean_Territory_Alpha_3 : aliased constant String := "IOT";
-   British_Indian_Ocean_Territory_Iso_3166_2 : aliased constant String := "ISO 3166-2:IO";
-   British_Indian_Ocean_Territory_Region : aliased constant String := "Africa";
-   British_Indian_Ocean_Territory_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   British_Indian_Ocean_Territory_Intermediate_Region : aliased constant String := "Eastern Africa";
-   British_Indian_Ocean_Territory_Entry : aliased constant Country :=
-      (Name => British_Indian_Ocean_Territory_Name'Access,
-       Alpha_2 => British_Indian_Ocean_Territory_Alpha_2'Access,
-       Alpha_3 => British_Indian_Ocean_Territory_Alpha_3'Access,
-       Iso_3166_2 => British_Indian_Ocean_Territory_Iso_3166_2'Access,
-       Country_Code =>  86,
-       Region => British_Indian_Ocean_Territory_Region'Access,
-       Sub_Region => British_Indian_Ocean_Territory_Sub_Region'Access,
-       Intermediate_Region => British_Indian_Ocean_Territory_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Brunei_Darussalam_Name : aliased constant String := "Brunei Darussalam";
-   Brunei_Darussalam_Alpha_2 : aliased constant String := "BN";
-   Brunei_Darussalam_Alpha_3 : aliased constant String := "BRN";
-   Brunei_Darussalam_Iso_3166_2 : aliased constant String := "ISO 3166-2:BN";
-   Brunei_Darussalam_Region : aliased constant String := "Asia";
-   Brunei_Darussalam_Sub_Region : aliased constant String := "South-eastern Asia";
-   Brunei_Darussalam_Intermediate_Region : aliased constant String := "";
-   Brunei_Darussalam_Entry : aliased constant Country :=
-      (Name => Brunei_Darussalam_Name'Access,
-       Alpha_2 => Brunei_Darussalam_Alpha_2'Access,
-       Alpha_3 => Brunei_Darussalam_Alpha_3'Access,
-       Iso_3166_2 => Brunei_Darussalam_Iso_3166_2'Access,
-       Country_Code =>  96,
-       Region => Brunei_Darussalam_Region'Access,
-       Sub_Region => Brunei_Darussalam_Sub_Region'Access,
-       Intermediate_Region => Brunei_Darussalam_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Bulgaria_Name : aliased constant String := "Bulgaria";
-   Bulgaria_Alpha_2 : aliased constant String := "BG";
-   Bulgaria_Alpha_3 : aliased constant String := "BGR";
-   Bulgaria_Iso_3166_2 : aliased constant String := "ISO 3166-2:BG";
-   Bulgaria_Region : aliased constant String := "Europe";
-   Bulgaria_Sub_Region : aliased constant String := "Eastern Europe";
-   Bulgaria_Intermediate_Region : aliased constant String := "";
-   Bulgaria_Entry : aliased constant Country :=
-      (Name => Bulgaria_Name'Access,
-       Alpha_2 => Bulgaria_Alpha_2'Access,
-       Alpha_3 => Bulgaria_Alpha_3'Access,
-       Iso_3166_2 => Bulgaria_Iso_3166_2'Access,
-       Country_Code =>  100,
-       Region => Bulgaria_Region'Access,
-       Sub_Region => Bulgaria_Sub_Region'Access,
-       Intermediate_Region => Bulgaria_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Burkina_Faso_Name : aliased constant String := "Burkina Faso";
-   Burkina_Faso_Alpha_2 : aliased constant String := "BF";
-   Burkina_Faso_Alpha_3 : aliased constant String := "BFA";
-   Burkina_Faso_Iso_3166_2 : aliased constant String := "ISO 3166-2:BF";
-   Burkina_Faso_Region : aliased constant String := "Africa";
-   Burkina_Faso_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Burkina_Faso_Intermediate_Region : aliased constant String := "Western Africa";
-   Burkina_Faso_Entry : aliased constant Country :=
-      (Name => Burkina_Faso_Name'Access,
-       Alpha_2 => Burkina_Faso_Alpha_2'Access,
-       Alpha_3 => Burkina_Faso_Alpha_3'Access,
-       Iso_3166_2 => Burkina_Faso_Iso_3166_2'Access,
-       Country_Code =>  854,
-       Region => Burkina_Faso_Region'Access,
-       Sub_Region => Burkina_Faso_Sub_Region'Access,
-       Intermediate_Region => Burkina_Faso_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Burundi_Name : aliased constant String := "Burundi";
-   Burundi_Alpha_2 : aliased constant String := "BI";
-   Burundi_Alpha_3 : aliased constant String := "BDI";
-   Burundi_Iso_3166_2 : aliased constant String := "ISO 3166-2:BI";
-   Burundi_Region : aliased constant String := "Africa";
-   Burundi_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Burundi_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Burundi_Entry : aliased constant Country :=
-      (Name => Burundi_Name'Access,
-       Alpha_2 => Burundi_Alpha_2'Access,
-       Alpha_3 => Burundi_Alpha_3'Access,
-       Iso_3166_2 => Burundi_Iso_3166_2'Access,
-       Country_Code =>  108,
-       Region => Burundi_Region'Access,
-       Sub_Region => Burundi_Sub_Region'Access,
-       Intermediate_Region => Burundi_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Cabo_Verde_Name : aliased constant String := "Cabo Verde";
-   Cabo_Verde_Alpha_2 : aliased constant String := "CV";
-   Cabo_Verde_Alpha_3 : aliased constant String := "CPV";
-   Cabo_Verde_Iso_3166_2 : aliased constant String := "ISO 3166-2:CV";
-   Cabo_Verde_Region : aliased constant String := "Africa";
-   Cabo_Verde_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Cabo_Verde_Intermediate_Region : aliased constant String := "Western Africa";
-   Cabo_Verde_Entry : aliased constant Country :=
-      (Name => Cabo_Verde_Name'Access,
-       Alpha_2 => Cabo_Verde_Alpha_2'Access,
-       Alpha_3 => Cabo_Verde_Alpha_3'Access,
-       Iso_3166_2 => Cabo_Verde_Iso_3166_2'Access,
-       Country_Code =>  132,
-       Region => Cabo_Verde_Region'Access,
-       Sub_Region => Cabo_Verde_Sub_Region'Access,
-       Intermediate_Region => Cabo_Verde_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Cambodia_Name : aliased constant String := "Cambodia";
-   Cambodia_Alpha_2 : aliased constant String := "KH";
-   Cambodia_Alpha_3 : aliased constant String := "KHM";
-   Cambodia_Iso_3166_2 : aliased constant String := "ISO 3166-2:KH";
-   Cambodia_Region : aliased constant String := "Asia";
-   Cambodia_Sub_Region : aliased constant String := "South-eastern Asia";
-   Cambodia_Intermediate_Region : aliased constant String := "";
-   Cambodia_Entry : aliased constant Country :=
-      (Name => Cambodia_Name'Access,
-       Alpha_2 => Cambodia_Alpha_2'Access,
-       Alpha_3 => Cambodia_Alpha_3'Access,
-       Iso_3166_2 => Cambodia_Iso_3166_2'Access,
-       Country_Code =>  116,
-       Region => Cambodia_Region'Access,
-       Sub_Region => Cambodia_Sub_Region'Access,
-       Intermediate_Region => Cambodia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Cameroon_Name : aliased constant String := "Cameroon";
-   Cameroon_Alpha_2 : aliased constant String := "CM";
-   Cameroon_Alpha_3 : aliased constant String := "CMR";
-   Cameroon_Iso_3166_2 : aliased constant String := "ISO 3166-2:CM";
-   Cameroon_Region : aliased constant String := "Africa";
-   Cameroon_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Cameroon_Intermediate_Region : aliased constant String := "Middle Africa";
-   Cameroon_Entry : aliased constant Country :=
-      (Name => Cameroon_Name'Access,
-       Alpha_2 => Cameroon_Alpha_2'Access,
-       Alpha_3 => Cameroon_Alpha_3'Access,
-       Iso_3166_2 => Cameroon_Iso_3166_2'Access,
-       Country_Code =>  120,
-       Region => Cameroon_Region'Access,
-       Sub_Region => Cameroon_Sub_Region'Access,
-       Intermediate_Region => Cameroon_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Canada_Name : aliased constant String := "Canada";
-   Canada_Alpha_2 : aliased constant String := "CA";
-   Canada_Alpha_3 : aliased constant String := "CAN";
-   Canada_Iso_3166_2 : aliased constant String := "ISO 3166-2:CA";
-   Canada_Region : aliased constant String := "Americas";
-   Canada_Sub_Region : aliased constant String := "Northern America";
-   Canada_Intermediate_Region : aliased constant String := "";
-   Canada_Entry : aliased constant Country :=
-      (Name => Canada_Name'Access,
-       Alpha_2 => Canada_Alpha_2'Access,
-       Alpha_3 => Canada_Alpha_3'Access,
-       Iso_3166_2 => Canada_Iso_3166_2'Access,
-       Country_Code =>  124,
-       Region => Canada_Region'Access,
-       Sub_Region => Canada_Sub_Region'Access,
-       Intermediate_Region => Canada_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  21,
-       Intermediate_Region_Code =>  0);
-   Cayman_Islands_Name : aliased constant String := "Cayman Islands";
-   Cayman_Islands_Alpha_2 : aliased constant String := "KY";
-   Cayman_Islands_Alpha_3 : aliased constant String := "CYM";
-   Cayman_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:KY";
-   Cayman_Islands_Region : aliased constant String := "Americas";
-   Cayman_Islands_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Cayman_Islands_Intermediate_Region : aliased constant String := "Caribbean";
-   Cayman_Islands_Entry : aliased constant Country :=
-      (Name => Cayman_Islands_Name'Access,
-       Alpha_2 => Cayman_Islands_Alpha_2'Access,
-       Alpha_3 => Cayman_Islands_Alpha_3'Access,
-       Iso_3166_2 => Cayman_Islands_Iso_3166_2'Access,
-       Country_Code =>  136,
-       Region => Cayman_Islands_Region'Access,
-       Sub_Region => Cayman_Islands_Sub_Region'Access,
-       Intermediate_Region => Cayman_Islands_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Central_African_Republic_Name : aliased constant String := "Central African Republic";
-   Central_African_Republic_Alpha_2 : aliased constant String := "CF";
-   Central_African_Republic_Alpha_3 : aliased constant String := "CAF";
-   Central_African_Republic_Iso_3166_2 : aliased constant String := "ISO 3166-2:CF";
-   Central_African_Republic_Region : aliased constant String := "Africa";
-   Central_African_Republic_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Central_African_Republic_Intermediate_Region : aliased constant String := "Middle Africa";
-   Central_African_Republic_Entry : aliased constant Country :=
-      (Name => Central_African_Republic_Name'Access,
-       Alpha_2 => Central_African_Republic_Alpha_2'Access,
-       Alpha_3 => Central_African_Republic_Alpha_3'Access,
-       Iso_3166_2 => Central_African_Republic_Iso_3166_2'Access,
-       Country_Code =>  140,
-       Region => Central_African_Republic_Region'Access,
-       Sub_Region => Central_African_Republic_Sub_Region'Access,
-       Intermediate_Region => Central_African_Republic_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Chad_Name : aliased constant String := "Chad";
-   Chad_Alpha_2 : aliased constant String := "TD";
-   Chad_Alpha_3 : aliased constant String := "TCD";
-   Chad_Iso_3166_2 : aliased constant String := "ISO 3166-2:TD";
-   Chad_Region : aliased constant String := "Africa";
-   Chad_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Chad_Intermediate_Region : aliased constant String := "Middle Africa";
-   Chad_Entry : aliased constant Country :=
-      (Name => Chad_Name'Access,
-       Alpha_2 => Chad_Alpha_2'Access,
-       Alpha_3 => Chad_Alpha_3'Access,
-       Iso_3166_2 => Chad_Iso_3166_2'Access,
-       Country_Code =>  148,
-       Region => Chad_Region'Access,
-       Sub_Region => Chad_Sub_Region'Access,
-       Intermediate_Region => Chad_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Chile_Name : aliased constant String := "Chile";
-   Chile_Alpha_2 : aliased constant String := "CL";
-   Chile_Alpha_3 : aliased constant String := "CHL";
-   Chile_Iso_3166_2 : aliased constant String := "ISO 3166-2:CL";
-   Chile_Region : aliased constant String := "Americas";
-   Chile_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Chile_Intermediate_Region : aliased constant String := "South America";
-   Chile_Entry : aliased constant Country :=
-      (Name => Chile_Name'Access,
-       Alpha_2 => Chile_Alpha_2'Access,
-       Alpha_3 => Chile_Alpha_3'Access,
-       Iso_3166_2 => Chile_Iso_3166_2'Access,
-       Country_Code =>  152,
-       Region => Chile_Region'Access,
-       Sub_Region => Chile_Sub_Region'Access,
-       Intermediate_Region => Chile_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   China_Name : aliased constant String := "China";
-   China_Alpha_2 : aliased constant String := "CN";
-   China_Alpha_3 : aliased constant String := "CHN";
-   China_Iso_3166_2 : aliased constant String := "ISO 3166-2:CN";
-   China_Region : aliased constant String := "Asia";
-   China_Sub_Region : aliased constant String := "Eastern Asia";
-   China_Intermediate_Region : aliased constant String := "";
-   China_Entry : aliased constant Country :=
-      (Name => China_Name'Access,
-       Alpha_2 => China_Alpha_2'Access,
-       Alpha_3 => China_Alpha_3'Access,
-       Iso_3166_2 => China_Iso_3166_2'Access,
-       Country_Code =>  156,
-       Region => China_Region'Access,
-       Sub_Region => China_Sub_Region'Access,
-       Intermediate_Region => China_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Christmas_Island_Name : aliased constant String := "Christmas Island";
-   Christmas_Island_Alpha_2 : aliased constant String := "CX";
-   Christmas_Island_Alpha_3 : aliased constant String := "CXR";
-   Christmas_Island_Iso_3166_2 : aliased constant String := "ISO 3166-2:CX";
-   Christmas_Island_Region : aliased constant String := "Oceania";
-   Christmas_Island_Sub_Region : aliased constant String := "Australia and New Zealand";
-   Christmas_Island_Intermediate_Region : aliased constant String := "";
-   Christmas_Island_Entry : aliased constant Country :=
-      (Name => Christmas_Island_Name'Access,
-       Alpha_2 => Christmas_Island_Alpha_2'Access,
-       Alpha_3 => Christmas_Island_Alpha_3'Access,
-       Iso_3166_2 => Christmas_Island_Iso_3166_2'Access,
-       Country_Code =>  162,
-       Region => Christmas_Island_Region'Access,
-       Sub_Region => Christmas_Island_Sub_Region'Access,
-       Intermediate_Region => Christmas_Island_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   Cocos_Keeling_Islands_Name : aliased constant String := "Cocos (Keeling) Islands";
-   Cocos_Keeling_Islands_Alpha_2 : aliased constant String := "CC";
-   Cocos_Keeling_Islands_Alpha_3 : aliased constant String := "CCK";
-   Cocos_Keeling_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:CC";
-   Cocos_Keeling_Islands_Region : aliased constant String := "Oceania";
-   Cocos_Keeling_Islands_Sub_Region : aliased constant String := "Australia and New Zealand";
-   Cocos_Keeling_Islands_Intermediate_Region : aliased constant String := "";
-   Cocos_Keeling_Islands_Entry : aliased constant Country :=
-      (Name => Cocos_Keeling_Islands_Name'Access,
-       Alpha_2 => Cocos_Keeling_Islands_Alpha_2'Access,
-       Alpha_3 => Cocos_Keeling_Islands_Alpha_3'Access,
-       Iso_3166_2 => Cocos_Keeling_Islands_Iso_3166_2'Access,
-       Country_Code =>  166,
-       Region => Cocos_Keeling_Islands_Region'Access,
-       Sub_Region => Cocos_Keeling_Islands_Sub_Region'Access,
-       Intermediate_Region => Cocos_Keeling_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   Colombia_Name : aliased constant String := "Colombia";
-   Colombia_Alpha_2 : aliased constant String := "CO";
-   Colombia_Alpha_3 : aliased constant String := "COL";
-   Colombia_Iso_3166_2 : aliased constant String := "ISO 3166-2:CO";
-   Colombia_Region : aliased constant String := "Americas";
-   Colombia_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Colombia_Intermediate_Region : aliased constant String := "South America";
-   Colombia_Entry : aliased constant Country :=
-      (Name => Colombia_Name'Access,
-       Alpha_2 => Colombia_Alpha_2'Access,
-       Alpha_3 => Colombia_Alpha_3'Access,
-       Iso_3166_2 => Colombia_Iso_3166_2'Access,
-       Country_Code =>  170,
-       Region => Colombia_Region'Access,
-       Sub_Region => Colombia_Sub_Region'Access,
-       Intermediate_Region => Colombia_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Comoros_Name : aliased constant String := "Comoros";
-   Comoros_Alpha_2 : aliased constant String := "KM";
-   Comoros_Alpha_3 : aliased constant String := "COM";
-   Comoros_Iso_3166_2 : aliased constant String := "ISO 3166-2:KM";
-   Comoros_Region : aliased constant String := "Africa";
-   Comoros_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Comoros_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Comoros_Entry : aliased constant Country :=
-      (Name => Comoros_Name'Access,
-       Alpha_2 => Comoros_Alpha_2'Access,
-       Alpha_3 => Comoros_Alpha_3'Access,
-       Iso_3166_2 => Comoros_Iso_3166_2'Access,
-       Country_Code =>  174,
-       Region => Comoros_Region'Access,
-       Sub_Region => Comoros_Sub_Region'Access,
-       Intermediate_Region => Comoros_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Congo_Name : aliased constant String := "Congo";
-   Congo_Alpha_2 : aliased constant String := "CG";
-   Congo_Alpha_3 : aliased constant String := "COG";
-   Congo_Iso_3166_2 : aliased constant String := "ISO 3166-2:CG";
-   Congo_Region : aliased constant String := "Africa";
-   Congo_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Congo_Intermediate_Region : aliased constant String := "Middle Africa";
-   Congo_Entry : aliased constant Country :=
-      (Name => Congo_Name'Access,
-       Alpha_2 => Congo_Alpha_2'Access,
-       Alpha_3 => Congo_Alpha_3'Access,
-       Iso_3166_2 => Congo_Iso_3166_2'Access,
-       Country_Code =>  178,
-       Region => Congo_Region'Access,
-       Sub_Region => Congo_Sub_Region'Access,
-       Intermediate_Region => Congo_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Congo_Democratic_Republic_of_the_Name : aliased constant String := "Congo, Democratic Republic of the";
-   Congo_Democratic_Republic_of_the_Alpha_2 : aliased constant String := "CD";
-   Congo_Democratic_Republic_of_the_Alpha_3 : aliased constant String := "COD";
-   Congo_Democratic_Republic_of_the_Iso_3166_2 : aliased constant String := "ISO 3166-2:CD";
-   Congo_Democratic_Republic_of_the_Region : aliased constant String := "Africa";
-   Congo_Democratic_Republic_of_the_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Congo_Democratic_Republic_of_the_Intermediate_Region : aliased constant String := "Middle Africa";
-   Congo_Democratic_Republic_of_the_Entry : aliased constant Country :=
-      (Name => Congo_Democratic_Republic_of_the_Name'Access,
-       Alpha_2 => Congo_Democratic_Republic_of_the_Alpha_2'Access,
-       Alpha_3 => Congo_Democratic_Republic_of_the_Alpha_3'Access,
-       Iso_3166_2 => Congo_Democratic_Republic_of_the_Iso_3166_2'Access,
-       Country_Code =>  180,
-       Region => Congo_Democratic_Republic_of_the_Region'Access,
-       Sub_Region => Congo_Democratic_Republic_of_the_Sub_Region'Access,
-       Intermediate_Region => Congo_Democratic_Republic_of_the_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Cook_Islands_Name : aliased constant String := "Cook Islands";
-   Cook_Islands_Alpha_2 : aliased constant String := "CK";
-   Cook_Islands_Alpha_3 : aliased constant String := "COK";
-   Cook_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:CK";
-   Cook_Islands_Region : aliased constant String := "Oceania";
-   Cook_Islands_Sub_Region : aliased constant String := "Polynesia";
-   Cook_Islands_Intermediate_Region : aliased constant String := "";
-   Cook_Islands_Entry : aliased constant Country :=
-      (Name => Cook_Islands_Name'Access,
-       Alpha_2 => Cook_Islands_Alpha_2'Access,
-       Alpha_3 => Cook_Islands_Alpha_3'Access,
-       Iso_3166_2 => Cook_Islands_Iso_3166_2'Access,
-       Country_Code =>  184,
-       Region => Cook_Islands_Region'Access,
-       Sub_Region => Cook_Islands_Sub_Region'Access,
-       Intermediate_Region => Cook_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Costa_Rica_Name : aliased constant String := "Costa Rica";
-   Costa_Rica_Alpha_2 : aliased constant String := "CR";
-   Costa_Rica_Alpha_3 : aliased constant String := "CRI";
-   Costa_Rica_Iso_3166_2 : aliased constant String := "ISO 3166-2:CR";
-   Costa_Rica_Region : aliased constant String := "Americas";
-   Costa_Rica_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Costa_Rica_Intermediate_Region : aliased constant String := "Central America";
-   Costa_Rica_Entry : aliased constant Country :=
-      (Name => Costa_Rica_Name'Access,
-       Alpha_2 => Costa_Rica_Alpha_2'Access,
-       Alpha_3 => Costa_Rica_Alpha_3'Access,
-       Iso_3166_2 => Costa_Rica_Iso_3166_2'Access,
-       Country_Code =>  188,
-       Region => Costa_Rica_Region'Access,
-       Sub_Region => Costa_Rica_Sub_Region'Access,
-       Intermediate_Region => Costa_Rica_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Croatia_Name : aliased constant String := "Croatia";
-   Croatia_Alpha_2 : aliased constant String := "HR";
-   Croatia_Alpha_3 : aliased constant String := "HRV";
-   Croatia_Iso_3166_2 : aliased constant String := "ISO 3166-2:HR";
-   Croatia_Region : aliased constant String := "Europe";
-   Croatia_Sub_Region : aliased constant String := "Southern Europe";
-   Croatia_Intermediate_Region : aliased constant String := "";
-   Croatia_Entry : aliased constant Country :=
-      (Name => Croatia_Name'Access,
-       Alpha_2 => Croatia_Alpha_2'Access,
-       Alpha_3 => Croatia_Alpha_3'Access,
-       Iso_3166_2 => Croatia_Iso_3166_2'Access,
-       Country_Code =>  191,
-       Region => Croatia_Region'Access,
-       Sub_Region => Croatia_Sub_Region'Access,
-       Intermediate_Region => Croatia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Cuba_Name : aliased constant String := "Cuba";
-   Cuba_Alpha_2 : aliased constant String := "CU";
-   Cuba_Alpha_3 : aliased constant String := "CUB";
-   Cuba_Iso_3166_2 : aliased constant String := "ISO 3166-2:CU";
-   Cuba_Region : aliased constant String := "Americas";
-   Cuba_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Cuba_Intermediate_Region : aliased constant String := "Caribbean";
-   Cuba_Entry : aliased constant Country :=
-      (Name => Cuba_Name'Access,
-       Alpha_2 => Cuba_Alpha_2'Access,
-       Alpha_3 => Cuba_Alpha_3'Access,
-       Iso_3166_2 => Cuba_Iso_3166_2'Access,
-       Country_Code =>  192,
-       Region => Cuba_Region'Access,
-       Sub_Region => Cuba_Sub_Region'Access,
-       Intermediate_Region => Cuba_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Curaao_Name : aliased constant String := "Curaçao";
-   Curaao_Alpha_2 : aliased constant String := "CW";
-   Curaao_Alpha_3 : aliased constant String := "CUW";
-   Curaao_Iso_3166_2 : aliased constant String := "ISO 3166-2:CW";
-   Curaao_Region : aliased constant String := "Americas";
-   Curaao_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Curaao_Intermediate_Region : aliased constant String := "Caribbean";
-   Curaao_Entry : aliased constant Country :=
-      (Name => Curaao_Name'Access,
-       Alpha_2 => Curaao_Alpha_2'Access,
-       Alpha_3 => Curaao_Alpha_3'Access,
-       Iso_3166_2 => Curaao_Iso_3166_2'Access,
-       Country_Code =>  531,
-       Region => Curaao_Region'Access,
-       Sub_Region => Curaao_Sub_Region'Access,
-       Intermediate_Region => Curaao_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Cyprus_Name : aliased constant String := "Cyprus";
-   Cyprus_Alpha_2 : aliased constant String := "CY";
-   Cyprus_Alpha_3 : aliased constant String := "CYP";
-   Cyprus_Iso_3166_2 : aliased constant String := "ISO 3166-2:CY";
-   Cyprus_Region : aliased constant String := "Asia";
-   Cyprus_Sub_Region : aliased constant String := "Western Asia";
-   Cyprus_Intermediate_Region : aliased constant String := "";
-   Cyprus_Entry : aliased constant Country :=
-      (Name => Cyprus_Name'Access,
-       Alpha_2 => Cyprus_Alpha_2'Access,
-       Alpha_3 => Cyprus_Alpha_3'Access,
-       Iso_3166_2 => Cyprus_Iso_3166_2'Access,
-       Country_Code =>  196,
-       Region => Cyprus_Region'Access,
-       Sub_Region => Cyprus_Sub_Region'Access,
-       Intermediate_Region => Cyprus_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Czechia_Name : aliased constant String := "Czechia";
-   Czechia_Alpha_2 : aliased constant String := "CZ";
-   Czechia_Alpha_3 : aliased constant String := "CZE";
-   Czechia_Iso_3166_2 : aliased constant String := "ISO 3166-2:CZ";
-   Czechia_Region : aliased constant String := "Europe";
-   Czechia_Sub_Region : aliased constant String := "Eastern Europe";
-   Czechia_Intermediate_Region : aliased constant String := "";
-   Czechia_Entry : aliased constant Country :=
-      (Name => Czechia_Name'Access,
-       Alpha_2 => Czechia_Alpha_2'Access,
-       Alpha_3 => Czechia_Alpha_3'Access,
-       Iso_3166_2 => Czechia_Iso_3166_2'Access,
-       Country_Code =>  203,
-       Region => Czechia_Region'Access,
-       Sub_Region => Czechia_Sub_Region'Access,
-       Intermediate_Region => Czechia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Cte_dIvoire_Name : aliased constant String := "Côte d'Ivoire";
-   Cte_dIvoire_Alpha_2 : aliased constant String := "CI";
-   Cte_dIvoire_Alpha_3 : aliased constant String := "CIV";
-   Cte_dIvoire_Iso_3166_2 : aliased constant String := "ISO 3166-2:CI";
-   Cte_dIvoire_Region : aliased constant String := "Africa";
-   Cte_dIvoire_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Cte_dIvoire_Intermediate_Region : aliased constant String := "Western Africa";
-   Cte_dIvoire_Entry : aliased constant Country :=
-      (Name => Cte_dIvoire_Name'Access,
-       Alpha_2 => Cte_dIvoire_Alpha_2'Access,
-       Alpha_3 => Cte_dIvoire_Alpha_3'Access,
-       Iso_3166_2 => Cte_dIvoire_Iso_3166_2'Access,
-       Country_Code =>  384,
-       Region => Cte_dIvoire_Region'Access,
-       Sub_Region => Cte_dIvoire_Sub_Region'Access,
-       Intermediate_Region => Cte_dIvoire_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Denmark_Name : aliased constant String := "Denmark";
-   Denmark_Alpha_2 : aliased constant String := "DK";
-   Denmark_Alpha_3 : aliased constant String := "DNK";
-   Denmark_Iso_3166_2 : aliased constant String := "ISO 3166-2:DK";
-   Denmark_Region : aliased constant String := "Europe";
-   Denmark_Sub_Region : aliased constant String := "Northern Europe";
-   Denmark_Intermediate_Region : aliased constant String := "";
-   Denmark_Entry : aliased constant Country :=
-      (Name => Denmark_Name'Access,
-       Alpha_2 => Denmark_Alpha_2'Access,
-       Alpha_3 => Denmark_Alpha_3'Access,
-       Iso_3166_2 => Denmark_Iso_3166_2'Access,
-       Country_Code =>  208,
-       Region => Denmark_Region'Access,
-       Sub_Region => Denmark_Sub_Region'Access,
-       Intermediate_Region => Denmark_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Djibouti_Name : aliased constant String := "Djibouti";
-   Djibouti_Alpha_2 : aliased constant String := "DJ";
-   Djibouti_Alpha_3 : aliased constant String := "DJI";
-   Djibouti_Iso_3166_2 : aliased constant String := "ISO 3166-2:DJ";
-   Djibouti_Region : aliased constant String := "Africa";
-   Djibouti_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Djibouti_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Djibouti_Entry : aliased constant Country :=
-      (Name => Djibouti_Name'Access,
-       Alpha_2 => Djibouti_Alpha_2'Access,
-       Alpha_3 => Djibouti_Alpha_3'Access,
-       Iso_3166_2 => Djibouti_Iso_3166_2'Access,
-       Country_Code =>  262,
-       Region => Djibouti_Region'Access,
-       Sub_Region => Djibouti_Sub_Region'Access,
-       Intermediate_Region => Djibouti_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Dominica_Name : aliased constant String := "Dominica";
-   Dominica_Alpha_2 : aliased constant String := "DM";
-   Dominica_Alpha_3 : aliased constant String := "DMA";
-   Dominica_Iso_3166_2 : aliased constant String := "ISO 3166-2:DM";
-   Dominica_Region : aliased constant String := "Americas";
-   Dominica_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Dominica_Intermediate_Region : aliased constant String := "Caribbean";
-   Dominica_Entry : aliased constant Country :=
-      (Name => Dominica_Name'Access,
-       Alpha_2 => Dominica_Alpha_2'Access,
-       Alpha_3 => Dominica_Alpha_3'Access,
-       Iso_3166_2 => Dominica_Iso_3166_2'Access,
-       Country_Code =>  212,
-       Region => Dominica_Region'Access,
-       Sub_Region => Dominica_Sub_Region'Access,
-       Intermediate_Region => Dominica_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Dominican_Republic_Name : aliased constant String := "Dominican Republic";
-   Dominican_Republic_Alpha_2 : aliased constant String := "DO";
-   Dominican_Republic_Alpha_3 : aliased constant String := "DOM";
-   Dominican_Republic_Iso_3166_2 : aliased constant String := "ISO 3166-2:DO";
-   Dominican_Republic_Region : aliased constant String := "Americas";
-   Dominican_Republic_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Dominican_Republic_Intermediate_Region : aliased constant String := "Caribbean";
-   Dominican_Republic_Entry : aliased constant Country :=
-      (Name => Dominican_Republic_Name'Access,
-       Alpha_2 => Dominican_Republic_Alpha_2'Access,
-       Alpha_3 => Dominican_Republic_Alpha_3'Access,
-       Iso_3166_2 => Dominican_Republic_Iso_3166_2'Access,
-       Country_Code =>  214,
-       Region => Dominican_Republic_Region'Access,
-       Sub_Region => Dominican_Republic_Sub_Region'Access,
-       Intermediate_Region => Dominican_Republic_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Ecuador_Name : aliased constant String := "Ecuador";
-   Ecuador_Alpha_2 : aliased constant String := "EC";
-   Ecuador_Alpha_3 : aliased constant String := "ECU";
-   Ecuador_Iso_3166_2 : aliased constant String := "ISO 3166-2:EC";
-   Ecuador_Region : aliased constant String := "Americas";
-   Ecuador_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Ecuador_Intermediate_Region : aliased constant String := "South America";
-   Ecuador_Entry : aliased constant Country :=
-      (Name => Ecuador_Name'Access,
-       Alpha_2 => Ecuador_Alpha_2'Access,
-       Alpha_3 => Ecuador_Alpha_3'Access,
-       Iso_3166_2 => Ecuador_Iso_3166_2'Access,
-       Country_Code =>  218,
-       Region => Ecuador_Region'Access,
-       Sub_Region => Ecuador_Sub_Region'Access,
-       Intermediate_Region => Ecuador_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Egypt_Name : aliased constant String := "Egypt";
-   Egypt_Alpha_2 : aliased constant String := "EG";
-   Egypt_Alpha_3 : aliased constant String := "EGY";
-   Egypt_Iso_3166_2 : aliased constant String := "ISO 3166-2:EG";
-   Egypt_Region : aliased constant String := "Africa";
-   Egypt_Sub_Region : aliased constant String := "Northern Africa";
-   Egypt_Intermediate_Region : aliased constant String := "";
-   Egypt_Entry : aliased constant Country :=
-      (Name => Egypt_Name'Access,
-       Alpha_2 => Egypt_Alpha_2'Access,
-       Alpha_3 => Egypt_Alpha_3'Access,
-       Iso_3166_2 => Egypt_Iso_3166_2'Access,
-       Country_Code =>  818,
-       Region => Egypt_Region'Access,
-       Sub_Region => Egypt_Sub_Region'Access,
-       Intermediate_Region => Egypt_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   El_Salvador_Name : aliased constant String := "El Salvador";
-   El_Salvador_Alpha_2 : aliased constant String := "SV";
-   El_Salvador_Alpha_3 : aliased constant String := "SLV";
-   El_Salvador_Iso_3166_2 : aliased constant String := "ISO 3166-2:SV";
-   El_Salvador_Region : aliased constant String := "Americas";
-   El_Salvador_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   El_Salvador_Intermediate_Region : aliased constant String := "Central America";
-   El_Salvador_Entry : aliased constant Country :=
-      (Name => El_Salvador_Name'Access,
-       Alpha_2 => El_Salvador_Alpha_2'Access,
-       Alpha_3 => El_Salvador_Alpha_3'Access,
-       Iso_3166_2 => El_Salvador_Iso_3166_2'Access,
-       Country_Code =>  222,
-       Region => El_Salvador_Region'Access,
-       Sub_Region => El_Salvador_Sub_Region'Access,
-       Intermediate_Region => El_Salvador_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Equatorial_Guinea_Name : aliased constant String := "Equatorial Guinea";
-   Equatorial_Guinea_Alpha_2 : aliased constant String := "GQ";
-   Equatorial_Guinea_Alpha_3 : aliased constant String := "GNQ";
-   Equatorial_Guinea_Iso_3166_2 : aliased constant String := "ISO 3166-2:GQ";
-   Equatorial_Guinea_Region : aliased constant String := "Africa";
-   Equatorial_Guinea_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Equatorial_Guinea_Intermediate_Region : aliased constant String := "Middle Africa";
-   Equatorial_Guinea_Entry : aliased constant Country :=
-      (Name => Equatorial_Guinea_Name'Access,
-       Alpha_2 => Equatorial_Guinea_Alpha_2'Access,
-       Alpha_3 => Equatorial_Guinea_Alpha_3'Access,
-       Iso_3166_2 => Equatorial_Guinea_Iso_3166_2'Access,
-       Country_Code =>  226,
-       Region => Equatorial_Guinea_Region'Access,
-       Sub_Region => Equatorial_Guinea_Sub_Region'Access,
-       Intermediate_Region => Equatorial_Guinea_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Eritrea_Name : aliased constant String := "Eritrea";
-   Eritrea_Alpha_2 : aliased constant String := "ER";
-   Eritrea_Alpha_3 : aliased constant String := "ERI";
-   Eritrea_Iso_3166_2 : aliased constant String := "ISO 3166-2:ER";
-   Eritrea_Region : aliased constant String := "Africa";
-   Eritrea_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Eritrea_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Eritrea_Entry : aliased constant Country :=
-      (Name => Eritrea_Name'Access,
-       Alpha_2 => Eritrea_Alpha_2'Access,
-       Alpha_3 => Eritrea_Alpha_3'Access,
-       Iso_3166_2 => Eritrea_Iso_3166_2'Access,
-       Country_Code =>  232,
-       Region => Eritrea_Region'Access,
-       Sub_Region => Eritrea_Sub_Region'Access,
-       Intermediate_Region => Eritrea_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Estonia_Name : aliased constant String := "Estonia";
-   Estonia_Alpha_2 : aliased constant String := "EE";
-   Estonia_Alpha_3 : aliased constant String := "EST";
-   Estonia_Iso_3166_2 : aliased constant String := "ISO 3166-2:EE";
-   Estonia_Region : aliased constant String := "Europe";
-   Estonia_Sub_Region : aliased constant String := "Northern Europe";
-   Estonia_Intermediate_Region : aliased constant String := "";
-   Estonia_Entry : aliased constant Country :=
-      (Name => Estonia_Name'Access,
-       Alpha_2 => Estonia_Alpha_2'Access,
-       Alpha_3 => Estonia_Alpha_3'Access,
-       Iso_3166_2 => Estonia_Iso_3166_2'Access,
-       Country_Code =>  233,
-       Region => Estonia_Region'Access,
-       Sub_Region => Estonia_Sub_Region'Access,
-       Intermediate_Region => Estonia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Eswatini_Name : aliased constant String := "Eswatini";
-   Eswatini_Alpha_2 : aliased constant String := "SZ";
-   Eswatini_Alpha_3 : aliased constant String := "SWZ";
-   Eswatini_Iso_3166_2 : aliased constant String := "ISO 3166-2:SZ";
-   Eswatini_Region : aliased constant String := "Africa";
-   Eswatini_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Eswatini_Intermediate_Region : aliased constant String := "Southern Africa";
-   Eswatini_Entry : aliased constant Country :=
-      (Name => Eswatini_Name'Access,
-       Alpha_2 => Eswatini_Alpha_2'Access,
-       Alpha_3 => Eswatini_Alpha_3'Access,
-       Iso_3166_2 => Eswatini_Iso_3166_2'Access,
-       Country_Code =>  748,
-       Region => Eswatini_Region'Access,
-       Sub_Region => Eswatini_Sub_Region'Access,
-       Intermediate_Region => Eswatini_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  18);
-   Ethiopia_Name : aliased constant String := "Ethiopia";
-   Ethiopia_Alpha_2 : aliased constant String := "ET";
-   Ethiopia_Alpha_3 : aliased constant String := "ETH";
-   Ethiopia_Iso_3166_2 : aliased constant String := "ISO 3166-2:ET";
-   Ethiopia_Region : aliased constant String := "Africa";
-   Ethiopia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Ethiopia_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Ethiopia_Entry : aliased constant Country :=
-      (Name => Ethiopia_Name'Access,
-       Alpha_2 => Ethiopia_Alpha_2'Access,
-       Alpha_3 => Ethiopia_Alpha_3'Access,
-       Iso_3166_2 => Ethiopia_Iso_3166_2'Access,
-       Country_Code =>  231,
-       Region => Ethiopia_Region'Access,
-       Sub_Region => Ethiopia_Sub_Region'Access,
-       Intermediate_Region => Ethiopia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Falkland_Islands_Malvinas_Name : aliased constant String := "Falkland Islands (Malvinas)";
-   Falkland_Islands_Malvinas_Alpha_2 : aliased constant String := "FK";
-   Falkland_Islands_Malvinas_Alpha_3 : aliased constant String := "FLK";
-   Falkland_Islands_Malvinas_Iso_3166_2 : aliased constant String := "ISO 3166-2:FK";
-   Falkland_Islands_Malvinas_Region : aliased constant String := "Americas";
-   Falkland_Islands_Malvinas_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Falkland_Islands_Malvinas_Intermediate_Region : aliased constant String := "South America";
-   Falkland_Islands_Malvinas_Entry : aliased constant Country :=
-      (Name => Falkland_Islands_Malvinas_Name'Access,
-       Alpha_2 => Falkland_Islands_Malvinas_Alpha_2'Access,
-       Alpha_3 => Falkland_Islands_Malvinas_Alpha_3'Access,
-       Iso_3166_2 => Falkland_Islands_Malvinas_Iso_3166_2'Access,
-       Country_Code =>  238,
-       Region => Falkland_Islands_Malvinas_Region'Access,
-       Sub_Region => Falkland_Islands_Malvinas_Sub_Region'Access,
-       Intermediate_Region => Falkland_Islands_Malvinas_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Faroe_Islands_Name : aliased constant String := "Faroe Islands";
-   Faroe_Islands_Alpha_2 : aliased constant String := "FO";
-   Faroe_Islands_Alpha_3 : aliased constant String := "FRO";
-   Faroe_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:FO";
-   Faroe_Islands_Region : aliased constant String := "Europe";
-   Faroe_Islands_Sub_Region : aliased constant String := "Northern Europe";
-   Faroe_Islands_Intermediate_Region : aliased constant String := "";
-   Faroe_Islands_Entry : aliased constant Country :=
-      (Name => Faroe_Islands_Name'Access,
-       Alpha_2 => Faroe_Islands_Alpha_2'Access,
-       Alpha_3 => Faroe_Islands_Alpha_3'Access,
-       Iso_3166_2 => Faroe_Islands_Iso_3166_2'Access,
-       Country_Code =>  234,
-       Region => Faroe_Islands_Region'Access,
-       Sub_Region => Faroe_Islands_Sub_Region'Access,
-       Intermediate_Region => Faroe_Islands_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Fiji_Name : aliased constant String := "Fiji";
-   Fiji_Alpha_2 : aliased constant String := "FJ";
-   Fiji_Alpha_3 : aliased constant String := "FJI";
-   Fiji_Iso_3166_2 : aliased constant String := "ISO 3166-2:FJ";
-   Fiji_Region : aliased constant String := "Oceania";
-   Fiji_Sub_Region : aliased constant String := "Melanesia";
-   Fiji_Intermediate_Region : aliased constant String := "";
-   Fiji_Entry : aliased constant Country :=
-      (Name => Fiji_Name'Access,
-       Alpha_2 => Fiji_Alpha_2'Access,
-       Alpha_3 => Fiji_Alpha_3'Access,
-       Iso_3166_2 => Fiji_Iso_3166_2'Access,
-       Country_Code =>  242,
-       Region => Fiji_Region'Access,
-       Sub_Region => Fiji_Sub_Region'Access,
-       Intermediate_Region => Fiji_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  54,
-       Intermediate_Region_Code =>  0);
-   Finland_Name : aliased constant String := "Finland";
-   Finland_Alpha_2 : aliased constant String := "FI";
-   Finland_Alpha_3 : aliased constant String := "FIN";
-   Finland_Iso_3166_2 : aliased constant String := "ISO 3166-2:FI";
-   Finland_Region : aliased constant String := "Europe";
-   Finland_Sub_Region : aliased constant String := "Northern Europe";
-   Finland_Intermediate_Region : aliased constant String := "";
-   Finland_Entry : aliased constant Country :=
-      (Name => Finland_Name'Access,
-       Alpha_2 => Finland_Alpha_2'Access,
-       Alpha_3 => Finland_Alpha_3'Access,
-       Iso_3166_2 => Finland_Iso_3166_2'Access,
-       Country_Code =>  246,
-       Region => Finland_Region'Access,
-       Sub_Region => Finland_Sub_Region'Access,
-       Intermediate_Region => Finland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   France_Name : aliased constant String := "France";
-   France_Alpha_2 : aliased constant String := "FR";
-   France_Alpha_3 : aliased constant String := "FRA";
-   France_Iso_3166_2 : aliased constant String := "ISO 3166-2:FR";
-   France_Region : aliased constant String := "Europe";
-   France_Sub_Region : aliased constant String := "Western Europe";
-   France_Intermediate_Region : aliased constant String := "";
-   France_Entry : aliased constant Country :=
-      (Name => France_Name'Access,
-       Alpha_2 => France_Alpha_2'Access,
-       Alpha_3 => France_Alpha_3'Access,
-       Iso_3166_2 => France_Iso_3166_2'Access,
-       Country_Code =>  250,
-       Region => France_Region'Access,
-       Sub_Region => France_Sub_Region'Access,
-       Intermediate_Region => France_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   French_Guiana_Name : aliased constant String := "French Guiana";
-   French_Guiana_Alpha_2 : aliased constant String := "GF";
-   French_Guiana_Alpha_3 : aliased constant String := "GUF";
-   French_Guiana_Iso_3166_2 : aliased constant String := "ISO 3166-2:GF";
-   French_Guiana_Region : aliased constant String := "Americas";
-   French_Guiana_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   French_Guiana_Intermediate_Region : aliased constant String := "South America";
-   French_Guiana_Entry : aliased constant Country :=
-      (Name => French_Guiana_Name'Access,
-       Alpha_2 => French_Guiana_Alpha_2'Access,
-       Alpha_3 => French_Guiana_Alpha_3'Access,
-       Iso_3166_2 => French_Guiana_Iso_3166_2'Access,
-       Country_Code =>  254,
-       Region => French_Guiana_Region'Access,
-       Sub_Region => French_Guiana_Sub_Region'Access,
-       Intermediate_Region => French_Guiana_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   French_Polynesia_Name : aliased constant String := "French Polynesia";
-   French_Polynesia_Alpha_2 : aliased constant String := "PF";
-   French_Polynesia_Alpha_3 : aliased constant String := "PYF";
-   French_Polynesia_Iso_3166_2 : aliased constant String := "ISO 3166-2:PF";
-   French_Polynesia_Region : aliased constant String := "Oceania";
-   French_Polynesia_Sub_Region : aliased constant String := "Polynesia";
-   French_Polynesia_Intermediate_Region : aliased constant String := "";
-   French_Polynesia_Entry : aliased constant Country :=
-      (Name => French_Polynesia_Name'Access,
-       Alpha_2 => French_Polynesia_Alpha_2'Access,
-       Alpha_3 => French_Polynesia_Alpha_3'Access,
-       Iso_3166_2 => French_Polynesia_Iso_3166_2'Access,
-       Country_Code =>  258,
-       Region => French_Polynesia_Region'Access,
-       Sub_Region => French_Polynesia_Sub_Region'Access,
-       Intermediate_Region => French_Polynesia_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   French_Southern_Territories_Name : aliased constant String := "French Southern Territories";
-   French_Southern_Territories_Alpha_2 : aliased constant String := "TF";
-   French_Southern_Territories_Alpha_3 : aliased constant String := "ATF";
-   French_Southern_Territories_Iso_3166_2 : aliased constant String := "ISO 3166-2:TF";
-   French_Southern_Territories_Region : aliased constant String := "Africa";
-   French_Southern_Territories_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   French_Southern_Territories_Intermediate_Region : aliased constant String := "Eastern Africa";
-   French_Southern_Territories_Entry : aliased constant Country :=
-      (Name => French_Southern_Territories_Name'Access,
-       Alpha_2 => French_Southern_Territories_Alpha_2'Access,
-       Alpha_3 => French_Southern_Territories_Alpha_3'Access,
-       Iso_3166_2 => French_Southern_Territories_Iso_3166_2'Access,
-       Country_Code =>  260,
-       Region => French_Southern_Territories_Region'Access,
-       Sub_Region => French_Southern_Territories_Sub_Region'Access,
-       Intermediate_Region => French_Southern_Territories_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Gabon_Name : aliased constant String := "Gabon";
-   Gabon_Alpha_2 : aliased constant String := "GA";
-   Gabon_Alpha_3 : aliased constant String := "GAB";
-   Gabon_Iso_3166_2 : aliased constant String := "ISO 3166-2:GA";
-   Gabon_Region : aliased constant String := "Africa";
-   Gabon_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Gabon_Intermediate_Region : aliased constant String := "Middle Africa";
-   Gabon_Entry : aliased constant Country :=
-      (Name => Gabon_Name'Access,
-       Alpha_2 => Gabon_Alpha_2'Access,
-       Alpha_3 => Gabon_Alpha_3'Access,
-       Iso_3166_2 => Gabon_Iso_3166_2'Access,
-       Country_Code =>  266,
-       Region => Gabon_Region'Access,
-       Sub_Region => Gabon_Sub_Region'Access,
-       Intermediate_Region => Gabon_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Gambia_Name : aliased constant String := "Gambia";
-   Gambia_Alpha_2 : aliased constant String := "GM";
-   Gambia_Alpha_3 : aliased constant String := "GMB";
-   Gambia_Iso_3166_2 : aliased constant String := "ISO 3166-2:GM";
-   Gambia_Region : aliased constant String := "Africa";
-   Gambia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Gambia_Intermediate_Region : aliased constant String := "Western Africa";
-   Gambia_Entry : aliased constant Country :=
-      (Name => Gambia_Name'Access,
-       Alpha_2 => Gambia_Alpha_2'Access,
-       Alpha_3 => Gambia_Alpha_3'Access,
-       Iso_3166_2 => Gambia_Iso_3166_2'Access,
-       Country_Code =>  270,
-       Region => Gambia_Region'Access,
-       Sub_Region => Gambia_Sub_Region'Access,
-       Intermediate_Region => Gambia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Georgia_Name : aliased constant String := "Georgia";
-   Georgia_Alpha_2 : aliased constant String := "GE";
-   Georgia_Alpha_3 : aliased constant String := "GEO";
-   Georgia_Iso_3166_2 : aliased constant String := "ISO 3166-2:GE";
-   Georgia_Region : aliased constant String := "Asia";
-   Georgia_Sub_Region : aliased constant String := "Western Asia";
-   Georgia_Intermediate_Region : aliased constant String := "";
-   Georgia_Entry : aliased constant Country :=
-      (Name => Georgia_Name'Access,
-       Alpha_2 => Georgia_Alpha_2'Access,
-       Alpha_3 => Georgia_Alpha_3'Access,
-       Iso_3166_2 => Georgia_Iso_3166_2'Access,
-       Country_Code =>  268,
-       Region => Georgia_Region'Access,
-       Sub_Region => Georgia_Sub_Region'Access,
-       Intermediate_Region => Georgia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Germany_Name : aliased constant String := "Germany";
-   Germany_Alpha_2 : aliased constant String := "DE";
-   Germany_Alpha_3 : aliased constant String := "DEU";
-   Germany_Iso_3166_2 : aliased constant String := "ISO 3166-2:DE";
-   Germany_Region : aliased constant String := "Europe";
-   Germany_Sub_Region : aliased constant String := "Western Europe";
-   Germany_Intermediate_Region : aliased constant String := "";
-   Germany_Entry : aliased constant Country :=
-      (Name => Germany_Name'Access,
-       Alpha_2 => Germany_Alpha_2'Access,
-       Alpha_3 => Germany_Alpha_3'Access,
-       Iso_3166_2 => Germany_Iso_3166_2'Access,
-       Country_Code =>  276,
-       Region => Germany_Region'Access,
-       Sub_Region => Germany_Sub_Region'Access,
-       Intermediate_Region => Germany_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Ghana_Name : aliased constant String := "Ghana";
-   Ghana_Alpha_2 : aliased constant String := "GH";
-   Ghana_Alpha_3 : aliased constant String := "GHA";
-   Ghana_Iso_3166_2 : aliased constant String := "ISO 3166-2:GH";
-   Ghana_Region : aliased constant String := "Africa";
-   Ghana_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Ghana_Intermediate_Region : aliased constant String := "Western Africa";
-   Ghana_Entry : aliased constant Country :=
-      (Name => Ghana_Name'Access,
-       Alpha_2 => Ghana_Alpha_2'Access,
-       Alpha_3 => Ghana_Alpha_3'Access,
-       Iso_3166_2 => Ghana_Iso_3166_2'Access,
-       Country_Code =>  288,
-       Region => Ghana_Region'Access,
-       Sub_Region => Ghana_Sub_Region'Access,
-       Intermediate_Region => Ghana_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Gibraltar_Name : aliased constant String := "Gibraltar";
-   Gibraltar_Alpha_2 : aliased constant String := "GI";
-   Gibraltar_Alpha_3 : aliased constant String := "GIB";
-   Gibraltar_Iso_3166_2 : aliased constant String := "ISO 3166-2:GI";
-   Gibraltar_Region : aliased constant String := "Europe";
-   Gibraltar_Sub_Region : aliased constant String := "Southern Europe";
-   Gibraltar_Intermediate_Region : aliased constant String := "";
-   Gibraltar_Entry : aliased constant Country :=
-      (Name => Gibraltar_Name'Access,
-       Alpha_2 => Gibraltar_Alpha_2'Access,
-       Alpha_3 => Gibraltar_Alpha_3'Access,
-       Iso_3166_2 => Gibraltar_Iso_3166_2'Access,
-       Country_Code =>  292,
-       Region => Gibraltar_Region'Access,
-       Sub_Region => Gibraltar_Sub_Region'Access,
-       Intermediate_Region => Gibraltar_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Greece_Name : aliased constant String := "Greece";
-   Greece_Alpha_2 : aliased constant String := "GR";
-   Greece_Alpha_3 : aliased constant String := "GRC";
-   Greece_Iso_3166_2 : aliased constant String := "ISO 3166-2:GR";
-   Greece_Region : aliased constant String := "Europe";
-   Greece_Sub_Region : aliased constant String := "Southern Europe";
-   Greece_Intermediate_Region : aliased constant String := "";
-   Greece_Entry : aliased constant Country :=
-      (Name => Greece_Name'Access,
-       Alpha_2 => Greece_Alpha_2'Access,
-       Alpha_3 => Greece_Alpha_3'Access,
-       Iso_3166_2 => Greece_Iso_3166_2'Access,
-       Country_Code =>  300,
-       Region => Greece_Region'Access,
-       Sub_Region => Greece_Sub_Region'Access,
-       Intermediate_Region => Greece_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Greenland_Name : aliased constant String := "Greenland";
-   Greenland_Alpha_2 : aliased constant String := "GL";
-   Greenland_Alpha_3 : aliased constant String := "GRL";
-   Greenland_Iso_3166_2 : aliased constant String := "ISO 3166-2:GL";
-   Greenland_Region : aliased constant String := "Americas";
-   Greenland_Sub_Region : aliased constant String := "Northern America";
-   Greenland_Intermediate_Region : aliased constant String := "";
-   Greenland_Entry : aliased constant Country :=
-      (Name => Greenland_Name'Access,
-       Alpha_2 => Greenland_Alpha_2'Access,
-       Alpha_3 => Greenland_Alpha_3'Access,
-       Iso_3166_2 => Greenland_Iso_3166_2'Access,
-       Country_Code =>  304,
-       Region => Greenland_Region'Access,
-       Sub_Region => Greenland_Sub_Region'Access,
-       Intermediate_Region => Greenland_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  21,
-       Intermediate_Region_Code =>  0);
-   Grenada_Name : aliased constant String := "Grenada";
-   Grenada_Alpha_2 : aliased constant String := "GD";
-   Grenada_Alpha_3 : aliased constant String := "GRD";
-   Grenada_Iso_3166_2 : aliased constant String := "ISO 3166-2:GD";
-   Grenada_Region : aliased constant String := "Americas";
-   Grenada_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Grenada_Intermediate_Region : aliased constant String := "Caribbean";
-   Grenada_Entry : aliased constant Country :=
-      (Name => Grenada_Name'Access,
-       Alpha_2 => Grenada_Alpha_2'Access,
-       Alpha_3 => Grenada_Alpha_3'Access,
-       Iso_3166_2 => Grenada_Iso_3166_2'Access,
-       Country_Code =>  308,
-       Region => Grenada_Region'Access,
-       Sub_Region => Grenada_Sub_Region'Access,
-       Intermediate_Region => Grenada_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Guadeloupe_Name : aliased constant String := "Guadeloupe";
-   Guadeloupe_Alpha_2 : aliased constant String := "GP";
-   Guadeloupe_Alpha_3 : aliased constant String := "GLP";
-   Guadeloupe_Iso_3166_2 : aliased constant String := "ISO 3166-2:GP";
-   Guadeloupe_Region : aliased constant String := "Americas";
-   Guadeloupe_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Guadeloupe_Intermediate_Region : aliased constant String := "Caribbean";
-   Guadeloupe_Entry : aliased constant Country :=
-      (Name => Guadeloupe_Name'Access,
-       Alpha_2 => Guadeloupe_Alpha_2'Access,
-       Alpha_3 => Guadeloupe_Alpha_3'Access,
-       Iso_3166_2 => Guadeloupe_Iso_3166_2'Access,
-       Country_Code =>  312,
-       Region => Guadeloupe_Region'Access,
-       Sub_Region => Guadeloupe_Sub_Region'Access,
-       Intermediate_Region => Guadeloupe_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Guam_Name : aliased constant String := "Guam";
-   Guam_Alpha_2 : aliased constant String := "GU";
-   Guam_Alpha_3 : aliased constant String := "GUM";
-   Guam_Iso_3166_2 : aliased constant String := "ISO 3166-2:GU";
-   Guam_Region : aliased constant String := "Oceania";
-   Guam_Sub_Region : aliased constant String := "Micronesia";
-   Guam_Intermediate_Region : aliased constant String := "";
-   Guam_Entry : aliased constant Country :=
-      (Name => Guam_Name'Access,
-       Alpha_2 => Guam_Alpha_2'Access,
-       Alpha_3 => Guam_Alpha_3'Access,
-       Iso_3166_2 => Guam_Iso_3166_2'Access,
-       Country_Code =>  316,
-       Region => Guam_Region'Access,
-       Sub_Region => Guam_Sub_Region'Access,
-       Intermediate_Region => Guam_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Guatemala_Name : aliased constant String := "Guatemala";
-   Guatemala_Alpha_2 : aliased constant String := "GT";
-   Guatemala_Alpha_3 : aliased constant String := "GTM";
-   Guatemala_Iso_3166_2 : aliased constant String := "ISO 3166-2:GT";
-   Guatemala_Region : aliased constant String := "Americas";
-   Guatemala_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Guatemala_Intermediate_Region : aliased constant String := "Central America";
-   Guatemala_Entry : aliased constant Country :=
-      (Name => Guatemala_Name'Access,
-       Alpha_2 => Guatemala_Alpha_2'Access,
-       Alpha_3 => Guatemala_Alpha_3'Access,
-       Iso_3166_2 => Guatemala_Iso_3166_2'Access,
-       Country_Code =>  320,
-       Region => Guatemala_Region'Access,
-       Sub_Region => Guatemala_Sub_Region'Access,
-       Intermediate_Region => Guatemala_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Guernsey_Name : aliased constant String := "Guernsey";
-   Guernsey_Alpha_2 : aliased constant String := "GG";
-   Guernsey_Alpha_3 : aliased constant String := "GGY";
-   Guernsey_Iso_3166_2 : aliased constant String := "ISO 3166-2:GG";
-   Guernsey_Region : aliased constant String := "Europe";
-   Guernsey_Sub_Region : aliased constant String := "Northern Europe";
-   Guernsey_Intermediate_Region : aliased constant String := "Channel Islands";
-   Guernsey_Entry : aliased constant Country :=
-      (Name => Guernsey_Name'Access,
-       Alpha_2 => Guernsey_Alpha_2'Access,
-       Alpha_3 => Guernsey_Alpha_3'Access,
-       Iso_3166_2 => Guernsey_Iso_3166_2'Access,
-       Country_Code =>  831,
-       Region => Guernsey_Region'Access,
-       Sub_Region => Guernsey_Sub_Region'Access,
-       Intermediate_Region => Guernsey_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  830);
-   Guinea_Name : aliased constant String := "Guinea";
-   Guinea_Alpha_2 : aliased constant String := "GN";
-   Guinea_Alpha_3 : aliased constant String := "GIN";
-   Guinea_Iso_3166_2 : aliased constant String := "ISO 3166-2:GN";
-   Guinea_Region : aliased constant String := "Africa";
-   Guinea_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Guinea_Intermediate_Region : aliased constant String := "Western Africa";
-   Guinea_Entry : aliased constant Country :=
-      (Name => Guinea_Name'Access,
-       Alpha_2 => Guinea_Alpha_2'Access,
-       Alpha_3 => Guinea_Alpha_3'Access,
-       Iso_3166_2 => Guinea_Iso_3166_2'Access,
-       Country_Code =>  324,
-       Region => Guinea_Region'Access,
-       Sub_Region => Guinea_Sub_Region'Access,
-       Intermediate_Region => Guinea_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   GuineaBissau_Name : aliased constant String := "Guinea-Bissau";
-   GuineaBissau_Alpha_2 : aliased constant String := "GW";
-   GuineaBissau_Alpha_3 : aliased constant String := "GNB";
-   GuineaBissau_Iso_3166_2 : aliased constant String := "ISO 3166-2:GW";
-   GuineaBissau_Region : aliased constant String := "Africa";
-   GuineaBissau_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   GuineaBissau_Intermediate_Region : aliased constant String := "Western Africa";
-   GuineaBissau_Entry : aliased constant Country :=
-      (Name => GuineaBissau_Name'Access,
-       Alpha_2 => GuineaBissau_Alpha_2'Access,
-       Alpha_3 => GuineaBissau_Alpha_3'Access,
-       Iso_3166_2 => GuineaBissau_Iso_3166_2'Access,
-       Country_Code =>  624,
-       Region => GuineaBissau_Region'Access,
-       Sub_Region => GuineaBissau_Sub_Region'Access,
-       Intermediate_Region => GuineaBissau_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Guyana_Name : aliased constant String := "Guyana";
-   Guyana_Alpha_2 : aliased constant String := "GY";
-   Guyana_Alpha_3 : aliased constant String := "GUY";
-   Guyana_Iso_3166_2 : aliased constant String := "ISO 3166-2:GY";
-   Guyana_Region : aliased constant String := "Americas";
-   Guyana_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Guyana_Intermediate_Region : aliased constant String := "South America";
-   Guyana_Entry : aliased constant Country :=
-      (Name => Guyana_Name'Access,
-       Alpha_2 => Guyana_Alpha_2'Access,
-       Alpha_3 => Guyana_Alpha_3'Access,
-       Iso_3166_2 => Guyana_Iso_3166_2'Access,
-       Country_Code =>  328,
-       Region => Guyana_Region'Access,
-       Sub_Region => Guyana_Sub_Region'Access,
-       Intermediate_Region => Guyana_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Haiti_Name : aliased constant String := "Haiti";
-   Haiti_Alpha_2 : aliased constant String := "HT";
-   Haiti_Alpha_3 : aliased constant String := "HTI";
-   Haiti_Iso_3166_2 : aliased constant String := "ISO 3166-2:HT";
-   Haiti_Region : aliased constant String := "Americas";
-   Haiti_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Haiti_Intermediate_Region : aliased constant String := "Caribbean";
-   Haiti_Entry : aliased constant Country :=
-      (Name => Haiti_Name'Access,
-       Alpha_2 => Haiti_Alpha_2'Access,
-       Alpha_3 => Haiti_Alpha_3'Access,
-       Iso_3166_2 => Haiti_Iso_3166_2'Access,
-       Country_Code =>  332,
-       Region => Haiti_Region'Access,
-       Sub_Region => Haiti_Sub_Region'Access,
-       Intermediate_Region => Haiti_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Heard_Island_and_McDonald_Islands_Name : aliased constant String := "Heard Island and McDonald Islands";
-   Heard_Island_and_McDonald_Islands_Alpha_2 : aliased constant String := "HM";
-   Heard_Island_and_McDonald_Islands_Alpha_3 : aliased constant String := "HMD";
-   Heard_Island_and_McDonald_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:HM";
-   Heard_Island_and_McDonald_Islands_Region : aliased constant String := "Oceania";
-   Heard_Island_and_McDonald_Islands_Sub_Region : aliased constant String := "Australia and New Zealand";
-   Heard_Island_and_McDonald_Islands_Intermediate_Region : aliased constant String := "";
-   Heard_Island_and_McDonald_Islands_Entry : aliased constant Country :=
-      (Name => Heard_Island_and_McDonald_Islands_Name'Access,
-       Alpha_2 => Heard_Island_and_McDonald_Islands_Alpha_2'Access,
-       Alpha_3 => Heard_Island_and_McDonald_Islands_Alpha_3'Access,
-       Iso_3166_2 => Heard_Island_and_McDonald_Islands_Iso_3166_2'Access,
-       Country_Code =>  334,
-       Region => Heard_Island_and_McDonald_Islands_Region'Access,
-       Sub_Region => Heard_Island_and_McDonald_Islands_Sub_Region'Access,
-       Intermediate_Region => Heard_Island_and_McDonald_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   Holy_See_Name : aliased constant String := "Holy See";
-   Holy_See_Alpha_2 : aliased constant String := "VA";
-   Holy_See_Alpha_3 : aliased constant String := "VAT";
-   Holy_See_Iso_3166_2 : aliased constant String := "ISO 3166-2:VA";
-   Holy_See_Region : aliased constant String := "Europe";
-   Holy_See_Sub_Region : aliased constant String := "Southern Europe";
-   Holy_See_Intermediate_Region : aliased constant String := "";
-   Holy_See_Entry : aliased constant Country :=
-      (Name => Holy_See_Name'Access,
-       Alpha_2 => Holy_See_Alpha_2'Access,
-       Alpha_3 => Holy_See_Alpha_3'Access,
-       Iso_3166_2 => Holy_See_Iso_3166_2'Access,
-       Country_Code =>  336,
-       Region => Holy_See_Region'Access,
-       Sub_Region => Holy_See_Sub_Region'Access,
-       Intermediate_Region => Holy_See_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Honduras_Name : aliased constant String := "Honduras";
-   Honduras_Alpha_2 : aliased constant String := "HN";
-   Honduras_Alpha_3 : aliased constant String := "HND";
-   Honduras_Iso_3166_2 : aliased constant String := "ISO 3166-2:HN";
-   Honduras_Region : aliased constant String := "Americas";
-   Honduras_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Honduras_Intermediate_Region : aliased constant String := "Central America";
-   Honduras_Entry : aliased constant Country :=
-      (Name => Honduras_Name'Access,
-       Alpha_2 => Honduras_Alpha_2'Access,
-       Alpha_3 => Honduras_Alpha_3'Access,
-       Iso_3166_2 => Honduras_Iso_3166_2'Access,
-       Country_Code =>  340,
-       Region => Honduras_Region'Access,
-       Sub_Region => Honduras_Sub_Region'Access,
-       Intermediate_Region => Honduras_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Hong_Kong_Name : aliased constant String := "Hong Kong";
-   Hong_Kong_Alpha_2 : aliased constant String := "HK";
-   Hong_Kong_Alpha_3 : aliased constant String := "HKG";
-   Hong_Kong_Iso_3166_2 : aliased constant String := "ISO 3166-2:HK";
-   Hong_Kong_Region : aliased constant String := "Asia";
-   Hong_Kong_Sub_Region : aliased constant String := "Eastern Asia";
-   Hong_Kong_Intermediate_Region : aliased constant String := "";
-   Hong_Kong_Entry : aliased constant Country :=
-      (Name => Hong_Kong_Name'Access,
-       Alpha_2 => Hong_Kong_Alpha_2'Access,
-       Alpha_3 => Hong_Kong_Alpha_3'Access,
-       Iso_3166_2 => Hong_Kong_Iso_3166_2'Access,
-       Country_Code =>  344,
-       Region => Hong_Kong_Region'Access,
-       Sub_Region => Hong_Kong_Sub_Region'Access,
-       Intermediate_Region => Hong_Kong_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Hungary_Name : aliased constant String := "Hungary";
-   Hungary_Alpha_2 : aliased constant String := "HU";
-   Hungary_Alpha_3 : aliased constant String := "HUN";
-   Hungary_Iso_3166_2 : aliased constant String := "ISO 3166-2:HU";
-   Hungary_Region : aliased constant String := "Europe";
-   Hungary_Sub_Region : aliased constant String := "Eastern Europe";
-   Hungary_Intermediate_Region : aliased constant String := "";
-   Hungary_Entry : aliased constant Country :=
-      (Name => Hungary_Name'Access,
-       Alpha_2 => Hungary_Alpha_2'Access,
-       Alpha_3 => Hungary_Alpha_3'Access,
-       Iso_3166_2 => Hungary_Iso_3166_2'Access,
-       Country_Code =>  348,
-       Region => Hungary_Region'Access,
-       Sub_Region => Hungary_Sub_Region'Access,
-       Intermediate_Region => Hungary_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Iceland_Name : aliased constant String := "Iceland";
-   Iceland_Alpha_2 : aliased constant String := "IS";
-   Iceland_Alpha_3 : aliased constant String := "ISL";
-   Iceland_Iso_3166_2 : aliased constant String := "ISO 3166-2:IS";
-   Iceland_Region : aliased constant String := "Europe";
-   Iceland_Sub_Region : aliased constant String := "Northern Europe";
-   Iceland_Intermediate_Region : aliased constant String := "";
-   Iceland_Entry : aliased constant Country :=
-      (Name => Iceland_Name'Access,
-       Alpha_2 => Iceland_Alpha_2'Access,
-       Alpha_3 => Iceland_Alpha_3'Access,
-       Iso_3166_2 => Iceland_Iso_3166_2'Access,
-       Country_Code =>  352,
-       Region => Iceland_Region'Access,
-       Sub_Region => Iceland_Sub_Region'Access,
-       Intermediate_Region => Iceland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   India_Name : aliased constant String := "India";
-   India_Alpha_2 : aliased constant String := "IN";
-   India_Alpha_3 : aliased constant String := "IND";
-   India_Iso_3166_2 : aliased constant String := "ISO 3166-2:IN";
-   India_Region : aliased constant String := "Asia";
-   India_Sub_Region : aliased constant String := "Southern Asia";
-   India_Intermediate_Region : aliased constant String := "";
-   India_Entry : aliased constant Country :=
-      (Name => India_Name'Access,
-       Alpha_2 => India_Alpha_2'Access,
-       Alpha_3 => India_Alpha_3'Access,
-       Iso_3166_2 => India_Iso_3166_2'Access,
-       Country_Code =>  356,
-       Region => India_Region'Access,
-       Sub_Region => India_Sub_Region'Access,
-       Intermediate_Region => India_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Indonesia_Name : aliased constant String := "Indonesia";
-   Indonesia_Alpha_2 : aliased constant String := "ID";
-   Indonesia_Alpha_3 : aliased constant String := "IDN";
-   Indonesia_Iso_3166_2 : aliased constant String := "ISO 3166-2:ID";
-   Indonesia_Region : aliased constant String := "Asia";
-   Indonesia_Sub_Region : aliased constant String := "South-eastern Asia";
-   Indonesia_Intermediate_Region : aliased constant String := "";
-   Indonesia_Entry : aliased constant Country :=
-      (Name => Indonesia_Name'Access,
-       Alpha_2 => Indonesia_Alpha_2'Access,
-       Alpha_3 => Indonesia_Alpha_3'Access,
-       Iso_3166_2 => Indonesia_Iso_3166_2'Access,
-       Country_Code =>  360,
-       Region => Indonesia_Region'Access,
-       Sub_Region => Indonesia_Sub_Region'Access,
-       Intermediate_Region => Indonesia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Iran_Islamic_Republic_of_Name : aliased constant String := "Iran (Islamic Republic of)";
-   Iran_Islamic_Republic_of_Alpha_2 : aliased constant String := "IR";
-   Iran_Islamic_Republic_of_Alpha_3 : aliased constant String := "IRN";
-   Iran_Islamic_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:IR";
-   Iran_Islamic_Republic_of_Region : aliased constant String := "Asia";
-   Iran_Islamic_Republic_of_Sub_Region : aliased constant String := "Southern Asia";
-   Iran_Islamic_Republic_of_Intermediate_Region : aliased constant String := "";
-   Iran_Islamic_Republic_of_Entry : aliased constant Country :=
-      (Name => Iran_Islamic_Republic_of_Name'Access,
-       Alpha_2 => Iran_Islamic_Republic_of_Alpha_2'Access,
-       Alpha_3 => Iran_Islamic_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Iran_Islamic_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  364,
-       Region => Iran_Islamic_Republic_of_Region'Access,
-       Sub_Region => Iran_Islamic_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Iran_Islamic_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Iraq_Name : aliased constant String := "Iraq";
-   Iraq_Alpha_2 : aliased constant String := "IQ";
-   Iraq_Alpha_3 : aliased constant String := "IRQ";
-   Iraq_Iso_3166_2 : aliased constant String := "ISO 3166-2:IQ";
-   Iraq_Region : aliased constant String := "Asia";
-   Iraq_Sub_Region : aliased constant String := "Western Asia";
-   Iraq_Intermediate_Region : aliased constant String := "";
-   Iraq_Entry : aliased constant Country :=
-      (Name => Iraq_Name'Access,
-       Alpha_2 => Iraq_Alpha_2'Access,
-       Alpha_3 => Iraq_Alpha_3'Access,
-       Iso_3166_2 => Iraq_Iso_3166_2'Access,
-       Country_Code =>  368,
-       Region => Iraq_Region'Access,
-       Sub_Region => Iraq_Sub_Region'Access,
-       Intermediate_Region => Iraq_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Ireland_Name : aliased constant String := "Ireland";
-   Ireland_Alpha_2 : aliased constant String := "IE";
-   Ireland_Alpha_3 : aliased constant String := "IRL";
-   Ireland_Iso_3166_2 : aliased constant String := "ISO 3166-2:IE";
-   Ireland_Region : aliased constant String := "Europe";
-   Ireland_Sub_Region : aliased constant String := "Northern Europe";
-   Ireland_Intermediate_Region : aliased constant String := "";
-   Ireland_Entry : aliased constant Country :=
-      (Name => Ireland_Name'Access,
-       Alpha_2 => Ireland_Alpha_2'Access,
-       Alpha_3 => Ireland_Alpha_3'Access,
-       Iso_3166_2 => Ireland_Iso_3166_2'Access,
-       Country_Code =>  372,
-       Region => Ireland_Region'Access,
-       Sub_Region => Ireland_Sub_Region'Access,
-       Intermediate_Region => Ireland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Isle_of_Man_Name : aliased constant String := "Isle of Man";
-   Isle_of_Man_Alpha_2 : aliased constant String := "IM";
-   Isle_of_Man_Alpha_3 : aliased constant String := "IMN";
-   Isle_of_Man_Iso_3166_2 : aliased constant String := "ISO 3166-2:IM";
-   Isle_of_Man_Region : aliased constant String := "Europe";
-   Isle_of_Man_Sub_Region : aliased constant String := "Northern Europe";
-   Isle_of_Man_Intermediate_Region : aliased constant String := "";
-   Isle_of_Man_Entry : aliased constant Country :=
-      (Name => Isle_of_Man_Name'Access,
-       Alpha_2 => Isle_of_Man_Alpha_2'Access,
-       Alpha_3 => Isle_of_Man_Alpha_3'Access,
-       Iso_3166_2 => Isle_of_Man_Iso_3166_2'Access,
-       Country_Code =>  833,
-       Region => Isle_of_Man_Region'Access,
-       Sub_Region => Isle_of_Man_Sub_Region'Access,
-       Intermediate_Region => Isle_of_Man_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Israel_Name : aliased constant String := "Israel";
-   Israel_Alpha_2 : aliased constant String := "IL";
-   Israel_Alpha_3 : aliased constant String := "ISR";
-   Israel_Iso_3166_2 : aliased constant String := "ISO 3166-2:IL";
-   Israel_Region : aliased constant String := "Asia";
-   Israel_Sub_Region : aliased constant String := "Western Asia";
-   Israel_Intermediate_Region : aliased constant String := "";
-   Israel_Entry : aliased constant Country :=
-      (Name => Israel_Name'Access,
-       Alpha_2 => Israel_Alpha_2'Access,
-       Alpha_3 => Israel_Alpha_3'Access,
-       Iso_3166_2 => Israel_Iso_3166_2'Access,
-       Country_Code =>  376,
-       Region => Israel_Region'Access,
-       Sub_Region => Israel_Sub_Region'Access,
-       Intermediate_Region => Israel_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Italy_Name : aliased constant String := "Italy";
-   Italy_Alpha_2 : aliased constant String := "IT";
-   Italy_Alpha_3 : aliased constant String := "ITA";
-   Italy_Iso_3166_2 : aliased constant String := "ISO 3166-2:IT";
-   Italy_Region : aliased constant String := "Europe";
-   Italy_Sub_Region : aliased constant String := "Southern Europe";
-   Italy_Intermediate_Region : aliased constant String := "";
-   Italy_Entry : aliased constant Country :=
-      (Name => Italy_Name'Access,
-       Alpha_2 => Italy_Alpha_2'Access,
-       Alpha_3 => Italy_Alpha_3'Access,
-       Iso_3166_2 => Italy_Iso_3166_2'Access,
-       Country_Code =>  380,
-       Region => Italy_Region'Access,
-       Sub_Region => Italy_Sub_Region'Access,
-       Intermediate_Region => Italy_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Jamaica_Name : aliased constant String := "Jamaica";
-   Jamaica_Alpha_2 : aliased constant String := "JM";
-   Jamaica_Alpha_3 : aliased constant String := "JAM";
-   Jamaica_Iso_3166_2 : aliased constant String := "ISO 3166-2:JM";
-   Jamaica_Region : aliased constant String := "Americas";
-   Jamaica_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Jamaica_Intermediate_Region : aliased constant String := "Caribbean";
-   Jamaica_Entry : aliased constant Country :=
-      (Name => Jamaica_Name'Access,
-       Alpha_2 => Jamaica_Alpha_2'Access,
-       Alpha_3 => Jamaica_Alpha_3'Access,
-       Iso_3166_2 => Jamaica_Iso_3166_2'Access,
-       Country_Code =>  388,
-       Region => Jamaica_Region'Access,
-       Sub_Region => Jamaica_Sub_Region'Access,
-       Intermediate_Region => Jamaica_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Japan_Name : aliased constant String := "Japan";
-   Japan_Alpha_2 : aliased constant String := "JP";
-   Japan_Alpha_3 : aliased constant String := "JPN";
-   Japan_Iso_3166_2 : aliased constant String := "ISO 3166-2:JP";
-   Japan_Region : aliased constant String := "Asia";
-   Japan_Sub_Region : aliased constant String := "Eastern Asia";
-   Japan_Intermediate_Region : aliased constant String := "";
-   Japan_Entry : aliased constant Country :=
-      (Name => Japan_Name'Access,
-       Alpha_2 => Japan_Alpha_2'Access,
-       Alpha_3 => Japan_Alpha_3'Access,
-       Iso_3166_2 => Japan_Iso_3166_2'Access,
-       Country_Code =>  392,
-       Region => Japan_Region'Access,
-       Sub_Region => Japan_Sub_Region'Access,
-       Intermediate_Region => Japan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Jersey_Name : aliased constant String := "Jersey";
-   Jersey_Alpha_2 : aliased constant String := "JE";
-   Jersey_Alpha_3 : aliased constant String := "JEY";
-   Jersey_Iso_3166_2 : aliased constant String := "ISO 3166-2:JE";
-   Jersey_Region : aliased constant String := "Europe";
-   Jersey_Sub_Region : aliased constant String := "Northern Europe";
-   Jersey_Intermediate_Region : aliased constant String := "Channel Islands";
-   Jersey_Entry : aliased constant Country :=
-      (Name => Jersey_Name'Access,
-       Alpha_2 => Jersey_Alpha_2'Access,
-       Alpha_3 => Jersey_Alpha_3'Access,
-       Iso_3166_2 => Jersey_Iso_3166_2'Access,
-       Country_Code =>  832,
-       Region => Jersey_Region'Access,
-       Sub_Region => Jersey_Sub_Region'Access,
-       Intermediate_Region => Jersey_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  830);
-   Jordan_Name : aliased constant String := "Jordan";
-   Jordan_Alpha_2 : aliased constant String := "JO";
-   Jordan_Alpha_3 : aliased constant String := "JOR";
-   Jordan_Iso_3166_2 : aliased constant String := "ISO 3166-2:JO";
-   Jordan_Region : aliased constant String := "Asia";
-   Jordan_Sub_Region : aliased constant String := "Western Asia";
-   Jordan_Intermediate_Region : aliased constant String := "";
-   Jordan_Entry : aliased constant Country :=
-      (Name => Jordan_Name'Access,
-       Alpha_2 => Jordan_Alpha_2'Access,
-       Alpha_3 => Jordan_Alpha_3'Access,
-       Iso_3166_2 => Jordan_Iso_3166_2'Access,
-       Country_Code =>  400,
-       Region => Jordan_Region'Access,
-       Sub_Region => Jordan_Sub_Region'Access,
-       Intermediate_Region => Jordan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Kazakhstan_Name : aliased constant String := "Kazakhstan";
-   Kazakhstan_Alpha_2 : aliased constant String := "KZ";
-   Kazakhstan_Alpha_3 : aliased constant String := "KAZ";
-   Kazakhstan_Iso_3166_2 : aliased constant String := "ISO 3166-2:KZ";
-   Kazakhstan_Region : aliased constant String := "Asia";
-   Kazakhstan_Sub_Region : aliased constant String := "Central Asia";
-   Kazakhstan_Intermediate_Region : aliased constant String := "";
-   Kazakhstan_Entry : aliased constant Country :=
-      (Name => Kazakhstan_Name'Access,
-       Alpha_2 => Kazakhstan_Alpha_2'Access,
-       Alpha_3 => Kazakhstan_Alpha_3'Access,
-       Iso_3166_2 => Kazakhstan_Iso_3166_2'Access,
-       Country_Code =>  398,
-       Region => Kazakhstan_Region'Access,
-       Sub_Region => Kazakhstan_Sub_Region'Access,
-       Intermediate_Region => Kazakhstan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  143,
-       Intermediate_Region_Code =>  0);
-   Kenya_Name : aliased constant String := "Kenya";
-   Kenya_Alpha_2 : aliased constant String := "KE";
-   Kenya_Alpha_3 : aliased constant String := "KEN";
-   Kenya_Iso_3166_2 : aliased constant String := "ISO 3166-2:KE";
-   Kenya_Region : aliased constant String := "Africa";
-   Kenya_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Kenya_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Kenya_Entry : aliased constant Country :=
-      (Name => Kenya_Name'Access,
-       Alpha_2 => Kenya_Alpha_2'Access,
-       Alpha_3 => Kenya_Alpha_3'Access,
-       Iso_3166_2 => Kenya_Iso_3166_2'Access,
-       Country_Code =>  404,
-       Region => Kenya_Region'Access,
-       Sub_Region => Kenya_Sub_Region'Access,
-       Intermediate_Region => Kenya_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Kiribati_Name : aliased constant String := "Kiribati";
-   Kiribati_Alpha_2 : aliased constant String := "KI";
-   Kiribati_Alpha_3 : aliased constant String := "KIR";
-   Kiribati_Iso_3166_2 : aliased constant String := "ISO 3166-2:KI";
-   Kiribati_Region : aliased constant String := "Oceania";
-   Kiribati_Sub_Region : aliased constant String := "Micronesia";
-   Kiribati_Intermediate_Region : aliased constant String := "";
-   Kiribati_Entry : aliased constant Country :=
-      (Name => Kiribati_Name'Access,
-       Alpha_2 => Kiribati_Alpha_2'Access,
-       Alpha_3 => Kiribati_Alpha_3'Access,
-       Iso_3166_2 => Kiribati_Iso_3166_2'Access,
-       Country_Code =>  296,
-       Region => Kiribati_Region'Access,
-       Sub_Region => Kiribati_Sub_Region'Access,
-       Intermediate_Region => Kiribati_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Korea_Democratic_Peoples_Republic_of_Name : aliased constant String := "Korea (Democratic People's Republic of)";
-   Korea_Democratic_Peoples_Republic_of_Alpha_2 : aliased constant String := "KP";
-   Korea_Democratic_Peoples_Republic_of_Alpha_3 : aliased constant String := "PRK";
-   Korea_Democratic_Peoples_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:KP";
-   Korea_Democratic_Peoples_Republic_of_Region : aliased constant String := "Asia";
-   Korea_Democratic_Peoples_Republic_of_Sub_Region : aliased constant String := "Eastern Asia";
-   Korea_Democratic_Peoples_Republic_of_Intermediate_Region : aliased constant String := "";
-   Korea_Democratic_Peoples_Republic_of_Entry : aliased constant Country :=
-      (Name => Korea_Democratic_Peoples_Republic_of_Name'Access,
-       Alpha_2 => Korea_Democratic_Peoples_Republic_of_Alpha_2'Access,
-       Alpha_3 => Korea_Democratic_Peoples_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Korea_Democratic_Peoples_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  408,
-       Region => Korea_Democratic_Peoples_Republic_of_Region'Access,
-       Sub_Region => Korea_Democratic_Peoples_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Korea_Democratic_Peoples_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Korea_Republic_of_Name : aliased constant String := "Korea, Republic of";
-   Korea_Republic_of_Alpha_2 : aliased constant String := "KR";
-   Korea_Republic_of_Alpha_3 : aliased constant String := "KOR";
-   Korea_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:KR";
-   Korea_Republic_of_Region : aliased constant String := "Asia";
-   Korea_Republic_of_Sub_Region : aliased constant String := "Eastern Asia";
-   Korea_Republic_of_Intermediate_Region : aliased constant String := "";
-   Korea_Republic_of_Entry : aliased constant Country :=
-      (Name => Korea_Republic_of_Name'Access,
-       Alpha_2 => Korea_Republic_of_Alpha_2'Access,
-       Alpha_3 => Korea_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Korea_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  410,
-       Region => Korea_Republic_of_Region'Access,
-       Sub_Region => Korea_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Korea_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Kuwait_Name : aliased constant String := "Kuwait";
-   Kuwait_Alpha_2 : aliased constant String := "KW";
-   Kuwait_Alpha_3 : aliased constant String := "KWT";
-   Kuwait_Iso_3166_2 : aliased constant String := "ISO 3166-2:KW";
-   Kuwait_Region : aliased constant String := "Asia";
-   Kuwait_Sub_Region : aliased constant String := "Western Asia";
-   Kuwait_Intermediate_Region : aliased constant String := "";
-   Kuwait_Entry : aliased constant Country :=
-      (Name => Kuwait_Name'Access,
-       Alpha_2 => Kuwait_Alpha_2'Access,
-       Alpha_3 => Kuwait_Alpha_3'Access,
-       Iso_3166_2 => Kuwait_Iso_3166_2'Access,
-       Country_Code =>  414,
-       Region => Kuwait_Region'Access,
-       Sub_Region => Kuwait_Sub_Region'Access,
-       Intermediate_Region => Kuwait_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Kyrgyzstan_Name : aliased constant String := "Kyrgyzstan";
-   Kyrgyzstan_Alpha_2 : aliased constant String := "KG";
-   Kyrgyzstan_Alpha_3 : aliased constant String := "KGZ";
-   Kyrgyzstan_Iso_3166_2 : aliased constant String := "ISO 3166-2:KG";
-   Kyrgyzstan_Region : aliased constant String := "Asia";
-   Kyrgyzstan_Sub_Region : aliased constant String := "Central Asia";
-   Kyrgyzstan_Intermediate_Region : aliased constant String := "";
-   Kyrgyzstan_Entry : aliased constant Country :=
-      (Name => Kyrgyzstan_Name'Access,
-       Alpha_2 => Kyrgyzstan_Alpha_2'Access,
-       Alpha_3 => Kyrgyzstan_Alpha_3'Access,
-       Iso_3166_2 => Kyrgyzstan_Iso_3166_2'Access,
-       Country_Code =>  417,
-       Region => Kyrgyzstan_Region'Access,
-       Sub_Region => Kyrgyzstan_Sub_Region'Access,
-       Intermediate_Region => Kyrgyzstan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  143,
-       Intermediate_Region_Code =>  0);
-   Lao_Peoples_Democratic_Republic_Name : aliased constant String := "Lao People's Democratic Republic";
-   Lao_Peoples_Democratic_Republic_Alpha_2 : aliased constant String := "LA";
-   Lao_Peoples_Democratic_Republic_Alpha_3 : aliased constant String := "LAO";
-   Lao_Peoples_Democratic_Republic_Iso_3166_2 : aliased constant String := "ISO 3166-2:LA";
-   Lao_Peoples_Democratic_Republic_Region : aliased constant String := "Asia";
-   Lao_Peoples_Democratic_Republic_Sub_Region : aliased constant String := "South-eastern Asia";
-   Lao_Peoples_Democratic_Republic_Intermediate_Region : aliased constant String := "";
-   Lao_Peoples_Democratic_Republic_Entry : aliased constant Country :=
-      (Name => Lao_Peoples_Democratic_Republic_Name'Access,
-       Alpha_2 => Lao_Peoples_Democratic_Republic_Alpha_2'Access,
-       Alpha_3 => Lao_Peoples_Democratic_Republic_Alpha_3'Access,
-       Iso_3166_2 => Lao_Peoples_Democratic_Republic_Iso_3166_2'Access,
-       Country_Code =>  418,
-       Region => Lao_Peoples_Democratic_Republic_Region'Access,
-       Sub_Region => Lao_Peoples_Democratic_Republic_Sub_Region'Access,
-       Intermediate_Region => Lao_Peoples_Democratic_Republic_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Latvia_Name : aliased constant String := "Latvia";
-   Latvia_Alpha_2 : aliased constant String := "LV";
-   Latvia_Alpha_3 : aliased constant String := "LVA";
-   Latvia_Iso_3166_2 : aliased constant String := "ISO 3166-2:LV";
-   Latvia_Region : aliased constant String := "Europe";
-   Latvia_Sub_Region : aliased constant String := "Northern Europe";
-   Latvia_Intermediate_Region : aliased constant String := "";
-   Latvia_Entry : aliased constant Country :=
-      (Name => Latvia_Name'Access,
-       Alpha_2 => Latvia_Alpha_2'Access,
-       Alpha_3 => Latvia_Alpha_3'Access,
-       Iso_3166_2 => Latvia_Iso_3166_2'Access,
-       Country_Code =>  428,
-       Region => Latvia_Region'Access,
-       Sub_Region => Latvia_Sub_Region'Access,
-       Intermediate_Region => Latvia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Lebanon_Name : aliased constant String := "Lebanon";
-   Lebanon_Alpha_2 : aliased constant String := "LB";
-   Lebanon_Alpha_3 : aliased constant String := "LBN";
-   Lebanon_Iso_3166_2 : aliased constant String := "ISO 3166-2:LB";
-   Lebanon_Region : aliased constant String := "Asia";
-   Lebanon_Sub_Region : aliased constant String := "Western Asia";
-   Lebanon_Intermediate_Region : aliased constant String := "";
-   Lebanon_Entry : aliased constant Country :=
-      (Name => Lebanon_Name'Access,
-       Alpha_2 => Lebanon_Alpha_2'Access,
-       Alpha_3 => Lebanon_Alpha_3'Access,
-       Iso_3166_2 => Lebanon_Iso_3166_2'Access,
-       Country_Code =>  422,
-       Region => Lebanon_Region'Access,
-       Sub_Region => Lebanon_Sub_Region'Access,
-       Intermediate_Region => Lebanon_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Lesotho_Name : aliased constant String := "Lesotho";
-   Lesotho_Alpha_2 : aliased constant String := "LS";
-   Lesotho_Alpha_3 : aliased constant String := "LSO";
-   Lesotho_Iso_3166_2 : aliased constant String := "ISO 3166-2:LS";
-   Lesotho_Region : aliased constant String := "Africa";
-   Lesotho_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Lesotho_Intermediate_Region : aliased constant String := "Southern Africa";
-   Lesotho_Entry : aliased constant Country :=
-      (Name => Lesotho_Name'Access,
-       Alpha_2 => Lesotho_Alpha_2'Access,
-       Alpha_3 => Lesotho_Alpha_3'Access,
-       Iso_3166_2 => Lesotho_Iso_3166_2'Access,
-       Country_Code =>  426,
-       Region => Lesotho_Region'Access,
-       Sub_Region => Lesotho_Sub_Region'Access,
-       Intermediate_Region => Lesotho_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  18);
-   Liberia_Name : aliased constant String := "Liberia";
-   Liberia_Alpha_2 : aliased constant String := "LR";
-   Liberia_Alpha_3 : aliased constant String := "LBR";
-   Liberia_Iso_3166_2 : aliased constant String := "ISO 3166-2:LR";
-   Liberia_Region : aliased constant String := "Africa";
-   Liberia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Liberia_Intermediate_Region : aliased constant String := "Western Africa";
-   Liberia_Entry : aliased constant Country :=
-      (Name => Liberia_Name'Access,
-       Alpha_2 => Liberia_Alpha_2'Access,
-       Alpha_3 => Liberia_Alpha_3'Access,
-       Iso_3166_2 => Liberia_Iso_3166_2'Access,
-       Country_Code =>  430,
-       Region => Liberia_Region'Access,
-       Sub_Region => Liberia_Sub_Region'Access,
-       Intermediate_Region => Liberia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Libya_Name : aliased constant String := "Libya";
-   Libya_Alpha_2 : aliased constant String := "LY";
-   Libya_Alpha_3 : aliased constant String := "LBY";
-   Libya_Iso_3166_2 : aliased constant String := "ISO 3166-2:LY";
-   Libya_Region : aliased constant String := "Africa";
-   Libya_Sub_Region : aliased constant String := "Northern Africa";
-   Libya_Intermediate_Region : aliased constant String := "";
-   Libya_Entry : aliased constant Country :=
-      (Name => Libya_Name'Access,
-       Alpha_2 => Libya_Alpha_2'Access,
-       Alpha_3 => Libya_Alpha_3'Access,
-       Iso_3166_2 => Libya_Iso_3166_2'Access,
-       Country_Code =>  434,
-       Region => Libya_Region'Access,
-       Sub_Region => Libya_Sub_Region'Access,
-       Intermediate_Region => Libya_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   Liechtenstein_Name : aliased constant String := "Liechtenstein";
-   Liechtenstein_Alpha_2 : aliased constant String := "LI";
-   Liechtenstein_Alpha_3 : aliased constant String := "LIE";
-   Liechtenstein_Iso_3166_2 : aliased constant String := "ISO 3166-2:LI";
-   Liechtenstein_Region : aliased constant String := "Europe";
-   Liechtenstein_Sub_Region : aliased constant String := "Western Europe";
-   Liechtenstein_Intermediate_Region : aliased constant String := "";
-   Liechtenstein_Entry : aliased constant Country :=
-      (Name => Liechtenstein_Name'Access,
-       Alpha_2 => Liechtenstein_Alpha_2'Access,
-       Alpha_3 => Liechtenstein_Alpha_3'Access,
-       Iso_3166_2 => Liechtenstein_Iso_3166_2'Access,
-       Country_Code =>  438,
-       Region => Liechtenstein_Region'Access,
-       Sub_Region => Liechtenstein_Sub_Region'Access,
-       Intermediate_Region => Liechtenstein_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Lithuania_Name : aliased constant String := "Lithuania";
-   Lithuania_Alpha_2 : aliased constant String := "LT";
-   Lithuania_Alpha_3 : aliased constant String := "LTU";
-   Lithuania_Iso_3166_2 : aliased constant String := "ISO 3166-2:LT";
-   Lithuania_Region : aliased constant String := "Europe";
-   Lithuania_Sub_Region : aliased constant String := "Northern Europe";
-   Lithuania_Intermediate_Region : aliased constant String := "";
-   Lithuania_Entry : aliased constant Country :=
-      (Name => Lithuania_Name'Access,
-       Alpha_2 => Lithuania_Alpha_2'Access,
-       Alpha_3 => Lithuania_Alpha_3'Access,
-       Iso_3166_2 => Lithuania_Iso_3166_2'Access,
-       Country_Code =>  440,
-       Region => Lithuania_Region'Access,
-       Sub_Region => Lithuania_Sub_Region'Access,
-       Intermediate_Region => Lithuania_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Luxembourg_Name : aliased constant String := "Luxembourg";
-   Luxembourg_Alpha_2 : aliased constant String := "LU";
-   Luxembourg_Alpha_3 : aliased constant String := "LUX";
-   Luxembourg_Iso_3166_2 : aliased constant String := "ISO 3166-2:LU";
-   Luxembourg_Region : aliased constant String := "Europe";
-   Luxembourg_Sub_Region : aliased constant String := "Western Europe";
-   Luxembourg_Intermediate_Region : aliased constant String := "";
-   Luxembourg_Entry : aliased constant Country :=
-      (Name => Luxembourg_Name'Access,
-       Alpha_2 => Luxembourg_Alpha_2'Access,
-       Alpha_3 => Luxembourg_Alpha_3'Access,
-       Iso_3166_2 => Luxembourg_Iso_3166_2'Access,
-       Country_Code =>  442,
-       Region => Luxembourg_Region'Access,
-       Sub_Region => Luxembourg_Sub_Region'Access,
-       Intermediate_Region => Luxembourg_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Macao_Name : aliased constant String := "Macao";
-   Macao_Alpha_2 : aliased constant String := "MO";
-   Macao_Alpha_3 : aliased constant String := "MAC";
-   Macao_Iso_3166_2 : aliased constant String := "ISO 3166-2:MO";
-   Macao_Region : aliased constant String := "Asia";
-   Macao_Sub_Region : aliased constant String := "Eastern Asia";
-   Macao_Intermediate_Region : aliased constant String := "";
-   Macao_Entry : aliased constant Country :=
-      (Name => Macao_Name'Access,
-       Alpha_2 => Macao_Alpha_2'Access,
-       Alpha_3 => Macao_Alpha_3'Access,
-       Iso_3166_2 => Macao_Iso_3166_2'Access,
-       Country_Code =>  446,
-       Region => Macao_Region'Access,
-       Sub_Region => Macao_Sub_Region'Access,
-       Intermediate_Region => Macao_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Madagascar_Name : aliased constant String := "Madagascar";
-   Madagascar_Alpha_2 : aliased constant String := "MG";
-   Madagascar_Alpha_3 : aliased constant String := "MDG";
-   Madagascar_Iso_3166_2 : aliased constant String := "ISO 3166-2:MG";
-   Madagascar_Region : aliased constant String := "Africa";
-   Madagascar_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Madagascar_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Madagascar_Entry : aliased constant Country :=
-      (Name => Madagascar_Name'Access,
-       Alpha_2 => Madagascar_Alpha_2'Access,
-       Alpha_3 => Madagascar_Alpha_3'Access,
-       Iso_3166_2 => Madagascar_Iso_3166_2'Access,
-       Country_Code =>  450,
-       Region => Madagascar_Region'Access,
-       Sub_Region => Madagascar_Sub_Region'Access,
-       Intermediate_Region => Madagascar_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Malawi_Name : aliased constant String := "Malawi";
-   Malawi_Alpha_2 : aliased constant String := "MW";
-   Malawi_Alpha_3 : aliased constant String := "MWI";
-   Malawi_Iso_3166_2 : aliased constant String := "ISO 3166-2:MW";
-   Malawi_Region : aliased constant String := "Africa";
-   Malawi_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Malawi_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Malawi_Entry : aliased constant Country :=
-      (Name => Malawi_Name'Access,
-       Alpha_2 => Malawi_Alpha_2'Access,
-       Alpha_3 => Malawi_Alpha_3'Access,
-       Iso_3166_2 => Malawi_Iso_3166_2'Access,
-       Country_Code =>  454,
-       Region => Malawi_Region'Access,
-       Sub_Region => Malawi_Sub_Region'Access,
-       Intermediate_Region => Malawi_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Malaysia_Name : aliased constant String := "Malaysia";
-   Malaysia_Alpha_2 : aliased constant String := "MY";
-   Malaysia_Alpha_3 : aliased constant String := "MYS";
-   Malaysia_Iso_3166_2 : aliased constant String := "ISO 3166-2:MY";
-   Malaysia_Region : aliased constant String := "Asia";
-   Malaysia_Sub_Region : aliased constant String := "South-eastern Asia";
-   Malaysia_Intermediate_Region : aliased constant String := "";
-   Malaysia_Entry : aliased constant Country :=
-      (Name => Malaysia_Name'Access,
-       Alpha_2 => Malaysia_Alpha_2'Access,
-       Alpha_3 => Malaysia_Alpha_3'Access,
-       Iso_3166_2 => Malaysia_Iso_3166_2'Access,
-       Country_Code =>  458,
-       Region => Malaysia_Region'Access,
-       Sub_Region => Malaysia_Sub_Region'Access,
-       Intermediate_Region => Malaysia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Maldives_Name : aliased constant String := "Maldives";
-   Maldives_Alpha_2 : aliased constant String := "MV";
-   Maldives_Alpha_3 : aliased constant String := "MDV";
-   Maldives_Iso_3166_2 : aliased constant String := "ISO 3166-2:MV";
-   Maldives_Region : aliased constant String := "Asia";
-   Maldives_Sub_Region : aliased constant String := "Southern Asia";
-   Maldives_Intermediate_Region : aliased constant String := "";
-   Maldives_Entry : aliased constant Country :=
-      (Name => Maldives_Name'Access,
-       Alpha_2 => Maldives_Alpha_2'Access,
-       Alpha_3 => Maldives_Alpha_3'Access,
-       Iso_3166_2 => Maldives_Iso_3166_2'Access,
-       Country_Code =>  462,
-       Region => Maldives_Region'Access,
-       Sub_Region => Maldives_Sub_Region'Access,
-       Intermediate_Region => Maldives_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Mali_Name : aliased constant String := "Mali";
-   Mali_Alpha_2 : aliased constant String := "ML";
-   Mali_Alpha_3 : aliased constant String := "MLI";
-   Mali_Iso_3166_2 : aliased constant String := "ISO 3166-2:ML";
-   Mali_Region : aliased constant String := "Africa";
-   Mali_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Mali_Intermediate_Region : aliased constant String := "Western Africa";
-   Mali_Entry : aliased constant Country :=
-      (Name => Mali_Name'Access,
-       Alpha_2 => Mali_Alpha_2'Access,
-       Alpha_3 => Mali_Alpha_3'Access,
-       Iso_3166_2 => Mali_Iso_3166_2'Access,
-       Country_Code =>  466,
-       Region => Mali_Region'Access,
-       Sub_Region => Mali_Sub_Region'Access,
-       Intermediate_Region => Mali_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Malta_Name : aliased constant String := "Malta";
-   Malta_Alpha_2 : aliased constant String := "MT";
-   Malta_Alpha_3 : aliased constant String := "MLT";
-   Malta_Iso_3166_2 : aliased constant String := "ISO 3166-2:MT";
-   Malta_Region : aliased constant String := "Europe";
-   Malta_Sub_Region : aliased constant String := "Southern Europe";
-   Malta_Intermediate_Region : aliased constant String := "";
-   Malta_Entry : aliased constant Country :=
-      (Name => Malta_Name'Access,
-       Alpha_2 => Malta_Alpha_2'Access,
-       Alpha_3 => Malta_Alpha_3'Access,
-       Iso_3166_2 => Malta_Iso_3166_2'Access,
-       Country_Code =>  470,
-       Region => Malta_Region'Access,
-       Sub_Region => Malta_Sub_Region'Access,
-       Intermediate_Region => Malta_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Marshall_Islands_Name : aliased constant String := "Marshall Islands";
-   Marshall_Islands_Alpha_2 : aliased constant String := "MH";
-   Marshall_Islands_Alpha_3 : aliased constant String := "MHL";
-   Marshall_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:MH";
-   Marshall_Islands_Region : aliased constant String := "Oceania";
-   Marshall_Islands_Sub_Region : aliased constant String := "Micronesia";
-   Marshall_Islands_Intermediate_Region : aliased constant String := "";
-   Marshall_Islands_Entry : aliased constant Country :=
-      (Name => Marshall_Islands_Name'Access,
-       Alpha_2 => Marshall_Islands_Alpha_2'Access,
-       Alpha_3 => Marshall_Islands_Alpha_3'Access,
-       Iso_3166_2 => Marshall_Islands_Iso_3166_2'Access,
-       Country_Code =>  584,
-       Region => Marshall_Islands_Region'Access,
-       Sub_Region => Marshall_Islands_Sub_Region'Access,
-       Intermediate_Region => Marshall_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Martinique_Name : aliased constant String := "Martinique";
-   Martinique_Alpha_2 : aliased constant String := "MQ";
-   Martinique_Alpha_3 : aliased constant String := "MTQ";
-   Martinique_Iso_3166_2 : aliased constant String := "ISO 3166-2:MQ";
-   Martinique_Region : aliased constant String := "Americas";
-   Martinique_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Martinique_Intermediate_Region : aliased constant String := "Caribbean";
-   Martinique_Entry : aliased constant Country :=
-      (Name => Martinique_Name'Access,
-       Alpha_2 => Martinique_Alpha_2'Access,
-       Alpha_3 => Martinique_Alpha_3'Access,
-       Iso_3166_2 => Martinique_Iso_3166_2'Access,
-       Country_Code =>  474,
-       Region => Martinique_Region'Access,
-       Sub_Region => Martinique_Sub_Region'Access,
-       Intermediate_Region => Martinique_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Mauritania_Name : aliased constant String := "Mauritania";
-   Mauritania_Alpha_2 : aliased constant String := "MR";
-   Mauritania_Alpha_3 : aliased constant String := "MRT";
-   Mauritania_Iso_3166_2 : aliased constant String := "ISO 3166-2:MR";
-   Mauritania_Region : aliased constant String := "Africa";
-   Mauritania_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Mauritania_Intermediate_Region : aliased constant String := "Western Africa";
-   Mauritania_Entry : aliased constant Country :=
-      (Name => Mauritania_Name'Access,
-       Alpha_2 => Mauritania_Alpha_2'Access,
-       Alpha_3 => Mauritania_Alpha_3'Access,
-       Iso_3166_2 => Mauritania_Iso_3166_2'Access,
-       Country_Code =>  478,
-       Region => Mauritania_Region'Access,
-       Sub_Region => Mauritania_Sub_Region'Access,
-       Intermediate_Region => Mauritania_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Mauritius_Name : aliased constant String := "Mauritius";
-   Mauritius_Alpha_2 : aliased constant String := "MU";
-   Mauritius_Alpha_3 : aliased constant String := "MUS";
-   Mauritius_Iso_3166_2 : aliased constant String := "ISO 3166-2:MU";
-   Mauritius_Region : aliased constant String := "Africa";
-   Mauritius_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Mauritius_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Mauritius_Entry : aliased constant Country :=
-      (Name => Mauritius_Name'Access,
-       Alpha_2 => Mauritius_Alpha_2'Access,
-       Alpha_3 => Mauritius_Alpha_3'Access,
-       Iso_3166_2 => Mauritius_Iso_3166_2'Access,
-       Country_Code =>  480,
-       Region => Mauritius_Region'Access,
-       Sub_Region => Mauritius_Sub_Region'Access,
-       Intermediate_Region => Mauritius_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Mayotte_Name : aliased constant String := "Mayotte";
-   Mayotte_Alpha_2 : aliased constant String := "YT";
-   Mayotte_Alpha_3 : aliased constant String := "MYT";
-   Mayotte_Iso_3166_2 : aliased constant String := "ISO 3166-2:YT";
-   Mayotte_Region : aliased constant String := "Africa";
-   Mayotte_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Mayotte_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Mayotte_Entry : aliased constant Country :=
-      (Name => Mayotte_Name'Access,
-       Alpha_2 => Mayotte_Alpha_2'Access,
-       Alpha_3 => Mayotte_Alpha_3'Access,
-       Iso_3166_2 => Mayotte_Iso_3166_2'Access,
-       Country_Code =>  175,
-       Region => Mayotte_Region'Access,
-       Sub_Region => Mayotte_Sub_Region'Access,
-       Intermediate_Region => Mayotte_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Mexico_Name : aliased constant String := "Mexico";
-   Mexico_Alpha_2 : aliased constant String := "MX";
-   Mexico_Alpha_3 : aliased constant String := "MEX";
-   Mexico_Iso_3166_2 : aliased constant String := "ISO 3166-2:MX";
-   Mexico_Region : aliased constant String := "Americas";
-   Mexico_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Mexico_Intermediate_Region : aliased constant String := "Central America";
-   Mexico_Entry : aliased constant Country :=
-      (Name => Mexico_Name'Access,
-       Alpha_2 => Mexico_Alpha_2'Access,
-       Alpha_3 => Mexico_Alpha_3'Access,
-       Iso_3166_2 => Mexico_Iso_3166_2'Access,
-       Country_Code =>  484,
-       Region => Mexico_Region'Access,
-       Sub_Region => Mexico_Sub_Region'Access,
-       Intermediate_Region => Mexico_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Micronesia_Federated_States_of_Name : aliased constant String := "Micronesia (Federated States of)";
-   Micronesia_Federated_States_of_Alpha_2 : aliased constant String := "FM";
-   Micronesia_Federated_States_of_Alpha_3 : aliased constant String := "FSM";
-   Micronesia_Federated_States_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:FM";
-   Micronesia_Federated_States_of_Region : aliased constant String := "Oceania";
-   Micronesia_Federated_States_of_Sub_Region : aliased constant String := "Micronesia";
-   Micronesia_Federated_States_of_Intermediate_Region : aliased constant String := "";
-   Micronesia_Federated_States_of_Entry : aliased constant Country :=
-      (Name => Micronesia_Federated_States_of_Name'Access,
-       Alpha_2 => Micronesia_Federated_States_of_Alpha_2'Access,
-       Alpha_3 => Micronesia_Federated_States_of_Alpha_3'Access,
-       Iso_3166_2 => Micronesia_Federated_States_of_Iso_3166_2'Access,
-       Country_Code =>  583,
-       Region => Micronesia_Federated_States_of_Region'Access,
-       Sub_Region => Micronesia_Federated_States_of_Sub_Region'Access,
-       Intermediate_Region => Micronesia_Federated_States_of_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Moldova_Republic_of_Name : aliased constant String := "Moldova, Republic of";
-   Moldova_Republic_of_Alpha_2 : aliased constant String := "MD";
-   Moldova_Republic_of_Alpha_3 : aliased constant String := "MDA";
-   Moldova_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:MD";
-   Moldova_Republic_of_Region : aliased constant String := "Europe";
-   Moldova_Republic_of_Sub_Region : aliased constant String := "Eastern Europe";
-   Moldova_Republic_of_Intermediate_Region : aliased constant String := "";
-   Moldova_Republic_of_Entry : aliased constant Country :=
-      (Name => Moldova_Republic_of_Name'Access,
-       Alpha_2 => Moldova_Republic_of_Alpha_2'Access,
-       Alpha_3 => Moldova_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Moldova_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  498,
-       Region => Moldova_Republic_of_Region'Access,
-       Sub_Region => Moldova_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Moldova_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Monaco_Name : aliased constant String := "Monaco";
-   Monaco_Alpha_2 : aliased constant String := "MC";
-   Monaco_Alpha_3 : aliased constant String := "MCO";
-   Monaco_Iso_3166_2 : aliased constant String := "ISO 3166-2:MC";
-   Monaco_Region : aliased constant String := "Europe";
-   Monaco_Sub_Region : aliased constant String := "Western Europe";
-   Monaco_Intermediate_Region : aliased constant String := "";
-   Monaco_Entry : aliased constant Country :=
-      (Name => Monaco_Name'Access,
-       Alpha_2 => Monaco_Alpha_2'Access,
-       Alpha_3 => Monaco_Alpha_3'Access,
-       Iso_3166_2 => Monaco_Iso_3166_2'Access,
-       Country_Code =>  492,
-       Region => Monaco_Region'Access,
-       Sub_Region => Monaco_Sub_Region'Access,
-       Intermediate_Region => Monaco_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Mongolia_Name : aliased constant String := "Mongolia";
-   Mongolia_Alpha_2 : aliased constant String := "MN";
-   Mongolia_Alpha_3 : aliased constant String := "MNG";
-   Mongolia_Iso_3166_2 : aliased constant String := "ISO 3166-2:MN";
-   Mongolia_Region : aliased constant String := "Asia";
-   Mongolia_Sub_Region : aliased constant String := "Eastern Asia";
-   Mongolia_Intermediate_Region : aliased constant String := "";
-   Mongolia_Entry : aliased constant Country :=
-      (Name => Mongolia_Name'Access,
-       Alpha_2 => Mongolia_Alpha_2'Access,
-       Alpha_3 => Mongolia_Alpha_3'Access,
-       Iso_3166_2 => Mongolia_Iso_3166_2'Access,
-       Country_Code =>  496,
-       Region => Mongolia_Region'Access,
-       Sub_Region => Mongolia_Sub_Region'Access,
-       Intermediate_Region => Mongolia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Montenegro_Name : aliased constant String := "Montenegro";
-   Montenegro_Alpha_2 : aliased constant String := "ME";
-   Montenegro_Alpha_3 : aliased constant String := "MNE";
-   Montenegro_Iso_3166_2 : aliased constant String := "ISO 3166-2:ME";
-   Montenegro_Region : aliased constant String := "Europe";
-   Montenegro_Sub_Region : aliased constant String := "Southern Europe";
-   Montenegro_Intermediate_Region : aliased constant String := "";
-   Montenegro_Entry : aliased constant Country :=
-      (Name => Montenegro_Name'Access,
-       Alpha_2 => Montenegro_Alpha_2'Access,
-       Alpha_3 => Montenegro_Alpha_3'Access,
-       Iso_3166_2 => Montenegro_Iso_3166_2'Access,
-       Country_Code =>  499,
-       Region => Montenegro_Region'Access,
-       Sub_Region => Montenegro_Sub_Region'Access,
-       Intermediate_Region => Montenegro_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Montserrat_Name : aliased constant String := "Montserrat";
-   Montserrat_Alpha_2 : aliased constant String := "MS";
-   Montserrat_Alpha_3 : aliased constant String := "MSR";
-   Montserrat_Iso_3166_2 : aliased constant String := "ISO 3166-2:MS";
-   Montserrat_Region : aliased constant String := "Americas";
-   Montserrat_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Montserrat_Intermediate_Region : aliased constant String := "Caribbean";
-   Montserrat_Entry : aliased constant Country :=
-      (Name => Montserrat_Name'Access,
-       Alpha_2 => Montserrat_Alpha_2'Access,
-       Alpha_3 => Montserrat_Alpha_3'Access,
-       Iso_3166_2 => Montserrat_Iso_3166_2'Access,
-       Country_Code =>  500,
-       Region => Montserrat_Region'Access,
-       Sub_Region => Montserrat_Sub_Region'Access,
-       Intermediate_Region => Montserrat_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Morocco_Name : aliased constant String := "Morocco";
-   Morocco_Alpha_2 : aliased constant String := "MA";
-   Morocco_Alpha_3 : aliased constant String := "MAR";
-   Morocco_Iso_3166_2 : aliased constant String := "ISO 3166-2:MA";
-   Morocco_Region : aliased constant String := "Africa";
-   Morocco_Sub_Region : aliased constant String := "Northern Africa";
-   Morocco_Intermediate_Region : aliased constant String := "";
-   Morocco_Entry : aliased constant Country :=
-      (Name => Morocco_Name'Access,
-       Alpha_2 => Morocco_Alpha_2'Access,
-       Alpha_3 => Morocco_Alpha_3'Access,
-       Iso_3166_2 => Morocco_Iso_3166_2'Access,
-       Country_Code =>  504,
-       Region => Morocco_Region'Access,
-       Sub_Region => Morocco_Sub_Region'Access,
-       Intermediate_Region => Morocco_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   Mozambique_Name : aliased constant String := "Mozambique";
-   Mozambique_Alpha_2 : aliased constant String := "MZ";
-   Mozambique_Alpha_3 : aliased constant String := "MOZ";
-   Mozambique_Iso_3166_2 : aliased constant String := "ISO 3166-2:MZ";
-   Mozambique_Region : aliased constant String := "Africa";
-   Mozambique_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Mozambique_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Mozambique_Entry : aliased constant Country :=
-      (Name => Mozambique_Name'Access,
-       Alpha_2 => Mozambique_Alpha_2'Access,
-       Alpha_3 => Mozambique_Alpha_3'Access,
-       Iso_3166_2 => Mozambique_Iso_3166_2'Access,
-       Country_Code =>  508,
-       Region => Mozambique_Region'Access,
-       Sub_Region => Mozambique_Sub_Region'Access,
-       Intermediate_Region => Mozambique_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Myanmar_Name : aliased constant String := "Myanmar";
-   Myanmar_Alpha_2 : aliased constant String := "MM";
-   Myanmar_Alpha_3 : aliased constant String := "MMR";
-   Myanmar_Iso_3166_2 : aliased constant String := "ISO 3166-2:MM";
-   Myanmar_Region : aliased constant String := "Asia";
-   Myanmar_Sub_Region : aliased constant String := "South-eastern Asia";
-   Myanmar_Intermediate_Region : aliased constant String := "";
-   Myanmar_Entry : aliased constant Country :=
-      (Name => Myanmar_Name'Access,
-       Alpha_2 => Myanmar_Alpha_2'Access,
-       Alpha_3 => Myanmar_Alpha_3'Access,
-       Iso_3166_2 => Myanmar_Iso_3166_2'Access,
-       Country_Code =>  104,
-       Region => Myanmar_Region'Access,
-       Sub_Region => Myanmar_Sub_Region'Access,
-       Intermediate_Region => Myanmar_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Namibia_Name : aliased constant String := "Namibia";
-   Namibia_Alpha_2 : aliased constant String := "NA";
-   Namibia_Alpha_3 : aliased constant String := "NAM";
-   Namibia_Iso_3166_2 : aliased constant String := "ISO 3166-2:NA";
-   Namibia_Region : aliased constant String := "Africa";
-   Namibia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Namibia_Intermediate_Region : aliased constant String := "Southern Africa";
-   Namibia_Entry : aliased constant Country :=
-      (Name => Namibia_Name'Access,
-       Alpha_2 => Namibia_Alpha_2'Access,
-       Alpha_3 => Namibia_Alpha_3'Access,
-       Iso_3166_2 => Namibia_Iso_3166_2'Access,
-       Country_Code =>  516,
-       Region => Namibia_Region'Access,
-       Sub_Region => Namibia_Sub_Region'Access,
-       Intermediate_Region => Namibia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  18);
-   Nauru_Name : aliased constant String := "Nauru";
-   Nauru_Alpha_2 : aliased constant String := "NR";
-   Nauru_Alpha_3 : aliased constant String := "NRU";
-   Nauru_Iso_3166_2 : aliased constant String := "ISO 3166-2:NR";
-   Nauru_Region : aliased constant String := "Oceania";
-   Nauru_Sub_Region : aliased constant String := "Micronesia";
-   Nauru_Intermediate_Region : aliased constant String := "";
-   Nauru_Entry : aliased constant Country :=
-      (Name => Nauru_Name'Access,
-       Alpha_2 => Nauru_Alpha_2'Access,
-       Alpha_3 => Nauru_Alpha_3'Access,
-       Iso_3166_2 => Nauru_Iso_3166_2'Access,
-       Country_Code =>  520,
-       Region => Nauru_Region'Access,
-       Sub_Region => Nauru_Sub_Region'Access,
-       Intermediate_Region => Nauru_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Nepal_Name : aliased constant String := "Nepal";
-   Nepal_Alpha_2 : aliased constant String := "NP";
-   Nepal_Alpha_3 : aliased constant String := "NPL";
-   Nepal_Iso_3166_2 : aliased constant String := "ISO 3166-2:NP";
-   Nepal_Region : aliased constant String := "Asia";
-   Nepal_Sub_Region : aliased constant String := "Southern Asia";
-   Nepal_Intermediate_Region : aliased constant String := "";
-   Nepal_Entry : aliased constant Country :=
-      (Name => Nepal_Name'Access,
-       Alpha_2 => Nepal_Alpha_2'Access,
-       Alpha_3 => Nepal_Alpha_3'Access,
-       Iso_3166_2 => Nepal_Iso_3166_2'Access,
-       Country_Code =>  524,
-       Region => Nepal_Region'Access,
-       Sub_Region => Nepal_Sub_Region'Access,
-       Intermediate_Region => Nepal_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Netherlands_Name : aliased constant String := "Netherlands";
-   Netherlands_Alpha_2 : aliased constant String := "NL";
-   Netherlands_Alpha_3 : aliased constant String := "NLD";
-   Netherlands_Iso_3166_2 : aliased constant String := "ISO 3166-2:NL";
-   Netherlands_Region : aliased constant String := "Europe";
-   Netherlands_Sub_Region : aliased constant String := "Western Europe";
-   Netherlands_Intermediate_Region : aliased constant String := "";
-   Netherlands_Entry : aliased constant Country :=
-      (Name => Netherlands_Name'Access,
-       Alpha_2 => Netherlands_Alpha_2'Access,
-       Alpha_3 => Netherlands_Alpha_3'Access,
-       Iso_3166_2 => Netherlands_Iso_3166_2'Access,
-       Country_Code =>  528,
-       Region => Netherlands_Region'Access,
-       Sub_Region => Netherlands_Sub_Region'Access,
-       Intermediate_Region => Netherlands_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   New_Caledonia_Name : aliased constant String := "New Caledonia";
-   New_Caledonia_Alpha_2 : aliased constant String := "NC";
-   New_Caledonia_Alpha_3 : aliased constant String := "NCL";
-   New_Caledonia_Iso_3166_2 : aliased constant String := "ISO 3166-2:NC";
-   New_Caledonia_Region : aliased constant String := "Oceania";
-   New_Caledonia_Sub_Region : aliased constant String := "Melanesia";
-   New_Caledonia_Intermediate_Region : aliased constant String := "";
-   New_Caledonia_Entry : aliased constant Country :=
-      (Name => New_Caledonia_Name'Access,
-       Alpha_2 => New_Caledonia_Alpha_2'Access,
-       Alpha_3 => New_Caledonia_Alpha_3'Access,
-       Iso_3166_2 => New_Caledonia_Iso_3166_2'Access,
-       Country_Code =>  540,
-       Region => New_Caledonia_Region'Access,
-       Sub_Region => New_Caledonia_Sub_Region'Access,
-       Intermediate_Region => New_Caledonia_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  54,
-       Intermediate_Region_Code =>  0);
-   New_Zealand_Name : aliased constant String := "New Zealand";
-   New_Zealand_Alpha_2 : aliased constant String := "NZ";
-   New_Zealand_Alpha_3 : aliased constant String := "NZL";
-   New_Zealand_Iso_3166_2 : aliased constant String := "ISO 3166-2:NZ";
-   New_Zealand_Region : aliased constant String := "Oceania";
-   New_Zealand_Sub_Region : aliased constant String := "Australia and New Zealand";
-   New_Zealand_Intermediate_Region : aliased constant String := "";
-   New_Zealand_Entry : aliased constant Country :=
-      (Name => New_Zealand_Name'Access,
-       Alpha_2 => New_Zealand_Alpha_2'Access,
-       Alpha_3 => New_Zealand_Alpha_3'Access,
-       Iso_3166_2 => New_Zealand_Iso_3166_2'Access,
-       Country_Code =>  554,
-       Region => New_Zealand_Region'Access,
-       Sub_Region => New_Zealand_Sub_Region'Access,
-       Intermediate_Region => New_Zealand_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   Nicaragua_Name : aliased constant String := "Nicaragua";
-   Nicaragua_Alpha_2 : aliased constant String := "NI";
-   Nicaragua_Alpha_3 : aliased constant String := "NIC";
-   Nicaragua_Iso_3166_2 : aliased constant String := "ISO 3166-2:NI";
-   Nicaragua_Region : aliased constant String := "Americas";
-   Nicaragua_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Nicaragua_Intermediate_Region : aliased constant String := "Central America";
-   Nicaragua_Entry : aliased constant Country :=
-      (Name => Nicaragua_Name'Access,
-       Alpha_2 => Nicaragua_Alpha_2'Access,
-       Alpha_3 => Nicaragua_Alpha_3'Access,
-       Iso_3166_2 => Nicaragua_Iso_3166_2'Access,
-       Country_Code =>  558,
-       Region => Nicaragua_Region'Access,
-       Sub_Region => Nicaragua_Sub_Region'Access,
-       Intermediate_Region => Nicaragua_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Niger_Name : aliased constant String := "Niger";
-   Niger_Alpha_2 : aliased constant String := "NE";
-   Niger_Alpha_3 : aliased constant String := "NER";
-   Niger_Iso_3166_2 : aliased constant String := "ISO 3166-2:NE";
-   Niger_Region : aliased constant String := "Africa";
-   Niger_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Niger_Intermediate_Region : aliased constant String := "Western Africa";
-   Niger_Entry : aliased constant Country :=
-      (Name => Niger_Name'Access,
-       Alpha_2 => Niger_Alpha_2'Access,
-       Alpha_3 => Niger_Alpha_3'Access,
-       Iso_3166_2 => Niger_Iso_3166_2'Access,
-       Country_Code =>  562,
-       Region => Niger_Region'Access,
-       Sub_Region => Niger_Sub_Region'Access,
-       Intermediate_Region => Niger_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Nigeria_Name : aliased constant String := "Nigeria";
-   Nigeria_Alpha_2 : aliased constant String := "NG";
-   Nigeria_Alpha_3 : aliased constant String := "NGA";
-   Nigeria_Iso_3166_2 : aliased constant String := "ISO 3166-2:NG";
-   Nigeria_Region : aliased constant String := "Africa";
-   Nigeria_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Nigeria_Intermediate_Region : aliased constant String := "Western Africa";
-   Nigeria_Entry : aliased constant Country :=
-      (Name => Nigeria_Name'Access,
-       Alpha_2 => Nigeria_Alpha_2'Access,
-       Alpha_3 => Nigeria_Alpha_3'Access,
-       Iso_3166_2 => Nigeria_Iso_3166_2'Access,
-       Country_Code =>  566,
-       Region => Nigeria_Region'Access,
-       Sub_Region => Nigeria_Sub_Region'Access,
-       Intermediate_Region => Nigeria_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Niue_Name : aliased constant String := "Niue";
-   Niue_Alpha_2 : aliased constant String := "NU";
-   Niue_Alpha_3 : aliased constant String := "NIU";
-   Niue_Iso_3166_2 : aliased constant String := "ISO 3166-2:NU";
-   Niue_Region : aliased constant String := "Oceania";
-   Niue_Sub_Region : aliased constant String := "Polynesia";
-   Niue_Intermediate_Region : aliased constant String := "";
-   Niue_Entry : aliased constant Country :=
-      (Name => Niue_Name'Access,
-       Alpha_2 => Niue_Alpha_2'Access,
-       Alpha_3 => Niue_Alpha_3'Access,
-       Iso_3166_2 => Niue_Iso_3166_2'Access,
-       Country_Code =>  570,
-       Region => Niue_Region'Access,
-       Sub_Region => Niue_Sub_Region'Access,
-       Intermediate_Region => Niue_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Norfolk_Island_Name : aliased constant String := "Norfolk Island";
-   Norfolk_Island_Alpha_2 : aliased constant String := "NF";
-   Norfolk_Island_Alpha_3 : aliased constant String := "NFK";
-   Norfolk_Island_Iso_3166_2 : aliased constant String := "ISO 3166-2:NF";
-   Norfolk_Island_Region : aliased constant String := "Oceania";
-   Norfolk_Island_Sub_Region : aliased constant String := "Australia and New Zealand";
-   Norfolk_Island_Intermediate_Region : aliased constant String := "";
-   Norfolk_Island_Entry : aliased constant Country :=
-      (Name => Norfolk_Island_Name'Access,
-       Alpha_2 => Norfolk_Island_Alpha_2'Access,
-       Alpha_3 => Norfolk_Island_Alpha_3'Access,
-       Iso_3166_2 => Norfolk_Island_Iso_3166_2'Access,
-       Country_Code =>  574,
-       Region => Norfolk_Island_Region'Access,
-       Sub_Region => Norfolk_Island_Sub_Region'Access,
-       Intermediate_Region => Norfolk_Island_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  53,
-       Intermediate_Region_Code =>  0);
-   North_Macedonia_Name : aliased constant String := "North Macedonia";
-   North_Macedonia_Alpha_2 : aliased constant String := "MK";
-   North_Macedonia_Alpha_3 : aliased constant String := "MKD";
-   North_Macedonia_Iso_3166_2 : aliased constant String := "ISO 3166-2:MK";
-   North_Macedonia_Region : aliased constant String := "Europe";
-   North_Macedonia_Sub_Region : aliased constant String := "Southern Europe";
-   North_Macedonia_Intermediate_Region : aliased constant String := "";
-   North_Macedonia_Entry : aliased constant Country :=
-      (Name => North_Macedonia_Name'Access,
-       Alpha_2 => North_Macedonia_Alpha_2'Access,
-       Alpha_3 => North_Macedonia_Alpha_3'Access,
-       Iso_3166_2 => North_Macedonia_Iso_3166_2'Access,
-       Country_Code =>  807,
-       Region => North_Macedonia_Region'Access,
-       Sub_Region => North_Macedonia_Sub_Region'Access,
-       Intermediate_Region => North_Macedonia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Northern_Mariana_Islands_Name : aliased constant String := "Northern Mariana Islands";
-   Northern_Mariana_Islands_Alpha_2 : aliased constant String := "MP";
-   Northern_Mariana_Islands_Alpha_3 : aliased constant String := "MNP";
-   Northern_Mariana_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:MP";
-   Northern_Mariana_Islands_Region : aliased constant String := "Oceania";
-   Northern_Mariana_Islands_Sub_Region : aliased constant String := "Micronesia";
-   Northern_Mariana_Islands_Intermediate_Region : aliased constant String := "";
-   Northern_Mariana_Islands_Entry : aliased constant Country :=
-      (Name => Northern_Mariana_Islands_Name'Access,
-       Alpha_2 => Northern_Mariana_Islands_Alpha_2'Access,
-       Alpha_3 => Northern_Mariana_Islands_Alpha_3'Access,
-       Iso_3166_2 => Northern_Mariana_Islands_Iso_3166_2'Access,
-       Country_Code =>  580,
-       Region => Northern_Mariana_Islands_Region'Access,
-       Sub_Region => Northern_Mariana_Islands_Sub_Region'Access,
-       Intermediate_Region => Northern_Mariana_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Norway_Name : aliased constant String := "Norway";
-   Norway_Alpha_2 : aliased constant String := "NO";
-   Norway_Alpha_3 : aliased constant String := "NOR";
-   Norway_Iso_3166_2 : aliased constant String := "ISO 3166-2:NO";
-   Norway_Region : aliased constant String := "Europe";
-   Norway_Sub_Region : aliased constant String := "Northern Europe";
-   Norway_Intermediate_Region : aliased constant String := "";
-   Norway_Entry : aliased constant Country :=
-      (Name => Norway_Name'Access,
-       Alpha_2 => Norway_Alpha_2'Access,
-       Alpha_3 => Norway_Alpha_3'Access,
-       Iso_3166_2 => Norway_Iso_3166_2'Access,
-       Country_Code =>  578,
-       Region => Norway_Region'Access,
-       Sub_Region => Norway_Sub_Region'Access,
-       Intermediate_Region => Norway_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Oman_Name : aliased constant String := "Oman";
-   Oman_Alpha_2 : aliased constant String := "OM";
-   Oman_Alpha_3 : aliased constant String := "OMN";
-   Oman_Iso_3166_2 : aliased constant String := "ISO 3166-2:OM";
-   Oman_Region : aliased constant String := "Asia";
-   Oman_Sub_Region : aliased constant String := "Western Asia";
-   Oman_Intermediate_Region : aliased constant String := "";
-   Oman_Entry : aliased constant Country :=
-      (Name => Oman_Name'Access,
-       Alpha_2 => Oman_Alpha_2'Access,
-       Alpha_3 => Oman_Alpha_3'Access,
-       Iso_3166_2 => Oman_Iso_3166_2'Access,
-       Country_Code =>  512,
-       Region => Oman_Region'Access,
-       Sub_Region => Oman_Sub_Region'Access,
-       Intermediate_Region => Oman_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Pakistan_Name : aliased constant String := "Pakistan";
-   Pakistan_Alpha_2 : aliased constant String := "PK";
-   Pakistan_Alpha_3 : aliased constant String := "PAK";
-   Pakistan_Iso_3166_2 : aliased constant String := "ISO 3166-2:PK";
-   Pakistan_Region : aliased constant String := "Asia";
-   Pakistan_Sub_Region : aliased constant String := "Southern Asia";
-   Pakistan_Intermediate_Region : aliased constant String := "";
-   Pakistan_Entry : aliased constant Country :=
-      (Name => Pakistan_Name'Access,
-       Alpha_2 => Pakistan_Alpha_2'Access,
-       Alpha_3 => Pakistan_Alpha_3'Access,
-       Iso_3166_2 => Pakistan_Iso_3166_2'Access,
-       Country_Code =>  586,
-       Region => Pakistan_Region'Access,
-       Sub_Region => Pakistan_Sub_Region'Access,
-       Intermediate_Region => Pakistan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Palau_Name : aliased constant String := "Palau";
-   Palau_Alpha_2 : aliased constant String := "PW";
-   Palau_Alpha_3 : aliased constant String := "PLW";
-   Palau_Iso_3166_2 : aliased constant String := "ISO 3166-2:PW";
-   Palau_Region : aliased constant String := "Oceania";
-   Palau_Sub_Region : aliased constant String := "Micronesia";
-   Palau_Intermediate_Region : aliased constant String := "";
-   Palau_Entry : aliased constant Country :=
-      (Name => Palau_Name'Access,
-       Alpha_2 => Palau_Alpha_2'Access,
-       Alpha_3 => Palau_Alpha_3'Access,
-       Iso_3166_2 => Palau_Iso_3166_2'Access,
-       Country_Code =>  585,
-       Region => Palau_Region'Access,
-       Sub_Region => Palau_Sub_Region'Access,
-       Intermediate_Region => Palau_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   Palestine_State_of_Name : aliased constant String := "Palestine, State of";
-   Palestine_State_of_Alpha_2 : aliased constant String := "PS";
-   Palestine_State_of_Alpha_3 : aliased constant String := "PSE";
-   Palestine_State_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:PS";
-   Palestine_State_of_Region : aliased constant String := "Asia";
-   Palestine_State_of_Sub_Region : aliased constant String := "Western Asia";
-   Palestine_State_of_Intermediate_Region : aliased constant String := "";
-   Palestine_State_of_Entry : aliased constant Country :=
-      (Name => Palestine_State_of_Name'Access,
-       Alpha_2 => Palestine_State_of_Alpha_2'Access,
-       Alpha_3 => Palestine_State_of_Alpha_3'Access,
-       Iso_3166_2 => Palestine_State_of_Iso_3166_2'Access,
-       Country_Code =>  275,
-       Region => Palestine_State_of_Region'Access,
-       Sub_Region => Palestine_State_of_Sub_Region'Access,
-       Intermediate_Region => Palestine_State_of_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Panama_Name : aliased constant String := "Panama";
-   Panama_Alpha_2 : aliased constant String := "PA";
-   Panama_Alpha_3 : aliased constant String := "PAN";
-   Panama_Iso_3166_2 : aliased constant String := "ISO 3166-2:PA";
-   Panama_Region : aliased constant String := "Americas";
-   Panama_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Panama_Intermediate_Region : aliased constant String := "Central America";
-   Panama_Entry : aliased constant Country :=
-      (Name => Panama_Name'Access,
-       Alpha_2 => Panama_Alpha_2'Access,
-       Alpha_3 => Panama_Alpha_3'Access,
-       Iso_3166_2 => Panama_Iso_3166_2'Access,
-       Country_Code =>  591,
-       Region => Panama_Region'Access,
-       Sub_Region => Panama_Sub_Region'Access,
-       Intermediate_Region => Panama_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  13);
-   Papua_New_Guinea_Name : aliased constant String := "Papua New Guinea";
-   Papua_New_Guinea_Alpha_2 : aliased constant String := "PG";
-   Papua_New_Guinea_Alpha_3 : aliased constant String := "PNG";
-   Papua_New_Guinea_Iso_3166_2 : aliased constant String := "ISO 3166-2:PG";
-   Papua_New_Guinea_Region : aliased constant String := "Oceania";
-   Papua_New_Guinea_Sub_Region : aliased constant String := "Melanesia";
-   Papua_New_Guinea_Intermediate_Region : aliased constant String := "";
-   Papua_New_Guinea_Entry : aliased constant Country :=
-      (Name => Papua_New_Guinea_Name'Access,
-       Alpha_2 => Papua_New_Guinea_Alpha_2'Access,
-       Alpha_3 => Papua_New_Guinea_Alpha_3'Access,
-       Iso_3166_2 => Papua_New_Guinea_Iso_3166_2'Access,
-       Country_Code =>  598,
-       Region => Papua_New_Guinea_Region'Access,
-       Sub_Region => Papua_New_Guinea_Sub_Region'Access,
-       Intermediate_Region => Papua_New_Guinea_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  54,
-       Intermediate_Region_Code =>  0);
-   Paraguay_Name : aliased constant String := "Paraguay";
-   Paraguay_Alpha_2 : aliased constant String := "PY";
-   Paraguay_Alpha_3 : aliased constant String := "PRY";
-   Paraguay_Iso_3166_2 : aliased constant String := "ISO 3166-2:PY";
-   Paraguay_Region : aliased constant String := "Americas";
-   Paraguay_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Paraguay_Intermediate_Region : aliased constant String := "South America";
-   Paraguay_Entry : aliased constant Country :=
-      (Name => Paraguay_Name'Access,
-       Alpha_2 => Paraguay_Alpha_2'Access,
-       Alpha_3 => Paraguay_Alpha_3'Access,
-       Iso_3166_2 => Paraguay_Iso_3166_2'Access,
-       Country_Code =>  600,
-       Region => Paraguay_Region'Access,
-       Sub_Region => Paraguay_Sub_Region'Access,
-       Intermediate_Region => Paraguay_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Peru_Name : aliased constant String := "Peru";
-   Peru_Alpha_2 : aliased constant String := "PE";
-   Peru_Alpha_3 : aliased constant String := "PER";
-   Peru_Iso_3166_2 : aliased constant String := "ISO 3166-2:PE";
-   Peru_Region : aliased constant String := "Americas";
-   Peru_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Peru_Intermediate_Region : aliased constant String := "South America";
-   Peru_Entry : aliased constant Country :=
-      (Name => Peru_Name'Access,
-       Alpha_2 => Peru_Alpha_2'Access,
-       Alpha_3 => Peru_Alpha_3'Access,
-       Iso_3166_2 => Peru_Iso_3166_2'Access,
-       Country_Code =>  604,
-       Region => Peru_Region'Access,
-       Sub_Region => Peru_Sub_Region'Access,
-       Intermediate_Region => Peru_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Philippines_Name : aliased constant String := "Philippines";
-   Philippines_Alpha_2 : aliased constant String := "PH";
-   Philippines_Alpha_3 : aliased constant String := "PHL";
-   Philippines_Iso_3166_2 : aliased constant String := "ISO 3166-2:PH";
-   Philippines_Region : aliased constant String := "Asia";
-   Philippines_Sub_Region : aliased constant String := "South-eastern Asia";
-   Philippines_Intermediate_Region : aliased constant String := "";
-   Philippines_Entry : aliased constant Country :=
-      (Name => Philippines_Name'Access,
-       Alpha_2 => Philippines_Alpha_2'Access,
-       Alpha_3 => Philippines_Alpha_3'Access,
-       Iso_3166_2 => Philippines_Iso_3166_2'Access,
-       Country_Code =>  608,
-       Region => Philippines_Region'Access,
-       Sub_Region => Philippines_Sub_Region'Access,
-       Intermediate_Region => Philippines_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Pitcairn_Name : aliased constant String := "Pitcairn";
-   Pitcairn_Alpha_2 : aliased constant String := "PN";
-   Pitcairn_Alpha_3 : aliased constant String := "PCN";
-   Pitcairn_Iso_3166_2 : aliased constant String := "ISO 3166-2:PN";
-   Pitcairn_Region : aliased constant String := "Oceania";
-   Pitcairn_Sub_Region : aliased constant String := "Polynesia";
-   Pitcairn_Intermediate_Region : aliased constant String := "";
-   Pitcairn_Entry : aliased constant Country :=
-      (Name => Pitcairn_Name'Access,
-       Alpha_2 => Pitcairn_Alpha_2'Access,
-       Alpha_3 => Pitcairn_Alpha_3'Access,
-       Iso_3166_2 => Pitcairn_Iso_3166_2'Access,
-       Country_Code =>  612,
-       Region => Pitcairn_Region'Access,
-       Sub_Region => Pitcairn_Sub_Region'Access,
-       Intermediate_Region => Pitcairn_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Poland_Name : aliased constant String := "Poland";
-   Poland_Alpha_2 : aliased constant String := "PL";
-   Poland_Alpha_3 : aliased constant String := "POL";
-   Poland_Iso_3166_2 : aliased constant String := "ISO 3166-2:PL";
-   Poland_Region : aliased constant String := "Europe";
-   Poland_Sub_Region : aliased constant String := "Eastern Europe";
-   Poland_Intermediate_Region : aliased constant String := "";
-   Poland_Entry : aliased constant Country :=
-      (Name => Poland_Name'Access,
-       Alpha_2 => Poland_Alpha_2'Access,
-       Alpha_3 => Poland_Alpha_3'Access,
-       Iso_3166_2 => Poland_Iso_3166_2'Access,
-       Country_Code =>  616,
-       Region => Poland_Region'Access,
-       Sub_Region => Poland_Sub_Region'Access,
-       Intermediate_Region => Poland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Portugal_Name : aliased constant String := "Portugal";
-   Portugal_Alpha_2 : aliased constant String := "PT";
-   Portugal_Alpha_3 : aliased constant String := "PRT";
-   Portugal_Iso_3166_2 : aliased constant String := "ISO 3166-2:PT";
-   Portugal_Region : aliased constant String := "Europe";
-   Portugal_Sub_Region : aliased constant String := "Southern Europe";
-   Portugal_Intermediate_Region : aliased constant String := "";
-   Portugal_Entry : aliased constant Country :=
-      (Name => Portugal_Name'Access,
-       Alpha_2 => Portugal_Alpha_2'Access,
-       Alpha_3 => Portugal_Alpha_3'Access,
-       Iso_3166_2 => Portugal_Iso_3166_2'Access,
-       Country_Code =>  620,
-       Region => Portugal_Region'Access,
-       Sub_Region => Portugal_Sub_Region'Access,
-       Intermediate_Region => Portugal_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Puerto_Rico_Name : aliased constant String := "Puerto Rico";
-   Puerto_Rico_Alpha_2 : aliased constant String := "PR";
-   Puerto_Rico_Alpha_3 : aliased constant String := "PRI";
-   Puerto_Rico_Iso_3166_2 : aliased constant String := "ISO 3166-2:PR";
-   Puerto_Rico_Region : aliased constant String := "Americas";
-   Puerto_Rico_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Puerto_Rico_Intermediate_Region : aliased constant String := "Caribbean";
-   Puerto_Rico_Entry : aliased constant Country :=
-      (Name => Puerto_Rico_Name'Access,
-       Alpha_2 => Puerto_Rico_Alpha_2'Access,
-       Alpha_3 => Puerto_Rico_Alpha_3'Access,
-       Iso_3166_2 => Puerto_Rico_Iso_3166_2'Access,
-       Country_Code =>  630,
-       Region => Puerto_Rico_Region'Access,
-       Sub_Region => Puerto_Rico_Sub_Region'Access,
-       Intermediate_Region => Puerto_Rico_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Qatar_Name : aliased constant String := "Qatar";
-   Qatar_Alpha_2 : aliased constant String := "QA";
-   Qatar_Alpha_3 : aliased constant String := "QAT";
-   Qatar_Iso_3166_2 : aliased constant String := "ISO 3166-2:QA";
-   Qatar_Region : aliased constant String := "Asia";
-   Qatar_Sub_Region : aliased constant String := "Western Asia";
-   Qatar_Intermediate_Region : aliased constant String := "";
-   Qatar_Entry : aliased constant Country :=
-      (Name => Qatar_Name'Access,
-       Alpha_2 => Qatar_Alpha_2'Access,
-       Alpha_3 => Qatar_Alpha_3'Access,
-       Iso_3166_2 => Qatar_Iso_3166_2'Access,
-       Country_Code =>  634,
-       Region => Qatar_Region'Access,
-       Sub_Region => Qatar_Sub_Region'Access,
-       Intermediate_Region => Qatar_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Romania_Name : aliased constant String := "Romania";
-   Romania_Alpha_2 : aliased constant String := "RO";
-   Romania_Alpha_3 : aliased constant String := "ROU";
-   Romania_Iso_3166_2 : aliased constant String := "ISO 3166-2:RO";
-   Romania_Region : aliased constant String := "Europe";
-   Romania_Sub_Region : aliased constant String := "Eastern Europe";
-   Romania_Intermediate_Region : aliased constant String := "";
-   Romania_Entry : aliased constant Country :=
-      (Name => Romania_Name'Access,
-       Alpha_2 => Romania_Alpha_2'Access,
-       Alpha_3 => Romania_Alpha_3'Access,
-       Iso_3166_2 => Romania_Iso_3166_2'Access,
-       Country_Code =>  642,
-       Region => Romania_Region'Access,
-       Sub_Region => Romania_Sub_Region'Access,
-       Intermediate_Region => Romania_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Russian_Federation_Name : aliased constant String := "Russian Federation";
-   Russian_Federation_Alpha_2 : aliased constant String := "RU";
-   Russian_Federation_Alpha_3 : aliased constant String := "RUS";
-   Russian_Federation_Iso_3166_2 : aliased constant String := "ISO 3166-2:RU";
-   Russian_Federation_Region : aliased constant String := "Europe";
-   Russian_Federation_Sub_Region : aliased constant String := "Eastern Europe";
-   Russian_Federation_Intermediate_Region : aliased constant String := "";
-   Russian_Federation_Entry : aliased constant Country :=
-      (Name => Russian_Federation_Name'Access,
-       Alpha_2 => Russian_Federation_Alpha_2'Access,
-       Alpha_3 => Russian_Federation_Alpha_3'Access,
-       Iso_3166_2 => Russian_Federation_Iso_3166_2'Access,
-       Country_Code =>  643,
-       Region => Russian_Federation_Region'Access,
-       Sub_Region => Russian_Federation_Sub_Region'Access,
-       Intermediate_Region => Russian_Federation_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Rwanda_Name : aliased constant String := "Rwanda";
-   Rwanda_Alpha_2 : aliased constant String := "RW";
-   Rwanda_Alpha_3 : aliased constant String := "RWA";
-   Rwanda_Iso_3166_2 : aliased constant String := "ISO 3166-2:RW";
-   Rwanda_Region : aliased constant String := "Africa";
-   Rwanda_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Rwanda_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Rwanda_Entry : aliased constant Country :=
-      (Name => Rwanda_Name'Access,
-       Alpha_2 => Rwanda_Alpha_2'Access,
-       Alpha_3 => Rwanda_Alpha_3'Access,
-       Iso_3166_2 => Rwanda_Iso_3166_2'Access,
-       Country_Code =>  646,
-       Region => Rwanda_Region'Access,
-       Sub_Region => Rwanda_Sub_Region'Access,
-       Intermediate_Region => Rwanda_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Runion_Name : aliased constant String := "Réunion";
-   Runion_Alpha_2 : aliased constant String := "RE";
-   Runion_Alpha_3 : aliased constant String := "REU";
-   Runion_Iso_3166_2 : aliased constant String := "ISO 3166-2:RE";
-   Runion_Region : aliased constant String := "Africa";
-   Runion_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Runion_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Runion_Entry : aliased constant Country :=
-      (Name => Runion_Name'Access,
-       Alpha_2 => Runion_Alpha_2'Access,
-       Alpha_3 => Runion_Alpha_3'Access,
-       Iso_3166_2 => Runion_Iso_3166_2'Access,
-       Country_Code =>  638,
-       Region => Runion_Region'Access,
-       Sub_Region => Runion_Sub_Region'Access,
-       Intermediate_Region => Runion_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Saint_Barthlemy_Name : aliased constant String := "Saint Barthélemy";
-   Saint_Barthlemy_Alpha_2 : aliased constant String := "BL";
-   Saint_Barthlemy_Alpha_3 : aliased constant String := "BLM";
-   Saint_Barthlemy_Iso_3166_2 : aliased constant String := "ISO 3166-2:BL";
-   Saint_Barthlemy_Region : aliased constant String := "Americas";
-   Saint_Barthlemy_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Saint_Barthlemy_Intermediate_Region : aliased constant String := "Caribbean";
-   Saint_Barthlemy_Entry : aliased constant Country :=
-      (Name => Saint_Barthlemy_Name'Access,
-       Alpha_2 => Saint_Barthlemy_Alpha_2'Access,
-       Alpha_3 => Saint_Barthlemy_Alpha_3'Access,
-       Iso_3166_2 => Saint_Barthlemy_Iso_3166_2'Access,
-       Country_Code =>  652,
-       Region => Saint_Barthlemy_Region'Access,
-       Sub_Region => Saint_Barthlemy_Sub_Region'Access,
-       Intermediate_Region => Saint_Barthlemy_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Name : aliased constant String := "Saint Helena, Ascension and Tristan da Cunha";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Alpha_2 : aliased constant String := "SH";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Alpha_3 : aliased constant String := "SHN";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Iso_3166_2 : aliased constant String := "ISO 3166-2:SH";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Region : aliased constant String := "Africa";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Intermediate_Region : aliased constant String := "Western Africa";
-   Saint_Helena_Ascension_and_Tristan_da_Cunha_Entry : aliased constant Country :=
-      (Name => Saint_Helena_Ascension_and_Tristan_da_Cunha_Name'Access,
-       Alpha_2 => Saint_Helena_Ascension_and_Tristan_da_Cunha_Alpha_2'Access,
-       Alpha_3 => Saint_Helena_Ascension_and_Tristan_da_Cunha_Alpha_3'Access,
-       Iso_3166_2 => Saint_Helena_Ascension_and_Tristan_da_Cunha_Iso_3166_2'Access,
-       Country_Code =>  654,
-       Region => Saint_Helena_Ascension_and_Tristan_da_Cunha_Region'Access,
-       Sub_Region => Saint_Helena_Ascension_and_Tristan_da_Cunha_Sub_Region'Access,
-       Intermediate_Region => Saint_Helena_Ascension_and_Tristan_da_Cunha_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Saint_Kitts_and_Nevis_Name : aliased constant String := "Saint Kitts and Nevis";
-   Saint_Kitts_and_Nevis_Alpha_2 : aliased constant String := "KN";
-   Saint_Kitts_and_Nevis_Alpha_3 : aliased constant String := "KNA";
-   Saint_Kitts_and_Nevis_Iso_3166_2 : aliased constant String := "ISO 3166-2:KN";
-   Saint_Kitts_and_Nevis_Region : aliased constant String := "Americas";
-   Saint_Kitts_and_Nevis_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Saint_Kitts_and_Nevis_Intermediate_Region : aliased constant String := "Caribbean";
-   Saint_Kitts_and_Nevis_Entry : aliased constant Country :=
-      (Name => Saint_Kitts_and_Nevis_Name'Access,
-       Alpha_2 => Saint_Kitts_and_Nevis_Alpha_2'Access,
-       Alpha_3 => Saint_Kitts_and_Nevis_Alpha_3'Access,
-       Iso_3166_2 => Saint_Kitts_and_Nevis_Iso_3166_2'Access,
-       Country_Code =>  659,
-       Region => Saint_Kitts_and_Nevis_Region'Access,
-       Sub_Region => Saint_Kitts_and_Nevis_Sub_Region'Access,
-       Intermediate_Region => Saint_Kitts_and_Nevis_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Saint_Lucia_Name : aliased constant String := "Saint Lucia";
-   Saint_Lucia_Alpha_2 : aliased constant String := "LC";
-   Saint_Lucia_Alpha_3 : aliased constant String := "LCA";
-   Saint_Lucia_Iso_3166_2 : aliased constant String := "ISO 3166-2:LC";
-   Saint_Lucia_Region : aliased constant String := "Americas";
-   Saint_Lucia_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Saint_Lucia_Intermediate_Region : aliased constant String := "Caribbean";
-   Saint_Lucia_Entry : aliased constant Country :=
-      (Name => Saint_Lucia_Name'Access,
-       Alpha_2 => Saint_Lucia_Alpha_2'Access,
-       Alpha_3 => Saint_Lucia_Alpha_3'Access,
-       Iso_3166_2 => Saint_Lucia_Iso_3166_2'Access,
-       Country_Code =>  662,
-       Region => Saint_Lucia_Region'Access,
-       Sub_Region => Saint_Lucia_Sub_Region'Access,
-       Intermediate_Region => Saint_Lucia_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Saint_Martin_French_part_Name : aliased constant String := "Saint Martin (French part)";
-   Saint_Martin_French_part_Alpha_2 : aliased constant String := "MF";
-   Saint_Martin_French_part_Alpha_3 : aliased constant String := "MAF";
-   Saint_Martin_French_part_Iso_3166_2 : aliased constant String := "ISO 3166-2:MF";
-   Saint_Martin_French_part_Region : aliased constant String := "Americas";
-   Saint_Martin_French_part_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Saint_Martin_French_part_Intermediate_Region : aliased constant String := "Caribbean";
-   Saint_Martin_French_part_Entry : aliased constant Country :=
-      (Name => Saint_Martin_French_part_Name'Access,
-       Alpha_2 => Saint_Martin_French_part_Alpha_2'Access,
-       Alpha_3 => Saint_Martin_French_part_Alpha_3'Access,
-       Iso_3166_2 => Saint_Martin_French_part_Iso_3166_2'Access,
-       Country_Code =>  663,
-       Region => Saint_Martin_French_part_Region'Access,
-       Sub_Region => Saint_Martin_French_part_Sub_Region'Access,
-       Intermediate_Region => Saint_Martin_French_part_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Saint_Pierre_and_Miquelon_Name : aliased constant String := "Saint Pierre and Miquelon";
-   Saint_Pierre_and_Miquelon_Alpha_2 : aliased constant String := "PM";
-   Saint_Pierre_and_Miquelon_Alpha_3 : aliased constant String := "SPM";
-   Saint_Pierre_and_Miquelon_Iso_3166_2 : aliased constant String := "ISO 3166-2:PM";
-   Saint_Pierre_and_Miquelon_Region : aliased constant String := "Americas";
-   Saint_Pierre_and_Miquelon_Sub_Region : aliased constant String := "Northern America";
-   Saint_Pierre_and_Miquelon_Intermediate_Region : aliased constant String := "";
-   Saint_Pierre_and_Miquelon_Entry : aliased constant Country :=
-      (Name => Saint_Pierre_and_Miquelon_Name'Access,
-       Alpha_2 => Saint_Pierre_and_Miquelon_Alpha_2'Access,
-       Alpha_3 => Saint_Pierre_and_Miquelon_Alpha_3'Access,
-       Iso_3166_2 => Saint_Pierre_and_Miquelon_Iso_3166_2'Access,
-       Country_Code =>  666,
-       Region => Saint_Pierre_and_Miquelon_Region'Access,
-       Sub_Region => Saint_Pierre_and_Miquelon_Sub_Region'Access,
-       Intermediate_Region => Saint_Pierre_and_Miquelon_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  21,
-       Intermediate_Region_Code =>  0);
-   Saint_Vincent_and_the_Grenadines_Name : aliased constant String := "Saint Vincent and the Grenadines";
-   Saint_Vincent_and_the_Grenadines_Alpha_2 : aliased constant String := "VC";
-   Saint_Vincent_and_the_Grenadines_Alpha_3 : aliased constant String := "VCT";
-   Saint_Vincent_and_the_Grenadines_Iso_3166_2 : aliased constant String := "ISO 3166-2:VC";
-   Saint_Vincent_and_the_Grenadines_Region : aliased constant String := "Americas";
-   Saint_Vincent_and_the_Grenadines_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Saint_Vincent_and_the_Grenadines_Intermediate_Region : aliased constant String := "Caribbean";
-   Saint_Vincent_and_the_Grenadines_Entry : aliased constant Country :=
-      (Name => Saint_Vincent_and_the_Grenadines_Name'Access,
-       Alpha_2 => Saint_Vincent_and_the_Grenadines_Alpha_2'Access,
-       Alpha_3 => Saint_Vincent_and_the_Grenadines_Alpha_3'Access,
-       Iso_3166_2 => Saint_Vincent_and_the_Grenadines_Iso_3166_2'Access,
-       Country_Code =>  670,
-       Region => Saint_Vincent_and_the_Grenadines_Region'Access,
-       Sub_Region => Saint_Vincent_and_the_Grenadines_Sub_Region'Access,
-       Intermediate_Region => Saint_Vincent_and_the_Grenadines_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Samoa_Name : aliased constant String := "Samoa";
-   Samoa_Alpha_2 : aliased constant String := "WS";
-   Samoa_Alpha_3 : aliased constant String := "WSM";
-   Samoa_Iso_3166_2 : aliased constant String := "ISO 3166-2:WS";
-   Samoa_Region : aliased constant String := "Oceania";
-   Samoa_Sub_Region : aliased constant String := "Polynesia";
-   Samoa_Intermediate_Region : aliased constant String := "";
-   Samoa_Entry : aliased constant Country :=
-      (Name => Samoa_Name'Access,
-       Alpha_2 => Samoa_Alpha_2'Access,
-       Alpha_3 => Samoa_Alpha_3'Access,
-       Iso_3166_2 => Samoa_Iso_3166_2'Access,
-       Country_Code =>  882,
-       Region => Samoa_Region'Access,
-       Sub_Region => Samoa_Sub_Region'Access,
-       Intermediate_Region => Samoa_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   San_Marino_Name : aliased constant String := "San Marino";
-   San_Marino_Alpha_2 : aliased constant String := "SM";
-   San_Marino_Alpha_3 : aliased constant String := "SMR";
-   San_Marino_Iso_3166_2 : aliased constant String := "ISO 3166-2:SM";
-   San_Marino_Region : aliased constant String := "Europe";
-   San_Marino_Sub_Region : aliased constant String := "Southern Europe";
-   San_Marino_Intermediate_Region : aliased constant String := "";
-   San_Marino_Entry : aliased constant Country :=
-      (Name => San_Marino_Name'Access,
-       Alpha_2 => San_Marino_Alpha_2'Access,
-       Alpha_3 => San_Marino_Alpha_3'Access,
-       Iso_3166_2 => San_Marino_Iso_3166_2'Access,
-       Country_Code =>  674,
-       Region => San_Marino_Region'Access,
-       Sub_Region => San_Marino_Sub_Region'Access,
-       Intermediate_Region => San_Marino_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Sao_Tome_and_Principe_Name : aliased constant String := "Sao Tome and Principe";
-   Sao_Tome_and_Principe_Alpha_2 : aliased constant String := "ST";
-   Sao_Tome_and_Principe_Alpha_3 : aliased constant String := "STP";
-   Sao_Tome_and_Principe_Iso_3166_2 : aliased constant String := "ISO 3166-2:ST";
-   Sao_Tome_and_Principe_Region : aliased constant String := "Africa";
-   Sao_Tome_and_Principe_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Sao_Tome_and_Principe_Intermediate_Region : aliased constant String := "Middle Africa";
-   Sao_Tome_and_Principe_Entry : aliased constant Country :=
-      (Name => Sao_Tome_and_Principe_Name'Access,
-       Alpha_2 => Sao_Tome_and_Principe_Alpha_2'Access,
-       Alpha_3 => Sao_Tome_and_Principe_Alpha_3'Access,
-       Iso_3166_2 => Sao_Tome_and_Principe_Iso_3166_2'Access,
-       Country_Code =>  678,
-       Region => Sao_Tome_and_Principe_Region'Access,
-       Sub_Region => Sao_Tome_and_Principe_Sub_Region'Access,
-       Intermediate_Region => Sao_Tome_and_Principe_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  17);
-   Saudi_Arabia_Name : aliased constant String := "Saudi Arabia";
-   Saudi_Arabia_Alpha_2 : aliased constant String := "SA";
-   Saudi_Arabia_Alpha_3 : aliased constant String := "SAU";
-   Saudi_Arabia_Iso_3166_2 : aliased constant String := "ISO 3166-2:SA";
-   Saudi_Arabia_Region : aliased constant String := "Asia";
-   Saudi_Arabia_Sub_Region : aliased constant String := "Western Asia";
-   Saudi_Arabia_Intermediate_Region : aliased constant String := "";
-   Saudi_Arabia_Entry : aliased constant Country :=
-      (Name => Saudi_Arabia_Name'Access,
-       Alpha_2 => Saudi_Arabia_Alpha_2'Access,
-       Alpha_3 => Saudi_Arabia_Alpha_3'Access,
-       Iso_3166_2 => Saudi_Arabia_Iso_3166_2'Access,
-       Country_Code =>  682,
-       Region => Saudi_Arabia_Region'Access,
-       Sub_Region => Saudi_Arabia_Sub_Region'Access,
-       Intermediate_Region => Saudi_Arabia_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Senegal_Name : aliased constant String := "Senegal";
-   Senegal_Alpha_2 : aliased constant String := "SN";
-   Senegal_Alpha_3 : aliased constant String := "SEN";
-   Senegal_Iso_3166_2 : aliased constant String := "ISO 3166-2:SN";
-   Senegal_Region : aliased constant String := "Africa";
-   Senegal_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Senegal_Intermediate_Region : aliased constant String := "Western Africa";
-   Senegal_Entry : aliased constant Country :=
-      (Name => Senegal_Name'Access,
-       Alpha_2 => Senegal_Alpha_2'Access,
-       Alpha_3 => Senegal_Alpha_3'Access,
-       Iso_3166_2 => Senegal_Iso_3166_2'Access,
-       Country_Code =>  686,
-       Region => Senegal_Region'Access,
-       Sub_Region => Senegal_Sub_Region'Access,
-       Intermediate_Region => Senegal_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Serbia_Name : aliased constant String := "Serbia";
-   Serbia_Alpha_2 : aliased constant String := "RS";
-   Serbia_Alpha_3 : aliased constant String := "SRB";
-   Serbia_Iso_3166_2 : aliased constant String := "ISO 3166-2:RS";
-   Serbia_Region : aliased constant String := "Europe";
-   Serbia_Sub_Region : aliased constant String := "Southern Europe";
-   Serbia_Intermediate_Region : aliased constant String := "";
-   Serbia_Entry : aliased constant Country :=
-      (Name => Serbia_Name'Access,
-       Alpha_2 => Serbia_Alpha_2'Access,
-       Alpha_3 => Serbia_Alpha_3'Access,
-       Iso_3166_2 => Serbia_Iso_3166_2'Access,
-       Country_Code =>  688,
-       Region => Serbia_Region'Access,
-       Sub_Region => Serbia_Sub_Region'Access,
-       Intermediate_Region => Serbia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Seychelles_Name : aliased constant String := "Seychelles";
-   Seychelles_Alpha_2 : aliased constant String := "SC";
-   Seychelles_Alpha_3 : aliased constant String := "SYC";
-   Seychelles_Iso_3166_2 : aliased constant String := "ISO 3166-2:SC";
-   Seychelles_Region : aliased constant String := "Africa";
-   Seychelles_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Seychelles_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Seychelles_Entry : aliased constant Country :=
-      (Name => Seychelles_Name'Access,
-       Alpha_2 => Seychelles_Alpha_2'Access,
-       Alpha_3 => Seychelles_Alpha_3'Access,
-       Iso_3166_2 => Seychelles_Iso_3166_2'Access,
-       Country_Code =>  690,
-       Region => Seychelles_Region'Access,
-       Sub_Region => Seychelles_Sub_Region'Access,
-       Intermediate_Region => Seychelles_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Sierra_Leone_Name : aliased constant String := "Sierra Leone";
-   Sierra_Leone_Alpha_2 : aliased constant String := "SL";
-   Sierra_Leone_Alpha_3 : aliased constant String := "SLE";
-   Sierra_Leone_Iso_3166_2 : aliased constant String := "ISO 3166-2:SL";
-   Sierra_Leone_Region : aliased constant String := "Africa";
-   Sierra_Leone_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Sierra_Leone_Intermediate_Region : aliased constant String := "Western Africa";
-   Sierra_Leone_Entry : aliased constant Country :=
-      (Name => Sierra_Leone_Name'Access,
-       Alpha_2 => Sierra_Leone_Alpha_2'Access,
-       Alpha_3 => Sierra_Leone_Alpha_3'Access,
-       Iso_3166_2 => Sierra_Leone_Iso_3166_2'Access,
-       Country_Code =>  694,
-       Region => Sierra_Leone_Region'Access,
-       Sub_Region => Sierra_Leone_Sub_Region'Access,
-       Intermediate_Region => Sierra_Leone_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Singapore_Name : aliased constant String := "Singapore";
-   Singapore_Alpha_2 : aliased constant String := "SG";
-   Singapore_Alpha_3 : aliased constant String := "SGP";
-   Singapore_Iso_3166_2 : aliased constant String := "ISO 3166-2:SG";
-   Singapore_Region : aliased constant String := "Asia";
-   Singapore_Sub_Region : aliased constant String := "South-eastern Asia";
-   Singapore_Intermediate_Region : aliased constant String := "";
-   Singapore_Entry : aliased constant Country :=
-      (Name => Singapore_Name'Access,
-       Alpha_2 => Singapore_Alpha_2'Access,
-       Alpha_3 => Singapore_Alpha_3'Access,
-       Iso_3166_2 => Singapore_Iso_3166_2'Access,
-       Country_Code =>  702,
-       Region => Singapore_Region'Access,
-       Sub_Region => Singapore_Sub_Region'Access,
-       Intermediate_Region => Singapore_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Sint_Maarten_Dutch_part_Name : aliased constant String := "Sint Maarten (Dutch part)";
-   Sint_Maarten_Dutch_part_Alpha_2 : aliased constant String := "SX";
-   Sint_Maarten_Dutch_part_Alpha_3 : aliased constant String := "SXM";
-   Sint_Maarten_Dutch_part_Iso_3166_2 : aliased constant String := "ISO 3166-2:SX";
-   Sint_Maarten_Dutch_part_Region : aliased constant String := "Americas";
-   Sint_Maarten_Dutch_part_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Sint_Maarten_Dutch_part_Intermediate_Region : aliased constant String := "Caribbean";
-   Sint_Maarten_Dutch_part_Entry : aliased constant Country :=
-      (Name => Sint_Maarten_Dutch_part_Name'Access,
-       Alpha_2 => Sint_Maarten_Dutch_part_Alpha_2'Access,
-       Alpha_3 => Sint_Maarten_Dutch_part_Alpha_3'Access,
-       Iso_3166_2 => Sint_Maarten_Dutch_part_Iso_3166_2'Access,
-       Country_Code =>  534,
-       Region => Sint_Maarten_Dutch_part_Region'Access,
-       Sub_Region => Sint_Maarten_Dutch_part_Sub_Region'Access,
-       Intermediate_Region => Sint_Maarten_Dutch_part_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Slovakia_Name : aliased constant String := "Slovakia";
-   Slovakia_Alpha_2 : aliased constant String := "SK";
-   Slovakia_Alpha_3 : aliased constant String := "SVK";
-   Slovakia_Iso_3166_2 : aliased constant String := "ISO 3166-2:SK";
-   Slovakia_Region : aliased constant String := "Europe";
-   Slovakia_Sub_Region : aliased constant String := "Eastern Europe";
-   Slovakia_Intermediate_Region : aliased constant String := "";
-   Slovakia_Entry : aliased constant Country :=
-      (Name => Slovakia_Name'Access,
-       Alpha_2 => Slovakia_Alpha_2'Access,
-       Alpha_3 => Slovakia_Alpha_3'Access,
-       Iso_3166_2 => Slovakia_Iso_3166_2'Access,
-       Country_Code =>  703,
-       Region => Slovakia_Region'Access,
-       Sub_Region => Slovakia_Sub_Region'Access,
-       Intermediate_Region => Slovakia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   Slovenia_Name : aliased constant String := "Slovenia";
-   Slovenia_Alpha_2 : aliased constant String := "SI";
-   Slovenia_Alpha_3 : aliased constant String := "SVN";
-   Slovenia_Iso_3166_2 : aliased constant String := "ISO 3166-2:SI";
-   Slovenia_Region : aliased constant String := "Europe";
-   Slovenia_Sub_Region : aliased constant String := "Southern Europe";
-   Slovenia_Intermediate_Region : aliased constant String := "";
-   Slovenia_Entry : aliased constant Country :=
-      (Name => Slovenia_Name'Access,
-       Alpha_2 => Slovenia_Alpha_2'Access,
-       Alpha_3 => Slovenia_Alpha_3'Access,
-       Iso_3166_2 => Slovenia_Iso_3166_2'Access,
-       Country_Code =>  705,
-       Region => Slovenia_Region'Access,
-       Sub_Region => Slovenia_Sub_Region'Access,
-       Intermediate_Region => Slovenia_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Solomon_Islands_Name : aliased constant String := "Solomon Islands";
-   Solomon_Islands_Alpha_2 : aliased constant String := "SB";
-   Solomon_Islands_Alpha_3 : aliased constant String := "SLB";
-   Solomon_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:SB";
-   Solomon_Islands_Region : aliased constant String := "Oceania";
-   Solomon_Islands_Sub_Region : aliased constant String := "Melanesia";
-   Solomon_Islands_Intermediate_Region : aliased constant String := "";
-   Solomon_Islands_Entry : aliased constant Country :=
-      (Name => Solomon_Islands_Name'Access,
-       Alpha_2 => Solomon_Islands_Alpha_2'Access,
-       Alpha_3 => Solomon_Islands_Alpha_3'Access,
-       Iso_3166_2 => Solomon_Islands_Iso_3166_2'Access,
-       Country_Code =>  90,
-       Region => Solomon_Islands_Region'Access,
-       Sub_Region => Solomon_Islands_Sub_Region'Access,
-       Intermediate_Region => Solomon_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  54,
-       Intermediate_Region_Code =>  0);
-   Somalia_Name : aliased constant String := "Somalia";
-   Somalia_Alpha_2 : aliased constant String := "SO";
-   Somalia_Alpha_3 : aliased constant String := "SOM";
-   Somalia_Iso_3166_2 : aliased constant String := "ISO 3166-2:SO";
-   Somalia_Region : aliased constant String := "Africa";
-   Somalia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Somalia_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Somalia_Entry : aliased constant Country :=
-      (Name => Somalia_Name'Access,
-       Alpha_2 => Somalia_Alpha_2'Access,
-       Alpha_3 => Somalia_Alpha_3'Access,
-       Iso_3166_2 => Somalia_Iso_3166_2'Access,
-       Country_Code =>  706,
-       Region => Somalia_Region'Access,
-       Sub_Region => Somalia_Sub_Region'Access,
-       Intermediate_Region => Somalia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   South_Africa_Name : aliased constant String := "South Africa";
-   South_Africa_Alpha_2 : aliased constant String := "ZA";
-   South_Africa_Alpha_3 : aliased constant String := "ZAF";
-   South_Africa_Iso_3166_2 : aliased constant String := "ISO 3166-2:ZA";
-   South_Africa_Region : aliased constant String := "Africa";
-   South_Africa_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   South_Africa_Intermediate_Region : aliased constant String := "Southern Africa";
-   South_Africa_Entry : aliased constant Country :=
-      (Name => South_Africa_Name'Access,
-       Alpha_2 => South_Africa_Alpha_2'Access,
-       Alpha_3 => South_Africa_Alpha_3'Access,
-       Iso_3166_2 => South_Africa_Iso_3166_2'Access,
-       Country_Code =>  710,
-       Region => South_Africa_Region'Access,
-       Sub_Region => South_Africa_Sub_Region'Access,
-       Intermediate_Region => South_Africa_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  18);
-   South_Georgia_and_the_South_Sandwich_Islands_Name : aliased constant String := "South Georgia and the South Sandwich Islands";
-   South_Georgia_and_the_South_Sandwich_Islands_Alpha_2 : aliased constant String := "GS";
-   South_Georgia_and_the_South_Sandwich_Islands_Alpha_3 : aliased constant String := "SGS";
-   South_Georgia_and_the_South_Sandwich_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:GS";
-   South_Georgia_and_the_South_Sandwich_Islands_Region : aliased constant String := "Americas";
-   South_Georgia_and_the_South_Sandwich_Islands_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   South_Georgia_and_the_South_Sandwich_Islands_Intermediate_Region : aliased constant String := "South America";
-   South_Georgia_and_the_South_Sandwich_Islands_Entry : aliased constant Country :=
-      (Name => South_Georgia_and_the_South_Sandwich_Islands_Name'Access,
-       Alpha_2 => South_Georgia_and_the_South_Sandwich_Islands_Alpha_2'Access,
-       Alpha_3 => South_Georgia_and_the_South_Sandwich_Islands_Alpha_3'Access,
-       Iso_3166_2 => South_Georgia_and_the_South_Sandwich_Islands_Iso_3166_2'Access,
-       Country_Code =>  239,
-       Region => South_Georgia_and_the_South_Sandwich_Islands_Region'Access,
-       Sub_Region => South_Georgia_and_the_South_Sandwich_Islands_Sub_Region'Access,
-       Intermediate_Region => South_Georgia_and_the_South_Sandwich_Islands_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   South_Sudan_Name : aliased constant String := "South Sudan";
-   South_Sudan_Alpha_2 : aliased constant String := "SS";
-   South_Sudan_Alpha_3 : aliased constant String := "SSD";
-   South_Sudan_Iso_3166_2 : aliased constant String := "ISO 3166-2:SS";
-   South_Sudan_Region : aliased constant String := "Africa";
-   South_Sudan_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   South_Sudan_Intermediate_Region : aliased constant String := "Eastern Africa";
-   South_Sudan_Entry : aliased constant Country :=
-      (Name => South_Sudan_Name'Access,
-       Alpha_2 => South_Sudan_Alpha_2'Access,
-       Alpha_3 => South_Sudan_Alpha_3'Access,
-       Iso_3166_2 => South_Sudan_Iso_3166_2'Access,
-       Country_Code =>  728,
-       Region => South_Sudan_Region'Access,
-       Sub_Region => South_Sudan_Sub_Region'Access,
-       Intermediate_Region => South_Sudan_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Spain_Name : aliased constant String := "Spain";
-   Spain_Alpha_2 : aliased constant String := "ES";
-   Spain_Alpha_3 : aliased constant String := "ESP";
-   Spain_Iso_3166_2 : aliased constant String := "ISO 3166-2:ES";
-   Spain_Region : aliased constant String := "Europe";
-   Spain_Sub_Region : aliased constant String := "Southern Europe";
-   Spain_Intermediate_Region : aliased constant String := "";
-   Spain_Entry : aliased constant Country :=
-      (Name => Spain_Name'Access,
-       Alpha_2 => Spain_Alpha_2'Access,
-       Alpha_3 => Spain_Alpha_3'Access,
-       Iso_3166_2 => Spain_Iso_3166_2'Access,
-       Country_Code =>  724,
-       Region => Spain_Region'Access,
-       Sub_Region => Spain_Sub_Region'Access,
-       Intermediate_Region => Spain_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  39,
-       Intermediate_Region_Code =>  0);
-   Sri_Lanka_Name : aliased constant String := "Sri Lanka";
-   Sri_Lanka_Alpha_2 : aliased constant String := "LK";
-   Sri_Lanka_Alpha_3 : aliased constant String := "LKA";
-   Sri_Lanka_Iso_3166_2 : aliased constant String := "ISO 3166-2:LK";
-   Sri_Lanka_Region : aliased constant String := "Asia";
-   Sri_Lanka_Sub_Region : aliased constant String := "Southern Asia";
-   Sri_Lanka_Intermediate_Region : aliased constant String := "";
-   Sri_Lanka_Entry : aliased constant Country :=
-      (Name => Sri_Lanka_Name'Access,
-       Alpha_2 => Sri_Lanka_Alpha_2'Access,
-       Alpha_3 => Sri_Lanka_Alpha_3'Access,
-       Iso_3166_2 => Sri_Lanka_Iso_3166_2'Access,
-       Country_Code =>  144,
-       Region => Sri_Lanka_Region'Access,
-       Sub_Region => Sri_Lanka_Sub_Region'Access,
-       Intermediate_Region => Sri_Lanka_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  34,
-       Intermediate_Region_Code =>  0);
-   Sudan_Name : aliased constant String := "Sudan";
-   Sudan_Alpha_2 : aliased constant String := "SD";
-   Sudan_Alpha_3 : aliased constant String := "SDN";
-   Sudan_Iso_3166_2 : aliased constant String := "ISO 3166-2:SD";
-   Sudan_Region : aliased constant String := "Africa";
-   Sudan_Sub_Region : aliased constant String := "Northern Africa";
-   Sudan_Intermediate_Region : aliased constant String := "";
-   Sudan_Entry : aliased constant Country :=
-      (Name => Sudan_Name'Access,
-       Alpha_2 => Sudan_Alpha_2'Access,
-       Alpha_3 => Sudan_Alpha_3'Access,
-       Iso_3166_2 => Sudan_Iso_3166_2'Access,
-       Country_Code =>  729,
-       Region => Sudan_Region'Access,
-       Sub_Region => Sudan_Sub_Region'Access,
-       Intermediate_Region => Sudan_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   Suriname_Name : aliased constant String := "Suriname";
-   Suriname_Alpha_2 : aliased constant String := "SR";
-   Suriname_Alpha_3 : aliased constant String := "SUR";
-   Suriname_Iso_3166_2 : aliased constant String := "ISO 3166-2:SR";
-   Suriname_Region : aliased constant String := "Americas";
-   Suriname_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Suriname_Intermediate_Region : aliased constant String := "South America";
-   Suriname_Entry : aliased constant Country :=
-      (Name => Suriname_Name'Access,
-       Alpha_2 => Suriname_Alpha_2'Access,
-       Alpha_3 => Suriname_Alpha_3'Access,
-       Iso_3166_2 => Suriname_Iso_3166_2'Access,
-       Country_Code =>  740,
-       Region => Suriname_Region'Access,
-       Sub_Region => Suriname_Sub_Region'Access,
-       Intermediate_Region => Suriname_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Svalbard_and_Jan_Mayen_Name : aliased constant String := "Svalbard and Jan Mayen";
-   Svalbard_and_Jan_Mayen_Alpha_2 : aliased constant String := "SJ";
-   Svalbard_and_Jan_Mayen_Alpha_3 : aliased constant String := "SJM";
-   Svalbard_and_Jan_Mayen_Iso_3166_2 : aliased constant String := "ISO 3166-2:SJ";
-   Svalbard_and_Jan_Mayen_Region : aliased constant String := "Europe";
-   Svalbard_and_Jan_Mayen_Sub_Region : aliased constant String := "Northern Europe";
-   Svalbard_and_Jan_Mayen_Intermediate_Region : aliased constant String := "";
-   Svalbard_and_Jan_Mayen_Entry : aliased constant Country :=
-      (Name => Svalbard_and_Jan_Mayen_Name'Access,
-       Alpha_2 => Svalbard_and_Jan_Mayen_Alpha_2'Access,
-       Alpha_3 => Svalbard_and_Jan_Mayen_Alpha_3'Access,
-       Iso_3166_2 => Svalbard_and_Jan_Mayen_Iso_3166_2'Access,
-       Country_Code =>  744,
-       Region => Svalbard_and_Jan_Mayen_Region'Access,
-       Sub_Region => Svalbard_and_Jan_Mayen_Sub_Region'Access,
-       Intermediate_Region => Svalbard_and_Jan_Mayen_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Sweden_Name : aliased constant String := "Sweden";
-   Sweden_Alpha_2 : aliased constant String := "SE";
-   Sweden_Alpha_3 : aliased constant String := "SWE";
-   Sweden_Iso_3166_2 : aliased constant String := "ISO 3166-2:SE";
-   Sweden_Region : aliased constant String := "Europe";
-   Sweden_Sub_Region : aliased constant String := "Northern Europe";
-   Sweden_Intermediate_Region : aliased constant String := "";
-   Sweden_Entry : aliased constant Country :=
-      (Name => Sweden_Name'Access,
-       Alpha_2 => Sweden_Alpha_2'Access,
-       Alpha_3 => Sweden_Alpha_3'Access,
-       Iso_3166_2 => Sweden_Iso_3166_2'Access,
-       Country_Code =>  752,
-       Region => Sweden_Region'Access,
-       Sub_Region => Sweden_Sub_Region'Access,
-       Intermediate_Region => Sweden_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Switzerland_Name : aliased constant String := "Switzerland";
-   Switzerland_Alpha_2 : aliased constant String := "CH";
-   Switzerland_Alpha_3 : aliased constant String := "CHE";
-   Switzerland_Iso_3166_2 : aliased constant String := "ISO 3166-2:CH";
-   Switzerland_Region : aliased constant String := "Europe";
-   Switzerland_Sub_Region : aliased constant String := "Western Europe";
-   Switzerland_Intermediate_Region : aliased constant String := "";
-   Switzerland_Entry : aliased constant Country :=
-      (Name => Switzerland_Name'Access,
-       Alpha_2 => Switzerland_Alpha_2'Access,
-       Alpha_3 => Switzerland_Alpha_3'Access,
-       Iso_3166_2 => Switzerland_Iso_3166_2'Access,
-       Country_Code =>  756,
-       Region => Switzerland_Region'Access,
-       Sub_Region => Switzerland_Sub_Region'Access,
-       Intermediate_Region => Switzerland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  155,
-       Intermediate_Region_Code =>  0);
-   Syrian_Arab_Republic_Name : aliased constant String := "Syrian Arab Republic";
-   Syrian_Arab_Republic_Alpha_2 : aliased constant String := "SY";
-   Syrian_Arab_Republic_Alpha_3 : aliased constant String := "SYR";
-   Syrian_Arab_Republic_Iso_3166_2 : aliased constant String := "ISO 3166-2:SY";
-   Syrian_Arab_Republic_Region : aliased constant String := "Asia";
-   Syrian_Arab_Republic_Sub_Region : aliased constant String := "Western Asia";
-   Syrian_Arab_Republic_Intermediate_Region : aliased constant String := "";
-   Syrian_Arab_Republic_Entry : aliased constant Country :=
-      (Name => Syrian_Arab_Republic_Name'Access,
-       Alpha_2 => Syrian_Arab_Republic_Alpha_2'Access,
-       Alpha_3 => Syrian_Arab_Republic_Alpha_3'Access,
-       Iso_3166_2 => Syrian_Arab_Republic_Iso_3166_2'Access,
-       Country_Code =>  760,
-       Region => Syrian_Arab_Republic_Region'Access,
-       Sub_Region => Syrian_Arab_Republic_Sub_Region'Access,
-       Intermediate_Region => Syrian_Arab_Republic_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Taiwan_Province_of_China_Name : aliased constant String := "Taiwan, Province of China";
-   Taiwan_Province_of_China_Alpha_2 : aliased constant String := "TW";
-   Taiwan_Province_of_China_Alpha_3 : aliased constant String := "TWN";
-   Taiwan_Province_of_China_Iso_3166_2 : aliased constant String := "ISO 3166-2:TW";
-   Taiwan_Province_of_China_Region : aliased constant String := "Asia";
-   Taiwan_Province_of_China_Sub_Region : aliased constant String := "Eastern Asia";
-   Taiwan_Province_of_China_Intermediate_Region : aliased constant String := "";
-   Taiwan_Province_of_China_Entry : aliased constant Country :=
-      (Name => Taiwan_Province_of_China_Name'Access,
-       Alpha_2 => Taiwan_Province_of_China_Alpha_2'Access,
-       Alpha_3 => Taiwan_Province_of_China_Alpha_3'Access,
-       Iso_3166_2 => Taiwan_Province_of_China_Iso_3166_2'Access,
-       Country_Code =>  158,
-       Region => Taiwan_Province_of_China_Region'Access,
-       Sub_Region => Taiwan_Province_of_China_Sub_Region'Access,
-       Intermediate_Region => Taiwan_Province_of_China_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  30,
-       Intermediate_Region_Code =>  0);
-   Tajikistan_Name : aliased constant String := "Tajikistan";
-   Tajikistan_Alpha_2 : aliased constant String := "TJ";
-   Tajikistan_Alpha_3 : aliased constant String := "TJK";
-   Tajikistan_Iso_3166_2 : aliased constant String := "ISO 3166-2:TJ";
-   Tajikistan_Region : aliased constant String := "Asia";
-   Tajikistan_Sub_Region : aliased constant String := "Central Asia";
-   Tajikistan_Intermediate_Region : aliased constant String := "";
-   Tajikistan_Entry : aliased constant Country :=
-      (Name => Tajikistan_Name'Access,
-       Alpha_2 => Tajikistan_Alpha_2'Access,
-       Alpha_3 => Tajikistan_Alpha_3'Access,
-       Iso_3166_2 => Tajikistan_Iso_3166_2'Access,
-       Country_Code =>  762,
-       Region => Tajikistan_Region'Access,
-       Sub_Region => Tajikistan_Sub_Region'Access,
-       Intermediate_Region => Tajikistan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  143,
-       Intermediate_Region_Code =>  0);
-   Tanzania_United_Republic_of_Name : aliased constant String := "Tanzania, United Republic of";
-   Tanzania_United_Republic_of_Alpha_2 : aliased constant String := "TZ";
-   Tanzania_United_Republic_of_Alpha_3 : aliased constant String := "TZA";
-   Tanzania_United_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:TZ";
-   Tanzania_United_Republic_of_Region : aliased constant String := "Africa";
-   Tanzania_United_Republic_of_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Tanzania_United_Republic_of_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Tanzania_United_Republic_of_Entry : aliased constant Country :=
-      (Name => Tanzania_United_Republic_of_Name'Access,
-       Alpha_2 => Tanzania_United_Republic_of_Alpha_2'Access,
-       Alpha_3 => Tanzania_United_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Tanzania_United_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  834,
-       Region => Tanzania_United_Republic_of_Region'Access,
-       Sub_Region => Tanzania_United_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Tanzania_United_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Thailand_Name : aliased constant String := "Thailand";
-   Thailand_Alpha_2 : aliased constant String := "TH";
-   Thailand_Alpha_3 : aliased constant String := "THA";
-   Thailand_Iso_3166_2 : aliased constant String := "ISO 3166-2:TH";
-   Thailand_Region : aliased constant String := "Asia";
-   Thailand_Sub_Region : aliased constant String := "South-eastern Asia";
-   Thailand_Intermediate_Region : aliased constant String := "";
-   Thailand_Entry : aliased constant Country :=
-      (Name => Thailand_Name'Access,
-       Alpha_2 => Thailand_Alpha_2'Access,
-       Alpha_3 => Thailand_Alpha_3'Access,
-       Iso_3166_2 => Thailand_Iso_3166_2'Access,
-       Country_Code =>  764,
-       Region => Thailand_Region'Access,
-       Sub_Region => Thailand_Sub_Region'Access,
-       Intermediate_Region => Thailand_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   TimorLeste_Name : aliased constant String := "Timor-Leste";
-   TimorLeste_Alpha_2 : aliased constant String := "TL";
-   TimorLeste_Alpha_3 : aliased constant String := "TLS";
-   TimorLeste_Iso_3166_2 : aliased constant String := "ISO 3166-2:TL";
-   TimorLeste_Region : aliased constant String := "Asia";
-   TimorLeste_Sub_Region : aliased constant String := "South-eastern Asia";
-   TimorLeste_Intermediate_Region : aliased constant String := "";
-   TimorLeste_Entry : aliased constant Country :=
-      (Name => TimorLeste_Name'Access,
-       Alpha_2 => TimorLeste_Alpha_2'Access,
-       Alpha_3 => TimorLeste_Alpha_3'Access,
-       Iso_3166_2 => TimorLeste_Iso_3166_2'Access,
-       Country_Code =>  626,
-       Region => TimorLeste_Region'Access,
-       Sub_Region => TimorLeste_Sub_Region'Access,
-       Intermediate_Region => TimorLeste_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Togo_Name : aliased constant String := "Togo";
-   Togo_Alpha_2 : aliased constant String := "TG";
-   Togo_Alpha_3 : aliased constant String := "TGO";
-   Togo_Iso_3166_2 : aliased constant String := "ISO 3166-2:TG";
-   Togo_Region : aliased constant String := "Africa";
-   Togo_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Togo_Intermediate_Region : aliased constant String := "Western Africa";
-   Togo_Entry : aliased constant Country :=
-      (Name => Togo_Name'Access,
-       Alpha_2 => Togo_Alpha_2'Access,
-       Alpha_3 => Togo_Alpha_3'Access,
-       Iso_3166_2 => Togo_Iso_3166_2'Access,
-       Country_Code =>  768,
-       Region => Togo_Region'Access,
-       Sub_Region => Togo_Sub_Region'Access,
-       Intermediate_Region => Togo_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  11);
-   Tokelau_Name : aliased constant String := "Tokelau";
-   Tokelau_Alpha_2 : aliased constant String := "TK";
-   Tokelau_Alpha_3 : aliased constant String := "TKL";
-   Tokelau_Iso_3166_2 : aliased constant String := "ISO 3166-2:TK";
-   Tokelau_Region : aliased constant String := "Oceania";
-   Tokelau_Sub_Region : aliased constant String := "Polynesia";
-   Tokelau_Intermediate_Region : aliased constant String := "";
-   Tokelau_Entry : aliased constant Country :=
-      (Name => Tokelau_Name'Access,
-       Alpha_2 => Tokelau_Alpha_2'Access,
-       Alpha_3 => Tokelau_Alpha_3'Access,
-       Iso_3166_2 => Tokelau_Iso_3166_2'Access,
-       Country_Code =>  772,
-       Region => Tokelau_Region'Access,
-       Sub_Region => Tokelau_Sub_Region'Access,
-       Intermediate_Region => Tokelau_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Tonga_Name : aliased constant String := "Tonga";
-   Tonga_Alpha_2 : aliased constant String := "TO";
-   Tonga_Alpha_3 : aliased constant String := "TON";
-   Tonga_Iso_3166_2 : aliased constant String := "ISO 3166-2:TO";
-   Tonga_Region : aliased constant String := "Oceania";
-   Tonga_Sub_Region : aliased constant String := "Polynesia";
-   Tonga_Intermediate_Region : aliased constant String := "";
-   Tonga_Entry : aliased constant Country :=
-      (Name => Tonga_Name'Access,
-       Alpha_2 => Tonga_Alpha_2'Access,
-       Alpha_3 => Tonga_Alpha_3'Access,
-       Iso_3166_2 => Tonga_Iso_3166_2'Access,
-       Country_Code =>  776,
-       Region => Tonga_Region'Access,
-       Sub_Region => Tonga_Sub_Region'Access,
-       Intermediate_Region => Tonga_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Trinidad_and_Tobago_Name : aliased constant String := "Trinidad and Tobago";
-   Trinidad_and_Tobago_Alpha_2 : aliased constant String := "TT";
-   Trinidad_and_Tobago_Alpha_3 : aliased constant String := "TTO";
-   Trinidad_and_Tobago_Iso_3166_2 : aliased constant String := "ISO 3166-2:TT";
-   Trinidad_and_Tobago_Region : aliased constant String := "Americas";
-   Trinidad_and_Tobago_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Trinidad_and_Tobago_Intermediate_Region : aliased constant String := "Caribbean";
-   Trinidad_and_Tobago_Entry : aliased constant Country :=
-      (Name => Trinidad_and_Tobago_Name'Access,
-       Alpha_2 => Trinidad_and_Tobago_Alpha_2'Access,
-       Alpha_3 => Trinidad_and_Tobago_Alpha_3'Access,
-       Iso_3166_2 => Trinidad_and_Tobago_Iso_3166_2'Access,
-       Country_Code =>  780,
-       Region => Trinidad_and_Tobago_Region'Access,
-       Sub_Region => Trinidad_and_Tobago_Sub_Region'Access,
-       Intermediate_Region => Trinidad_and_Tobago_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Tunisia_Name : aliased constant String := "Tunisia";
-   Tunisia_Alpha_2 : aliased constant String := "TN";
-   Tunisia_Alpha_3 : aliased constant String := "TUN";
-   Tunisia_Iso_3166_2 : aliased constant String := "ISO 3166-2:TN";
-   Tunisia_Region : aliased constant String := "Africa";
-   Tunisia_Sub_Region : aliased constant String := "Northern Africa";
-   Tunisia_Intermediate_Region : aliased constant String := "";
-   Tunisia_Entry : aliased constant Country :=
-      (Name => Tunisia_Name'Access,
-       Alpha_2 => Tunisia_Alpha_2'Access,
-       Alpha_3 => Tunisia_Alpha_3'Access,
-       Iso_3166_2 => Tunisia_Iso_3166_2'Access,
-       Country_Code =>  788,
-       Region => Tunisia_Region'Access,
-       Sub_Region => Tunisia_Sub_Region'Access,
-       Intermediate_Region => Tunisia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   Turkey_Name : aliased constant String := "Turkey";
-   Turkey_Alpha_2 : aliased constant String := "TR";
-   Turkey_Alpha_3 : aliased constant String := "TUR";
-   Turkey_Iso_3166_2 : aliased constant String := "ISO 3166-2:TR";
-   Turkey_Region : aliased constant String := "Asia";
-   Turkey_Sub_Region : aliased constant String := "Western Asia";
-   Turkey_Intermediate_Region : aliased constant String := "";
-   Turkey_Entry : aliased constant Country :=
-      (Name => Turkey_Name'Access,
-       Alpha_2 => Turkey_Alpha_2'Access,
-       Alpha_3 => Turkey_Alpha_3'Access,
-       Iso_3166_2 => Turkey_Iso_3166_2'Access,
-       Country_Code =>  792,
-       Region => Turkey_Region'Access,
-       Sub_Region => Turkey_Sub_Region'Access,
-       Intermediate_Region => Turkey_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Turkmenistan_Name : aliased constant String := "Turkmenistan";
-   Turkmenistan_Alpha_2 : aliased constant String := "TM";
-   Turkmenistan_Alpha_3 : aliased constant String := "TKM";
-   Turkmenistan_Iso_3166_2 : aliased constant String := "ISO 3166-2:TM";
-   Turkmenistan_Region : aliased constant String := "Asia";
-   Turkmenistan_Sub_Region : aliased constant String := "Central Asia";
-   Turkmenistan_Intermediate_Region : aliased constant String := "";
-   Turkmenistan_Entry : aliased constant Country :=
-      (Name => Turkmenistan_Name'Access,
-       Alpha_2 => Turkmenistan_Alpha_2'Access,
-       Alpha_3 => Turkmenistan_Alpha_3'Access,
-       Iso_3166_2 => Turkmenistan_Iso_3166_2'Access,
-       Country_Code =>  795,
-       Region => Turkmenistan_Region'Access,
-       Sub_Region => Turkmenistan_Sub_Region'Access,
-       Intermediate_Region => Turkmenistan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  143,
-       Intermediate_Region_Code =>  0);
-   Turks_and_Caicos_Islands_Name : aliased constant String := "Turks and Caicos Islands";
-   Turks_and_Caicos_Islands_Alpha_2 : aliased constant String := "TC";
-   Turks_and_Caicos_Islands_Alpha_3 : aliased constant String := "TCA";
-   Turks_and_Caicos_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:TC";
-   Turks_and_Caicos_Islands_Region : aliased constant String := "Americas";
-   Turks_and_Caicos_Islands_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Turks_and_Caicos_Islands_Intermediate_Region : aliased constant String := "Caribbean";
-   Turks_and_Caicos_Islands_Entry : aliased constant Country :=
-      (Name => Turks_and_Caicos_Islands_Name'Access,
-       Alpha_2 => Turks_and_Caicos_Islands_Alpha_2'Access,
-       Alpha_3 => Turks_and_Caicos_Islands_Alpha_3'Access,
-       Iso_3166_2 => Turks_and_Caicos_Islands_Iso_3166_2'Access,
-       Country_Code =>  796,
-       Region => Turks_and_Caicos_Islands_Region'Access,
-       Sub_Region => Turks_and_Caicos_Islands_Sub_Region'Access,
-       Intermediate_Region => Turks_and_Caicos_Islands_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Tuvalu_Name : aliased constant String := "Tuvalu";
-   Tuvalu_Alpha_2 : aliased constant String := "TV";
-   Tuvalu_Alpha_3 : aliased constant String := "TUV";
-   Tuvalu_Iso_3166_2 : aliased constant String := "ISO 3166-2:TV";
-   Tuvalu_Region : aliased constant String := "Oceania";
-   Tuvalu_Sub_Region : aliased constant String := "Polynesia";
-   Tuvalu_Intermediate_Region : aliased constant String := "";
-   Tuvalu_Entry : aliased constant Country :=
-      (Name => Tuvalu_Name'Access,
-       Alpha_2 => Tuvalu_Alpha_2'Access,
-       Alpha_3 => Tuvalu_Alpha_3'Access,
-       Iso_3166_2 => Tuvalu_Iso_3166_2'Access,
-       Country_Code =>  798,
-       Region => Tuvalu_Region'Access,
-       Sub_Region => Tuvalu_Sub_Region'Access,
-       Intermediate_Region => Tuvalu_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   UNKONWN_Name : aliased constant String := "<UNKONWN>";
-   UNKONWN_Alpha_2 : aliased constant String := "<UNKONWN>";
-   UNKONWN_Alpha_3 : aliased constant String := "<UNKONWN>";
-   UNKONWN_Iso_3166_2 : aliased constant String := "<UNKONWN>";
-   UNKONWN_Region : aliased constant String := "<UNKONWN>";
-   UNKONWN_Sub_Region : aliased constant String := "<UNKONWN>";
-   UNKONWN_Intermediate_Region : aliased constant String := "<UNKONWN>";
-   UNKONWN_Entry : aliased constant Country :=
-      (Name => UNKONWN_Name'Access,
-       Alpha_2 => UNKONWN_Alpha_2'Access,
-       Alpha_3 => UNKONWN_Alpha_3'Access,
-       Iso_3166_2 => UNKONWN_Iso_3166_2'Access,
-       Country_Code =>  0,
-       Region => UNKONWN_Region'Access,
-       Sub_Region => UNKONWN_Sub_Region'Access,
-       Intermediate_Region => UNKONWN_Intermediate_Region'Access,
-       Region_Code =>  0,
-       Sub_Region_Code =>  0,
-       Intermediate_Region_Code =>  0);
-   Uganda_Name : aliased constant String := "Uganda";
-   Uganda_Alpha_2 : aliased constant String := "UG";
-   Uganda_Alpha_3 : aliased constant String := "UGA";
-   Uganda_Iso_3166_2 : aliased constant String := "ISO 3166-2:UG";
-   Uganda_Region : aliased constant String := "Africa";
-   Uganda_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Uganda_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Uganda_Entry : aliased constant Country :=
-      (Name => Uganda_Name'Access,
-       Alpha_2 => Uganda_Alpha_2'Access,
-       Alpha_3 => Uganda_Alpha_3'Access,
-       Iso_3166_2 => Uganda_Iso_3166_2'Access,
-       Country_Code =>  800,
-       Region => Uganda_Region'Access,
-       Sub_Region => Uganda_Sub_Region'Access,
-       Intermediate_Region => Uganda_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Ukraine_Name : aliased constant String := "Ukraine";
-   Ukraine_Alpha_2 : aliased constant String := "UA";
-   Ukraine_Alpha_3 : aliased constant String := "UKR";
-   Ukraine_Iso_3166_2 : aliased constant String := "ISO 3166-2:UA";
-   Ukraine_Region : aliased constant String := "Europe";
-   Ukraine_Sub_Region : aliased constant String := "Eastern Europe";
-   Ukraine_Intermediate_Region : aliased constant String := "";
-   Ukraine_Entry : aliased constant Country :=
-      (Name => Ukraine_Name'Access,
-       Alpha_2 => Ukraine_Alpha_2'Access,
-       Alpha_3 => Ukraine_Alpha_3'Access,
-       Iso_3166_2 => Ukraine_Iso_3166_2'Access,
-       Country_Code =>  804,
-       Region => Ukraine_Region'Access,
-       Sub_Region => Ukraine_Sub_Region'Access,
-       Intermediate_Region => Ukraine_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  151,
-       Intermediate_Region_Code =>  0);
-   United_Arab_Emirates_Name : aliased constant String := "United Arab Emirates";
-   United_Arab_Emirates_Alpha_2 : aliased constant String := "AE";
-   United_Arab_Emirates_Alpha_3 : aliased constant String := "ARE";
-   United_Arab_Emirates_Iso_3166_2 : aliased constant String := "ISO 3166-2:AE";
-   United_Arab_Emirates_Region : aliased constant String := "Asia";
-   United_Arab_Emirates_Sub_Region : aliased constant String := "Western Asia";
-   United_Arab_Emirates_Intermediate_Region : aliased constant String := "";
-   United_Arab_Emirates_Entry : aliased constant Country :=
-      (Name => United_Arab_Emirates_Name'Access,
-       Alpha_2 => United_Arab_Emirates_Alpha_2'Access,
-       Alpha_3 => United_Arab_Emirates_Alpha_3'Access,
-       Iso_3166_2 => United_Arab_Emirates_Iso_3166_2'Access,
-       Country_Code =>  784,
-       Region => United_Arab_Emirates_Region'Access,
-       Sub_Region => United_Arab_Emirates_Sub_Region'Access,
-       Intermediate_Region => United_Arab_Emirates_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Name : aliased constant String := "United Kingdom of Great Britain and Northern Ireland";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Alpha_2 : aliased constant String := "GB";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Alpha_3 : aliased constant String := "GBR";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Iso_3166_2 : aliased constant String := "ISO 3166-2:GB";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Region : aliased constant String := "Europe";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Sub_Region : aliased constant String := "Northern Europe";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Intermediate_Region : aliased constant String := "";
-   United_Kingdom_of_Great_Britain_and_Northern_Ireland_Entry : aliased constant Country :=
-      (Name => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Name'Access,
-       Alpha_2 => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Alpha_2'Access,
-       Alpha_3 => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Alpha_3'Access,
-       Iso_3166_2 => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Iso_3166_2'Access,
-       Country_Code =>  826,
-       Region => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Region'Access,
-       Sub_Region => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Sub_Region'Access,
-       Intermediate_Region => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   United_States_Minor_Outlying_Islands_Name : aliased constant String := "United States Minor Outlying Islands";
-   United_States_Minor_Outlying_Islands_Alpha_2 : aliased constant String := "UM";
-   United_States_Minor_Outlying_Islands_Alpha_3 : aliased constant String := "UMI";
-   United_States_Minor_Outlying_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:UM";
-   United_States_Minor_Outlying_Islands_Region : aliased constant String := "Oceania";
-   United_States_Minor_Outlying_Islands_Sub_Region : aliased constant String := "Micronesia";
-   United_States_Minor_Outlying_Islands_Intermediate_Region : aliased constant String := "";
-   United_States_Minor_Outlying_Islands_Entry : aliased constant Country :=
-      (Name => United_States_Minor_Outlying_Islands_Name'Access,
-       Alpha_2 => United_States_Minor_Outlying_Islands_Alpha_2'Access,
-       Alpha_3 => United_States_Minor_Outlying_Islands_Alpha_3'Access,
-       Iso_3166_2 => United_States_Minor_Outlying_Islands_Iso_3166_2'Access,
-       Country_Code =>  581,
-       Region => United_States_Minor_Outlying_Islands_Region'Access,
-       Sub_Region => United_States_Minor_Outlying_Islands_Sub_Region'Access,
-       Intermediate_Region => United_States_Minor_Outlying_Islands_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  57,
-       Intermediate_Region_Code =>  0);
-   United_States_of_America_Name : aliased constant String := "United States of America";
-   United_States_of_America_Alpha_2 : aliased constant String := "US";
-   United_States_of_America_Alpha_3 : aliased constant String := "USA";
-   United_States_of_America_Iso_3166_2 : aliased constant String := "ISO 3166-2:US";
-   United_States_of_America_Region : aliased constant String := "Americas";
-   United_States_of_America_Sub_Region : aliased constant String := "Northern America";
-   United_States_of_America_Intermediate_Region : aliased constant String := "";
-   United_States_of_America_Entry : aliased constant Country :=
-      (Name => United_States_of_America_Name'Access,
-       Alpha_2 => United_States_of_America_Alpha_2'Access,
-       Alpha_3 => United_States_of_America_Alpha_3'Access,
-       Iso_3166_2 => United_States_of_America_Iso_3166_2'Access,
-       Country_Code =>  840,
-       Region => United_States_of_America_Region'Access,
-       Sub_Region => United_States_of_America_Sub_Region'Access,
-       Intermediate_Region => United_States_of_America_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  21,
-       Intermediate_Region_Code =>  0);
-   Uruguay_Name : aliased constant String := "Uruguay";
-   Uruguay_Alpha_2 : aliased constant String := "UY";
-   Uruguay_Alpha_3 : aliased constant String := "URY";
-   Uruguay_Iso_3166_2 : aliased constant String := "ISO 3166-2:UY";
-   Uruguay_Region : aliased constant String := "Americas";
-   Uruguay_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Uruguay_Intermediate_Region : aliased constant String := "South America";
-   Uruguay_Entry : aliased constant Country :=
-      (Name => Uruguay_Name'Access,
-       Alpha_2 => Uruguay_Alpha_2'Access,
-       Alpha_3 => Uruguay_Alpha_3'Access,
-       Iso_3166_2 => Uruguay_Iso_3166_2'Access,
-       Country_Code =>  858,
-       Region => Uruguay_Region'Access,
-       Sub_Region => Uruguay_Sub_Region'Access,
-       Intermediate_Region => Uruguay_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Uzbekistan_Name : aliased constant String := "Uzbekistan";
-   Uzbekistan_Alpha_2 : aliased constant String := "UZ";
-   Uzbekistan_Alpha_3 : aliased constant String := "UZB";
-   Uzbekistan_Iso_3166_2 : aliased constant String := "ISO 3166-2:UZ";
-   Uzbekistan_Region : aliased constant String := "Asia";
-   Uzbekistan_Sub_Region : aliased constant String := "Central Asia";
-   Uzbekistan_Intermediate_Region : aliased constant String := "";
-   Uzbekistan_Entry : aliased constant Country :=
-      (Name => Uzbekistan_Name'Access,
-       Alpha_2 => Uzbekistan_Alpha_2'Access,
-       Alpha_3 => Uzbekistan_Alpha_3'Access,
-       Iso_3166_2 => Uzbekistan_Iso_3166_2'Access,
-       Country_Code =>  860,
-       Region => Uzbekistan_Region'Access,
-       Sub_Region => Uzbekistan_Sub_Region'Access,
-       Intermediate_Region => Uzbekistan_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  143,
-       Intermediate_Region_Code =>  0);
-   Vanuatu_Name : aliased constant String := "Vanuatu";
-   Vanuatu_Alpha_2 : aliased constant String := "VU";
-   Vanuatu_Alpha_3 : aliased constant String := "VUT";
-   Vanuatu_Iso_3166_2 : aliased constant String := "ISO 3166-2:VU";
-   Vanuatu_Region : aliased constant String := "Oceania";
-   Vanuatu_Sub_Region : aliased constant String := "Melanesia";
-   Vanuatu_Intermediate_Region : aliased constant String := "";
-   Vanuatu_Entry : aliased constant Country :=
-      (Name => Vanuatu_Name'Access,
-       Alpha_2 => Vanuatu_Alpha_2'Access,
-       Alpha_3 => Vanuatu_Alpha_3'Access,
-       Iso_3166_2 => Vanuatu_Iso_3166_2'Access,
-       Country_Code =>  548,
-       Region => Vanuatu_Region'Access,
-       Sub_Region => Vanuatu_Sub_Region'Access,
-       Intermediate_Region => Vanuatu_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  54,
-       Intermediate_Region_Code =>  0);
-   Venezuela_Bolivarian_Republic_of_Name : aliased constant String := "Venezuela (Bolivarian Republic of)";
-   Venezuela_Bolivarian_Republic_of_Alpha_2 : aliased constant String := "VE";
-   Venezuela_Bolivarian_Republic_of_Alpha_3 : aliased constant String := "VEN";
-   Venezuela_Bolivarian_Republic_of_Iso_3166_2 : aliased constant String := "ISO 3166-2:VE";
-   Venezuela_Bolivarian_Republic_of_Region : aliased constant String := "Americas";
-   Venezuela_Bolivarian_Republic_of_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Venezuela_Bolivarian_Republic_of_Intermediate_Region : aliased constant String := "South America";
-   Venezuela_Bolivarian_Republic_of_Entry : aliased constant Country :=
-      (Name => Venezuela_Bolivarian_Republic_of_Name'Access,
-       Alpha_2 => Venezuela_Bolivarian_Republic_of_Alpha_2'Access,
-       Alpha_3 => Venezuela_Bolivarian_Republic_of_Alpha_3'Access,
-       Iso_3166_2 => Venezuela_Bolivarian_Republic_of_Iso_3166_2'Access,
-       Country_Code =>  862,
-       Region => Venezuela_Bolivarian_Republic_of_Region'Access,
-       Sub_Region => Venezuela_Bolivarian_Republic_of_Sub_Region'Access,
-       Intermediate_Region => Venezuela_Bolivarian_Republic_of_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  5);
-   Viet_Nam_Name : aliased constant String := "Viet Nam";
-   Viet_Nam_Alpha_2 : aliased constant String := "VN";
-   Viet_Nam_Alpha_3 : aliased constant String := "VNM";
-   Viet_Nam_Iso_3166_2 : aliased constant String := "ISO 3166-2:VN";
-   Viet_Nam_Region : aliased constant String := "Asia";
-   Viet_Nam_Sub_Region : aliased constant String := "South-eastern Asia";
-   Viet_Nam_Intermediate_Region : aliased constant String := "";
-   Viet_Nam_Entry : aliased constant Country :=
-      (Name => Viet_Nam_Name'Access,
-       Alpha_2 => Viet_Nam_Alpha_2'Access,
-       Alpha_3 => Viet_Nam_Alpha_3'Access,
-       Iso_3166_2 => Viet_Nam_Iso_3166_2'Access,
-       Country_Code =>  704,
-       Region => Viet_Nam_Region'Access,
-       Sub_Region => Viet_Nam_Sub_Region'Access,
-       Intermediate_Region => Viet_Nam_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  35,
-       Intermediate_Region_Code =>  0);
-   Virgin_Islands_British_Name : aliased constant String := "Virgin Islands (British)";
-   Virgin_Islands_British_Alpha_2 : aliased constant String := "VG";
-   Virgin_Islands_British_Alpha_3 : aliased constant String := "VGB";
-   Virgin_Islands_British_Iso_3166_2 : aliased constant String := "ISO 3166-2:VG";
-   Virgin_Islands_British_Region : aliased constant String := "Americas";
-   Virgin_Islands_British_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Virgin_Islands_British_Intermediate_Region : aliased constant String := "Caribbean";
-   Virgin_Islands_British_Entry : aliased constant Country :=
-      (Name => Virgin_Islands_British_Name'Access,
-       Alpha_2 => Virgin_Islands_British_Alpha_2'Access,
-       Alpha_3 => Virgin_Islands_British_Alpha_3'Access,
-       Iso_3166_2 => Virgin_Islands_British_Iso_3166_2'Access,
-       Country_Code =>  92,
-       Region => Virgin_Islands_British_Region'Access,
-       Sub_Region => Virgin_Islands_British_Sub_Region'Access,
-       Intermediate_Region => Virgin_Islands_British_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Virgin_Islands_US_Name : aliased constant String := "Virgin Islands (U.S.)";
-   Virgin_Islands_US_Alpha_2 : aliased constant String := "VI";
-   Virgin_Islands_US_Alpha_3 : aliased constant String := "VIR";
-   Virgin_Islands_US_Iso_3166_2 : aliased constant String := "ISO 3166-2:VI";
-   Virgin_Islands_US_Region : aliased constant String := "Americas";
-   Virgin_Islands_US_Sub_Region : aliased constant String := "Latin America and the Caribbean";
-   Virgin_Islands_US_Intermediate_Region : aliased constant String := "Caribbean";
-   Virgin_Islands_US_Entry : aliased constant Country :=
-      (Name => Virgin_Islands_US_Name'Access,
-       Alpha_2 => Virgin_Islands_US_Alpha_2'Access,
-       Alpha_3 => Virgin_Islands_US_Alpha_3'Access,
-       Iso_3166_2 => Virgin_Islands_US_Iso_3166_2'Access,
-       Country_Code =>  850,
-       Region => Virgin_Islands_US_Region'Access,
-       Sub_Region => Virgin_Islands_US_Sub_Region'Access,
-       Intermediate_Region => Virgin_Islands_US_Intermediate_Region'Access,
-       Region_Code =>  19,
-       Sub_Region_Code =>  419,
-       Intermediate_Region_Code =>  29);
-   Wallis_and_Futuna_Name : aliased constant String := "Wallis and Futuna";
-   Wallis_and_Futuna_Alpha_2 : aliased constant String := "WF";
-   Wallis_and_Futuna_Alpha_3 : aliased constant String := "WLF";
-   Wallis_and_Futuna_Iso_3166_2 : aliased constant String := "ISO 3166-2:WF";
-   Wallis_and_Futuna_Region : aliased constant String := "Oceania";
-   Wallis_and_Futuna_Sub_Region : aliased constant String := "Polynesia";
-   Wallis_and_Futuna_Intermediate_Region : aliased constant String := "";
-   Wallis_and_Futuna_Entry : aliased constant Country :=
-      (Name => Wallis_and_Futuna_Name'Access,
-       Alpha_2 => Wallis_and_Futuna_Alpha_2'Access,
-       Alpha_3 => Wallis_and_Futuna_Alpha_3'Access,
-       Iso_3166_2 => Wallis_and_Futuna_Iso_3166_2'Access,
-       Country_Code =>  876,
-       Region => Wallis_and_Futuna_Region'Access,
-       Sub_Region => Wallis_and_Futuna_Sub_Region'Access,
-       Intermediate_Region => Wallis_and_Futuna_Intermediate_Region'Access,
-       Region_Code =>  9,
-       Sub_Region_Code =>  61,
-       Intermediate_Region_Code =>  0);
-   Western_Sahara_Name : aliased constant String := "Western Sahara";
-   Western_Sahara_Alpha_2 : aliased constant String := "EH";
-   Western_Sahara_Alpha_3 : aliased constant String := "ESH";
-   Western_Sahara_Iso_3166_2 : aliased constant String := "ISO 3166-2:EH";
-   Western_Sahara_Region : aliased constant String := "Africa";
-   Western_Sahara_Sub_Region : aliased constant String := "Northern Africa";
-   Western_Sahara_Intermediate_Region : aliased constant String := "";
-   Western_Sahara_Entry : aliased constant Country :=
-      (Name => Western_Sahara_Name'Access,
-       Alpha_2 => Western_Sahara_Alpha_2'Access,
-       Alpha_3 => Western_Sahara_Alpha_3'Access,
-       Iso_3166_2 => Western_Sahara_Iso_3166_2'Access,
-       Country_Code =>  732,
-       Region => Western_Sahara_Region'Access,
-       Sub_Region => Western_Sahara_Sub_Region'Access,
-       Intermediate_Region => Western_Sahara_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  15,
-       Intermediate_Region_Code =>  0);
-   Yemen_Name : aliased constant String := "Yemen";
-   Yemen_Alpha_2 : aliased constant String := "YE";
-   Yemen_Alpha_3 : aliased constant String := "YEM";
-   Yemen_Iso_3166_2 : aliased constant String := "ISO 3166-2:YE";
-   Yemen_Region : aliased constant String := "Asia";
-   Yemen_Sub_Region : aliased constant String := "Western Asia";
-   Yemen_Intermediate_Region : aliased constant String := "";
-   Yemen_Entry : aliased constant Country :=
-      (Name => Yemen_Name'Access,
-       Alpha_2 => Yemen_Alpha_2'Access,
-       Alpha_3 => Yemen_Alpha_3'Access,
-       Iso_3166_2 => Yemen_Iso_3166_2'Access,
-       Country_Code =>  887,
-       Region => Yemen_Region'Access,
-       Sub_Region => Yemen_Sub_Region'Access,
-       Intermediate_Region => Yemen_Intermediate_Region'Access,
-       Region_Code =>  142,
-       Sub_Region_Code =>  145,
-       Intermediate_Region_Code =>  0);
-   Zambia_Name : aliased constant String := "Zambia";
-   Zambia_Alpha_2 : aliased constant String := "ZM";
-   Zambia_Alpha_3 : aliased constant String := "ZMB";
-   Zambia_Iso_3166_2 : aliased constant String := "ISO 3166-2:ZM";
-   Zambia_Region : aliased constant String := "Africa";
-   Zambia_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Zambia_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Zambia_Entry : aliased constant Country :=
-      (Name => Zambia_Name'Access,
-       Alpha_2 => Zambia_Alpha_2'Access,
-       Alpha_3 => Zambia_Alpha_3'Access,
-       Iso_3166_2 => Zambia_Iso_3166_2'Access,
-       Country_Code =>  894,
-       Region => Zambia_Region'Access,
-       Sub_Region => Zambia_Sub_Region'Access,
-       Intermediate_Region => Zambia_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   Zimbabwe_Name : aliased constant String := "Zimbabwe";
-   Zimbabwe_Alpha_2 : aliased constant String := "ZW";
-   Zimbabwe_Alpha_3 : aliased constant String := "ZWE";
-   Zimbabwe_Iso_3166_2 : aliased constant String := "ISO 3166-2:ZW";
-   Zimbabwe_Region : aliased constant String := "Africa";
-   Zimbabwe_Sub_Region : aliased constant String := "Sub-Saharan Africa";
-   Zimbabwe_Intermediate_Region : aliased constant String := "Eastern Africa";
-   Zimbabwe_Entry : aliased constant Country :=
-      (Name => Zimbabwe_Name'Access,
-       Alpha_2 => Zimbabwe_Alpha_2'Access,
-       Alpha_3 => Zimbabwe_Alpha_3'Access,
-       Iso_3166_2 => Zimbabwe_Iso_3166_2'Access,
-       Country_Code =>  716,
-       Region => Zimbabwe_Region'Access,
-       Sub_Region => Zimbabwe_Sub_Region'Access,
-       Intermediate_Region => Zimbabwe_Intermediate_Region'Access,
-       Region_Code =>  2,
-       Sub_Region_Code =>  202,
-       Intermediate_Region_Code =>  14);
-   land_Islands_Name : aliased constant String := "Åland Islands";
-   land_Islands_Alpha_2 : aliased constant String := "AX";
-   land_Islands_Alpha_3 : aliased constant String := "ALA";
-   land_Islands_Iso_3166_2 : aliased constant String := "ISO 3166-2:AX";
-   land_Islands_Region : aliased constant String := "Europe";
-   land_Islands_Sub_Region : aliased constant String := "Northern Europe";
-   land_Islands_Intermediate_Region : aliased constant String := "";
-   land_Islands_Entry : aliased constant Country :=
-      (Name => land_Islands_Name'Access,
-       Alpha_2 => land_Islands_Alpha_2'Access,
-       Alpha_3 => land_Islands_Alpha_3'Access,
-       Iso_3166_2 => land_Islands_Iso_3166_2'Access,
-       Country_Code =>  248,
-       Region => land_Islands_Region'Access,
-       Sub_Region => land_Islands_Sub_Region'Access,
-       Intermediate_Region => land_Islands_Intermediate_Region'Access,
-       Region_Code =>  150,
-       Sub_Region_Code =>  154,
-       Intermediate_Region_Code =>  0);
-   Data : constant array (Mappings.Country_Enum) of Country_Access :=
-     (Mappings.Afghanistan => Afghanistan_Entry'Access,
-      Mappings.Albania => Albania_Entry'Access,
-      Mappings.Algeria => Algeria_Entry'Access,
-      Mappings.American_Samoa => American_Samoa_Entry'Access,
-      Mappings.Andorra => Andorra_Entry'Access,
-      Mappings.Angola => Angola_Entry'Access,
-      Mappings.Anguilla => Anguilla_Entry'Access,
-      Mappings.Antarctica => Antarctica_Entry'Access,
-      Mappings.Antigua_and_Barbuda => Antigua_and_Barbuda_Entry'Access,
-      Mappings.Argentina => Argentina_Entry'Access,
-      Mappings.Armenia => Armenia_Entry'Access,
-      Mappings.Aruba => Aruba_Entry'Access,
-      Mappings.Australia => Australia_Entry'Access,
-      Mappings.Austria => Austria_Entry'Access,
-      Mappings.Azerbaijan => Azerbaijan_Entry'Access,
-      Mappings.Bahamas => Bahamas_Entry'Access,
-      Mappings.Bahrain => Bahrain_Entry'Access,
-      Mappings.Bangladesh => Bangladesh_Entry'Access,
-      Mappings.Barbados => Barbados_Entry'Access,
-      Mappings.Belarus => Belarus_Entry'Access,
-      Mappings.Belgium => Belgium_Entry'Access,
-      Mappings.Belize => Belize_Entry'Access,
-      Mappings.Benin => Benin_Entry'Access,
-      Mappings.Bermuda => Bermuda_Entry'Access,
-      Mappings.Bhutan => Bhutan_Entry'Access,
-      Mappings.Bolivia_Plurinational_State_of => Bolivia_Plurinational_State_of_Entry'Access,
-      Mappings.Bonaire_Sint_Eustatius_and_Saba => Bonaire_Sint_Eustatius_and_Saba_Entry'Access,
-      Mappings.Bosnia_and_Herzegovina => Bosnia_and_Herzegovina_Entry'Access,
-      Mappings.Botswana => Botswana_Entry'Access,
-      Mappings.Bouvet_Island => Bouvet_Island_Entry'Access,
-      Mappings.Brazil => Brazil_Entry'Access,
-      Mappings.British_Indian_Ocean_Territory => British_Indian_Ocean_Territory_Entry'Access,
-      Mappings.Brunei_Darussalam => Brunei_Darussalam_Entry'Access,
-      Mappings.Bulgaria => Bulgaria_Entry'Access,
-      Mappings.Burkina_Faso => Burkina_Faso_Entry'Access,
-      Mappings.Burundi => Burundi_Entry'Access,
-      Mappings.Cabo_Verde => Cabo_Verde_Entry'Access,
-      Mappings.Cambodia => Cambodia_Entry'Access,
-      Mappings.Cameroon => Cameroon_Entry'Access,
-      Mappings.Canada => Canada_Entry'Access,
-      Mappings.Cayman_Islands => Cayman_Islands_Entry'Access,
-      Mappings.Central_African_Republic => Central_African_Republic_Entry'Access,
-      Mappings.Chad => Chad_Entry'Access,
-      Mappings.Chile => Chile_Entry'Access,
-      Mappings.China => China_Entry'Access,
-      Mappings.Christmas_Island => Christmas_Island_Entry'Access,
-      Mappings.Cocos_Keeling_Islands => Cocos_Keeling_Islands_Entry'Access,
-      Mappings.Colombia => Colombia_Entry'Access,
-      Mappings.Comoros => Comoros_Entry'Access,
-      Mappings.Congo => Congo_Entry'Access,
-      Mappings.Congo_Democratic_Republic_of_the => Congo_Democratic_Republic_of_the_Entry'Access,
-      Mappings.Cook_Islands => Cook_Islands_Entry'Access,
-      Mappings.Costa_Rica => Costa_Rica_Entry'Access,
-      Mappings.Croatia => Croatia_Entry'Access,
-      Mappings.Cuba => Cuba_Entry'Access,
-      Mappings.Curaao => Curaao_Entry'Access,
-      Mappings.Cyprus => Cyprus_Entry'Access,
-      Mappings.Czechia => Czechia_Entry'Access,
-      Mappings.Cte_dIvoire => Cte_dIvoire_Entry'Access,
-      Mappings.Denmark => Denmark_Entry'Access,
-      Mappings.Djibouti => Djibouti_Entry'Access,
-      Mappings.Dominica => Dominica_Entry'Access,
-      Mappings.Dominican_Republic => Dominican_Republic_Entry'Access,
-      Mappings.Ecuador => Ecuador_Entry'Access,
-      Mappings.Egypt => Egypt_Entry'Access,
-      Mappings.El_Salvador => El_Salvador_Entry'Access,
-      Mappings.Equatorial_Guinea => Equatorial_Guinea_Entry'Access,
-      Mappings.Eritrea => Eritrea_Entry'Access,
-      Mappings.Estonia => Estonia_Entry'Access,
-      Mappings.Eswatini => Eswatini_Entry'Access,
-      Mappings.Ethiopia => Ethiopia_Entry'Access,
-      Mappings.Falkland_Islands_Malvinas => Falkland_Islands_Malvinas_Entry'Access,
-      Mappings.Faroe_Islands => Faroe_Islands_Entry'Access,
-      Mappings.Fiji => Fiji_Entry'Access,
-      Mappings.Finland => Finland_Entry'Access,
-      Mappings.France => France_Entry'Access,
-      Mappings.French_Guiana => French_Guiana_Entry'Access,
-      Mappings.French_Polynesia => French_Polynesia_Entry'Access,
-      Mappings.French_Southern_Territories => French_Southern_Territories_Entry'Access,
-      Mappings.Gabon => Gabon_Entry'Access,
-      Mappings.Gambia => Gambia_Entry'Access,
-      Mappings.Georgia => Georgia_Entry'Access,
-      Mappings.Germany => Germany_Entry'Access,
-      Mappings.Ghana => Ghana_Entry'Access,
-      Mappings.Gibraltar => Gibraltar_Entry'Access,
-      Mappings.Greece => Greece_Entry'Access,
-      Mappings.Greenland => Greenland_Entry'Access,
-      Mappings.Grenada => Grenada_Entry'Access,
-      Mappings.Guadeloupe => Guadeloupe_Entry'Access,
-      Mappings.Guam => Guam_Entry'Access,
-      Mappings.Guatemala => Guatemala_Entry'Access,
-      Mappings.Guernsey => Guernsey_Entry'Access,
-      Mappings.Guinea => Guinea_Entry'Access,
-      Mappings.GuineaBissau => GuineaBissau_Entry'Access,
-      Mappings.Guyana => Guyana_Entry'Access,
-      Mappings.Haiti => Haiti_Entry'Access,
-      Mappings.Heard_Island_and_McDonald_Islands => Heard_Island_and_McDonald_Islands_Entry'Access,
-      Mappings.Holy_See => Holy_See_Entry'Access,
-      Mappings.Honduras => Honduras_Entry'Access,
-      Mappings.Hong_Kong => Hong_Kong_Entry'Access,
-      Mappings.Hungary => Hungary_Entry'Access,
-      Mappings.Iceland => Iceland_Entry'Access,
-      Mappings.India => India_Entry'Access,
-      Mappings.Indonesia => Indonesia_Entry'Access,
-      Mappings.Iran_Islamic_Republic_of => Iran_Islamic_Republic_of_Entry'Access,
-      Mappings.Iraq => Iraq_Entry'Access,
-      Mappings.Ireland => Ireland_Entry'Access,
-      Mappings.Isle_of_Man => Isle_of_Man_Entry'Access,
-      Mappings.Israel => Israel_Entry'Access,
-      Mappings.Italy => Italy_Entry'Access,
-      Mappings.Jamaica => Jamaica_Entry'Access,
-      Mappings.Japan => Japan_Entry'Access,
-      Mappings.Jersey => Jersey_Entry'Access,
-      Mappings.Jordan => Jordan_Entry'Access,
-      Mappings.Kazakhstan => Kazakhstan_Entry'Access,
-      Mappings.Kenya => Kenya_Entry'Access,
-      Mappings.Kiribati => Kiribati_Entry'Access,
-      Mappings.Korea_Democratic_Peoples_Republic_of => Korea_Democratic_Peoples_Republic_of_Entry'Access,
-      Mappings.Korea_Republic_of => Korea_Republic_of_Entry'Access,
-      Mappings.Kuwait => Kuwait_Entry'Access,
-      Mappings.Kyrgyzstan => Kyrgyzstan_Entry'Access,
-      Mappings.Lao_Peoples_Democratic_Republic => Lao_Peoples_Democratic_Republic_Entry'Access,
-      Mappings.Latvia => Latvia_Entry'Access,
-      Mappings.Lebanon => Lebanon_Entry'Access,
-      Mappings.Lesotho => Lesotho_Entry'Access,
-      Mappings.Liberia => Liberia_Entry'Access,
-      Mappings.Libya => Libya_Entry'Access,
-      Mappings.Liechtenstein => Liechtenstein_Entry'Access,
-      Mappings.Lithuania => Lithuania_Entry'Access,
-      Mappings.Luxembourg => Luxembourg_Entry'Access,
-      Mappings.Macao => Macao_Entry'Access,
-      Mappings.Madagascar => Madagascar_Entry'Access,
-      Mappings.Malawi => Malawi_Entry'Access,
-      Mappings.Malaysia => Malaysia_Entry'Access,
-      Mappings.Maldives => Maldives_Entry'Access,
-      Mappings.Mali => Mali_Entry'Access,
-      Mappings.Malta => Malta_Entry'Access,
-      Mappings.Marshall_Islands => Marshall_Islands_Entry'Access,
-      Mappings.Martinique => Martinique_Entry'Access,
-      Mappings.Mauritania => Mauritania_Entry'Access,
-      Mappings.Mauritius => Mauritius_Entry'Access,
-      Mappings.Mayotte => Mayotte_Entry'Access,
-      Mappings.Mexico => Mexico_Entry'Access,
-      Mappings.Micronesia_Federated_States_of => Micronesia_Federated_States_of_Entry'Access,
-      Mappings.Moldova_Republic_of => Moldova_Republic_of_Entry'Access,
-      Mappings.Monaco => Monaco_Entry'Access,
-      Mappings.Mongolia => Mongolia_Entry'Access,
-      Mappings.Montenegro => Montenegro_Entry'Access,
-      Mappings.Montserrat => Montserrat_Entry'Access,
-      Mappings.Morocco => Morocco_Entry'Access,
-      Mappings.Mozambique => Mozambique_Entry'Access,
-      Mappings.Myanmar => Myanmar_Entry'Access,
-      Mappings.Namibia => Namibia_Entry'Access,
-      Mappings.Nauru => Nauru_Entry'Access,
-      Mappings.Nepal => Nepal_Entry'Access,
-      Mappings.Netherlands => Netherlands_Entry'Access,
-      Mappings.New_Caledonia => New_Caledonia_Entry'Access,
-      Mappings.New_Zealand => New_Zealand_Entry'Access,
-      Mappings.Nicaragua => Nicaragua_Entry'Access,
-      Mappings.Niger => Niger_Entry'Access,
-      Mappings.Nigeria => Nigeria_Entry'Access,
-      Mappings.Niue => Niue_Entry'Access,
-      Mappings.Norfolk_Island => Norfolk_Island_Entry'Access,
-      Mappings.North_Macedonia => North_Macedonia_Entry'Access,
-      Mappings.Northern_Mariana_Islands => Northern_Mariana_Islands_Entry'Access,
-      Mappings.Norway => Norway_Entry'Access,
-      Mappings.Oman => Oman_Entry'Access,
-      Mappings.Pakistan => Pakistan_Entry'Access,
-      Mappings.Palau => Palau_Entry'Access,
-      Mappings.Palestine_State_of => Palestine_State_of_Entry'Access,
-      Mappings.Panama => Panama_Entry'Access,
-      Mappings.Papua_New_Guinea => Papua_New_Guinea_Entry'Access,
-      Mappings.Paraguay => Paraguay_Entry'Access,
-      Mappings.Peru => Peru_Entry'Access,
-      Mappings.Philippines => Philippines_Entry'Access,
-      Mappings.Pitcairn => Pitcairn_Entry'Access,
-      Mappings.Poland => Poland_Entry'Access,
-      Mappings.Portugal => Portugal_Entry'Access,
-      Mappings.Puerto_Rico => Puerto_Rico_Entry'Access,
-      Mappings.Qatar => Qatar_Entry'Access,
-      Mappings.Romania => Romania_Entry'Access,
-      Mappings.Russian_Federation => Russian_Federation_Entry'Access,
-      Mappings.Rwanda => Rwanda_Entry'Access,
-      Mappings.Runion => Runion_Entry'Access,
-      Mappings.Saint_Barthlemy => Saint_Barthlemy_Entry'Access,
-      Mappings.Saint_Helena_Ascension_and_Tristan_da_Cunha => Saint_Helena_Ascension_and_Tristan_da_Cunha_Entry'Access,
-      Mappings.Saint_Kitts_and_Nevis => Saint_Kitts_and_Nevis_Entry'Access,
-      Mappings.Saint_Lucia => Saint_Lucia_Entry'Access,
-      Mappings.Saint_Martin_French_part => Saint_Martin_French_part_Entry'Access,
-      Mappings.Saint_Pierre_and_Miquelon => Saint_Pierre_and_Miquelon_Entry'Access,
-      Mappings.Saint_Vincent_and_the_Grenadines => Saint_Vincent_and_the_Grenadines_Entry'Access,
-      Mappings.Samoa => Samoa_Entry'Access,
-      Mappings.San_Marino => San_Marino_Entry'Access,
-      Mappings.Sao_Tome_and_Principe => Sao_Tome_and_Principe_Entry'Access,
-      Mappings.Saudi_Arabia => Saudi_Arabia_Entry'Access,
-      Mappings.Senegal => Senegal_Entry'Access,
-      Mappings.Serbia => Serbia_Entry'Access,
-      Mappings.Seychelles => Seychelles_Entry'Access,
-      Mappings.Sierra_Leone => Sierra_Leone_Entry'Access,
-      Mappings.Singapore => Singapore_Entry'Access,
-      Mappings.Sint_Maarten_Dutch_part => Sint_Maarten_Dutch_part_Entry'Access,
-      Mappings.Slovakia => Slovakia_Entry'Access,
-      Mappings.Slovenia => Slovenia_Entry'Access,
-      Mappings.Solomon_Islands => Solomon_Islands_Entry'Access,
-      Mappings.Somalia => Somalia_Entry'Access,
-      Mappings.South_Africa => South_Africa_Entry'Access,
-      Mappings.South_Georgia_and_the_South_Sandwich_Islands => South_Georgia_and_the_South_Sandwich_Islands_Entry'Access,
-      Mappings.South_Sudan => South_Sudan_Entry'Access,
-      Mappings.Spain => Spain_Entry'Access,
-      Mappings.Sri_Lanka => Sri_Lanka_Entry'Access,
-      Mappings.Sudan => Sudan_Entry'Access,
-      Mappings.Suriname => Suriname_Entry'Access,
-      Mappings.Svalbard_and_Jan_Mayen => Svalbard_and_Jan_Mayen_Entry'Access,
-      Mappings.Sweden => Sweden_Entry'Access,
-      Mappings.Switzerland => Switzerland_Entry'Access,
-      Mappings.Syrian_Arab_Republic => Syrian_Arab_Republic_Entry'Access,
-      Mappings.Taiwan_Province_of_China => Taiwan_Province_of_China_Entry'Access,
-      Mappings.Tajikistan => Tajikistan_Entry'Access,
-      Mappings.Tanzania_United_Republic_of => Tanzania_United_Republic_of_Entry'Access,
-      Mappings.Thailand => Thailand_Entry'Access,
-      Mappings.TimorLeste => TimorLeste_Entry'Access,
-      Mappings.Togo => Togo_Entry'Access,
-      Mappings.Tokelau => Tokelau_Entry'Access,
-      Mappings.Tonga => Tonga_Entry'Access,
-      Mappings.Trinidad_and_Tobago => Trinidad_and_Tobago_Entry'Access,
-      Mappings.Tunisia => Tunisia_Entry'Access,
-      Mappings.Turkey => Turkey_Entry'Access,
-      Mappings.Turkmenistan => Turkmenistan_Entry'Access,
-      Mappings.Turks_and_Caicos_Islands => Turks_and_Caicos_Islands_Entry'Access,
-      Mappings.Tuvalu => Tuvalu_Entry'Access,
-      Mappings.UNKONWN => UNKONWN_Entry'Access,
-      Mappings.Uganda => Uganda_Entry'Access,
-      Mappings.Ukraine => Ukraine_Entry'Access,
-      Mappings.United_Arab_Emirates => United_Arab_Emirates_Entry'Access,
-      Mappings.United_Kingdom_of_Great_Britain_and_Northern_Ireland => United_Kingdom_of_Great_Britain_and_Northern_Ireland_Entry'Access,
-      Mappings.United_States_Minor_Outlying_Islands => United_States_Minor_Outlying_Islands_Entry'Access,
-      Mappings.United_States_of_America => United_States_of_America_Entry'Access,
-      Mappings.Uruguay => Uruguay_Entry'Access,
-      Mappings.Uzbekistan => Uzbekistan_Entry'Access,
-      Mappings.Vanuatu => Vanuatu_Entry'Access,
-      Mappings.Venezuela_Bolivarian_Republic_of => Venezuela_Bolivarian_Republic_of_Entry'Access,
-      Mappings.Viet_Nam => Viet_Nam_Entry'Access,
-      Mappings.Virgin_Islands_British => Virgin_Islands_British_Entry'Access,
-      Mappings.Virgin_Islands_US => Virgin_Islands_US_Entry'Access,
-      Mappings.Wallis_and_Futuna => Wallis_and_Futuna_Entry'Access,
-      Mappings.Western_Sahara => Western_Sahara_Entry'Access,
-      Mappings.Yemen => Yemen_Entry'Access,
-      Mappings.Zambia => Zambia_Entry'Access,
-      Mappings.Zimbabwe => Zimbabwe_Entry'Access,
-      Mappings.land_Islands => land_Islands_Entry'Access);
-end ISO_3166.Database;
+from enum import Enum
+
+
+class ConutryEnum(Enum):
+    Afghanistan = 4
+    Albania = 8
+    Algeria = 12
+    American_Samoa = 16
+    Andorra = 20
+    Angola = 24
+    Anguilla = 660
+    Antarctica = 10
+    Antigua_and_Barbuda = 28
+    Argentina = 32
+    Armenia = 51
+    Aruba = 533
+    Australia = 36
+    Austria = 40
+    Azerbaijan = 31
+    Bahamas = 44
+    Bahrain = 48
+    Bangladesh = 50
+    Barbados = 52
+    Belarus = 112
+    Belgium = 56
+    Belize = 84
+    Benin = 204
+    Bermuda = 60
+    Bhutan = 64
+    Bolivia_Plurinational_State_of = 68
+    Bonaire_Sint_Eustatius_and_Saba = 535
+    Bosnia_and_Herzegovina = 70
+    Botswana = 72
+    Bouvet_Island = 74
+    Brazil = 76
+    British_Indian_Ocean_Territory = 86
+    Brunei_Darussalam = 96
+    Bulgaria = 100
+    Burkina_Faso = 854
+    Burundi = 108
+    Cabo_Verde = 132
+    Cambodia = 116
+    Cameroon = 120
+    Canada = 124
+    Cayman_Islands = 136
+    Central_African_Republic = 140
+    Chad = 148
+    Chile = 152
+    China = 156
+    Christmas_Island = 162
+    Cocos_Keeling_Islands = 166
+    Colombia = 170
+    Comoros = 174
+    Congo = 178
+    Congo_Democratic_Republic_of_the = 180
+    Cook_Islands = 184
+    Costa_Rica = 188
+    Croatia = 191
+    Cuba = 192
+    Curaao = 531
+    Cyprus = 196
+    Czechia = 203
+    Cte_dIvoire = 384
+    Denmark = 208
+    Djibouti = 262
+    Dominica = 212
+    Dominican_Republic = 214
+    Ecuador = 218
+    Egypt = 818
+    El_Salvador = 222
+    Equatorial_Guinea = 226
+    Eritrea = 232
+    Estonia = 233
+    Eswatini = 748
+    Ethiopia = 231
+    Falkland_Islands_Malvinas = 238
+    Faroe_Islands = 234
+    Fiji = 242
+    Finland = 246
+    France = 250
+    French_Guiana = 254
+    French_Polynesia = 258
+    French_Southern_Territories = 260
+    Gabon = 266
+    Gambia = 270
+    Georgia = 268
+    Germany = 276
+    Ghana = 288
+    Gibraltar = 292
+    Greece = 300
+    Greenland = 304
+    Grenada = 308
+    Guadeloupe = 312
+    Guam = 316
+    Guatemala = 320
+    Guernsey = 831
+    Guinea = 324
+    GuineaBissau = 624
+    Guyana = 328
+    Haiti = 332
+    Heard_Island_and_McDonald_Islands = 334
+    Holy_See = 336
+    Honduras = 340
+    Hong_Kong = 344
+    Hungary = 348
+    Iceland = 352
+    India = 356
+    Indonesia = 360
+    Iran_Islamic_Republic_of = 364
+    Iraq = 368
+    Ireland = 372
+    Isle_of_Man = 833
+    Israel = 376
+    Italy = 380
+    Jamaica = 388
+    Japan = 392
+    Jersey = 832
+    Jordan = 400
+    Kazakhstan = 398
+    Kenya = 404
+    Kiribati = 296
+    Korea_Democratic_Peoples_Republic_of = 408
+    Korea_Republic_of = 410
+    Kuwait = 414
+    Kyrgyzstan = 417
+    Lao_Peoples_Democratic_Republic = 418
+    Latvia = 428
+    Lebanon = 422
+    Lesotho = 426
+    Liberia = 430
+    Libya = 434
+    Liechtenstein = 438
+    Lithuania = 440
+    Luxembourg = 442
+    Macao = 446
+    Madagascar = 450
+    Malawi = 454
+    Malaysia = 458
+    Maldives = 462
+    Mali = 466
+    Malta = 470
+    Marshall_Islands = 584
+    Martinique = 474
+    Mauritania = 478
+    Mauritius = 480
+    Mayotte = 175
+    Mexico = 484
+    Micronesia_Federated_States_of = 583
+    Moldova_Republic_of = 498
+    Monaco = 492
+    Mongolia = 496
+    Montenegro = 499
+    Montserrat = 500
+    Morocco = 504
+    Mozambique = 508
+    Myanmar = 104
+    Namibia = 516
+    Nauru = 520
+    Nepal = 524
+    Netherlands = 528
+    New_Caledonia = 540
+    New_Zealand = 554
+    Nicaragua = 558
+    Niger = 562
+    Nigeria = 566
+    Niue = 570
+    Norfolk_Island = 574
+    North_Macedonia = 807
+    Northern_Mariana_Islands = 580
+    Norway = 578
+    Oman = 512
+    Pakistan = 586
+    Palau = 585
+    Palestine_State_of = 275
+    Panama = 591
+    Papua_New_Guinea = 598
+    Paraguay = 600
+    Peru = 604
+    Philippines = 608
+    Pitcairn = 612
+    Poland = 616
+    Portugal = 620
+    Puerto_Rico = 630
+    Qatar = 634
+    Romania = 642
+    Russian_Federation = 643
+    Rwanda = 646
+    Runion = 638
+    Saint_Barthlemy = 652
+    Saint_Helena_Ascension_and_Tristan_da_Cunha = 654
+    Saint_Kitts_and_Nevis = 659
+    Saint_Lucia = 662
+    Saint_Martin_French_part = 663
+    Saint_Pierre_and_Miquelon = 666
+    Saint_Vincent_and_the_Grenadines = 670
+    Samoa = 882
+    San_Marino = 674
+    Sao_Tome_and_Principe = 678
+    Saudi_Arabia = 682
+    Senegal = 686
+    Serbia = 688
+    Seychelles = 690
+    Sierra_Leone = 694
+    Singapore = 702
+    Sint_Maarten_Dutch_part = 534
+    Slovakia = 703
+    Slovenia = 705
+    Solomon_Islands = 90
+    Somalia = 706
+    South_Africa = 710
+    South_Georgia_and_the_South_Sandwich_Islands = 239
+    South_Sudan = 728
+    Spain = 724
+    Sri_Lanka = 144
+    Sudan = 729
+    Suriname = 740
+    Svalbard_and_Jan_Mayen = 744
+    Sweden = 752
+    Switzerland = 756
+    Syrian_Arab_Republic = 760
+    Taiwan_Province_of_China = 158
+    Tajikistan = 762
+    Tanzania_United_Republic_of = 834
+    Thailand = 764
+    TimorLeste = 626
+    Togo = 768
+    Tokelau = 772
+    Tonga = 776
+    Trinidad_and_Tobago = 780
+    Tunisia = 788
+    Turkey = 792
+    Turkmenistan = 795
+    Turks_and_Caicos_Islands = 796
+    Tuvalu = 798
+    UNKONWN = 0
+    Uganda = 800
+    Ukraine = 804
+    United_Arab_Emirates = 784
+    United_Kingdom_of_Great_Britain_and_Northern_Ireland = 826
+    United_States_Minor_Outlying_Islands = 581
+    United_States_of_America = 840
+    Uruguay = 858
+    Uzbekistan = 860
+    Vanuatu = 548
+    Venezuela_Bolivarian_Republic_of = 862
+    Viet_Nam = 704
+    Virgin_Islands_British = 92
+    Virgin_Islands_US = 850
+    Wallis_and_Futuna = 876
+    Western_Sahara = 732
+    Yemen = 887
+    Zambia = 894
+    Zimbabwe = 716
+    land_Islands = 248
+Enum2CountryCode = {
+   4: ConutryEnum.Afghanistan,
+   8: ConutryEnum.Albania,
+   12: ConutryEnum.Algeria,
+   16: ConutryEnum.American_Samoa,
+   20: ConutryEnum.Andorra,
+   24: ConutryEnum.Angola,
+   660: ConutryEnum.Anguilla,
+   10: ConutryEnum.Antarctica,
+   28: ConutryEnum.Antigua_and_Barbuda,
+   32: ConutryEnum.Argentina,
+   51: ConutryEnum.Armenia,
+   533: ConutryEnum.Aruba,
+   36: ConutryEnum.Australia,
+   40: ConutryEnum.Austria,
+   31: ConutryEnum.Azerbaijan,
+   44: ConutryEnum.Bahamas,
+   48: ConutryEnum.Bahrain,
+   50: ConutryEnum.Bangladesh,
+   52: ConutryEnum.Barbados,
+   112: ConutryEnum.Belarus,
+   56: ConutryEnum.Belgium,
+   84: ConutryEnum.Belize,
+   204: ConutryEnum.Benin,
+   60: ConutryEnum.Bermuda,
+   64: ConutryEnum.Bhutan,
+   68: ConutryEnum.Bolivia_Plurinational_State_of,
+   535: ConutryEnum.Bonaire_Sint_Eustatius_and_Saba,
+   70: ConutryEnum.Bosnia_and_Herzegovina,
+   72: ConutryEnum.Botswana,
+   74: ConutryEnum.Bouvet_Island,
+   76: ConutryEnum.Brazil,
+   86: ConutryEnum.British_Indian_Ocean_Territory,
+   96: ConutryEnum.Brunei_Darussalam,
+   100: ConutryEnum.Bulgaria,
+   854: ConutryEnum.Burkina_Faso,
+   108: ConutryEnum.Burundi,
+   132: ConutryEnum.Cabo_Verde,
+   116: ConutryEnum.Cambodia,
+   120: ConutryEnum.Cameroon,
+   124: ConutryEnum.Canada,
+   136: ConutryEnum.Cayman_Islands,
+   140: ConutryEnum.Central_African_Republic,
+   148: ConutryEnum.Chad,
+   152: ConutryEnum.Chile,
+   156: ConutryEnum.China,
+   162: ConutryEnum.Christmas_Island,
+   166: ConutryEnum.Cocos_Keeling_Islands,
+   170: ConutryEnum.Colombia,
+   174: ConutryEnum.Comoros,
+   178: ConutryEnum.Congo,
+   180: ConutryEnum.Congo_Democratic_Republic_of_the,
+   184: ConutryEnum.Cook_Islands,
+   188: ConutryEnum.Costa_Rica,
+   191: ConutryEnum.Croatia,
+   192: ConutryEnum.Cuba,
+   531: ConutryEnum.Curaao,
+   196: ConutryEnum.Cyprus,
+   203: ConutryEnum.Czechia,
+   384: ConutryEnum.Cte_dIvoire,
+   208: ConutryEnum.Denmark,
+   262: ConutryEnum.Djibouti,
+   212: ConutryEnum.Dominica,
+   214: ConutryEnum.Dominican_Republic,
+   218: ConutryEnum.Ecuador,
+   818: ConutryEnum.Egypt,
+   222: ConutryEnum.El_Salvador,
+   226: ConutryEnum.Equatorial_Guinea,
+   232: ConutryEnum.Eritrea,
+   233: ConutryEnum.Estonia,
+   748: ConutryEnum.Eswatini,
+   231: ConutryEnum.Ethiopia,
+   238: ConutryEnum.Falkland_Islands_Malvinas,
+   234: ConutryEnum.Faroe_Islands,
+   242: ConutryEnum.Fiji,
+   246: ConutryEnum.Finland,
+   250: ConutryEnum.France,
+   254: ConutryEnum.French_Guiana,
+   258: ConutryEnum.French_Polynesia,
+   260: ConutryEnum.French_Southern_Territories,
+   266: ConutryEnum.Gabon,
+   270: ConutryEnum.Gambia,
+   268: ConutryEnum.Georgia,
+   276: ConutryEnum.Germany,
+   288: ConutryEnum.Ghana,
+   292: ConutryEnum.Gibraltar,
+   300: ConutryEnum.Greece,
+   304: ConutryEnum.Greenland,
+   308: ConutryEnum.Grenada,
+   312: ConutryEnum.Guadeloupe,
+   316: ConutryEnum.Guam,
+   320: ConutryEnum.Guatemala,
+   831: ConutryEnum.Guernsey,
+   324: ConutryEnum.Guinea,
+   624: ConutryEnum.GuineaBissau,
+   328: ConutryEnum.Guyana,
+   332: ConutryEnum.Haiti,
+   334: ConutryEnum.Heard_Island_and_McDonald_Islands,
+   336: ConutryEnum.Holy_See,
+   340: ConutryEnum.Honduras,
+   344: ConutryEnum.Hong_Kong,
+   348: ConutryEnum.Hungary,
+   352: ConutryEnum.Iceland,
+   356: ConutryEnum.India,
+   360: ConutryEnum.Indonesia,
+   364: ConutryEnum.Iran_Islamic_Republic_of,
+   368: ConutryEnum.Iraq,
+   372: ConutryEnum.Ireland,
+   833: ConutryEnum.Isle_of_Man,
+   376: ConutryEnum.Israel,
+   380: ConutryEnum.Italy,
+   388: ConutryEnum.Jamaica,
+   392: ConutryEnum.Japan,
+   832: ConutryEnum.Jersey,
+   400: ConutryEnum.Jordan,
+   398: ConutryEnum.Kazakhstan,
+   404: ConutryEnum.Kenya,
+   296: ConutryEnum.Kiribati,
+   408: ConutryEnum.Korea_Democratic_Peoples_Republic_of,
+   410: ConutryEnum.Korea_Republic_of,
+   414: ConutryEnum.Kuwait,
+   417: ConutryEnum.Kyrgyzstan,
+   418: ConutryEnum.Lao_Peoples_Democratic_Republic,
+   428: ConutryEnum.Latvia,
+   422: ConutryEnum.Lebanon,
+   426: ConutryEnum.Lesotho,
+   430: ConutryEnum.Liberia,
+   434: ConutryEnum.Libya,
+   438: ConutryEnum.Liechtenstein,
+   440: ConutryEnum.Lithuania,
+   442: ConutryEnum.Luxembourg,
+   446: ConutryEnum.Macao,
+   450: ConutryEnum.Madagascar,
+   454: ConutryEnum.Malawi,
+   458: ConutryEnum.Malaysia,
+   462: ConutryEnum.Maldives,
+   466: ConutryEnum.Mali,
+   470: ConutryEnum.Malta,
+   584: ConutryEnum.Marshall_Islands,
+   474: ConutryEnum.Martinique,
+   478: ConutryEnum.Mauritania,
+   480: ConutryEnum.Mauritius,
+   175: ConutryEnum.Mayotte,
+   484: ConutryEnum.Mexico,
+   583: ConutryEnum.Micronesia_Federated_States_of,
+   498: ConutryEnum.Moldova_Republic_of,
+   492: ConutryEnum.Monaco,
+   496: ConutryEnum.Mongolia,
+   499: ConutryEnum.Montenegro,
+   500: ConutryEnum.Montserrat,
+   504: ConutryEnum.Morocco,
+   508: ConutryEnum.Mozambique,
+   104: ConutryEnum.Myanmar,
+   516: ConutryEnum.Namibia,
+   520: ConutryEnum.Nauru,
+   524: ConutryEnum.Nepal,
+   528: ConutryEnum.Netherlands,
+   540: ConutryEnum.New_Caledonia,
+   554: ConutryEnum.New_Zealand,
+   558: ConutryEnum.Nicaragua,
+   562: ConutryEnum.Niger,
+   566: ConutryEnum.Nigeria,
+   570: ConutryEnum.Niue,
+   574: ConutryEnum.Norfolk_Island,
+   807: ConutryEnum.North_Macedonia,
+   580: ConutryEnum.Northern_Mariana_Islands,
+   578: ConutryEnum.Norway,
+   512: ConutryEnum.Oman,
+   586: ConutryEnum.Pakistan,
+   585: ConutryEnum.Palau,
+   275: ConutryEnum.Palestine_State_of,
+   591: ConutryEnum.Panama,
+   598: ConutryEnum.Papua_New_Guinea,
+   600: ConutryEnum.Paraguay,
+   604: ConutryEnum.Peru,
+   608: ConutryEnum.Philippines,
+   612: ConutryEnum.Pitcairn,
+   616: ConutryEnum.Poland,
+   620: ConutryEnum.Portugal,
+   630: ConutryEnum.Puerto_Rico,
+   634: ConutryEnum.Qatar,
+   642: ConutryEnum.Romania,
+   643: ConutryEnum.Russian_Federation,
+   646: ConutryEnum.Rwanda,
+   638: ConutryEnum.Runion,
+   652: ConutryEnum.Saint_Barthlemy,
+   654: ConutryEnum.Saint_Helena_Ascension_and_Tristan_da_Cunha,
+   659: ConutryEnum.Saint_Kitts_and_Nevis,
+   662: ConutryEnum.Saint_Lucia,
+   663: ConutryEnum.Saint_Martin_French_part,
+   666: ConutryEnum.Saint_Pierre_and_Miquelon,
+   670: ConutryEnum.Saint_Vincent_and_the_Grenadines,
+   882: ConutryEnum.Samoa,
+   674: ConutryEnum.San_Marino,
+   678: ConutryEnum.Sao_Tome_and_Principe,
+   682: ConutryEnum.Saudi_Arabia,
+   686: ConutryEnum.Senegal,
+   688: ConutryEnum.Serbia,
+   690: ConutryEnum.Seychelles,
+   694: ConutryEnum.Sierra_Leone,
+   702: ConutryEnum.Singapore,
+   534: ConutryEnum.Sint_Maarten_Dutch_part,
+   703: ConutryEnum.Slovakia,
+   705: ConutryEnum.Slovenia,
+   90: ConutryEnum.Solomon_Islands,
+   706: ConutryEnum.Somalia,
+   710: ConutryEnum.South_Africa,
+   239: ConutryEnum.South_Georgia_and_the_South_Sandwich_Islands,
+   728: ConutryEnum.South_Sudan,
+   724: ConutryEnum.Spain,
+   144: ConutryEnum.Sri_Lanka,
+   729: ConutryEnum.Sudan,
+   740: ConutryEnum.Suriname,
+   744: ConutryEnum.Svalbard_and_Jan_Mayen,
+   752: ConutryEnum.Sweden,
+   756: ConutryEnum.Switzerland,
+   760: ConutryEnum.Syrian_Arab_Republic,
+   158: ConutryEnum.Taiwan_Province_of_China,
+   762: ConutryEnum.Tajikistan,
+   834: ConutryEnum.Tanzania_United_Republic_of,
+   764: ConutryEnum.Thailand,
+   626: ConutryEnum.TimorLeste,
+   768: ConutryEnum.Togo,
+   772: ConutryEnum.Tokelau,
+   776: ConutryEnum.Tonga,
+   780: ConutryEnum.Trinidad_and_Tobago,
+   788: ConutryEnum.Tunisia,
+   792: ConutryEnum.Turkey,
+   795: ConutryEnum.Turkmenistan,
+   796: ConutryEnum.Turks_and_Caicos_Islands,
+   798: ConutryEnum.Tuvalu,
+   0: ConutryEnum.UNKONWN,
+   800: ConutryEnum.Uganda,
+   804: ConutryEnum.Ukraine,
+   784: ConutryEnum.United_Arab_Emirates,
+   826: ConutryEnum.United_Kingdom_of_Great_Britain_and_Northern_Ireland,
+   581: ConutryEnum.United_States_Minor_Outlying_Islands,
+   840: ConutryEnum.United_States_of_America,
+   858: ConutryEnum.Uruguay,
+   860: ConutryEnum.Uzbekistan,
+   548: ConutryEnum.Vanuatu,
+   862: ConutryEnum.Venezuela_Bolivarian_Republic_of,
+   704: ConutryEnum.Viet_Nam,
+   92: ConutryEnum.Virgin_Islands_British,
+   850: ConutryEnum.Virgin_Islands_US,
+   876: ConutryEnum.Wallis_and_Futuna,
+   732: ConutryEnum.Western_Sahara,
+   887: ConutryEnum.Yemen,
+   894: ConutryEnum.Zambia,
+   716: ConutryEnum.Zimbabwe,
+   248: ConutryEnum.land_Islands}
+class Country:
+    def __init__(self, Name,Alpha_2,Alpha_3,Country_Code,Iso_3166_2,Region,Sub_Region,Intermediate_Region,Region_Code,Sub_Region_Code,Intermediate_Region_Code):
+        self.Name = Name
+        self.Alpha_2 = Alpha_2
+        self.Alpha_3 = Alpha_3
+        self.Country_Code = Country_Code
+        self.Iso_3166_2 = Iso_3166_2
+        self.Region = Region
+        self.Sub_Region = Sub_Region
+        self.Intermediate_Region = Intermediate_Region
+        self.Region_Code = Region_Code
+        self.Sub_Region_Code = Sub_Region_Code
+        self.Intermediate_Region_Code = Intermediate_Region_Code
+CountryCode2Country = {
+    4: Country("Afghanistan", "AF", "AFG",  4, "ISO 3166-2:AF", "Asia", "Southern Asia", "",  142,  34,  0),
+    8: Country("Albania", "AL", "ALB",  8, "ISO 3166-2:AL", "Europe", "Southern Europe", "",  150,  39,  0),
+    12: Country("Algeria", "DZ", "DZA",  12, "ISO 3166-2:DZ", "Africa", "Northern Africa", "",  2,  15,  0),
+    16: Country("American Samoa", "AS", "ASM",  16, "ISO 3166-2:AS", "Oceania", "Polynesia", "",  9,  61,  0),
+    20: Country("Andorra", "AD", "AND",  20, "ISO 3166-2:AD", "Europe", "Southern Europe", "",  150,  39,  0),
+    24: Country("Angola", "AO", "AGO",  24, "ISO 3166-2:AO", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    660: Country("Anguilla", "AI", "AIA",  660, "ISO 3166-2:AI", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    10: Country("Antarctica", "AQ", "ATA",  10, "ISO 3166-2:AQ", "", "", "",  0,  0,  0),
+    28: Country("Antigua and Barbuda", "AG", "ATG",  28, "ISO 3166-2:AG", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    32: Country("Argentina", "AR", "ARG",  32, "ISO 3166-2:AR", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    51: Country("Armenia", "AM", "ARM",  51, "ISO 3166-2:AM", "Asia", "Western Asia", "",  142,  145,  0),
+    533: Country("Aruba", "AW", "ABW",  533, "ISO 3166-2:AW", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    36: Country("Australia", "AU", "AUS",  36, "ISO 3166-2:AU", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    40: Country("Austria", "AT", "AUT",  40, "ISO 3166-2:AT", "Europe", "Western Europe", "",  150,  155,  0),
+    31: Country("Azerbaijan", "AZ", "AZE",  31, "ISO 3166-2:AZ", "Asia", "Western Asia", "",  142,  145,  0),
+    44: Country("Bahamas", "BS", "BHS",  44, "ISO 3166-2:BS", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    48: Country("Bahrain", "BH", "BHR",  48, "ISO 3166-2:BH", "Asia", "Western Asia", "",  142,  145,  0),
+    50: Country("Bangladesh", "BD", "BGD",  50, "ISO 3166-2:BD", "Asia", "Southern Asia", "",  142,  34,  0),
+    52: Country("Barbados", "BB", "BRB",  52, "ISO 3166-2:BB", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    112: Country("Belarus", "BY", "BLR",  112, "ISO 3166-2:BY", "Europe", "Eastern Europe", "",  150,  151,  0),
+    56: Country("Belgium", "BE", "BEL",  56, "ISO 3166-2:BE", "Europe", "Western Europe", "",  150,  155,  0),
+    84: Country("Belize", "BZ", "BLZ",  84, "ISO 3166-2:BZ", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    204: Country("Benin", "BJ", "BEN",  204, "ISO 3166-2:BJ", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    60: Country("Bermuda", "BM", "BMU",  60, "ISO 3166-2:BM", "Americas", "Northern America", "",  19,  21,  0),
+    64: Country("Bhutan", "BT", "BTN",  64, "ISO 3166-2:BT", "Asia", "Southern Asia", "",  142,  34,  0),
+    68: Country("Bolivia (Plurinational State of)", "BO", "BOL",  68, "ISO 3166-2:BO", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    535: Country("Bonaire, Sint Eustatius and Saba", "BQ", "BES",  535, "ISO 3166-2:BQ", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    70: Country("Bosnia and Herzegovina", "BA", "BIH",  70, "ISO 3166-2:BA", "Europe", "Southern Europe", "",  150,  39,  0),
+    72: Country("Botswana", "BW", "BWA",  72, "ISO 3166-2:BW", "Africa", "Sub-Saharan Africa", "Southern Africa",  2,  202,  18),
+    74: Country("Bouvet Island", "BV", "BVT",  74, "ISO 3166-2:BV", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    76: Country("Brazil", "BR", "BRA",  76, "ISO 3166-2:BR", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    86: Country("British Indian Ocean Territory", "IO", "IOT",  86, "ISO 3166-2:IO", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    96: Country("Brunei Darussalam", "BN", "BRN",  96, "ISO 3166-2:BN", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    100: Country("Bulgaria", "BG", "BGR",  100, "ISO 3166-2:BG", "Europe", "Eastern Europe", "",  150,  151,  0),
+    854: Country("Burkina Faso", "BF", "BFA",  854, "ISO 3166-2:BF", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    108: Country("Burundi", "BI", "BDI",  108, "ISO 3166-2:BI", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    132: Country("Cabo Verde", "CV", "CPV",  132, "ISO 3166-2:CV", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    116: Country("Cambodia", "KH", "KHM",  116, "ISO 3166-2:KH", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    120: Country("Cameroon", "CM", "CMR",  120, "ISO 3166-2:CM", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    124: Country("Canada", "CA", "CAN",  124, "ISO 3166-2:CA", "Americas", "Northern America", "",  19,  21,  0),
+    136: Country("Cayman Islands", "KY", "CYM",  136, "ISO 3166-2:KY", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    140: Country("Central African Republic", "CF", "CAF",  140, "ISO 3166-2:CF", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    148: Country("Chad", "TD", "TCD",  148, "ISO 3166-2:TD", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    152: Country("Chile", "CL", "CHL",  152, "ISO 3166-2:CL", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    156: Country("China", "CN", "CHN",  156, "ISO 3166-2:CN", "Asia", "Eastern Asia", "",  142,  30,  0),
+    162: Country("Christmas Island", "CX", "CXR",  162, "ISO 3166-2:CX", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    166: Country("Cocos (Keeling) Islands", "CC", "CCK",  166, "ISO 3166-2:CC", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    170: Country("Colombia", "CO", "COL",  170, "ISO 3166-2:CO", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    174: Country("Comoros", "KM", "COM",  174, "ISO 3166-2:KM", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    178: Country("Congo", "CG", "COG",  178, "ISO 3166-2:CG", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    180: Country("Congo, Democratic Republic of the", "CD", "COD",  180, "ISO 3166-2:CD", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    184: Country("Cook Islands", "CK", "COK",  184, "ISO 3166-2:CK", "Oceania", "Polynesia", "",  9,  61,  0),
+    188: Country("Costa Rica", "CR", "CRI",  188, "ISO 3166-2:CR", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    191: Country("Croatia", "HR", "HRV",  191, "ISO 3166-2:HR", "Europe", "Southern Europe", "",  150,  39,  0),
+    192: Country("Cuba", "CU", "CUB",  192, "ISO 3166-2:CU", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    531: Country("Curaçao", "CW", "CUW",  531, "ISO 3166-2:CW", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    196: Country("Cyprus", "CY", "CYP",  196, "ISO 3166-2:CY", "Asia", "Western Asia", "",  142,  145,  0),
+    203: Country("Czechia", "CZ", "CZE",  203, "ISO 3166-2:CZ", "Europe", "Eastern Europe", "",  150,  151,  0),
+    384: Country("Côte d'Ivoire", "CI", "CIV",  384, "ISO 3166-2:CI", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    208: Country("Denmark", "DK", "DNK",  208, "ISO 3166-2:DK", "Europe", "Northern Europe", "",  150,  154,  0),
+    262: Country("Djibouti", "DJ", "DJI",  262, "ISO 3166-2:DJ", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    212: Country("Dominica", "DM", "DMA",  212, "ISO 3166-2:DM", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    214: Country("Dominican Republic", "DO", "DOM",  214, "ISO 3166-2:DO", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    218: Country("Ecuador", "EC", "ECU",  218, "ISO 3166-2:EC", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    818: Country("Egypt", "EG", "EGY",  818, "ISO 3166-2:EG", "Africa", "Northern Africa", "",  2,  15,  0),
+    222: Country("El Salvador", "SV", "SLV",  222, "ISO 3166-2:SV", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    226: Country("Equatorial Guinea", "GQ", "GNQ",  226, "ISO 3166-2:GQ", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    232: Country("Eritrea", "ER", "ERI",  232, "ISO 3166-2:ER", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    233: Country("Estonia", "EE", "EST",  233, "ISO 3166-2:EE", "Europe", "Northern Europe", "",  150,  154,  0),
+    748: Country("Eswatini", "SZ", "SWZ",  748, "ISO 3166-2:SZ", "Africa", "Sub-Saharan Africa", "Southern Africa",  2,  202,  18),
+    231: Country("Ethiopia", "ET", "ETH",  231, "ISO 3166-2:ET", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    238: Country("Falkland Islands (Malvinas)", "FK", "FLK",  238, "ISO 3166-2:FK", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    234: Country("Faroe Islands", "FO", "FRO",  234, "ISO 3166-2:FO", "Europe", "Northern Europe", "",  150,  154,  0),
+    242: Country("Fiji", "FJ", "FJI",  242, "ISO 3166-2:FJ", "Oceania", "Melanesia", "",  9,  54,  0),
+    246: Country("Finland", "FI", "FIN",  246, "ISO 3166-2:FI", "Europe", "Northern Europe", "",  150,  154,  0),
+    250: Country("France", "FR", "FRA",  250, "ISO 3166-2:FR", "Europe", "Western Europe", "",  150,  155,  0),
+    254: Country("French Guiana", "GF", "GUF",  254, "ISO 3166-2:GF", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    258: Country("French Polynesia", "PF", "PYF",  258, "ISO 3166-2:PF", "Oceania", "Polynesia", "",  9,  61,  0),
+    260: Country("French Southern Territories", "TF", "ATF",  260, "ISO 3166-2:TF", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    266: Country("Gabon", "GA", "GAB",  266, "ISO 3166-2:GA", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    270: Country("Gambia", "GM", "GMB",  270, "ISO 3166-2:GM", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    268: Country("Georgia", "GE", "GEO",  268, "ISO 3166-2:GE", "Asia", "Western Asia", "",  142,  145,  0),
+    276: Country("Germany", "DE", "DEU",  276, "ISO 3166-2:DE", "Europe", "Western Europe", "",  150,  155,  0),
+    288: Country("Ghana", "GH", "GHA",  288, "ISO 3166-2:GH", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    292: Country("Gibraltar", "GI", "GIB",  292, "ISO 3166-2:GI", "Europe", "Southern Europe", "",  150,  39,  0),
+    300: Country("Greece", "GR", "GRC",  300, "ISO 3166-2:GR", "Europe", "Southern Europe", "",  150,  39,  0),
+    304: Country("Greenland", "GL", "GRL",  304, "ISO 3166-2:GL", "Americas", "Northern America", "",  19,  21,  0),
+    308: Country("Grenada", "GD", "GRD",  308, "ISO 3166-2:GD", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    312: Country("Guadeloupe", "GP", "GLP",  312, "ISO 3166-2:GP", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    316: Country("Guam", "GU", "GUM",  316, "ISO 3166-2:GU", "Oceania", "Micronesia", "",  9,  57,  0),
+    320: Country("Guatemala", "GT", "GTM",  320, "ISO 3166-2:GT", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    831: Country("Guernsey", "GG", "GGY",  831, "ISO 3166-2:GG", "Europe", "Northern Europe", "Channel Islands",  150,  154,  830),
+    324: Country("Guinea", "GN", "GIN",  324, "ISO 3166-2:GN", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    624: Country("Guinea-Bissau", "GW", "GNB",  624, "ISO 3166-2:GW", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    328: Country("Guyana", "GY", "GUY",  328, "ISO 3166-2:GY", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    332: Country("Haiti", "HT", "HTI",  332, "ISO 3166-2:HT", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    334: Country("Heard Island and McDonald Islands", "HM", "HMD",  334, "ISO 3166-2:HM", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    336: Country("Holy See", "VA", "VAT",  336, "ISO 3166-2:VA", "Europe", "Southern Europe", "",  150,  39,  0),
+    340: Country("Honduras", "HN", "HND",  340, "ISO 3166-2:HN", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    344: Country("Hong Kong", "HK", "HKG",  344, "ISO 3166-2:HK", "Asia", "Eastern Asia", "",  142,  30,  0),
+    348: Country("Hungary", "HU", "HUN",  348, "ISO 3166-2:HU", "Europe", "Eastern Europe", "",  150,  151,  0),
+    352: Country("Iceland", "IS", "ISL",  352, "ISO 3166-2:IS", "Europe", "Northern Europe", "",  150,  154,  0),
+    356: Country("India", "IN", "IND",  356, "ISO 3166-2:IN", "Asia", "Southern Asia", "",  142,  34,  0),
+    360: Country("Indonesia", "ID", "IDN",  360, "ISO 3166-2:ID", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    364: Country("Iran (Islamic Republic of)", "IR", "IRN",  364, "ISO 3166-2:IR", "Asia", "Southern Asia", "",  142,  34,  0),
+    368: Country("Iraq", "IQ", "IRQ",  368, "ISO 3166-2:IQ", "Asia", "Western Asia", "",  142,  145,  0),
+    372: Country("Ireland", "IE", "IRL",  372, "ISO 3166-2:IE", "Europe", "Northern Europe", "",  150,  154,  0),
+    833: Country("Isle of Man", "IM", "IMN",  833, "ISO 3166-2:IM", "Europe", "Northern Europe", "",  150,  154,  0),
+    376: Country("Israel", "IL", "ISR",  376, "ISO 3166-2:IL", "Asia", "Western Asia", "",  142,  145,  0),
+    380: Country("Italy", "IT", "ITA",  380, "ISO 3166-2:IT", "Europe", "Southern Europe", "",  150,  39,  0),
+    388: Country("Jamaica", "JM", "JAM",  388, "ISO 3166-2:JM", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    392: Country("Japan", "JP", "JPN",  392, "ISO 3166-2:JP", "Asia", "Eastern Asia", "",  142,  30,  0),
+    832: Country("Jersey", "JE", "JEY",  832, "ISO 3166-2:JE", "Europe", "Northern Europe", "Channel Islands",  150,  154,  830),
+    400: Country("Jordan", "JO", "JOR",  400, "ISO 3166-2:JO", "Asia", "Western Asia", "",  142,  145,  0),
+    398: Country("Kazakhstan", "KZ", "KAZ",  398, "ISO 3166-2:KZ", "Asia", "Central Asia", "",  142,  143,  0),
+    404: Country("Kenya", "KE", "KEN",  404, "ISO 3166-2:KE", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    296: Country("Kiribati", "KI", "KIR",  296, "ISO 3166-2:KI", "Oceania", "Micronesia", "",  9,  57,  0),
+    408: Country("Korea (Democratic People's Republic of)", "KP", "PRK",  408, "ISO 3166-2:KP", "Asia", "Eastern Asia", "",  142,  30,  0),
+    410: Country("Korea, Republic of", "KR", "KOR",  410, "ISO 3166-2:KR", "Asia", "Eastern Asia", "",  142,  30,  0),
+    414: Country("Kuwait", "KW", "KWT",  414, "ISO 3166-2:KW", "Asia", "Western Asia", "",  142,  145,  0),
+    417: Country("Kyrgyzstan", "KG", "KGZ",  417, "ISO 3166-2:KG", "Asia", "Central Asia", "",  142,  143,  0),
+    418: Country("Lao People's Democratic Republic", "LA", "LAO",  418, "ISO 3166-2:LA", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    428: Country("Latvia", "LV", "LVA",  428, "ISO 3166-2:LV", "Europe", "Northern Europe", "",  150,  154,  0),
+    422: Country("Lebanon", "LB", "LBN",  422, "ISO 3166-2:LB", "Asia", "Western Asia", "",  142,  145,  0),
+    426: Country("Lesotho", "LS", "LSO",  426, "ISO 3166-2:LS", "Africa", "Sub-Saharan Africa", "Southern Africa",  2,  202,  18),
+    430: Country("Liberia", "LR", "LBR",  430, "ISO 3166-2:LR", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    434: Country("Libya", "LY", "LBY",  434, "ISO 3166-2:LY", "Africa", "Northern Africa", "",  2,  15,  0),
+    438: Country("Liechtenstein", "LI", "LIE",  438, "ISO 3166-2:LI", "Europe", "Western Europe", "",  150,  155,  0),
+    440: Country("Lithuania", "LT", "LTU",  440, "ISO 3166-2:LT", "Europe", "Northern Europe", "",  150,  154,  0),
+    442: Country("Luxembourg", "LU", "LUX",  442, "ISO 3166-2:LU", "Europe", "Western Europe", "",  150,  155,  0),
+    446: Country("Macao", "MO", "MAC",  446, "ISO 3166-2:MO", "Asia", "Eastern Asia", "",  142,  30,  0),
+    450: Country("Madagascar", "MG", "MDG",  450, "ISO 3166-2:MG", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    454: Country("Malawi", "MW", "MWI",  454, "ISO 3166-2:MW", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    458: Country("Malaysia", "MY", "MYS",  458, "ISO 3166-2:MY", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    462: Country("Maldives", "MV", "MDV",  462, "ISO 3166-2:MV", "Asia", "Southern Asia", "",  142,  34,  0),
+    466: Country("Mali", "ML", "MLI",  466, "ISO 3166-2:ML", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    470: Country("Malta", "MT", "MLT",  470, "ISO 3166-2:MT", "Europe", "Southern Europe", "",  150,  39,  0),
+    584: Country("Marshall Islands", "MH", "MHL",  584, "ISO 3166-2:MH", "Oceania", "Micronesia", "",  9,  57,  0),
+    474: Country("Martinique", "MQ", "MTQ",  474, "ISO 3166-2:MQ", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    478: Country("Mauritania", "MR", "MRT",  478, "ISO 3166-2:MR", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    480: Country("Mauritius", "MU", "MUS",  480, "ISO 3166-2:MU", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    175: Country("Mayotte", "YT", "MYT",  175, "ISO 3166-2:YT", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    484: Country("Mexico", "MX", "MEX",  484, "ISO 3166-2:MX", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    583: Country("Micronesia (Federated States of)", "FM", "FSM",  583, "ISO 3166-2:FM", "Oceania", "Micronesia", "",  9,  57,  0),
+    498: Country("Moldova, Republic of", "MD", "MDA",  498, "ISO 3166-2:MD", "Europe", "Eastern Europe", "",  150,  151,  0),
+    492: Country("Monaco", "MC", "MCO",  492, "ISO 3166-2:MC", "Europe", "Western Europe", "",  150,  155,  0),
+    496: Country("Mongolia", "MN", "MNG",  496, "ISO 3166-2:MN", "Asia", "Eastern Asia", "",  142,  30,  0),
+    499: Country("Montenegro", "ME", "MNE",  499, "ISO 3166-2:ME", "Europe", "Southern Europe", "",  150,  39,  0),
+    500: Country("Montserrat", "MS", "MSR",  500, "ISO 3166-2:MS", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    504: Country("Morocco", "MA", "MAR",  504, "ISO 3166-2:MA", "Africa", "Northern Africa", "",  2,  15,  0),
+    508: Country("Mozambique", "MZ", "MOZ",  508, "ISO 3166-2:MZ", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    104: Country("Myanmar", "MM", "MMR",  104, "ISO 3166-2:MM", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    516: Country("Namibia", "NA", "NAM",  516, "ISO 3166-2:NA", "Africa", "Sub-Saharan Africa", "Southern Africa",  2,  202,  18),
+    520: Country("Nauru", "NR", "NRU",  520, "ISO 3166-2:NR", "Oceania", "Micronesia", "",  9,  57,  0),
+    524: Country("Nepal", "NP", "NPL",  524, "ISO 3166-2:NP", "Asia", "Southern Asia", "",  142,  34,  0),
+    528: Country("Netherlands", "NL", "NLD",  528, "ISO 3166-2:NL", "Europe", "Western Europe", "",  150,  155,  0),
+    540: Country("New Caledonia", "NC", "NCL",  540, "ISO 3166-2:NC", "Oceania", "Melanesia", "",  9,  54,  0),
+    554: Country("New Zealand", "NZ", "NZL",  554, "ISO 3166-2:NZ", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    558: Country("Nicaragua", "NI", "NIC",  558, "ISO 3166-2:NI", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    562: Country("Niger", "NE", "NER",  562, "ISO 3166-2:NE", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    566: Country("Nigeria", "NG", "NGA",  566, "ISO 3166-2:NG", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    570: Country("Niue", "NU", "NIU",  570, "ISO 3166-2:NU", "Oceania", "Polynesia", "",  9,  61,  0),
+    574: Country("Norfolk Island", "NF", "NFK",  574, "ISO 3166-2:NF", "Oceania", "Australia and New Zealand", "",  9,  53,  0),
+    807: Country("North Macedonia", "MK", "MKD",  807, "ISO 3166-2:MK", "Europe", "Southern Europe", "",  150,  39,  0),
+    580: Country("Northern Mariana Islands", "MP", "MNP",  580, "ISO 3166-2:MP", "Oceania", "Micronesia", "",  9,  57,  0),
+    578: Country("Norway", "NO", "NOR",  578, "ISO 3166-2:NO", "Europe", "Northern Europe", "",  150,  154,  0),
+    512: Country("Oman", "OM", "OMN",  512, "ISO 3166-2:OM", "Asia", "Western Asia", "",  142,  145,  0),
+    586: Country("Pakistan", "PK", "PAK",  586, "ISO 3166-2:PK", "Asia", "Southern Asia", "",  142,  34,  0),
+    585: Country("Palau", "PW", "PLW",  585, "ISO 3166-2:PW", "Oceania", "Micronesia", "",  9,  57,  0),
+    275: Country("Palestine, State of", "PS", "PSE",  275, "ISO 3166-2:PS", "Asia", "Western Asia", "",  142,  145,  0),
+    591: Country("Panama", "PA", "PAN",  591, "ISO 3166-2:PA", "Americas", "Latin America and the Caribbean", "Central America",  19,  419,  13),
+    598: Country("Papua New Guinea", "PG", "PNG",  598, "ISO 3166-2:PG", "Oceania", "Melanesia", "",  9,  54,  0),
+    600: Country("Paraguay", "PY", "PRY",  600, "ISO 3166-2:PY", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    604: Country("Peru", "PE", "PER",  604, "ISO 3166-2:PE", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    608: Country("Philippines", "PH", "PHL",  608, "ISO 3166-2:PH", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    612: Country("Pitcairn", "PN", "PCN",  612, "ISO 3166-2:PN", "Oceania", "Polynesia", "",  9,  61,  0),
+    616: Country("Poland", "PL", "POL",  616, "ISO 3166-2:PL", "Europe", "Eastern Europe", "",  150,  151,  0),
+    620: Country("Portugal", "PT", "PRT",  620, "ISO 3166-2:PT", "Europe", "Southern Europe", "",  150,  39,  0),
+    630: Country("Puerto Rico", "PR", "PRI",  630, "ISO 3166-2:PR", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    634: Country("Qatar", "QA", "QAT",  634, "ISO 3166-2:QA", "Asia", "Western Asia", "",  142,  145,  0),
+    642: Country("Romania", "RO", "ROU",  642, "ISO 3166-2:RO", "Europe", "Eastern Europe", "",  150,  151,  0),
+    643: Country("Russian Federation", "RU", "RUS",  643, "ISO 3166-2:RU", "Europe", "Eastern Europe", "",  150,  151,  0),
+    646: Country("Rwanda", "RW", "RWA",  646, "ISO 3166-2:RW", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    638: Country("Réunion", "RE", "REU",  638, "ISO 3166-2:RE", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    652: Country("Saint Barthélemy", "BL", "BLM",  652, "ISO 3166-2:BL", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    654: Country("Saint Helena, Ascension and Tristan da Cunha", "SH", "SHN",  654, "ISO 3166-2:SH", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    659: Country("Saint Kitts and Nevis", "KN", "KNA",  659, "ISO 3166-2:KN", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    662: Country("Saint Lucia", "LC", "LCA",  662, "ISO 3166-2:LC", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    663: Country("Saint Martin (French part)", "MF", "MAF",  663, "ISO 3166-2:MF", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    666: Country("Saint Pierre and Miquelon", "PM", "SPM",  666, "ISO 3166-2:PM", "Americas", "Northern America", "",  19,  21,  0),
+    670: Country("Saint Vincent and the Grenadines", "VC", "VCT",  670, "ISO 3166-2:VC", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    882: Country("Samoa", "WS", "WSM",  882, "ISO 3166-2:WS", "Oceania", "Polynesia", "",  9,  61,  0),
+    674: Country("San Marino", "SM", "SMR",  674, "ISO 3166-2:SM", "Europe", "Southern Europe", "",  150,  39,  0),
+    678: Country("Sao Tome and Principe", "ST", "STP",  678, "ISO 3166-2:ST", "Africa", "Sub-Saharan Africa", "Middle Africa",  2,  202,  17),
+    682: Country("Saudi Arabia", "SA", "SAU",  682, "ISO 3166-2:SA", "Asia", "Western Asia", "",  142,  145,  0),
+    686: Country("Senegal", "SN", "SEN",  686, "ISO 3166-2:SN", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    688: Country("Serbia", "RS", "SRB",  688, "ISO 3166-2:RS", "Europe", "Southern Europe", "",  150,  39,  0),
+    690: Country("Seychelles", "SC", "SYC",  690, "ISO 3166-2:SC", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    694: Country("Sierra Leone", "SL", "SLE",  694, "ISO 3166-2:SL", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    702: Country("Singapore", "SG", "SGP",  702, "ISO 3166-2:SG", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    534: Country("Sint Maarten (Dutch part)", "SX", "SXM",  534, "ISO 3166-2:SX", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    703: Country("Slovakia", "SK", "SVK",  703, "ISO 3166-2:SK", "Europe", "Eastern Europe", "",  150,  151,  0),
+    705: Country("Slovenia", "SI", "SVN",  705, "ISO 3166-2:SI", "Europe", "Southern Europe", "",  150,  39,  0),
+    90: Country("Solomon Islands", "SB", "SLB",  90, "ISO 3166-2:SB", "Oceania", "Melanesia", "",  9,  54,  0),
+    706: Country("Somalia", "SO", "SOM",  706, "ISO 3166-2:SO", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    710: Country("South Africa", "ZA", "ZAF",  710, "ISO 3166-2:ZA", "Africa", "Sub-Saharan Africa", "Southern Africa",  2,  202,  18),
+    239: Country("South Georgia and the South Sandwich Islands", "GS", "SGS",  239, "ISO 3166-2:GS", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    728: Country("South Sudan", "SS", "SSD",  728, "ISO 3166-2:SS", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    724: Country("Spain", "ES", "ESP",  724, "ISO 3166-2:ES", "Europe", "Southern Europe", "",  150,  39,  0),
+    144: Country("Sri Lanka", "LK", "LKA",  144, "ISO 3166-2:LK", "Asia", "Southern Asia", "",  142,  34,  0),
+    729: Country("Sudan", "SD", "SDN",  729, "ISO 3166-2:SD", "Africa", "Northern Africa", "",  2,  15,  0),
+    740: Country("Suriname", "SR", "SUR",  740, "ISO 3166-2:SR", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    744: Country("Svalbard and Jan Mayen", "SJ", "SJM",  744, "ISO 3166-2:SJ", "Europe", "Northern Europe", "",  150,  154,  0),
+    752: Country("Sweden", "SE", "SWE",  752, "ISO 3166-2:SE", "Europe", "Northern Europe", "",  150,  154,  0),
+    756: Country("Switzerland", "CH", "CHE",  756, "ISO 3166-2:CH", "Europe", "Western Europe", "",  150,  155,  0),
+    760: Country("Syrian Arab Republic", "SY", "SYR",  760, "ISO 3166-2:SY", "Asia", "Western Asia", "",  142,  145,  0),
+    158: Country("Taiwan, Province of China", "TW", "TWN",  158, "ISO 3166-2:TW", "Asia", "Eastern Asia", "",  142,  30,  0),
+    762: Country("Tajikistan", "TJ", "TJK",  762, "ISO 3166-2:TJ", "Asia", "Central Asia", "",  142,  143,  0),
+    834: Country("Tanzania, United Republic of", "TZ", "TZA",  834, "ISO 3166-2:TZ", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    764: Country("Thailand", "TH", "THA",  764, "ISO 3166-2:TH", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    626: Country("Timor-Leste", "TL", "TLS",  626, "ISO 3166-2:TL", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    768: Country("Togo", "TG", "TGO",  768, "ISO 3166-2:TG", "Africa", "Sub-Saharan Africa", "Western Africa",  2,  202,  11),
+    772: Country("Tokelau", "TK", "TKL",  772, "ISO 3166-2:TK", "Oceania", "Polynesia", "",  9,  61,  0),
+    776: Country("Tonga", "TO", "TON",  776, "ISO 3166-2:TO", "Oceania", "Polynesia", "",  9,  61,  0),
+    780: Country("Trinidad and Tobago", "TT", "TTO",  780, "ISO 3166-2:TT", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    788: Country("Tunisia", "TN", "TUN",  788, "ISO 3166-2:TN", "Africa", "Northern Africa", "",  2,  15,  0),
+    792: Country("Turkey", "TR", "TUR",  792, "ISO 3166-2:TR", "Asia", "Western Asia", "",  142,  145,  0),
+    795: Country("Turkmenistan", "TM", "TKM",  795, "ISO 3166-2:TM", "Asia", "Central Asia", "",  142,  143,  0),
+    796: Country("Turks and Caicos Islands", "TC", "TCA",  796, "ISO 3166-2:TC", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    798: Country("Tuvalu", "TV", "TUV",  798, "ISO 3166-2:TV", "Oceania", "Polynesia", "",  9,  61,  0),
+    0: Country("<UNKONWN>", "<UNKONWN>", "<UNKONWN>",  0, "<UNKONWN>", "<UNKONWN>", "<UNKONWN>", "<UNKONWN>",  0,  0,  0),
+    800: Country("Uganda", "UG", "UGA",  800, "ISO 3166-2:UG", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    804: Country("Ukraine", "UA", "UKR",  804, "ISO 3166-2:UA", "Europe", "Eastern Europe", "",  150,  151,  0),
+    784: Country("United Arab Emirates", "AE", "ARE",  784, "ISO 3166-2:AE", "Asia", "Western Asia", "",  142,  145,  0),
+    826: Country("United Kingdom of Great Britain and Northern Ireland", "GB", "GBR",  826, "ISO 3166-2:GB", "Europe", "Northern Europe", "",  150,  154,  0),
+    581: Country("United States Minor Outlying Islands", "UM", "UMI",  581, "ISO 3166-2:UM", "Oceania", "Micronesia", "",  9,  57,  0),
+    840: Country("United States of America", "US", "USA",  840, "ISO 3166-2:US", "Americas", "Northern America", "",  19,  21,  0),
+    858: Country("Uruguay", "UY", "URY",  858, "ISO 3166-2:UY", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    860: Country("Uzbekistan", "UZ", "UZB",  860, "ISO 3166-2:UZ", "Asia", "Central Asia", "",  142,  143,  0),
+    548: Country("Vanuatu", "VU", "VUT",  548, "ISO 3166-2:VU", "Oceania", "Melanesia", "",  9,  54,  0),
+    862: Country("Venezuela (Bolivarian Republic of)", "VE", "VEN",  862, "ISO 3166-2:VE", "Americas", "Latin America and the Caribbean", "South America",  19,  419,  5),
+    704: Country("Viet Nam", "VN", "VNM",  704, "ISO 3166-2:VN", "Asia", "South-eastern Asia", "",  142,  35,  0),
+    92: Country("Virgin Islands (British)", "VG", "VGB",  92, "ISO 3166-2:VG", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    850: Country("Virgin Islands (U.S.)", "VI", "VIR",  850, "ISO 3166-2:VI", "Americas", "Latin America and the Caribbean", "Caribbean",  19,  419,  29),
+    876: Country("Wallis and Futuna", "WF", "WLF",  876, "ISO 3166-2:WF", "Oceania", "Polynesia", "",  9,  61,  0),
+    732: Country("Western Sahara", "EH", "ESH",  732, "ISO 3166-2:EH", "Africa", "Northern Africa", "",  2,  15,  0),
+    887: Country("Yemen", "YE", "YEM",  887, "ISO 3166-2:YE", "Asia", "Western Asia", "",  142,  145,  0),
+    894: Country("Zambia", "ZM", "ZMB",  894, "ISO 3166-2:ZM", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    716: Country("Zimbabwe", "ZW", "ZWE",  716, "ISO 3166-2:ZW", "Africa", "Sub-Saharan Africa", "Eastern Africa",  2,  202,  14),
+    248: Country("Åland Islands", "AX", "ALA",  248, "ISO 3166-2:AX", "Europe", "Northern Europe", "",  150,  154,  0)}

@@ -21,19 +21,35 @@ begin
    -- Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database");
 
-   Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/mappings.java");
+   Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/ConuntryNames.java");
    Put_Header (F);
-   Put_Line (F, "// This is Just a dummy;");
    Put_Line (F, "package iso3166;");
-   Put_Line (F, "Class Country_Enum {");
+   Put_Line (F, "Public enum ConuntryNames");
 
-   --  for I of Name_Map loop
-   --     Put (F, (if First then "     (" else "," & ASCII.LF & "      "));
-   --     Put (F, Normalize (I.Name.all));
-   --     First := False;
-   --  end loop;
-   --  Put_Line (F, ");");
-   --
+   for I of Name_Map loop
+      Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
+      Put (F, "     " & Normalize (I.Name.all));
+      First := False;
+   end loop;
+   Put_Line (F, "};");
+
+   Close (F);
+
+   Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/Mappings.java");
+   Put_Header (F);
+   Put_Line (F, "package iso3166;");
+   Put_Line (F, "Public class Mappings");
+   Put_Line (F, "     public int[ConuntryNames] ConuntryName2ConuntryCode =");
+   First := True;
+   for I of Name_Map loop
+      Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
+      Put (F, Image (I.Country_Code));
+      First := False;
+   end loop;
+   Put_Line (F, "   };");
+   Put_Line (F, "};");
+   Close (F);
+
    --  --  ----------------------------------------------------------------------
    --  --  Enum_2_Code
    --  --  ----------------------------------------------------------------------
@@ -60,9 +76,6 @@ begin
    --  Put_Line (F, ",");
    --  Put_Line (F, "        others => UNKONWN);");
    --
-   Put_Line (F, "};");
-
-   Close (F);
 
    -- Generate the database
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/database.java");

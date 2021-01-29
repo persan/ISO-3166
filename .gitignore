@@ -11,3 +11,4 @@ messages.txt
 *.a
 .obj
 bin
+.metadata

@@ -3,12 +3,13 @@ separate (ISO_3166.Generator)
 procedure Python_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
-      Put_Line (F, "###  ===================================================================");
-      Put_Line (F, "###  This file is generated from an iso-3166 descrition");
-      Put_Line (F, "###  Do not edit by hand !");
-      Put_Line (F, "###  If more entries are needed write a new  xmlfile and run the tool");
-      Put_Line (F, "###  with both the basefile and the extras as arguments");
-      Put_Line (F, "###  ===================================================================");
+      Put_Line (F, "#  ===================================================================");
+      Put_Line (F, "#  This file is generated from an iso-3166 descrition");
+      Put_Line (F, "#  Do not edit by hand !");
+      Put_Line (F, "#  If more entries are needed write a new  xmlfile and run the tool");
+      Put_Line (F, "#  with both the basefile and the extras as arguments");
+      Put_Line (F, "#  ===================================================================");
+      Put_Line (F, "");
       Put_Line (F, "");
    end Put_Header;
    F      : Ada.Text_IO.File_Type;
@@ -23,73 +24,60 @@ begin
 
    Create (F, ADA.Text_IO.Out_File, "src/python/iso_3166.py");
    Put_Header (F);
-
+   Put_Line (F, "from enum import Enum");
+   Put_Line (F, "");
+   Put_Line (F, "");
+   Put_Line (F, "class ConutryEnum(Enum):");
    for I of Name_Map loop
-      Put (F, (if First then "     (" else "," & ASCII.LF & "      "));
-      Put (F, Normalize (I.Name.all));
-      First := False;
+      Put_Line (F, "    " & Normalize (I.Name.all) & " = " & Image (I.Country_Code));
    end loop;
-   Put_Line (F, ");");
 
-   --  ----------------------------------------------------------------------
-   --  Enum_2_Code
-   --  ----------------------------------------------------------------------
-   Put_Line (F, "   Enum_2_Code : constant array (Country_Enum)  of Country_Code_Type :=");
-   First := True;
-   for I of Name_Map loop
-      Put (F, (if First then "                                   (" else "," & ASCII.LF & "                                    "));
-      Put (F, Normalize (I.Name.all) & " => " & I.Country_Code'Img);
-      Max_Country_Code := Country_Code_Type'Max (Max_Country_Code, I.Country_Code);
-      First := False;
-   end loop;
-   Put_Line (F, ");");
 
    --  ----------------------------------------------------------------------
    --  Code_2_Enum
    --  ----------------------------------------------------------------------
-   Put_Line (F, "   Code_2_Enum : constant array (0 .." & Max_Country_Code'Img & ")  of Country_Enum :=");
+   Put_Line (F, "Enum2CountryCode = {");
    First := True;
    for I of Name_Map loop
-      Put (F, (if First then "                   (" else "," & ASCII.LF & "                    "));
-      Put (F,  Image (I.Country_Code) & " => " & Normalize (I.Name.all));
+      Put (F, (if First then "   " else "," & ASCII.LF & "   "));
+      Put (F,  Image (I.Country_Code) & ": ConutryEnum." & Normalize (I.Name.all));
       First := False;
    end loop;
-   Put_Line (F, ",");
-   Put_Line (F, "        others => UNKONWN);");
-
-   Put_Header (F);
-   for I of Name_Map loop
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Name : aliased constant String := """ & I.Name.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Alpha_2 : aliased constant String := """ & I.Alpha_2.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Alpha_3 : aliased constant String := """ & I.Alpha_3.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Iso_3166_2 : aliased constant String := """ & I.Iso_3166_2.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Region : aliased constant String := """ & I.Region.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Sub_Region : aliased constant String := """ & I.Sub_Region.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Intermediate_Region : aliased constant String := """ & I.Intermediate_Region.all & """;");
-      Put_Line (F, "   " & Normalize (I.Name.all) & "_Entry : aliased constant Country :=");
-      Put_Line (F, "      (Name => " & Normalize (I.Name.all) & "_Name'Access,");
-      Put_Line (F, "       Alpha_2 => " & Normalize (I.Name.all) & "_" & "Alpha_2'Access,");
-      Put_Line (F, "       Alpha_3 => " & Normalize (I.Name.all) & "_" & "Alpha_3'Access,");
-      Put_Line (F, "       Iso_3166_2 => " & Normalize (I.Name.all) & "_" & "Iso_3166_2'Access,");
-      Put_Line (F, "       Country_Code => " & I.Country_Code'Img & ",");
-      Put_Line (F, "       Region => " & Normalize (I.Name.all) & "_" & "Region'Access,");
-      Put_Line (F, "       Sub_Region => " & Normalize (I.Name.all) & "_" & "Sub_Region'Access,");
-      Put_Line (F, "       Intermediate_Region => " & Normalize (I.Name.all) & "_" & "Intermediate_Region'Access,");
-      Put_Line (F, "       Region_Code => " & I.Region_Code'Img & ",");
-      Put_Line (F, "       Sub_Region_Code => " & I.Sub_Region_Code'Img & ",");
-      Put_Line (F, "       Intermediate_Region_Code => " & I.Intermediate_Region_Code'Img & ");");
-
-   end loop;
-
-   Put_Line (F, "   Data : constant array (Mappings.Country_Enum) of Country_Access :=");
+   Put_Line (F, "}");
    First := True;
+   Put_Line (F, "class Country:");
+   Put_Line (F, "    def __init__(self, Name,Alpha_2,Alpha_3,Country_Code,Iso_3166_2,Region,Sub_Region,Intermediate_Region,Region_Code,Sub_Region_Code,Intermediate_Region_Code):");
+   Put_Line (F, "        self.Name = Name");
+   Put_Line (F, "        self.Alpha_2 = Alpha_2");
+   Put_Line (F, "        self.Alpha_3 = Alpha_3");
+   Put_Line (F, "        self.Country_Code = Country_Code");
+   Put_Line (F, "        self.Iso_3166_2 = Iso_3166_2");
+   Put_Line (F, "        self.Region = Region");
+   Put_Line (F, "        self.Sub_Region = Sub_Region");
+   Put_Line (F, "        self.Intermediate_Region = Intermediate_Region");
+   Put_Line (F, "        self.Region_Code = Region_Code");
+   Put_Line (F, "        self.Sub_Region_Code = Sub_Region_Code");
+   Put_Line (F, "        self.Intermediate_Region_Code = Intermediate_Region_Code");
+   Put_Line (F, "CountryCode2Country = {");
    for I of Name_Map loop
-      Put (F, (if First then "     (" else "," & ASCII.LF & "      "));
-      Put (F, "Mappings." & Normalize (I.Name.all) & " => " & Normalize (I.Name.all) & "_Entry'Access");
+      Put (F, (if First then "    " else "," & ASCII.LF & "    "));
+      Put (F,  Image (I.Country_Code) & ": Country(" );
+      Put (F, """" & I.Name.all & """, ");
+      Put (F, """" & I.Alpha_2.all & """, ");
+      Put (F, """" & I.Alpha_3.all & """, ");
+      Put (F, I.Country_Code'Img & ", ");
+      Put (F, """" & I.Iso_3166_2.all & """, ");
+      Put (F, """" & I.Region.all & """, ");
+      Put (F, """" & I.Sub_Region.all & """, ");
+      Put (F, """" & I.Intermediate_Region.all & """, ");
+      Put (F, I.Region_Code'Img & ", ");
+      Put (F, I.Sub_Region_Code'Img & ", ");
+      Put (F, I.Intermediate_Region_Code'Img & ")");
       First := False;
    end loop;
-   Put_Line (F, ");");
+   Put_Line (F, "}");
 
-   Put_Line (F, "end ISO_3166.Database;");
+
+
    Close (F);
 end Python_Writer;

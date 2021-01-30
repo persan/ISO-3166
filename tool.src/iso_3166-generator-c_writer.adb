@@ -66,6 +66,7 @@ begin
       Put (F, "&" & Normalize (I.Name.all) & "_data");
       First := False;
    end loop;
+
    Put_Line (F, ",");
    Put_Line (F, "      NULL};");
    Put_Line (F, "");

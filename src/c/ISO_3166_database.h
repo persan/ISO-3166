@@ -16,5 +16,5 @@ struct  ISO_3166_Country {
 } ISO_3166_Country;
 
 struct ISO_3166_Country* ISO_3166_get_from_string(char *name);
-struct ISO_3166_Country* ISO_3166_get_from_code(int name);
+struct ISO_3166_Country* ISO_3166_get_from_code(int country_code);
 

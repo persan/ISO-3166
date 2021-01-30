@@ -36,7 +36,7 @@ begin
    --  ----------------------------------------------------------------------
    --  Code_2_Enum
    --  ----------------------------------------------------------------------
-   Put_Line (F, "Enum2CountryCode = {");
+   Put_Line (F, "CountryCode2Enum = {");
    First := True;
    for I of Name_Map loop
       Put (F, (if First then "   " else "," & ASCII.LF & "   "));
@@ -58,6 +58,8 @@ begin
    Put_Line (F, "        self.Region_Code = Region_Code");
    Put_Line (F, "        self.Sub_Region_Code = Sub_Region_Code");
    Put_Line (F, "        self.Intermediate_Region_Code = Intermediate_Region_Code");
+   Put_Line (F, "");
+   Put_Line (F, "");
    Put_Line (F, "CountryCode2Country = {");
    for I of Name_Map loop
       Put (F, (if First then "    " else "," & ASCII.LF & "    "));

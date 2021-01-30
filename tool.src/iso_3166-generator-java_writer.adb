@@ -24,11 +24,14 @@ begin
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/ConuntryNames.java");
    Put_Header (F);
    Put_Line (F, "package iso3166;");
-   Put_Line (F, "Public enum ConuntryNames");
+   Put_Line (F, "public enum ConuntryNames");
+   Put_Line (F, "");
+   Put_Line (F, "   public final int CountryCode;");
+   Put_Line (F, "");
 
    for I of Name_Map loop
       Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
-      Put (F, "     " & Normalize (I.Name.all));
+      Put (F, "     " & Normalize (I.Name.all) & "(" & I.Country_Code'Img & ")");
       First := False;
    end loop;
    Put_Line (F, "};");

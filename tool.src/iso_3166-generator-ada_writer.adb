@@ -1,6 +1,4 @@
-separate (ISO_3166.Generator)
-
-procedure Ada_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.Ada_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "--  ===================================================================");
@@ -103,4 +101,4 @@ begin
 
       Put_Line (F, "end ISO_3166.Database;");
       Close (F);
-end Ada_Writer;
+end ISO_3166.Generator.Ada_Writer;

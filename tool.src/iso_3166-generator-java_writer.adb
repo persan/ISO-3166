@@ -1,6 +1,4 @@
-separate (ISO_3166.Generator)
-
-procedure Java_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.Java_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -23,17 +21,23 @@ begin
 
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/ConuntryNames.java");
    Put_Header (F);
+   Put_Line (F, "import java.util.EnumSet;");
+   Put_Line (F, "import java.util.HashMap;");
+   Put_Line (F, "import java.util.Map;");
    Put_Line (F, "package iso3166;");
-   Put_Line (F, "public enum ConuntryNames");
-   Put_Line (F, "");
-   Put_Line (F, "   public final int CountryCode;");
-   Put_Line (F, "");
 
+   Put_Line (F, "    public enum ConuntryNames {");
    for I of Name_Map loop
-      Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
+      Put (F, (if First then "      " else "," & ASCII.LF & "      "));
       Put (F, "     " & Normalize (I.Name.all) & "(" & I.Country_Code'Img & ")");
       First := False;
    end loop;
+   Put_Line (F, "    private static final Map<Integer,ConuntryNames> lookup  = new HashMap<Integer,ConuntryNames>();");
+   Put_Line (F, "    static { for(ConuntryNames s : EnumSet.allOf(ConuntryNames.class)) lookup.put(s.getCode(), s);}");
+   Put_Line (F, "    private int code;");
+   Put_Line (F, "    private ConuntryNames(int code) { this.code = code;}");
+   Put_Line (F, "    public int getCode() { return code; ");
+   Put_Line (F, "    public static ConuntryNames get(int code) { return lookup.get(code);}");
    Put_Line (F, "};");
 
    Close (F);
@@ -41,15 +45,15 @@ begin
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/Mappings.java");
    Put_Header (F);
    Put_Line (F, "package iso3166;");
-   Put_Line (F, "Public class Mappings");
-   Put_Line (F, "     public int[ConuntryNames] ConuntryName2ConuntryCode =");
-   First := True;
-   for I of Name_Map loop
-      Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
-      Put (F, Image (I.Country_Code));
-      First := False;
-   end loop;
-   Put_Line (F, "   };");
+   Put_Line (F, "Public class Mappings {");
+   --  Put_Line (F, "     public int[ConuntryNames] ConuntryName2ConuntryCode =");
+   --  First := True;
+   --  for I of Name_Map loop
+   --     Put (F, (if First then "     {" else "," & ASCII.LF & "      "));
+   --     Put (F, Image (I.Country_Code));
+   --     First := False;
+   --  end loop;
+   --  Put_Line (F, "   };");
    Put_Line (F, "};");
    Close (F);
 
@@ -118,4 +122,4 @@ begin
 
    Put_Line (F, "};");
    Close (F);
-end Java_Writer;
+end ISO_3166.Generator.Java_Writer;

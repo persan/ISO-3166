@@ -1,6 +1,5 @@
 with Gnat.Regpat;
-separate (ISO_3166.Generator)
-procedure C_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.C_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -94,4 +93,4 @@ begin
    Put_Line (F, "};");
 
    Close (F);
-end C_Writer;
+end ISO_3166.Generator.C_Writer;

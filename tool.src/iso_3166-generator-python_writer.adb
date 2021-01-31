@@ -1,6 +1,6 @@
-separate (ISO_3166.Generator)
 
-procedure Python_Writer (Name_Map : STring_Maps.Map) is
+
+procedure ISO_3166.Generator.Python_Writer (Name_Map : STring_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "#  ===================================================================");
@@ -82,4 +82,4 @@ begin
 
 
    Close (F);
-end Python_Writer;
+end ISO_3166.Generator.Python_Writer;

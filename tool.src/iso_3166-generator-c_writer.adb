@@ -1,5 +1,5 @@
-with Gnat.Regpat;
-procedure ISO_3166.Generator.C_Writer (Name_Map : STring_Maps.Map) is
+with GNAT.Regpat;
+procedure ISO_3166.Generator.C_Writer (Name_Map : String_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -13,15 +13,8 @@ procedure ISO_3166.Generator.C_Writer (Name_Map : STring_Maps.Map) is
    F      : Ada.Text_IO.File_Type;
    First  : Boolean := True;
 
-   Max_Country_Code : Country_Code_Type := 0;
-   function As_C_String (Item : String) return String is
-
-   begin
-      return Gnat.Regpat.Quote (Item);
-   end;
-
 begin
-   -- Generate the mappings
+   --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for c");
 
    Create (F, Ada.Text_IO.Out_File, "src/c/ISO_3166_mappings.h");

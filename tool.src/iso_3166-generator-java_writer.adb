@@ -1,4 +1,4 @@
-procedure ISO_3166.Generator.Java_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.Java_Writer (Name_Map : String_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -12,11 +12,8 @@ procedure ISO_3166.Generator.Java_Writer (Name_Map : STring_Maps.Map) is
    F      : Ada.Text_IO.File_Type;
    First  : Boolean := True;
 
-   Max_Country_Code : Country_Code_Type := 0;
-
-
 begin
-   -- Generate the mappings
+   --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database");
 
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/ConuntryNames.java");
@@ -32,12 +29,15 @@ begin
       Put (F, "     " & Normalize (I.Name.all) & "(" & I.Country_Code'Img & ")");
       First := False;
    end loop;
-   Put_Line (F, "    private static final Map<Integer,ConuntryNames> lookup  = new HashMap<Integer,ConuntryNames>();");
-   Put_Line (F, "    static { for(ConuntryNames s : EnumSet.allOf(ConuntryNames.class)) lookup.put(s.getCode(), s);}");
+   Put_Line (F, ";");
    Put_Line (F, "    private int code;");
-   Put_Line (F, "    private ConuntryNames(int code) { this.code = code;}");
-   Put_Line (F, "    public int getCode() { return code; ");
-   Put_Line (F, "    public static ConuntryNames get(int code) { return lookup.get(code);}");
+   Put_Line (F, "    private ConuntryNames(int code) {");
+   Put_Line (F, "        this.code = code;");
+   Put_Line (F, "    };");
+   Put_Line (F, "");
+   Put_Line (F, "    public int getCode() {");
+   Put_Line (F, "        return this.code;");
+   Put_Line (F, "    };");
    Put_Line (F, "};");
 
    Close (F);
@@ -84,7 +84,7 @@ begin
    --  Put_Line (F, "        others => UNKONWN);");
    --
 
-   -- Generate the database
+   --  Generate the database
    Create (F, Ada.Text_IO.Out_File, "src/Java/iso3166/database.java");
    Put_Header (F);
    Put_Line (F, "package iso3166");

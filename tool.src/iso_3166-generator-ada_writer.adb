@@ -1,4 +1,4 @@
-procedure ISO_3166.Generator.Ada_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.Ada_Writer (Name_Map : String_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "--  ===================================================================");
@@ -14,9 +14,8 @@ procedure ISO_3166.Generator.Ada_Writer (Name_Map : STring_Maps.Map) is
 
    Max_Country_Code : Country_Code_Type := 0;
 
-
 begin
-      -- Generate the mappings
+      --  Generate the mappings
       Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Ada");
 
       Create (F, Ada.Text_IO.Out_File, "src/ada/iso_3166-mappings.ads");
@@ -57,12 +56,10 @@ begin
       Put_Line (F, ",");
       Put_Line (F, "        others => UNKONWN);");
 
-
       Put_Line (F, "end ISO_3166.Mappings;");
       Close (F);
 
-
-      -- Generate the database
+      --  Generate the database
       Create (F, Ada.Text_IO.Out_File, "src/ada/iso_3166-database.ads");
       Put_Header (F);
       Put_Line (F, "with ISO_3166.Mappings;");

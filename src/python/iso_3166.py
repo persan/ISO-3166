@@ -260,7 +260,7 @@ class ConutryEnum(Enum):
     Zambia = 894
     Zimbabwe = 716
     land_Islands = 248
-Enum2CountryCode = {
+CountryCode2Enum = {
    4: ConutryEnum.Afghanistan,
    8: ConutryEnum.Albania,
    12: ConutryEnum.Algeria,
@@ -524,6 +524,8 @@ class Country:
         self.Region_Code = Region_Code
         self.Sub_Region_Code = Sub_Region_Code
         self.Intermediate_Region_Code = Intermediate_Region_Code
+
+
 CountryCode2Country = {
     4: Country("Afghanistan", "AF", "AFG",  4, "ISO 3166-2:AF", "Asia", "Southern Asia", "",  142,  34,  0),
     8: Country("Albania", "AL", "ALB",  8, "ISO 3166-2:AL", "Europe", "Southern Europe", "",  150,  39,  0),

@@ -21,9 +21,11 @@ private package ISO_3166.Generator is
       Name : String := "";
       Form : String := "");
    function Normalize (S : String) return String;
-   function Image (Code : Country_Code_Type) return String is
-     (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
 
+   function Image (Code : Country_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
+   function Image (Code : Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
+   function Image (Code : Sub_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
+   function Image (Code : Intermediate_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
 
    UNKOWN : aliased constant String := "<UNKONWN>";
    UNKOWN_COUNTRY :    aliased constant Country :=
@@ -41,4 +43,3 @@ private package ISO_3166.Generator is
    Default_Config_File_Name : constant String :=  "iso-3166-generator.data";
 
 end ISO_3166.Generator;
-

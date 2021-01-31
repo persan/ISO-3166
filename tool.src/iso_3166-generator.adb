@@ -1,18 +1,5 @@
-with Ada.Text_IO;
-with Input_Sources.Strings;
-with Input_Sources.File;
-with Sax.Readers;
-with Sax.Utils;
-with Sax.Symbols;
-with Unicode.CES.Utf8;
-with Ada.Command_Line;
-with GNAT.Traceback.Symbolic;
-with GNAT.Exception_Traces;
-with Ada.Strings.Fixed;
 with Ada.Directories;
 package body ISO_3166.Generator is
-
-
 
    function Normalize (S : String) return String is
       Ret    : String (S'First .. S'Last + 1);

@@ -28,20 +28,6 @@ package ISO_3166 is
    function Is_Unkonwn (C : access Country) return Boolean is
      (C = null or else C.all.Country_Code = 0);
 
-   Empty_String : aliased constant String := "";
-   No_Country  : aliased constant Country :=
-                   Country'(Name                     =>  Empty_String'Access,
-                            Alpha_2                  =>  Empty_String'Access,
-                            Alpha_3                  =>  Empty_String'Access,
-                            Country_Code             =>  0,
-                            Iso_3166_2               =>  Empty_String'Access,
-                            Region                   =>  Empty_String'Access,
-                            Sub_Region               =>  Empty_String'Access,
-                            Intermediate_Region      =>  Empty_String'Access,
-                            Region_Code              =>  0,
-                            Sub_Region_Code          =>  0,
-                            Intermediate_Region_Code =>  0);
-
    type Country_Access is  access constant Country;
    type Countries is array (Natural range <>) of Country_Access;
 

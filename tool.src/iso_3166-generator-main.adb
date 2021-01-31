@@ -28,15 +28,16 @@ begin
       declare
          F : Ada.Text_IO.File_Type;
       begin
-         Ada.Text_Io.Open (F, Ada.Text_Io.In_File, Default_Config_File_Name);
-         while not Ada.Text_Io.End_Of_File (F) loop
+         Ada.Text_IO.Open (F, Ada.Text_IO.In_File, Default_Config_File_Name);
+         while not Ada.Text_IO.End_Of_File (F) loop
             declare
                Line  : constant String := Ada.Strings.Fixed.Trim (Ada.Text_IO.Get_Line (F), Ada.Strings.Both);
             begin
-               if Line'LENGTH > 0 and then
+               if Line'Length > 0 and then
                  Line (Line'First) /= '#' and then
                  Line (Line'First) /= ';' and then
-                 Line (Line'First) /= '-' then
+                 Line (Line'First) /= '-'
+               then
                   if Ada.Directories.Exists (Line) then
                      XMLReaders.Load (Name_Map'Access, Line);
                   else

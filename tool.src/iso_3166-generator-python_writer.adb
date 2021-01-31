@@ -1,6 +1,5 @@
 
-
-procedure ISO_3166.Generator.Python_Writer (Name_Map : STring_Maps.Map) is
+procedure ISO_3166.Generator.Python_Writer (Name_Map : String_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "#  ===================================================================");
@@ -15,14 +14,12 @@ procedure ISO_3166.Generator.Python_Writer (Name_Map : STring_Maps.Map) is
    F      : Ada.Text_IO.File_Type;
    First  : Boolean := True;
 
-   Max_Country_Code : Country_Code_Type := 0;
-
 
 begin
-   -- Generate the mappings
+   --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Python");
 
-   Create (F, ADA.Text_IO.Out_File, "src/python/iso_3166.py");
+   Create (F, Ada.Text_IO.Out_File, "src/python/iso_3166.py");
    Put_Header (F);
    Put_Line (F, "from enum import Enum");
    Put_Line (F, "");

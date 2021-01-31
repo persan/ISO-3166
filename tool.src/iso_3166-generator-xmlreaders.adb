@@ -1,8 +1,9 @@
 pragma Ada_2012;
+with Input_Sources.File;
 package body ISO_3166.Generator.XMLReaders is
-
+   pragma Warnings (Off, "use of an anonymous access type Allocator");
    use Sax.Readers;
-   procedure Start_Element
+   overriding procedure Start_Element
      (Handler    : in out Reader;
       NS         : Sax.Utils.XML_NS;
       Local_Name : Sax.Symbols.Symbol;
@@ -15,8 +16,8 @@ package body ISO_3166.Generator.XMLReaders is
          begin
             for I in 1 .. Get_Length (Atts) loop
                declare
-                  Name  : String := Sax.Readers.Get_Qname (Atts, I);
-                  Value : String := Sax.Symbols.Get (Sax.Readers.Get_Value (Atts, I)).all;
+                  Name  : constant String := Sax.Readers.Get_Qname (Atts, I);
+                  Value : constant String := Sax.Symbols.Get (Sax.Readers.Get_Value (Atts, I)).all;
                begin
                   if Name = "name" then
                      C.Name := new String'(Value);
@@ -25,7 +26,7 @@ package body ISO_3166.Generator.XMLReaders is
                   elsif Name = "alpha-3" then
                      C.Alpha_3 := new String'(Value);
                   elsif Name = "country-code" then
-                     C.Country_Code := (if Value'Length > 0 then Country_Code_Type'Value (Value)else 0);
+                     C.Country_Code := (if Value'Length > 0 then Country_Code_Type'Value (Value) else 0);
                   elsif Name = "iso_3166-2" then
                      C.Iso_3166_2 := new String'(Value);
                   elsif Name = "region" then
@@ -37,11 +38,11 @@ package body ISO_3166.Generator.XMLReaders is
                   elsif Name = "region" then
                      C.Region := new String'(Value);
                   elsif Name = "region-code" then
-                     C.Region_Code := (if Value'Length > 0 then Region_Code_Type'Value (Value)else 0);
+                     C.Region_Code := (if Value'Length > 0 then Region_Code_Type'Value (Value) else 0);
                   elsif Name = "sub-region-code" then
-                     C.Sub_Region_Code := (if Value'Length > 0 then Sub_Region_Code_Type'Value (Value)else 0);
+                     C.Sub_Region_Code := (if Value'Length > 0 then Sub_Region_Code_Type'Value (Value) else 0);
                   elsif Name = "intermediate-region-code" then
-                     C.Intermediate_Region_Code := (if Value'Length > 0 then Intermediate_Region_Code_Type'Value (Value)else 0);
+                     C.Intermediate_Region_Code := (if Value'Length > 0 then Intermediate_Region_Code_Type'Value (Value) else 0);
                   else
                      Put_Line (Name & ":" & Value);
                   end if;

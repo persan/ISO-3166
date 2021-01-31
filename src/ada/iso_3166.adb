@@ -13,7 +13,7 @@ package body ISO_3166 is
       if Db.Full_Name_Map.Contains (Name) then
          return Db.Full_Name_Map (Name);
       else
-         return No_Country'Access;
+         return Db.Get_Country (0);
       end if;
    end Get_Country;
 
@@ -29,7 +29,7 @@ package body ISO_3166 is
       if Db.Code_Map.Contains (Code) then
          return Db.Code_Map (Code);
       else
-         return No_Country'Access;
+         return Db.Get_Country (0);
       end if;
    end Get_Country;
 

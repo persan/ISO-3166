@@ -11,7 +11,7 @@ with ISO_3166.Generator.Python_Writer;
 with ISO_3166.Generator.XMLReaders;
 
 procedure ISO_3166.Generator.Main is
-
+   use type Ada.Containers.Count_Type;
    Name_Map : aliased String_Maps.Map;
 
 begin

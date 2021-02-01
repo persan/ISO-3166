@@ -1,4 +1,3 @@
-with GNAT.Regpat;
 procedure ISO_3166.Generator.C_Writer (Name_Map : String_Maps.Map) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin

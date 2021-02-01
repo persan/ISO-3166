@@ -14,7 +14,6 @@ procedure ISO_3166.Generator.Python_Writer (Name_Map : String_Maps.Map) is
    F      : Ada.Text_IO.File_Type;
    First  : Boolean := True;
 
-
 begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Python");
@@ -28,7 +27,6 @@ begin
    for I of Name_Map loop
       Put_Line (F, "    " & Normalize (I.Name.all) & " = " & Image (I.Country_Code));
    end loop;
-
 
    --  ----------------------------------------------------------------------
    --  Code_2_Enum
@@ -60,7 +58,7 @@ begin
    Put_Line (F, "CountryCode2Country = {");
    for I of Name_Map loop
       Put (F, (if First then "    " else "," & ASCII.LF & "    "));
-      Put (F,  Image (I.Country_Code) & ": Country(" );
+      Put (F,  Image (I.Country_Code) & ": Country(");
       Put (F, """" & I.Name.all & """, ");
       Put (F, """" & I.Alpha_2.all & """, ");
       Put (F, """" & I.Alpha_3.all & """, ");
@@ -75,8 +73,6 @@ begin
       First := False;
    end loop;
    Put_Line (F, "}");
-
-
 
    Close (F);
 end ISO_3166.Generator.Python_Writer;

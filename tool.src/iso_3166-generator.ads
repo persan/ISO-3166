@@ -1,7 +1,6 @@
 with Ada.Strings.Fixed;
 with Ada.Text_IO;
 private package ISO_3166.Generator is
-   use type Ada.Containers.Count_Type;
 
    procedure Put_Line
      (File : Ada.Text_IO.File_Type;

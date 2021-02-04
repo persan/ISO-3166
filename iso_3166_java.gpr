@@ -1,8 +1,8 @@
 project ISO_3166_Java is
    for Languages use ("Java");
    for Create_Missing_Dirs use "True";
-   for Source_Dirs use ("src/Java/**");
-   for Object_Dir use "bin/Java";
+   for Source_Dirs use ("src/main/java/**");
+   for Object_Dir use "bin/java";
 
    package Compiler is
       for Driver ("Java") use "javac";

@@ -238,9 +238,9 @@
    static struct ISO_3166_Country Turkmenistan_data =  {"Turkmenistan","TM","TKM","ISO_31662TM", 795,"Asia","Central_Asia","", 142, 143, 0};
    static struct ISO_3166_Country Turks_and_Caicos_Islands_data =  {"Turks and Caicos Islands","TC","TCA","ISO_31662TC", 796,"Americas","Latin_America_and_the_Caribbean","Caribbean", 19, 419, 29};
    static struct ISO_3166_Country Tuvalu_data =  {"Tuvalu","TV","TUV","ISO_31662TV", 798,"Oceania","Polynesia","", 9, 61, 0};
-   static struct ISO_3166_Country UNKONWN_data =  {"<UNKONWN>","UNKONWN","UNKONWN","UNKONWN", 0,"UNKONWN","UNKONWN","UNKONWN", 0, 0, 0};
    static struct ISO_3166_Country Uganda_data =  {"Uganda","UG","UGA","ISO_31662UG", 800,"Africa","SubSaharan_Africa","Eastern_Africa", 2, 202, 14};
    static struct ISO_3166_Country Ukraine_data =  {"Ukraine","UA","UKR","ISO_31662UA", 804,"Europe","Eastern_Europe","", 150, 151, 0};
+   static struct ISO_3166_Country Undefined_data =  {"<Undefined>","Undefined","Undefined","Undefined", 0,"Undefined","Undefined","Undefined", 0, 0, 0};
    static struct ISO_3166_Country United_Arab_Emirates_data =  {"United Arab Emirates","AE","ARE","ISO_31662AE", 784,"Asia","Western_Asia","", 142, 145, 0};
    static struct ISO_3166_Country United_Kingdom_of_Great_Britain_and_Northern_Ireland_data =  {"United Kingdom of Great Britain and Northern Ireland","GB","GBR","ISO_31662GB", 826,"Europe","Northern_Europe","", 150, 154, 0};
    static struct ISO_3166_Country United_States_Minor_Outlying_Islands_data =  {"United States Minor Outlying Islands","UM","UMI","ISO_31662UM", 581,"Oceania","Micronesia","", 9, 57, 0};
@@ -489,9 +489,9 @@ static struct ISO_3166_Country* Data[] =
       &Turkmenistan_data,
       &Turks_and_Caicos_Islands_data,
       &Tuvalu_data,
-      &UNKONWN_data,
       &Uganda_data,
       &Ukraine_data,
+      &Undefined_data,
       &United_Arab_Emirates_data,
       &United_Kingdom_of_Great_Britain_and_Northern_Ireland_data,
       &United_States_Minor_Outlying_Islands_data,
@@ -521,7 +521,7 @@ struct ISO_3166_Country *ISO_3166_get_from_string(char *name) {
     };
     cursor ++;
   };
-  return &UNKONWN_data;
+  return &Undefined_data;
 };
 struct ISO_3166_Country *ISO_3166_get_from_code(int code) {
   struct ISO_3166_Country*  cursor = Data[0];
@@ -531,5 +531,5 @@ struct ISO_3166_Country *ISO_3166_get_from_code(int code) {
     };
     cursor ++;
   };
-  return &UNKONWN_data;
+  return &Undefined_data;
 };

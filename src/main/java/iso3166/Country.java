@@ -1,6 +1,7 @@
 package iso3166;
 
 class Country {
+
 	public final String Name;
 	public final String Alpha_2;
 	public final String Alpha_3;

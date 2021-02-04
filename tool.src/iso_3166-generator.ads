@@ -26,7 +26,7 @@ private package ISO_3166.Generator is
    function Image (Code : Sub_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
    function Image (Code : Intermediate_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
 
-   UNKOWN : aliased constant String := "<UNKONWN>";
+   UNKOWN : aliased constant String := "<Undefined>";
    UNKOWN_COUNTRY :    aliased constant Country :=
                       Country'(Name                     =>  UNKOWN'Unchecked_Access,
                                Alpha_2                  =>  UNKOWN'Unchecked_Access,

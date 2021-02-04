@@ -1,5 +1,6 @@
 
-procedure ISO_3166.Generator.Python_Writer (Name_Map : String_Maps.Map) is
+with Ada.Directories; use Ada.Directories;
+procedure ISO_3166.Generator.Python_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "#  ===================================================================");
@@ -18,7 +19,7 @@ begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Python");
 
-   Create (F, Ada.Text_IO.Out_File, "src/python/iso_3166.py");
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "Iso_3166.py"));
    Put_Header (F);
    Put_Line (F, "from enum import Enum");
    Put_Line (F, "");

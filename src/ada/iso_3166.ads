@@ -1,6 +1,6 @@
 private with Ada.Containers.Indefinite_Ordered_Maps;
 private with Ada.Containers.Ordered_Maps;
-
+with Ada.Containers;
 package ISO_3166 is
 
    type Country_Code_Type is new Integer;
@@ -29,30 +29,30 @@ package ISO_3166 is
      (C = null or else C.all.Country_Code = 0);
 
    type Country_Access is  access constant Country;
-   type Countries is array (Natural range <>) of Country_Access;
+   type Countries is array (Ada.Containers.Count_Type range <>) of Country_Access;
 
    type Nationality_Db_Type (<>) is tagged private;
    type Nationality_Db_Type_Access is not null access all Nationality_Db_Type'Class;
 
-   Db : constant Nationality_Db_Type_Access;
+   Nationality_Db : constant Nationality_Db_Type_Access;
    --  Handle to the database to be used
    --  This "database" is populated during elaboration of this library.
    --  -------------------------------------------------------------------------
 
-   function Get_Country (Db   : access constant Nationality_Db_Type;
+   function Get_Country (Db   : not null access constant Nationality_Db_Type;
                          Name : String) return Country_Access;
    --  Locks up the country in the database using the official name, alpha-2,
    --   alpha-2 or ISO_3166-2 code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------
 
-   function Get_Country (Db   : access constant Nationality_Db_Type;
+   function Get_Country (Db   : not null access constant Nationality_Db_Type;
                          Code : Country_Code_Type) return  Country_Access;
    --  Locks up the country in the database using the country-code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------
 
-   function Get_Countries (Db   : access constant Nationality_Db_Type;
+   function Get_Countries (Db   : not null access constant Nationality_Db_Type;
                            Code : Region_Code_Type) return  Countries;
    --  Locks up all countries witin a region.
    --  returns an empty vector if no Countries where found.
@@ -75,5 +75,5 @@ private
       Code_Map      : Country_Code_Maps.Map;
    end record;
 
-   Db : constant Nationality_Db_Type_Access := new Nationality_Db_Type;
+   Nationality_Db : constant Nationality_Db_Type_Access := new Nationality_Db_Type;
 end ISO_3166;

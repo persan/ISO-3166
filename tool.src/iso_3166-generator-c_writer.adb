@@ -1,4 +1,5 @@
-procedure ISO_3166.Generator.C_Writer (Name_Map : String_Maps.Map) is
+with Ada.Directories; use Ada.Directories;
+procedure ISO_3166.Generator.C_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -16,7 +17,7 @@ begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for c");
 
-   Create (F, Ada.Text_IO.Out_File, "src/c/ISO_3166_mappings.h");
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "ISO_3166_mappings.h"));
    Put_Header (F);
    Put_Line (F, "   enum ISO_3166_Country_Enum");
 
@@ -29,7 +30,7 @@ begin
 
    --  -- Generate the database
    Close (F);
-   Create (F, Ada.Text_IO.Out_File, "src/c/ISO_3166_database.c");
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "ISO_3166_database.c"));
    Put_Header (F);
 
    Put_Line (F, "#include <ISO_3166_database.h>");
@@ -71,7 +72,7 @@ begin
    Put_Line (F, "    };");
    Put_Line (F, "    cursor ++;");
    Put_Line (F, "  };");
-   Put_Line (F, "  return &UNKONWN_data;");
+   Put_Line (F, "  return &Undefined_data;");
    Put_Line (F, "};");
    Put_Line (F, "struct ISO_3166_Country *ISO_3166_get_from_code(int code) {");
    Put_Line (F, "  struct ISO_3166_Country*  cursor = Data[0];");
@@ -81,7 +82,7 @@ begin
    Put_Line (F, "    };");
    Put_Line (F, "    cursor ++;");
    Put_Line (F, "  };");
-   Put_Line (F, "  return &UNKONWN_data;");
+   Put_Line (F, "  return &Undefined_data;");
    Put_Line (F, "};");
 
    Close (F);

@@ -30,6 +30,7 @@ package body ISO_3166.Generator is
       if not Exists (Containing_Directory (Name)) then
          Create_Path (Containing_Directory (Name));
       end if;
+      Put_Line (Name);
       Ada.Text_IO.Create (File, Mode, Name, Form);
    end;
 

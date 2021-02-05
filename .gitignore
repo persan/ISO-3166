@@ -15,3 +15,7 @@ bin
 *.class
 iso-3166-generator.data
 .settings
+main
+Main
+*.pyc
+

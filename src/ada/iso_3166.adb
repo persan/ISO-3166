@@ -1,7 +1,7 @@
 pragma Ada_2020;
 with ISO_3166.Database; pragma Unreferenced (Iso_3166.Database);
 package body ISO_3166 is
-      use type Ada.Containers.Count_Type;
+   use type Ada.Containers.Count_Type;
 
    ---------
    -- Get --
@@ -41,12 +41,14 @@ package body ISO_3166 is
      (Db : not null access constant Nationality_Db_Type; Code : Region_Code_Type)
       return Countries
    is
-      Temp : Countries (1 .. Db.Code_Map.Length);
+      Temp   : Countries (1 .. Db.Code_Map.Length);
       Cursor : Ada.Containers.Count_Type := Temp'First;
    begin
-      for I of Db.Code_Map when I.Region_Code = Code loop
-         Temp (Cursor) := I;
-         Cursor := Cursor + 1;
+      for I of Db.Code_Map loop
+         if I.Region_Code = Code then
+            Temp (Cursor) := I;
+            Cursor := Cursor + 1;
+         end if;
       end loop;
       return Temp (Temp'First .. Cursor - 1);
    end Get_Countries;

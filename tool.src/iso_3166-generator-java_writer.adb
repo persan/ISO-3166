@@ -30,7 +30,7 @@ begin
    Put_Line (F, "//   to iso-3166 based.");
    Put_Line (F, "package iso3166;");
 
-   Put_Line (F, "    public enum CountryName {");
+   Put_Line (F, "    public enum CountryNames {");
    for I of Name_Map loop
       Put (F, (if First then "      " else "," & ASCII.LF & "      "));
       Put (F, "     " & ToUpper (Normalize (I.Name.all)) & "(" & I.Country_Code'Img & ")");
@@ -38,7 +38,7 @@ begin
    end loop;
    Put_Line (F, ";");
    Put_Line (F, "    private int code;");
-   Put_Line (F, "    private CountryName(int code) {");
+   Put_Line (F, "    private CountryNames(int code) {");
    Put_Line (F, "        this.code = code;");
    Put_Line (F, "    };");
    Put_Line (F, "");

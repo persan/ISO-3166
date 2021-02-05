@@ -6,6 +6,7 @@ project ISO_3166_Java is
 
    package Compiler is
       for Driver ("Java") use "javac";
+      for Switches ("Java") use ("--class-path=" & project'Project_Dir & "src/main/java");
    end Compiler;
 
    package Naming is

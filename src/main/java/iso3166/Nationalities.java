@@ -9,9 +9,9 @@ package iso3166;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-class Nationalities {
-    private static HashMap<Integer, Country> codeMapping;
-    private static HashMap<String, Country> stringMapping;
+public class Nationalities {
+    private static HashMap<Integer, Country> codeMapping = new HashMap();
+    private static HashMap<String, Country> stringMapping = new HashMap();
 
     public static Country getCountry(int Code) {
         if (codeMapping.containsKey(Code)) {

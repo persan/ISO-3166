@@ -88,7 +88,7 @@ begin
       Put (F, Image (I.Alpha_3.all) & ", ");
       Put (F, Image (I.Nationality_Code) & ", ");
       Put (F, Image (I.Iso_3166_2.all) & ", ");
-      Put (F, Image (I.Region.all) & """, ");
+      Put (F, Image (I.Region.all) & ", ");
       Put (F, Image (I.Sub_Region.all) & ", ");
       Put (F, Image (I.Intermediate_Region.all) & ", ");
       Put (F, Image (I.Region_Code) & ", ");

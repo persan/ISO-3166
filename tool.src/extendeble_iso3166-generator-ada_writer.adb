@@ -1,5 +1,5 @@
 with Ada.Directories; use Ada.Directories;
-procedure ISO_3166.Generator.Ada_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
+procedure Extendeble_ISO3166.Generator.Ada_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "--  ===================================================================");
@@ -13,17 +13,17 @@ procedure ISO_3166.Generator.Ada_Writer (Name_Map : String_Maps.Map; Target_Dir 
    F      : Ada.Text_IO.File_Type;
    First  : Boolean := True;
 
-   Max_Country_Code : Country_Code_Type := 0;
+   Max_Nationality_Code : Nationality_Code_Type := 0;
 
 begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Ada");
 
-   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "iso_3166-mappings.ads"));
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendeble_iso3166-mappings.ads"));
    Put_Header (F);
-   Put_Line (F, "package ISO_3166.Mappings is");
+   Put_Line (F, "package Extendeble_ISO3166.Mappings is");
 
-   Put_Line (F, "   type Country_Enum is");
+   Put_Line (F, "   type Nationality_Enum is");
 
    for I of Name_Map loop
       Put (F, (if First then "     (" else "," & ASCII.LF & "      "));
@@ -35,12 +35,12 @@ begin
    --  ----------------------------------------------------------------------
    --  Enum_2_Code
    --  ----------------------------------------------------------------------
-   Put_Line (F, "   Enum_2_Code : constant array (Country_Enum)  of Country_Code_Type :=");
+   Put_Line (F, "   Enum_2_Code : constant array (Nationality_Enum)  of Nationality_Code_Type :=");
    First := True;
    for I of Name_Map loop
       Put (F, (if First then "                                   (" else "," & ASCII.LF & "                                    "));
-      Put (F, Normalize (I.Name.all) & " => " & I.Country_Code'Img);
-      Max_Country_Code := Country_Code_Type'Max (Max_Country_Code, I.Country_Code);
+      Put (F, Normalize (I.Name.all) & " => " & I.Nationality_Code'Img);
+      Max_Nationality_Code := Nationality_Code_Type'Max (Max_Nationality_Code, I.Nationality_Code);
       First := False;
    end loop;
    Put_Line (F, ");");
@@ -48,24 +48,24 @@ begin
    --  ----------------------------------------------------------------------
    --  Code_2_Enum
    --  ----------------------------------------------------------------------
-   Put_Line (F, "   Code_2_Enum : constant array (0 .." & Max_Country_Code'Img & ")  of Country_Enum :=");
+   Put_Line (F, "   Code_2_Enum : constant array (0 .." & Max_Nationality_Code'Img & ")  of Nationality_Enum :=");
    First := True;
    for I of Name_Map loop
       Put (F, (if First then "                   (" else "," & ASCII.LF & "                    "));
-      Put (F,  Image (I.Country_Code) & " => " & Normalize (I.Name.all));
+      Put (F,  Image (I.Nationality_Code) & " => " & Normalize (I.Name.all));
       First := False;
    end loop;
    Put_Line (F, ",");
    Put_Line (F, "        others => Undefined);");
 
-   Put_Line (F, "end ISO_3166.Mappings;");
+   Put_Line (F, "end Extendeble_ISO3166.Mappings;");
    Close (F);
 
    --  Generate the database
-   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "iso_3166-database.ads"));
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendeble_iso3166-database.ads"));
    Put_Header (F);
-   Put_Line (F, "with ISO_3166.Mappings;");
-   Put_Line (F, "private package ISO_3166.Database is");
+   Put_Line (F, "with Extendeble_ISO3166.Mappings;");
+   Put_Line (F, "private package Extendeble_ISO3166.Database is");
    Put_Line (F, "   pragma Elaborate_Body;");
    for I of Name_Map loop
       Put_Line (F, "   " & Normalize (I.Name.all) & "_Name : aliased constant String := """ & I.Name.all & """;");
@@ -80,7 +80,7 @@ begin
       Put_Line (F, "       Alpha_2 => " & Normalize (I.Name.all) & "_" & "Alpha_2'Access,");
       Put_Line (F, "       Alpha_3 => " & Normalize (I.Name.all) & "_" & "Alpha_3'Access,");
       Put_Line (F, "       Iso_3166_2 => " & Normalize (I.Name.all) & "_" & "Iso_3166_2'Access,");
-      Put_Line (F, "       Country_Code => " & I.Country_Code'Img & ",");
+      Put_Line (F, "       Nationality_Code => " & I.Nationality_Code'Img & ",");
       Put_Line (F, "       Region => " & Normalize (I.Name.all) & "_" & "Region'Access,");
       Put_Line (F, "       Sub_Region => " & Normalize (I.Name.all) & "_" & "Sub_Region'Access,");
       Put_Line (F, "       Intermediate_Region => " & Normalize (I.Name.all) & "_" & "Intermediate_Region'Access,");
@@ -89,7 +89,7 @@ begin
       Put_Line (F, "       Intermediate_Region_Code => " & I.Intermediate_Region_Code'Img & ");");
    end loop;
 
-   Put_Line (F, "   Data : constant array (Mappings.Country_Enum) of Country_Access :=");
+   Put_Line (F, "   Data : constant array (Mappings.Nationality_Enum) of Nationality_Access :=");
    First := True;
    for I of Name_Map loop
       Put (F, (if First then "     (" else "," & ASCII.LF & "      "));
@@ -98,6 +98,6 @@ begin
    end loop;
    Put_Line (F, ");");
 
-   Put_Line (F, "end ISO_3166.Database;");
+   Put_Line (F, "end Extendeble_ISO3166.Database;");
    Close (F);
-end ISO_3166.Generator.Ada_Writer;
+end Extendeble_ISO3166.Generator.Ada_Writer;

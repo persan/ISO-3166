@@ -1,5 +1,5 @@
 with Ada.Directories; use Ada.Directories;
-procedure ISO_3166.Generator.C_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
+procedure Extendeble_ISO3166.Generator.C_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
@@ -42,7 +42,7 @@ begin
       Put (F, """" & Normalize (I.Alpha_2.all) & """,");
       Put (F, """" & Normalize (I.Alpha_3.all) & """,");
       Put (F, """" & Normalize (I.Iso_3166_2.all) & """,");
-      Put (F, I.Country_Code'Img & ",");
+      Put (F, I.Nationality_Code'Img & ",");
       Put (F, """" & Normalize (I.Region.all) & """,");
       Put (F, """" & Normalize (I.Sub_Region.all) & """,");
       Put (F, """" & Normalize (I.Intermediate_Region.all) & """,");
@@ -86,4 +86,4 @@ begin
    Put_Line (F, "};");
 
    Close (F);
-end ISO_3166.Generator.C_Writer;
+end Extendeble_ISO3166.Generator.C_Writer;

@@ -6,7 +6,7 @@
 with Sax.Readers;
 with Sax.Utils;
 with Sax.Symbols;
-package ISO_3166.Generator.XMLReaders is
+package Extendeble_ISO3166.Generator.XMLReaders is
    type Reader (Name_Map : access String_Maps.Map) is new Sax.Readers.Sax_Reader with null record;
    overriding procedure Start_Element
      (Handler    : in out Reader;
@@ -15,4 +15,4 @@ package ISO_3166.Generator.XMLReaders is
       Atts       : Sax.Readers.Sax_Attribute_List);
    procedure Load (Db : access String_Maps.Map; Path : String);
 
-end ISO_3166.Generator.XMLReaders;
+end Extendeble_ISO3166.Generator.XMLReaders;

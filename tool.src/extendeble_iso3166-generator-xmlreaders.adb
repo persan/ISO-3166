@@ -1,6 +1,6 @@
 pragma Ada_2012;
 with Input_Sources.File;
-package body ISO_3166.Generator.XMLReaders is
+package body Extendeble_ISO3166.Generator.XMLReaders is
    pragma Warnings (Off, "use of an anonymous access type Allocator");
    use Sax.Readers;
    overriding procedure Start_Element
@@ -12,7 +12,7 @@ package body ISO_3166.Generator.XMLReaders is
       if Sax.Symbols.Get (Local_Name).all = "country" then
          declare
             C     : Country;
-            C_Ref : Country_Access;
+            C_Ref : Nationality_Access;
          begin
             for I in 1 .. Get_Length (Atts) loop
                declare
@@ -26,7 +26,7 @@ package body ISO_3166.Generator.XMLReaders is
                   elsif Name = "alpha-3" then
                      C.Alpha_3 := new String'(Value);
                   elsif Name = "country-code" then
-                     C.Country_Code := (if Value'Length > 0 then Country_Code_Type'Value (Value) else 0);
+                     C.Nationality_Code := (if Value'Length > 0 then Nationality_Code_Type'Value (Value) else 0);
                   elsif Name = "iso_3166-2" then
                      C.Iso_3166_2 := new String'(Value);
                   elsif Name = "region" then
@@ -70,4 +70,4 @@ package body ISO_3166.Generator.XMLReaders is
       Input_Sources.File.Close (Input);
    end Load;
 
-end ISO_3166.Generator.XMLReaders;
+end Extendeble_ISO3166.Generator.XMLReaders;

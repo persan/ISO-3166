@@ -1,9 +1,9 @@
 private with Ada.Containers.Indefinite_Ordered_Maps;
 private with Ada.Containers.Ordered_Maps;
 with Ada.Containers;
-package ISO_3166 is
+package Extendeble_ISO3166 is
 
-   type Country_Code_Type is new Integer;
+   type Nationality_Code_Type is new Integer;
 
    type Region_Code_Type is new Integer;
 
@@ -15,7 +15,7 @@ package ISO_3166 is
       Name                     : access constant String;
       Alpha_2                  : access constant String;
       Alpha_3                  : access constant String;
-      Country_Code             : Country_Code_Type := 0;
+      Nationality_Code         : Nationality_Code_Type := 0;
       Iso_3166_2               : access constant String;
       Region                   : access constant String;
       Sub_Region               : access constant String;
@@ -25,11 +25,15 @@ package ISO_3166 is
       Intermediate_Region_Code : Intermediate_Region_Code_Type := 0;
    end record;
 
-   function Is_Unkonwn (C : access Country) return Boolean is
-     (C = null or else C.all.Country_Code = 0);
+   overriding function "=" (L, R : Country) return Boolean is (L.Nationality_Code = R.Nationality_Code);
 
-   type Country_Access is  access constant Country;
-   type Countries is array (Ada.Containers.Count_Type range <>) of Country_Access;
+   function "<" (L, R : Country) return Boolean is (L.Nationality_Code = R.Nationality_Code);
+
+   function Is_Unkonwn (C : access Country) return Boolean is
+     (C = null or else C.all.Nationality_Code = 0);
+
+   type Nationality_Access is  access constant Country;
+   type Nationalities is array (Ada.Containers.Count_Type range <>) of Nationality_Access;
 
    type Nationality_Db_Type (<>) is tagged private;
    type Nationality_Db_Type_Access is not null access all Nationality_Db_Type'Class;
@@ -39,21 +43,21 @@ package ISO_3166 is
    --  This "database" is populated during elaboration of this library.
    --  -------------------------------------------------------------------------
 
-   function Get_Country (Db   : not null access constant Nationality_Db_Type;
-                         Name : String) return Country_Access;
+   function Get_Nationality (Db   : not null access constant Nationality_Db_Type;
+                         Name : String) return Nationality_Access;
    --  Locks up the country in the database using the official name, alpha-2,
    --   alpha-2 or ISO_3166-2 code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------
 
-   function Get_Country (Db   : not null access constant Nationality_Db_Type;
-                         Code : Country_Code_Type) return  Country_Access;
+   function Get_Nationality (Db   : not null access constant Nationality_Db_Type;
+                         Code : Nationality_Code_Type) return  Nationality_Access;
    --  Locks up the country in the database using the country-code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------
 
-   function Get_Countries (Db   : not null access constant Nationality_Db_Type;
-                           Code : Region_Code_Type) return  Countries;
+   function Get_Nationalities (Db   : not null access constant Nationality_Db_Type;
+                               Code : Region_Code_Type) return  Nationalities;
    --  Locks up all countries witin a region.
    --  returns an empty vector if no Countries where found.
    --  -------------------------------------------------------------------------
@@ -61,14 +65,14 @@ package ISO_3166 is
 private
 
    package Country_Code_Maps is new Ada.Containers.Ordered_Maps
-     (Key_Type     => Country_Code_Type,
-      Element_Type => Country_Access);
+     (Key_Type     => Nationality_Code_Type,
+      Element_Type => Nationality_Access);
 
    type String_Access is access constant String with Storage_Size => 0;
 
    package String_Maps is new Ada.Containers.Indefinite_Ordered_Maps
      (Key_Type        => String,
-      Element_Type    => Country_Access);
+      Element_Type    => Nationality_Access);
 
    type Nationality_Db_Type is tagged record
       Full_Name_Map : String_Maps.Map;
@@ -76,4 +80,4 @@ private
    end record;
 
    Nationality_Db : constant Nationality_Db_Type_Access := new Nationality_Db_Type;
-end ISO_3166;
+end Extendeble_ISO3166;

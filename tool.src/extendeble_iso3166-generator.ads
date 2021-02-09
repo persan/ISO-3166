@@ -1,6 +1,6 @@
 with Ada.Strings.Fixed;
 with Ada.Text_IO;
-private package ISO_3166.Generator is
+private package Extendeble_ISO3166.Generator is
 
    procedure Put_Line
      (File : Ada.Text_IO.File_Type;
@@ -21,24 +21,29 @@ private package ISO_3166.Generator is
       Form : String := "");
    function Normalize (S : String) return String;
 
-   function Image (Code : Country_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
+   function Image (Code : Nationality_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
    function Image (Code : Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
    function Image (Code : Sub_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
    function Image (Code : Intermediate_Region_Code_Type) return String is (Ada.Strings.Fixed.Trim (Code'Img, Ada.Strings.Both));
+   function Image (Item : String) return String is ('"' & Item & '"');
 
    UNKOWN : aliased constant String := "<Undefined>";
+   XX : aliased constant String := "XX";
+   XXX : aliased constant String := "XXX";
+   BLANK  : aliased constant String := "";
+   BLANK_ISO : aliased constant String := "ISO XXXX-X:XX";
    UNKOWN_COUNTRY :    aliased constant Country :=
                       Country'(Name                     =>  UNKOWN'Unchecked_Access,
-                               Alpha_2                  =>  UNKOWN'Unchecked_Access,
-                               Alpha_3                  =>  UNKOWN'Unchecked_Access,
-                               Country_Code             =>  0,
-                               Iso_3166_2               =>  UNKOWN'Unchecked_Access,
-                               Region                   =>  UNKOWN'Unchecked_Access,
-                               Sub_Region               =>  UNKOWN'Unchecked_Access,
-                               Intermediate_Region      =>  UNKOWN'Unchecked_Access,
+                               Alpha_2                  =>  XX'Unchecked_Access,
+                               Alpha_3                  =>  XXX'Unchecked_Access,
+                               Nationality_Code         =>  0,
+                               Iso_3166_2               =>  BLANK_ISO'Unchecked_Access,
+                               Region                   =>  BLANK'Unchecked_Access,
+                               Sub_Region               =>  BLANK'Unchecked_Access,
+                               Intermediate_Region      =>  BLANK'Unchecked_Access,
                                Region_Code              =>  0,
                                Sub_Region_Code          =>  0,
                                Intermediate_Region_Code =>  0);
    Default_Config_File_Name : constant String :=  "iso-3166-generator.data";
 
-end ISO_3166.Generator;
+end Extendeble_ISO3166.Generator;

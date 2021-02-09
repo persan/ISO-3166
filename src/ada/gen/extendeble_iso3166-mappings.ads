@@ -5,8 +5,8 @@
 --  with both the basefile and the extras as arguments
 --  ===================================================================
 
-package ISO_3166.Mappings is
-   type Country_Enum is
+package Extendeble_ISO3166.Mappings is
+   type Nationality_Enum is
      (Afghanistan,
       Albania,
       Algeria,
@@ -257,7 +257,7 @@ package ISO_3166.Mappings is
       Zambia,
       Zimbabwe,
       land_Islands);
-   Enum_2_Code : constant array (Country_Enum)  of Country_Code_Type :=
+   Enum_2_Code : constant array (Nationality_Enum)  of Nationality_Code_Type :=
                                    (Afghanistan =>  4,
                                     Albania =>  8,
                                     Algeria =>  12,
@@ -508,7 +508,7 @@ package ISO_3166.Mappings is
                                     Zambia =>  894,
                                     Zimbabwe =>  716,
                                     land_Islands =>  248);
-   Code_2_Enum : constant array (0 .. 894)  of Country_Enum :=
+   Code_2_Enum : constant array (0 .. 894)  of Nationality_Enum :=
                    (4 => Afghanistan,
                     8 => Albania,
                     12 => Algeria,
@@ -760,4 +760,4 @@ package ISO_3166.Mappings is
                     716 => Zimbabwe,
                     248 => land_Islands,
         others => Undefined);
-end ISO_3166.Mappings;
+end Extendeble_ISO3166.Mappings;

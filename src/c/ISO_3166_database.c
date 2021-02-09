@@ -240,7 +240,7 @@
    static struct ISO_3166_Country Tuvalu_data =  {"Tuvalu","TV","TUV","ISO_31662TV", 798,"Oceania","Polynesia","", 9, 61, 0};
    static struct ISO_3166_Country Uganda_data =  {"Uganda","UG","UGA","ISO_31662UG", 800,"Africa","SubSaharan_Africa","Eastern_Africa", 2, 202, 14};
    static struct ISO_3166_Country Ukraine_data =  {"Ukraine","UA","UKR","ISO_31662UA", 804,"Europe","Eastern_Europe","", 150, 151, 0};
-   static struct ISO_3166_Country Undefined_data =  {"<Undefined>","Undefined","Undefined","Undefined", 0,"Undefined","Undefined","Undefined", 0, 0, 0};
+   static struct ISO_3166_Country Undefined_data =  {"<Undefined>","XX","XXX","ISO_XXXXXXX", 0,"","","", 0, 0, 0};
    static struct ISO_3166_Country United_Arab_Emirates_data =  {"United Arab Emirates","AE","ARE","ISO_31662AE", 784,"Asia","Western_Asia","", 142, 145, 0};
    static struct ISO_3166_Country United_Kingdom_of_Great_Britain_and_Northern_Ireland_data =  {"United Kingdom of Great Britain and Northern Ireland","GB","GBR","ISO_31662GB", 826,"Europe","Northern_Europe","", 150, 154, 0};
    static struct ISO_3166_Country United_States_Minor_Outlying_Islands_data =  {"United States Minor Outlying Islands","UM","UMI","ISO_31662UM", 581,"Oceania","Micronesia","", 9, 57, 0};

@@ -1,6 +1,6 @@
 pragma Ada_2012;
 with Input_Sources.File;
-package body Extendeble_ISO3166.Generator.XMLReaders is
+package body Extendable_ISO3166.Generator.XMLReaders is
    pragma Warnings (Off, "use of an anonymous access type Allocator");
    use Sax.Readers;
    overriding procedure Start_Element
@@ -70,4 +70,4 @@ package body Extendeble_ISO3166.Generator.XMLReaders is
       Input_Sources.File.Close (Input);
    end Load;
 
-end Extendeble_ISO3166.Generator.XMLReaders;
+end Extendable_ISO3166.Generator.XMLReaders;

@@ -1,7 +1,7 @@
 private with Ada.Containers.Indefinite_Ordered_Maps;
 private with Ada.Containers.Ordered_Maps;
 with Ada.Containers;
-package Extendeble_ISO3166 is
+package Extendable_ISO3166 is
 
    type Nationality_Code_Type is new Integer;
 
@@ -80,4 +80,4 @@ private
    end record;
 
    Nationality_Db : constant Nationality_Db_Type_Access := new Nationality_Db_Type;
-end Extendeble_ISO3166;
+end Extendable_ISO3166;

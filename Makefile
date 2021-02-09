@@ -1,7 +1,7 @@
 #SOURCES?=../../ISO-3166-Countries-with-Regional-Codes/all/all.xml
 all:
 	gprbuild -p -P iso_3166_tool.gpr -gnatwA
-	./bin/extendeble_iso3166-generator-main ${SOURCES}
+	./bin/extendable_iso3166-generator ${SOURCES}
 	${MAKE} compile
 
 compile:

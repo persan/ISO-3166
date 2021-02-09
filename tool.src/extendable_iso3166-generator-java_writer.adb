@@ -1,5 +1,5 @@
 with Ada.Strings.Maps.Constants;
-procedure Extendeble_ISO3166.Generator.Java_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
+procedure Extendable_ISO3166.Generator.Java_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
 
    function ToUpper (Item : String;
                      Map  : Ada.Strings.Maps.Character_Mapping := Ada.Strings.Maps.Constants.Upper_Case_Map)
@@ -8,8 +8,8 @@ procedure Extendeble_ISO3166.Generator.Java_Writer (Name_Map : String_Maps.Map; 
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "//  ===================================================================");
-      Put_Line (F, "//  This file is generated from an iso-3166 descrition");
-      Put_Line (F, "//  Do not edit by hand !");
+      Put_Line (F, "//  This file is generated from an iso-3166 description");
+      Put_Line (F, "//  Do not edit by hand!");
       Put_Line (F, "//  If more entries are needed write a new  xmlfile and run the tool");
       Put_Line (F, "//  with both the basefile and the extras as arguments");
       Put_Line (F, "//  ===================================================================");
@@ -22,13 +22,13 @@ begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database");
 
-   Create (F, Ada.Text_IO.Out_File, Target_Dir & "/extendeble_iso3166/NationalityNames.java");
+   Create (F, Ada.Text_IO.Out_File, Target_Dir & "/extendable_iso3166/NationalityNames.java");
    Put_Header (F);
    Put_Line (F, "//");
    Put_Line (F, "//  The ENUM:s in this file is a 1:1 maping to the official conuntry name");
    Put_Line (F, "//   and the only intent is to simplify the mapping of foreign nationality codes");
    Put_Line (F, "//   to iso-3166 based.");
-   Put_Line (F, "package extendeble_iso3166;");
+   Put_Line (F, "package extendable_iso3166;");
 
    Put_Line (F, "    public enum NationalityNames {");
    for I of Name_Map loop
@@ -50,15 +50,15 @@ begin
    Close (F);
 
    --  Generate the database
-   Create (F, Ada.Text_IO.Out_File, Target_Dir & "/extendeble_iso3166/Nationalities.java");
+   Create (F, Ada.Text_IO.Out_File, Target_Dir & "/extendable_iso3166/Nationalities.java");
    Put_Header (F);
-   Put_Line (F, "package extendeble_iso3166;");
+   Put_Line (F, "package extendable_iso3166;");
    Put_Line (F, "import java.util.Collection;");
    Put_Line (F, "import java.util.Collections;");
    Put_Line (F, "import java.util.HashMap;");
    Put_Line (F, "public class Nationalities {");
-   Put_Line (F, "    private static HashMap<Integer, Nationality> codeMapping = new HashMap();");
-   Put_Line (F, "    private static HashMap<String, Nationality> stringMapping = new HashMap();");
+   Put_Line (F, "    private static HashMap<Integer, Nationality> codeMapping = new HashMap<Integer, Nationality>();");
+   Put_Line (F, "    private static HashMap<String, Nationality> stringMapping = new HashMap<String, Nationality>();");
    Put_Line (F, "");
    Put_Line (F, "    public static Nationality getNationality(int Code) {");
    Put_Line (F, "        if (codeMapping.containsKey(Code)) {");
@@ -106,4 +106,4 @@ begin
    Put_Line (F, "    };");
    Put_Line (F, "};");
    Close (F);
-end Extendeble_ISO3166.Generator.Java_Writer;
+end Extendable_ISO3166.Generator.Java_Writer;

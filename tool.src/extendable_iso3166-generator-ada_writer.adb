@@ -1,10 +1,10 @@
 with Ada.Directories; use Ada.Directories;
-procedure Extendeble_ISO3166.Generator.Ada_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
+procedure Extendable_ISO3166.Generator.Ada_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "--  ===================================================================");
-      Put_Line (F, "--  This file is generated from an iso-3166 descrition");
-      Put_Line (F, "--  Do not edit by hand !");
+      Put_Line (F, "--  This file is generated from an iso-3166 description");
+      Put_Line (F, "--  Do not edit by hand!");
       Put_Line (F, "--  If more entries are needed write a new  xmlfile and run the tool");
       Put_Line (F, "--  with both the basefile and the extras as arguments");
       Put_Line (F, "--  ===================================================================");
@@ -19,9 +19,9 @@ begin
    --  Generate the mappings
    Put_Line ("Gernerating :ISO_3166.mappings and ISO_3166.database for Ada");
 
-   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendeble_iso3166-mappings.ads"));
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendable_iso3166-mappings.ads"));
    Put_Header (F);
-   Put_Line (F, "package Extendeble_ISO3166.Mappings is");
+   Put_Line (F, "package Extendable_ISO3166.Mappings is");
 
    Put_Line (F, "   type Nationality_Enum is");
 
@@ -58,14 +58,14 @@ begin
    Put_Line (F, ",");
    Put_Line (F, "        others => Undefined);");
 
-   Put_Line (F, "end Extendeble_ISO3166.Mappings;");
+   Put_Line (F, "end Extendable_ISO3166.Mappings;");
    Close (F);
 
    --  Generate the database
-   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendeble_iso3166-database.ads"));
+   Create (F, Ada.Text_IO.Out_File, Compose (Target_Dir, "extendable_iso3166-database.ads"));
    Put_Header (F);
-   Put_Line (F, "with Extendeble_ISO3166.Mappings;");
-   Put_Line (F, "private package Extendeble_ISO3166.Database is");
+   Put_Line (F, "with Extendable_ISO3166.Mappings;");
+   Put_Line (F, "private package Extendable_ISO3166.Database is");
    Put_Line (F, "   pragma Elaborate_Body;");
    for I of Name_Map loop
       Put_Line (F, "   " & Normalize (I.Name.all) & "_Name : aliased constant String := """ & I.Name.all & """;");
@@ -98,6 +98,6 @@ begin
    end loop;
    Put_Line (F, ");");
 
-   Put_Line (F, "end Extendeble_ISO3166.Database;");
+   Put_Line (F, "end Extendable_ISO3166.Database;");
    Close (F);
-end Extendeble_ISO3166.Generator.Ada_Writer;
+end Extendable_ISO3166.Generator.Ada_Writer;

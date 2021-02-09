@@ -1,6 +1,6 @@
 pragma Ada_2020;
-with Extendeble_ISO3166.Database; pragma Unreferenced (extendeble_iso3166.Database);
-package body Extendeble_ISO3166 is
+with Extendable_ISO3166.Database; pragma Unreferenced (Extendable_Iso3166.Database);
+package body Extendable_ISO3166 is
    use type Ada.Containers.Count_Type;
 
    ---------
@@ -53,4 +53,4 @@ package body Extendeble_ISO3166 is
       return Temp (Temp'First .. Cursor - 1);
    end Get_Nationalities;
 
-end Extendeble_ISO3166;
+end Extendable_ISO3166;

@@ -1,4 +1,4 @@
-package extendeble_iso3166;
+package extendable_iso3166;
 
 public class Nationality {
 

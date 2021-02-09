@@ -1,11 +1,11 @@
 --  ===================================================================
---  This file is generated from an iso-3166 descrition
---  Do not edit by hand !
+--  This file is generated from an iso-3166 description
+--  Do not edit by hand!
 --  If more entries are needed write a new  xmlfile and run the tool
 --  with both the basefile and the extras as arguments
 --  ===================================================================
 
-package Extendeble_ISO3166.Mappings is
+package Extendable_ISO3166.Mappings is
    type Nationality_Enum is
      (Afghanistan,
       Albania,
@@ -760,4 +760,4 @@ package Extendeble_ISO3166.Mappings is
                     716 => Zimbabwe,
                     248 => land_Islands,
         others => Undefined);
-end Extendeble_ISO3166.Mappings;
+end Extendable_ISO3166.Mappings;

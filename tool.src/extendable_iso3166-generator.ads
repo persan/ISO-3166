@@ -1,6 +1,6 @@
 with Ada.Strings.Fixed;
 with Ada.Text_IO;
-private package Extendeble_ISO3166.Generator is
+private package Extendable_ISO3166.Generator is
 
    procedure Put_Line
      (File : Ada.Text_IO.File_Type;
@@ -46,4 +46,4 @@ private package Extendeble_ISO3166.Generator is
                                Intermediate_Region_Code =>  0);
    Default_Config_File_Name : constant String :=  "iso-3166-generator.data";
 
-end Extendeble_ISO3166.Generator;
+end Extendable_ISO3166.Generator;

@@ -1,11 +1,11 @@
 
 with Ada.Directories; use Ada.Directories;
-procedure Extendeble_ISO3166.Generator.Python_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
+procedure Extendable_ISO3166.Generator.Python_Writer (Name_Map : String_Maps.Map; Target_Dir : String) is
    procedure Put_Header (F : Ada.Text_IO.File_Type) is
    begin
       Put_Line (F, "#  ===================================================================");
-      Put_Line (F, "#  This file is generated from an iso-3166 descrition");
-      Put_Line (F, "#  Do not edit by hand !");
+      Put_Line (F, "#  This file is generated from an iso-3166 description");
+      Put_Line (F, "#  Do not edit by hand!");
       Put_Line (F, "#  If more entries are needed write a new  xmlfile and run the tool");
       Put_Line (F, "#  with both the basefile and the extras as arguments");
       Put_Line (F, "#  ===================================================================");
@@ -76,4 +76,4 @@ begin
    Put_Line (F, "}");
 
    Close (F);
-end Extendeble_ISO3166.Generator.Python_Writer;
+end Extendable_ISO3166.Generator.Python_Writer;

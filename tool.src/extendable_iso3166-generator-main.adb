@@ -3,14 +3,14 @@ with GNAT.Exception_Traces;
 with Ada.Strings.Fixed;
 with Ada.Directories;
 with Ada.Strings.Unbounded;
-with Extendeble_ISO3166.Generator.Ada_Writer;
-with Extendeble_ISO3166.Generator.C_Writer;
-with Extendeble_ISO3166.Generator.Java_Writer;
-with Extendeble_ISO3166.Generator.Python_Writer;
-with Extendeble_ISO3166.Generator.XMLReaders;
+with Extendable_ISO3166.Generator.Ada_Writer;
+with Extendable_ISO3166.Generator.C_Writer;
+with Extendable_ISO3166.Generator.Java_Writer;
+with Extendable_ISO3166.Generator.Python_Writer;
+with Extendable_ISO3166.Generator.XMLReaders;
 with GNATCOLL.Opt_Parse;
 
-procedure Extendeble_ISO3166.Generator.Main is
+procedure Extendable_ISO3166.Generator.Main is
 
    use type Ada.Containers.Count_Type;
    use Ada.Strings.Unbounded;
@@ -120,4 +120,4 @@ begin
          Put_Line ("No code generated");
       end if;
    end if;
-end Extendeble_ISO3166.Generator.Main;
+end Extendable_ISO3166.Generator.Main;

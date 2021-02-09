@@ -1,12 +1,12 @@
 --  ===================================================================
---  This file is generated from an iso-3166 descrition
---  Do not edit by hand !
+--  This file is generated from an iso-3166 description
+--  Do not edit by hand!
 --  If more entries are needed write a new  xmlfile and run the tool
 --  with both the basefile and the extras as arguments
 --  ===================================================================
 
-with Extendeble_ISO3166.Mappings;
-private package Extendeble_ISO3166.Database is
+with Extendable_ISO3166.Mappings;
+private package Extendable_ISO3166.Database is
    pragma Elaborate_Body;
    Afghanistan_Name : aliased constant String := "Afghanistan";
    Afghanistan_Alpha_2 : aliased constant String := "AF";
@@ -5009,4 +5009,4 @@ private package Extendeble_ISO3166.Database is
       Mappings.Zambia => Zambia_Entry'Access,
       Mappings.Zimbabwe => Zimbabwe_Entry'Access,
       Mappings.land_Islands => land_Islands_Entry'Access);
-end Extendeble_ISO3166.Database;
+end Extendable_ISO3166.Database;

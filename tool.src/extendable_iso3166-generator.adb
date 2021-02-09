@@ -1,5 +1,5 @@
 with Ada.Directories;
-package body Extendeble_ISO3166.Generator is
+package body Extendable_ISO3166.Generator is
 
    function Normalize (S : String) return String is
       Ret    : String (S'First .. S'Last + 1);
@@ -34,4 +34,4 @@ package body Extendeble_ISO3166.Generator is
       Ada.Text_IO.Create (File, Mode, Name, Form);
    end;
 
-end Extendeble_ISO3166.Generator;
+end Extendable_ISO3166.Generator;

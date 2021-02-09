@@ -10,7 +10,7 @@ project ISO_3166_Tool is
    for Source_Dirs use ("tool.src", "src/ada");
    for Object_Dir use ".obj/" & project'Name;
    for Exec_Dir use "bin";
-   for Main use ("extendeble_iso3166-generator-main.adb");
+   for Main use ("extendable_iso3166-generator-main.adb");
 
    package Binder is
       for Switches ("ada") use ("-E");
@@ -22,7 +22,7 @@ project ISO_3166_Tool is
 
    package Builder is
       for Switches ("ada") use ("-s", "-j0", "-k");
-      for Executable ("iso_3166-generator-main.adb") use "iso_3166-generator";
+      for Executable ("extendable_iso3166-generator-main.adb") use "extendable_iso3166-generator";
    end Builder;
 
 end ISO_3166_Tool;

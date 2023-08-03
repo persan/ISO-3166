@@ -57,8 +57,8 @@ begin
    Put_Line (F, "import java.util.Collections;");
    Put_Line (F, "import java.util.HashMap;");
    Put_Line (F, "public class Nationalities {");
-   Put_Line (F, "    private static HashMap<Integer, Nationality> codeMapping = new HashMap<Integer, Nationality>();");
-   Put_Line (F, "    private static HashMap<String, Nationality> stringMapping = new HashMap<String, Nationality>();");
+   Put_Line (F, "    private static HashMap<Integer, Nationality> codeMapping = new HashMap<>();");
+   Put_Line (F, "    private static HashMap<String, Nationality> stringMapping = new HashMap<>();");
    Put_Line (F, "");
    Put_Line (F, "    public static Nationality getNationality(int Code) {");
    Put_Line (F, "        if (codeMapping.containsKey(Code)) {");

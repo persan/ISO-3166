@@ -44,14 +44,14 @@ package Extendable_ISO3166 is
    --  -------------------------------------------------------------------------
 
    function Get_Nationality (Db   : not null access constant Nationality_Db_Type;
-                         Name : String) return Nationality_Access;
+                             Name : String) return Nationality_Access;
    --  Locks up the country in the database using the official name, alpha-2,
    --   alpha-2 or ISO_3166-2 code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------
 
    function Get_Nationality (Db   : not null access constant Nationality_Db_Type;
-                         Code : Nationality_Code_Type) return  Nationality_Access;
+                             Code : Nationality_Code_Type) return  Nationality_Access;
    --  Locks up the country in the database using the country-code
    --  returns No_Country if no matching country was found
    --  -------------------------------------------------------------------------

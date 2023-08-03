@@ -1,4 +1,3 @@
-pragma Ada_2020;
 with Extendable_ISO3166.Database; pragma Unreferenced (Extendable_Iso3166.Database);
 package body Extendable_ISO3166 is
    use type Ada.Containers.Count_Type;

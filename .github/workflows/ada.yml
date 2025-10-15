@@ -2,9 +2,9 @@ name: Ada (GNAT)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -13,12 +13,15 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up GNAT toolchain
       run: >
-        sudo apt-get update && 
-        sudo apt-get install gnat gprbuild
+        sudo apt-get update &&
+        sudo apt-get install gnat gprbuild make git
 
     - name: Build
-      run: gprbuild -j0 -p -P  iso_3166
+      run: >
+        git clone https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes.git .obj/testdata
+        make all SOURCES=.obj/testdata/all/all.xml
+

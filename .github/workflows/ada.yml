@@ -22,6 +22,6 @@ jobs:
 
     - name: Build
       run: >
-        git clone https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes.git .obj/testdata
+        git clone https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes.git .obj/testdata &&
         make all SOURCES=.obj/testdata/all/all.xml
 
